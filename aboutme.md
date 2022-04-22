@@ -4,13 +4,23 @@ title: Sobre mi
 subtitle: Por qué querrías conocerme
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hola. Soy Javier Guerra, Técnico Superior de Desarrollo de Aplicaciones Web. Resido en España.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Me apasiona la Informática, la retroinformática, la tecnología, el diseño gráfico y enseñar. Me gusta el trabajo bien hecho, y durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en este área.
 
-What else do you need?
+Estoy abierto en todo momento a nuevas experiencias y a aprender en el día a día de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrtabajo.
 
-### Mi historia
+## Conocimientos
+Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • PHP • Laravel Jetstream  • CI/CD • HTML5 • CSS3 • SASS • vanilla JS • Bootstrap • Tailwind • Bulma • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • MSOffice, LibreOffice
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+## Aptitudes
+Adaptabilidad • motivación • creatividad • comunicación escrita • compromiso • decisión • escucha integridad • iniciativa • liderazgo • meticulosidad • tenacidad • planificación y organización
+
+## Méritos y publicaciones
+Fundador de varias ONG de salud.
+Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
+
+## Saber más
+Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer más sobre mi y mis proyectos profesionales.
+
+![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}
