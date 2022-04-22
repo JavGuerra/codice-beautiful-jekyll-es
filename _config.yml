@@ -71,8 +71,6 @@ rss-description: Un blog por y para el código
 
 # --- General options --- #
 
-language: es-ES
-
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
