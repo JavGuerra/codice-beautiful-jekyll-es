@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Javier Guerra
+title: JavGuerra
 
 # Your name to show in the footer
 author: Javier Guerra
@@ -16,7 +16,7 @@ author: Javier Guerra
 navbar-links:
   Sobre mi: "aboutme"
   Recursos:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Diseño web en 4 minutos: "https://javguerra.github.io/diseno-web-en-4-minutos/"
     - Aprende markdown: "https://www.markdowntutorial.com/es/"
 
 # --- Logo --- #
