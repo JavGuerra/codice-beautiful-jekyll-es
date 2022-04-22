@@ -16,7 +16,7 @@ Por: __Javier Guerra__
 
 ## La página
 
-Esta página corresponde a la práctica final del rump-up del bootcamp sobre Full Stack Web Developer que estoy realizando en este momento.
+Esta página corresponde a la práctica final del rump-up del [bootcamp sobre Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando en este momento.
 
 En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye «algo más» de mi propia cosecha. A continuación algunas de estas mejoras.
 
