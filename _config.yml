@@ -17,7 +17,7 @@ navbar-links:
   Sobre mi: "aboutme"
   Recursos:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Aprende markdown: "https://www.markdowntutorial.com/es/"
 
 # --- Logo --- #
 
@@ -67,7 +67,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Un blog por y para el código
 
 # --- General options --- #
 
@@ -76,7 +76,7 @@ language: es
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: false
+  facebook: true
   linkedin: true
   vk: false
 
