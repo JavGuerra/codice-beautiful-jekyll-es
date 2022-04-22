@@ -5,7 +5,7 @@ subtitle: Conceptos Full Stack Web Developer
 cover-img: https://javguerra.github.io/rump-up-fswd/img/fondo.jpg
 gh-repo:  JavGuerra/rump-up-fswd 
 gh-badge: [star, fork, follow]
-tags: [code]
+tags: [code, html, css, javascript]
 comments: true
 ---
 # Conceptos FSWD
