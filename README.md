@@ -1,5 +1,5 @@
-Código Web
-==========
-Un blog por y para el código
+Códice
+======
+Gestión · Administración · Desarrollo
 
 Por Javier Guerra
