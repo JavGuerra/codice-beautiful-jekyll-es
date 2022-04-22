@@ -5,7 +5,7 @@ subtitle: Conceptos Full Stack Web Developer
 cover-img: https://javguerra.github.io/rump-up-fswd/img/fondo.jpg
 gh-repo:  JavGuerra/rump-up-fswd 
 gh-badge: [star, fork, follow]
-tags: [código, html, css, javascript]
+tags: [web, código, html, css, javascript]
 comments: true
 ---
 # Conceptos FSWD
@@ -16,7 +16,7 @@ Por: __Javier Guerra__
 
 ## La página
 
-Esta página corresponde a la pŕactica final del rump-up del bootcamp sobre Full Stack Web Developer que estoy realizando en este momento.
+Esta página corresponde a la práctica final del rump-up del bootcamp sobre Full Stack Web Developer que estoy realizando en este momento.
 
 En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye «algo más» de mi propia cosecha. A continuación algunas de estas mejoras.
 
