@@ -18,6 +18,8 @@ navbar-links:
   Recursos:
     - Diseño web en 4 minutos: "https://javguerra.github.io/diseno-web-en-4-minutos/"
     - Aprende markdown: "https://www.markdowntutorial.com/es/"
+    - git, la guía sencilla: "https://rogerdudler.github.io/git-guide/index.es.html"
+    - Lenguaje javaScript: "https://lenguajejs.com/javascript/introduccion/que-es-javascript/"
 
 # --- Logo --- #
 
@@ -38,7 +40,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "ejemplo@correo.es"
+  email: "javguerra@badared.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: 
   github: JavGuerra
@@ -67,7 +69,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Un blog por y para el código
+rss-description: Gestión · Administración · Desarrollo
 
 # --- General options --- #
 
