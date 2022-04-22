@@ -3,7 +3,8 @@ layout: post
 title: Beca Santander
 subtitle: Programa digital reskilling Desarrollo Web Full Stack - Fundación Universia - Indra
 cover-img: /assets/img/path.jpg
-share-img: /assets/img/beca-santander-fswd.png
+thumbnail-img: /assets/img/beca-santander-fswd.png
+share-img: /assets/img/path.jpg
 tags: [web, formación, beca]
 ---
 
