@@ -2,7 +2,7 @@
 layout: post
 title: Blogeando...
 subtitle: Un blog con Markdown y Jekyll
-tags: [code, test]
+tags: [code, markdown, jekill]
 languaje: es
 ---
 
