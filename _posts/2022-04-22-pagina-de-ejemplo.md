@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Página de ejemplo
+title: Una página de ejemplo
 subtitle: Conceptos Full Stack Web Developer
 cover-img: https://javguerra.github.io/rump-up-fswd/img/fondo.jpg
 gh-repo:  JavGuerra/rump-up-fswd 
