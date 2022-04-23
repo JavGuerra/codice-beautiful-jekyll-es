@@ -14,11 +14,11 @@ El pasado 9 de marzo fui informado de que había sido seleccionado para cursar e
 
 La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para estudiantes con Discapacidad**, me permite acceder al Bootcamp de formación impartido por The Bridge desde marzo a noviembre, y en él se impartirán los siguientes módulos:
 
-- Módulo 0: Rump Up 
-- Módulo 1: Javascript Avanzado 
-- Módulo 2: Backend Development 
-- Módulo 3: Frontend Con React 
-- Módulo 4: Devops
-- Módulo 5: Lanza Tu Carrera Digital 
+- Módulo 0: Rump up 
+- Módulo 1: JavaScript avanzado 
+- Módulo 2: Back end development 
+- Módulo 3: Front end con ReactJS 
+- Módulo 4: DevOps
+- Módulo 5: Lanza tu carrera digital 
 
 Para saber más: [Página de la beca en The Bridge](https://www.thebridge.tech/curso/bootcamp-indra-fundacion-universia#solicitud-beca)
