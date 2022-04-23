@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quince series de TV y una película friki
+title: Series de TV y una película friki
 subtitle: Mis recomendaciones de streaming
 tags: [tv, series, películas]
 ---
@@ -25,6 +25,26 @@ Haz click en los enlaces pára más información:
 * [After Life](https://www.filmaffinity.com/es/film567393.html) - Netflix
 * [Los Durrel](https://www.filmaffinity.com/es/film745636.html) - Filmin
 * [Todas las criaturas grandes y pequeñas](https://www.filmaffinity.com/es/film733614.html) - Filmin
+* [Así nos ven](https://www.filmaffinity.com/es/film464489.html) - Netflix
+* [Creedme](https://www.filmaffinity.com/es/film734055.html) - Netflix
+* [Rita](https://www.filmaffinity.com/es/film781176.html) - Netflix
+* [Borgen](https://www.filmaffinity.com/es/film471259.html) - Netflix
+* [Halt and Catch Fire](https://www.filmaffinity.com/es/film449215.html) - Filmin
+* [Gambito de dama](https://www.filmaffinity.com/es/film634805.html) - Netflix
+* [Patria](https://www.filmaffinity.com/es/film540542.html) - HBO Max
+* [The Deuce](https://www.filmaffinity.com/es/film711336.html) - HBO Max
+* [Black mirror](https://www.filmaffinity.com/es/film800295.html) - Netflix
+* [This is us](https://www.filmaffinity.com/es/film247198.html) - Prime Video
+* [Show me a hero](https://www.filmaffinity.com/es/film803687.html) - HBO Max
+* [El espía](https://www.filmaffinity.com/es/film394025.html) - Netflix
+* [Years and years](https://www.filmaffinity.com/es/film247862.html) - HBO Max
+* [Chernobyl](https://www.filmaffinity.com/es/film624827.html) - HBO Max
+* [Silicon Valley](https://www.filmaffinity.com/es/film279751.html) - HBO Max
+* [La mafia sólo mata en verano](https://www.filmaffinity.com/es/film433168.html) - ¿?
+* [Line of Duty](https://www.filmaffinity.com/es/film661747.html) - Netflix
+* [Guardaespaldas](https://www.filmaffinity.com/es/film805629.html) - Netflix
+* [The IT Crowd](https://www.filmaffinity.com/es/film914339.html) - Netflix
+
 
 ## Película friki antigua
 * [IKARIE XB 1](https://www.filmaffinity.com/es/film149876.html) - Filmin

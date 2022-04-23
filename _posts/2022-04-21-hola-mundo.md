@@ -10,4 +10,4 @@ Gracias a [Jekill](https://jekyllrb.com/), un Generador de Sitios Estáticos ([S
 
 El tema gráfico empleado en este blog es [Beautiful Jekyll](https://beautifuljekyll.com/) del que hice _fork_ y cambié algunas configuraciones para empezar. 
 
-Si quieres crear tu propio blog, en su [repositorio](https://github.com/daattali/beautiful-jekyll) tienes las indicacioens necesarias para instalar todo.
+Si quieres crear tu propio blog, en su [repositorio](https://github.com/daattali/beautiful-jekyll) tienes las indicaciones necesarias para instalar todo.
