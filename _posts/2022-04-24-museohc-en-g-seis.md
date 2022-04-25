@@ -29,7 +29,7 @@ No podían faltar los Apple Mac clásicos. En <i class="fa fa-film"></i> [este v
 El <i class="fa fa-image"></i> [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/10%20Equipo%20MHC.jpg) se ha juntado de nuevo en esta ocasión, con algunas memorables ausencias. Además de nosotros, Carlos tiene una estupenda mano derecha, que es su hijo, tan apasionado por este mundillo como su padre. ¡<i class="fa fa-image"></i> [Es la generación de relevo](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/11%20Generaci%C3%B3n%20de%20relevo.jpg)!
 
 Ver un <i class="fa fa-film"></i> [breve video del stand](https://youtu.be/v067rZ71Gu4).  
-Ver la <i class="fa fa-image"></i> [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
+Ver la <i class="fa fa-image"></i> [galería de imágenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
 Ver la [página del Museo de Historia de la Computación](https://museohc.com/).
 
 **Bonus**: Conoce sobre el ordenador **Sinclair QL** de 1984 en esta página de [Sinclair QL Recursos en Castellano](https://sinclairql.es/) que hice en 2002.
