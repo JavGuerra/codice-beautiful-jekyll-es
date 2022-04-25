@@ -5,7 +5,7 @@ subtitle: Visita al stand del museo en la G-SEIS el 23 de abril de 2022
 cover-img: https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/05%20La%20trinidad.jpg
 thumbnail-img: https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/07%20Commodore%208032%20SK.jpg
 share-img: https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/05%20La%20trinidad.jpg
-tags: [retro, mhc, badajoz]
+tags: [retro, museohc, badajoz]
 ---
 
 El pasado sábado 23 de abril de 2002 estuve en el [stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del [Museo de Historia de la Computación](https://museohc.com/) ha montado en la feria G-SEIS en IFEBA.
