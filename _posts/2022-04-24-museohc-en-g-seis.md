@@ -26,7 +26,7 @@ Otros modelos preciosos que han podido verse en el stand son un [Commodore 8032 
 
 Como no, no podían faltar los Apple Mac clásicos. En [este vídeo](https://youtu.be/vVsJCCdiCNA) puedes ver uno de ellos navegando por Internet.
 
-El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/10%20Equipo%20MHC.jpg) se ha juntado de nuevo en esta ocasión, con algunas memorables ausencias. Además de con nosotros, Carlos tiene una estupenda mano derecha, que es su hijo, tan apasionado por este mundillo como su padre. ¡[Es la generación de relevo](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/11%20Generaci%C3%B3n%20de%20relevo.jpg)!
+El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/10%20Equipo%20MHC.jpg) se ha juntado de nuevo en esta ocasión, con algunas memorables ausencias. Además de nosotros, Carlos tiene una estupenda mano derecha, que es su hijo, tan apasionado por este mundillo como su padre. ¡[Es la generación de relevo](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/11%20Generaci%C3%B3n%20de%20relevo.jpg)!
 
 Ver un [breve video del stand](https://youtu.be/v067rZ71Gu4).  
 Ver la [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
