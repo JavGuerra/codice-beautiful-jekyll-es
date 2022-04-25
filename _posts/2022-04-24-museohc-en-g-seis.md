@@ -8,7 +8,7 @@ share-img: https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/
 tags: [retro, museohc, badajoz]
 ---
 
-El pasado sábado 23 de abril de 2002 estuve en el [stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del [Museo de Historia de la Computación](https://museohc.com/) ha montado en la feria G-SEIS en IFEBA.
+El pasado sábado 23 de abril de 2002 estuve en el <i class="fa-solid fa-image"></i>[stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del [Museo de Historia de la Computación](https://museohc.com/) ha montado en la feria G-SEIS en IFEBA.
 
 Siempre es un gusto volver a encontrarnos. Carlos tenía su museo en Cáceres hasta antes de la pandemia, y ahora está preparándolo para abrir sus puertas de nuevo, pero en Miajadas.
 
@@ -28,7 +28,7 @@ No podían faltar los Apple Mac clásicos. En [este vídeo](https://youtu.be/vVs
 
 El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/10%20Equipo%20MHC.jpg) se ha juntado de nuevo en esta ocasión, con algunas memorables ausencias. Además de nosotros, Carlos tiene una estupenda mano derecha, que es su hijo, tan apasionado por este mundillo como su padre. ¡[Es la generación de relevo](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/11%20Generaci%C3%B3n%20de%20relevo.jpg)!
 
-Ver un [breve video del stand](https://youtu.be/v067rZ71Gu4).  
+Ver un <i class="fa-solid fa-film"></i>[breve video del stand](https://youtu.be/v067rZ71Gu4).  
 Ver la [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
 Ver la [página del Museo de Historia de la Computación](https://museohc.com/).
 
