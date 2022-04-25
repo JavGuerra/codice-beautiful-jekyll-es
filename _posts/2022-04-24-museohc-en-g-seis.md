@@ -31,3 +31,5 @@ El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-S
 Ver un [breve video del stand](https://youtu.be/v067rZ71Gu4).  
 Ver la [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
 Ver la [página del Museo de Historia de la Computación](https://museohc.com/).
+
+**Bonus**: Conoce sobre el ordenador Sinclair QL de 1984 en esta página de [Sinclair QL Recursos en Castellano](https://sinclairql.es/) que hice en 2002.
