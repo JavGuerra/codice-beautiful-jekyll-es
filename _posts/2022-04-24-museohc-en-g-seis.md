@@ -24,7 +24,7 @@ Extremadura estaba representada por dos modelos de [ordenadores Dragón](https:/
 
 Otros modelos preciosos que han podido verse en el stand son un [Commodore 8032 SK](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/07%20Commodore%208032%20SK.jpg), un [Oric Atmos](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/08%20Oric%20Atmos.jpg) y algunos «[portátiles](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/09%20port%C3%A1tiles.jpg)» de los de antes.
 
-Como no, no podían faltar los Apple Mac clásicos. En [este vídeo](https://youtu.be/vVsJCCdiCNA) breve puedes ver uno del museo navegando por Internet durante la feria.
+No podían faltar los Apple Mac clásicos. En [este vídeo](https://youtu.be/vVsJCCdiCNA) breve puedes ver uno del museo navegando por Internet durante la feria.
 
 El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/10%20Equipo%20MHC.jpg) se ha juntado de nuevo en esta ocasión, con algunas memorables ausencias. Además de nosotros, Carlos tiene una estupenda mano derecha, que es su hijo, tan apasionado por este mundillo como su padre. ¡[Es la generación de relevo](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/11%20Generaci%C3%B3n%20de%20relevo.jpg)!
 
