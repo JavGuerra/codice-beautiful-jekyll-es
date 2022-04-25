@@ -16,7 +16,7 @@ Esta pequeña exposición ha sido todo un trabajo de selección y transporte de 
 
 No han faltado tampoco las consolas de videojuegos clásicos, desde La <i class="fa fa-image"></i> [Odyssey](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/03%20Odyssey.jpg) o la <i class="fa fa-image"></i> [Vectrex](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/04%20Vectrex.jpg) a las más recientes, y una gran cantidad de chavales <i class="fa fa-image"></i> [y no tan chavales](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/02%20Como%20en%20casa.jpg) jugando en ellas.
 
-En la sección de retroinformática destaca, principalmente «<i class="fa fa-image"></i> [La Trinidad](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/05%20La%20trinidad.jpg)», el TSR 80, el Apple ][ y el Commodore Pet.
+En la sección de retroinformática destaca, principalmente «<i class="fa fa-image"></i> [La Trinidad](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/05%20La%20trinidad.jpg)», el TSR 80, el Apple ][ y el Commodore PET.
 
 ![MHC](https://museohc.com/imagenes/logomuseo.jpg){: .mx-auto.d-block :}
 
@@ -32,4 +32,4 @@ Ver un <i class="fa fa-film"></i> [breve video del stand](https://youtu.be/v067r
 Ver la <i class="fa fa-image"></i> [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).  
 Ver la [página del Museo de Historia de la Computación](https://museohc.com/).
 
-**Bonus**: Conoce sobre el ordenador Sinclair QL de 1984 en esta página de [Sinclair QL Recursos en Castellano](https://sinclairql.es/) que hice en 2002.
+**Bonus**: Conoce sobre el ordenador **Sinclair QL** de 1984 en esta página de [Sinclair QL Recursos en Castellano](https://sinclairql.es/) que hice en 2002.
