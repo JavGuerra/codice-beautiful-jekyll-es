@@ -8,7 +8,7 @@ share-img: https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/
 tags: [retro, mhc, badajoz]
 ---
 
-El pasado sábado 23 de abril de 2002 estuve en el [stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del Museo de Historia de la Computación ha montado en la feria G-SEIS en IFEBA.
+El pasado sábado 23 de abril de 2002 estuve en el [stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del [Museo de Historia de la Computación](https://museohc.com/) ha montado en la feria G-SEIS en IFEBA.
 
 Siempre es un gusto volver a encontrarnos. Carlos tenía su museo en Cáceres hasta antes de la pandemia, y ahora está preparándolo para abrir sus puertas de nuevo, pero en Miajadas.
 
@@ -17,6 +17,8 @@ Esta pequeña exposición ha sido todo un trabajo de selección y transporte de 
 No han faltado tampoco las consolas de videojuegos clásicos, desde La [Odyssey](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/03%20Odyssey.jpg) o la [Vextrex](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/04%20Vectrex.jpg) a las más recientes, y una gran cantidad de chavales [y no tan chavales](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/02%20Como%20en%20casa.jpg) jugando en ellas.
 
 En la sección de retroinformática destaca, principalmente «[La Trinidad](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/05%20La%20trinidad.jpg)» ,el TSR 80, el Apple ][ y el Commodore Pet.
+
+![MHC](https://museohc.com/imagenes/logomuseo.jpg): .mx-auto.d-block :}
 
 Como no, Extremadura estaba representada con [dos modelos de ordenadores Dragón](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/06%20Dragon%20made%20in%20Extremadura.jpg) fabricados en nuestra tierra, más concretamente en Casar de Cáceres, en los 80. [Ver más info](https://elpais.com/tecnologia/2019/12/02/actualidad/1575302981_189309.html).
 
@@ -28,3 +30,4 @@ El [grupito retro](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-S
 
 Ver un [breve video del stand](https://youtu.be/v067rZ71Gu4).
 Ver la [galería de imaǵenes](https://javguerra.badared.com/galeria/?dir=2022-04-23+G-SEIS-MHC).
+Ver la [página del Museo de Historia de la Computación](https://museohc.com/).
