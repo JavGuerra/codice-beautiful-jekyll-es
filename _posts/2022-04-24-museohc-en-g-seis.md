@@ -10,7 +10,7 @@ tags: [retro, museohc, badajoz]
 
 El pasado sábado 23 de abril de 2002 estuve en el <i class="fa fa-image"></i> [stand](https://javguerra.badared.com/galeria/photos/2022-04-23%20G-SEIS-MHC/01%20El%20stand.jpg) que Carlos Izquierdo, del [Museo de Historia de la Computación](https://museohc.com/) ha montado en la feria [G-SEIS Sports & Gaming](https://www.feriabadajoz.es/presentada-g-seis-sports-gaming-en-rueda-de-prensa/) en IFEBA.
 
-Siempre es un gusto volver a encontrarnos. Carlos tenía su museo en Cáceres hasta antes de la pandemia, y ahora está preparándolo para abrir sus puertas de nuevo, pero en Miajadas.
+Siempre es un gusto volver a encontrarnos. Carlos tenía su museo en Cáceres hasta antes de la pandemia, y ahora está preparándolo para abrir sus puertas de nuevo, pero en Majadas de Tiétar.
 
 Esta pequeña exposición ha sido todo un trabajo de selección y transporte de aquellos ordenadores clásicos de los 70, 80 y 90 que han marcado la historia de la Informática tal como hoy la conocemos.
 
