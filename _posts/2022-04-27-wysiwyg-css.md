@@ -10,7 +10,7 @@ tags: [css, html, marco]
 
 En ocasiones debemos presentar pequeñas páginas web a las que no merece la pena dedicarles tiempo de maquetación con CSS, como páginas para mostrar ejemplos, ejercicios, etc. pero a las que queremos darle una presentación básica que nos muestre el contenido algo más pulido que con los estilos por defecto del navegador.
 
-[wysiwyg.css](https://jgthms.com/wysiwyg.css/) de **Jeremy Thomas** es un fichero **.css** con una sola clase llamada «**.wysiwyg**» que lo hace por nosotros. Su uso es sencillo, descargamos el fichero **wysiwyg.css** de la página del proyecto, lo enlazamos en el head de nuestra página, y por último creamos un div que envuelva todo aquel contenido de la página que queramos que se vea afectado por los cambios de estilo de la clase «.wysiwyg», o incluso toda la página, de principio a fin.
+[wysiwyg.css](https://jgthms.com/wysiwyg.css/) de **Jeremy Thomas** es un fichero **.css** con una sola clase llamada «**.wysiwyg**» (_What You See Is What You Get_) que lo hace por nosotros. Su uso es sencillo, descargamos el fichero **wysiwyg.css** de la página del proyecto, lo enlazamos en el head de nuestra página, y por último creamos un div que envuelva todo aquel contenido de la página que queramos que se vea afectado por los cambios de estilo de la clase «.wysiwyg», o incluso toda la página, de principio a fin.
 
 ```html
 <body>
