@@ -19,7 +19,7 @@ En ocasiones debemos presentar pequeñas páginas web a las que no merece la pen
     </div>
 </body>
 ```
-La clase .wysiwyg define estilos para cabeceras, párrafos, listas, tablas, bloques de código... Al aplicar esta clase, todo el contenido dentro del div se mostrará con los estilos definidos en la clase «.wysiwyg». La página de este proyecto es un ejemplo de uso de esta clase.
+La clase .wysiwyg define estilos para cabeceras, párrafos, listas, tablas, bloques de código, enlaces... Al aplicar esta clase, todo el contenido dentro del div se mostrará con los estilos definidos en la clase «.wysiwyg». La página de este proyecto es un ejemplo de uso de esta clase.
 
 el [proyecto en Github](https://github.com/jgthms/wysiwyg.css) también permite descargarnos un fichero **.scss** sobre el que realizar cambios en los valores por defecto de la clase .wysiwyg antes de transpilarlo a .css.
 
