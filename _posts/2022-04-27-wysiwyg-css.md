@@ -3,7 +3,7 @@ layout: post
 title: wysiwyg.css
 subtitle: Un pequeño CSS para el contenido HTML o Markdown con una única clase
 thumbnail-img: https://raw.githubusercontent.com/jgthms/wysiwyg.css/master/docs/wysiwyg.png
-tags: [css, html, marco]
+tags: [css, html, markdown, marco]
 ---
 
 ![WYSIWYG](https://raw.githubusercontent.com/jgthms/wysiwyg.css/master/docs/wysiwyg.png){: .mx-auto.d-block :}
