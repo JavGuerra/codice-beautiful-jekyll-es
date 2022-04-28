@@ -3,7 +3,7 @@ layout: post
 title: Buscaminas en JavaScript
 subtitle: Pequeño juego online
 thumbnail-img: /assets/img/buscaminas.png
-tags: [css, html, javascript]
+tags: [css, html, javascript, bootstrap]
 ---
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
