@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Buscaminas en JavaScript
-subtitle: Pequeño juego online
+subtitle: Pequeño juego online para manejo de eventos
 thumbnail-img: /assets/img/buscaminas.png
 tags: [código, css, html, javascript, bootstrap]
 ---
