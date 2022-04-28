@@ -3,7 +3,7 @@ layout: post
 title: Buscaminas en JavaScript
 subtitle: Pequeño juego online para manejo de eventos
 thumbnail-img: /assets/img/buscaminas.png
-tags: [código, css, html, javascript, bootstrap]
+tags: [código, css, html, javascript, bootstrap, jquery]
 ---
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
@@ -14,7 +14,7 @@ Una vez se genera el tablero con las dimensiones que deseemos, tendremos una ser
 
 Realicé este juego durante una semana, como práctica de programación de la asignatura de Desarrollo Web en Entorno Cliente de Formación Profesional de Grado Superior de Desarrollo de Aplicaciones Web (DAW).
 
-La aplicación, programada en VanillaJS, usa Bootstrap, es compatible con navegadores antiguos, tiene diseño _responsive_, cumple con los estándares W3C, de accesibilidad web y de accesibilidad de contenidos dinámicos (WAI-ARIA).
+La aplicación, programada en JavaScript, usa Bootstrap y JQuery, es _cross-browser_ y compatible con navegadores antiguos, tiene diseño _responsive_, cumple con los estándares W3C, de accesibilidad web y de accesibilidad de contenidos dinámicos (WAI-ARIA).
 
 Como ejercicio de programación, es un buen ejemplo de manejo de eventos en JavaScript para interactuar con las casillas del tablero.
 
