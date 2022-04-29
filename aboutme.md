@@ -11,7 +11,7 @@ Me apasiona la Informática, la retroinformática, la tecnología, el diseño gr
 Estoy abierto en todo momento a nuevas experiencias y a aprender en el día a día de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrtabajo.
 
 ## Conocimientos
-Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • PHP • Laravel Jetstream  • CI/CD • HTML5 • CSS3 • SASS • vanilla JS • Bootstrap • Tailwind • Bulma • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • MSOffice, LibreOffice
+Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • PHP • Laravel Jetstream  • CI/CD • Accesibilidad web • HTML5 • CSS3 • Sass • vanilla JS • Bootstrap • Tailwind • Bulma • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • Ofimática
 
 ## Aptitudes
 Adaptabilidad • motivación • creatividad • comunicación escrita • compromiso • decisión • escucha • integridad • iniciativa • liderazgo • meticulosidad • tenacidad • planificación y organización
