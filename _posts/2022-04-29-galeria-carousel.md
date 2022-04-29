@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Recuerdos de Venezuela
-subtitle: Una pequeña galería en carousel con Bootstrap
+title: Carousel con Bootstrap
+subtitle: Una pequeña galería de fotos de Venezuela
 thumbnail-img: https://badared.com/javguerra/daw/galeria/foto.jpg
 tags: [código, css, html, javascript, bootstrap, fotografía, edición]
 ---
