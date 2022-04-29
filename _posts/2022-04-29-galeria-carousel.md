@@ -12,8 +12,8 @@ Las primeras veces que viajé a Venezuela quedé impactado por su belleza y las 
 
 La galería muestra un carousel de imágenes con Boortrap y JavaScript, es _responsive_ y cumple con los estándares web y de accesibilidad.
 
-Es un buen ejercicio para mostrar las posibilidades de sieño de HTML y CSS.
+Es un buen ejercicio para mostrar las posibilidades del diseño web con HTML y CSS.
 
-La foto de esta entrada es un montaje realizado con Gimp tomando como base las tres fotos de la galería componiendo con ellas un collage. 
+La foto de esta entrada es un montaje que realicé con Gimp tomando como base las tres fotos de la galería componiendo con ellas un collage y aplicando filtros de envejecido. 
 
 Vitia la [galería de fotos](https://badared.com/javguerra/daw/galeria/).
