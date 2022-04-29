@@ -15,6 +15,7 @@ author: Javier Guerra
 
 navbar-links:
   Sobre mi: "aboutme"
+  Portfolio: "portfolio"
   Recursos:
     - Diseño web en 4 minutos: "https://javguerra.github.io/diseno-web-en-4-minutos/"
     - Aprende markdown: "https://www.markdowntutorial.com/es/"
