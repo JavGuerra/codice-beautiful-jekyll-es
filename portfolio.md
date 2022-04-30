@@ -21,6 +21,12 @@ Carousel con Bootstrap
 HTML, CSS, JavaScript, Bootstrap, edición fotográfica  
 [Ver más]({% post_url 2022-04-29-galeria-carousel %})
 
+Lógica interactiva
+------------------
+**Opciones, eventos, disparadores y estados**  
+HTML, JavaScrip  
+[Ver más]({% post_url 2022-04-30-logica-interactiva %})
+
 Fizz buzz
 ---------
 **Prueba de programación**  
