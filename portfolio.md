@@ -3,8 +3,6 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
-<div align="center">
-
 Una página de ejemplo
 ---------------------
 **Conceptos Full Stack Web Developer**  
@@ -28,5 +26,3 @@ Fizz buzz
 **Prueba de programación**  
 Javascript  
 [Ver más]({% post_url 2022-04-22-fizzbuzz %})
-
-</div>
