@@ -23,7 +23,7 @@ Mediante una tabla en una sencilla hoja de cálculo podemos contabilizar en el e
 
 ![Decisiones](/assets/img/tabla-disparadores-estados.png){: .mx-auto.d-block :}
 
-Esta tabla resumida incluye sólo la interacción de estados de los botones, anotando en cada celda el estado de cada botón según los disparadores indicados al principio de cada fila. a la hora de pasar a la fase de codificación, nos será fácil determinar si hemos implementado todas y cada una de las interacciones posibles.
+Esta tabla resumida incluye sólo la interacción de estados de los botones, anotando en cada celda el estado de cada botón según los disparadores indicados al principio de cada fila. A la hora de pasar a la fase de codificación, nos será fácil determinar si hemos implementado todas y cada una de las interacciones posibles.
 
 Cuando tengas ante ti un abanico de opciones inabarcables, esta puede ser una buena opción para salir del atolladero.
 
