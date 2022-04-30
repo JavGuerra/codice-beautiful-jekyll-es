@@ -3,6 +3,12 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
+| :---  | :---: | ---: |
+| | ##Una página de ejemplo | |
+| | **Conceptos Full Stack Web Developer** | |
+| | HTML, CSS, JavaScript, Accesibilidad, Responsive | |
+| | [Ver más]({% post_url 2022-04-23-pagina-de-ejemplo %}) | |
+
 Una página de ejemplo
 ---------------------
 **Conceptos Full Stack Web Developer**  
