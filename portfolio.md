@@ -3,6 +3,7 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
+<center>
 
 Una página de ejemplo
 ---------------------
@@ -27,3 +28,5 @@ Fizz buzz
 **Prueba de programación**  
 Javascript  
 [Ver más]({% post_url 2022-04-22-fizzbuzz %})
+
+</center>
