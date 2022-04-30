@@ -3,7 +3,7 @@ layout: post
 title: Carousel con Bootstrap
 subtitle: Una pequeña galería de fotos de Venezuela
 thumbnail-img: https://badared.com/javguerra/daw/galeria/foto.jpg
-tags: [código, css, html, javascript, bootstrap, fotografía, edición]
+tags: [código, css, html, javascript, bootstrap, fotografía, edición, venezuela]
 ---
 
 ![Galería](https://badared.com/javguerra/daw/galeria/foto.jpg){: .mx-auto.d-block :}
@@ -16,4 +16,4 @@ Es un buen ejercicio para mostrar las posibilidades del diseño web con HTML y C
 
 La foto de esta entrada es un montaje que realicé con Gimp tomando como base las tres fotos de la galería componiendo con ellas un collage y aplicando filtros de envejecido. 
 
-Vitia la [galería de fotos](https://badared.com/javguerra/daw/galeria/).
+Visita la [galería de fotos](https://badared.com/javguerra/daw/galeria/).
