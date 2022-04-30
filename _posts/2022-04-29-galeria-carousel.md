@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Carousel con Bootstrap
-subtitle: Una pequeña galería de fotos de Venezuela
+subtitle: Una pequeña galería de fotos de ejemplo
 thumbnail-img: https://badared.com/javguerra/daw/galeria/foto.jpg
 tags: [código, css, html, javascript, bootstrap, fotografía, edición, venezuela]
 ---
