@@ -19,7 +19,7 @@ Imaginemos que con el botón «Cambiar» alteramos el contenido del último elem
 
 Tabla «disparadores/estados»
 ----------------------------
-Mediante una tabla en una sencilla hoja de cálculo podemos contabilizar en el eje de las **Y** (primera columna) todos aquellos disparadores (eventos y condiciones), y en el eje de las **X** (filas) todos los estados, tanto de las variables como de los objetos (botones u otros), y ver cómo se interelacionan en tiempo de ejecución. <u>Lo difícil entonces será determinar con claridad cuales son los disparadores y cuales los estados</u>. Si lo hacemos bien, con esta herramienta podemos clarificar, sin olvidar nada, cada interacción lógica derivada de las opciones de la aplicación, de forma similar a como se ve en la siguiente imagen.
+Mediante una tabla en una sencilla hoja de cálculo podemos contabilizar en el eje de las **Y** (primera columna) todos aquellos disparadores (eventos y condiciones) de nuestra aplicación, y en el eje de las **X** (filas) todos los estados, tanto de las variables como de los objetos (botones u otros), y ver cómo se interelacionan en tiempo de ejecución. <u>Lo difícil entonces será determinar con claridad cuales son los disparadores y cuales los estados</u>. Si lo hacemos bien, con esta herramienta podemos clarificar, sin olvidar nada, cada interacción lógica derivada de las opciones de la aplicación, de forma similar a como se ve en la siguiente imagen.
 
 ![Decisiones](/assets/img/tabla-disparadores-estados.png){: .mx-auto.d-block :}
 
