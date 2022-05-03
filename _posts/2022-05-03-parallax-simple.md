@@ -5,7 +5,7 @@ subtitle: Efectos con CSS
 tags: [código, HTML, CSS]
 ---
 
-Parallax es un efecto que se aplica generalmente a las imágenes de fondo de una página web, y que consiste en mantener estático, o mover a una velocidad distinta, el resto de los elementos de la página al hacer scroll. Pareceŕa de esa forma que la página tiene profundidad. En la [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html}) a la que hacía referencia en este [post]({% post_url 2022-04-23-pagina-de-ejemplo %}), puede verse aplicado en la portada o zona «Hero».
+Parallax es un efecto que se aplica generalmente a las imágenes de fondo de una página web, y que consiste en mantener estático, o mover a una velocidad distinta, el resto de los elementos de la página al hacer scroll. Pareceŕa de esa forma que la página tiene profundidad. En la [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html) a la que hacía referencia en este [post]({% post_url 2022-04-23-pagina-de-ejemplo %}), puede verse aplicado en la portada o zona «Hero».
 
 esto se consigue de una forma muy sencilla. Sólo tienes que crear un div en el html y ponerle una clase, p. ej. «.parallax», y luego, en el CSS, en .parallax, incluir la altura que le darás al div y la imagen de fondo que le vas a poner. Por supuesto, en el HTML de ese div puedes incluir texto, imágenes... En el caso del ejemplo mencionado puse el título de la página.
 
@@ -26,5 +26,5 @@ Este efecto tiene un inconveniente, y es que no funciona bien en el navegador Sa
 
 Mis páginas de ejemplo de este efecto Parallax:
 
-* [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html}) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
+* [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
 * [página _landing_](https://badared.com/conectiva/evento/THTC2021/)
