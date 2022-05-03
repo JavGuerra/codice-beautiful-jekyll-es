@@ -18,7 +18,7 @@ Estas son las dos líneas que he incluido en mi código para lograrlo. La primer
 
 La segunda le dice al navegador que el `div` va a tener una imagen de fondo, en este caso `fondo.jpg`, y que la tiene que poner centrada vertical y horizontalmente (`center`), ocupando todo el ancho del div (`cover`), y poniéndola fija (`fixed`) para que no se mueva. Este es el efecto que buscamos.
 
-El `fixed` lo hace todo. El fondo  del `div` permanecerá estático, y la página lo irá tapando a medida que hacemos scroll hacia abajo.
+El `fixed` lo hace todo. El fondo  del `div` permanecerá estático, y la página lo irá tapando a medida que hacemos _scroll_ hacia abajo.
 
 En esta otra [página _landing_](https://badared.com/conectiva/evento/THTC2021/) que realicé para un evento, puede verse un uso parecido de efecto parallax a modo de cortinilla o separador de sus distintas secciones.
 
