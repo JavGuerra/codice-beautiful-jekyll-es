@@ -22,9 +22,11 @@ El `fixed` lo hace todo. El fondo  del `div` permanecerá estático, y la págin
 
 En esta otra [página _landing_](https://badared.com/conectiva/evento/THTC2021/) que realicé para un evento, puede verse un uso parecido de efecto parallax a modo de cortinilla o separador de sus distintas secciones.
 
-Este efecto tiene un inconveniente, y es que no funciona bien en el navegador Safari en iOS (iPhone), como se comenta [aquí](https://css-tricks.com/ios-13-broke-the-classic-pure-css-parallax-technique/), aunque es posible encontrar soluciones más o menos imaginativas buscando por Internet.
+Este efecto tiene un inconveniente, y es que no funciona bien en el navegador Safari en iOS (iPad/iPhone), como se comenta [aquí](https://css-tricks.com/ios-13-broke-the-classic-pure-css-parallax-technique/), aunque es posible encontrar soluciones más o menos imaginativas buscando por Internet.
 
 Mis páginas de ejemplo con este efecto Parallax:
 
 * [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
 * [página _landing_](https://badared.com/conectiva/evento/THTC2021/)
+
+El efecto Parallax puede complicarse aún más para conseguir resultados increibles. [Aquí](https://www.paellacreativa.com.ar/2012/05/24/efecto-parallax-diseno-web/) puedees ver algunos ejemplos.
