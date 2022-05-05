@@ -5,10 +5,9 @@ subtitle: Pequeño juego online para manejo de eventos
 thumbnail-img: /assets/img/buscaminas.png
 tags: [código, css, html, javascript, bootstrap, jquery, juego]
 ---
+Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html) como un juego atípico que no consiste, como estamos acostumbrados, en evitar las minas, sino en encontrarlas.
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
-
-Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html) como un juego atípico que no consiste, como estamos acostumbrados, en evitar las minas, sino en encontrarlas.
 
 Una vez se genera el tablero con las dimensiones que deseemos, tendremos una serie de intentos para acertar la posición de las minas. Cada fallo cuenta, así como cada acierto. Termina la partida cuando se han superado el número de fallos posibles o cuando se encuentran todas las minas.
 
