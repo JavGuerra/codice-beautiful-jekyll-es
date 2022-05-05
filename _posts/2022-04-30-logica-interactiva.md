@@ -5,9 +5,9 @@ subtitle: Opciones, eventos, disparadores y estados
 thumbnail-img: /assets/img/decisiones.jpg
 tags: [código, javascript, dom]
 ---
-![Decisiones](/assets/img/decisiones.jpg){: .mx-auto.d-block :}
-
 Programar es una diversión difícil. En ocasiones las interacciones entre los disparadores de eventos y los estados de las variables y los objetos interelacionados multiplican sus opciones, haciendo complicado establecer, de memoria, todas las permutaciones posibles para no dejar ninguna de ellas sin implementar en nuestro código.
+
+![Decisiones](/assets/img/decisiones.jpg){: .mx-auto.d-block :}
 
 En esta [página web de ejemplo](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html) que he preparado, tenemos cinco botones de un menú de opciones. Cada opción interactúa con los estados de los otros botones mientras se van añadiendo, quitando o cambiando elementos del DOM (en este caso artículos de una sección), y activando o desactivando los botones según sea necesario en cada momento. Es fácil entender la mecánica del ejemplo probándolo.
 
