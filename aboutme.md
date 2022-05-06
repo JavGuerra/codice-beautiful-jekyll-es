@@ -14,7 +14,7 @@ Estoy abierto en todo momento a nuevas experiencias y a aprender en el día a d�
 Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • PHP • Laravel Jetstream  • CI/CD • Accesibilidad web • HTML5 • CSS3 • Sass • JavaScript • Bootstrap • Tailwind • Bulma • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • Ofimática
 
 ## Portfolio
-[Visita mi portfolio]({% page_url portfolio %}) para conocer algo más sobre mis conocimientos aplicados.
+[Visita mi portfolio]({% link portfolio %}) para conocer algo más sobre mis conocimientos aplicados.
 
 ## Aptitudes
 Adaptabilidad • motivación • creatividad • comunicación escrita • compromiso • decisión • escucha • integridad • iniciativa • liderazgo • meticulosidad • tenacidad • planificación y organización
