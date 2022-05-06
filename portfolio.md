@@ -36,7 +36,7 @@ subtitle: Mira lo que hago
 </article>
 
 <a href="{% link index.html %}" class="mt-5 btn btn-info text-uppercase"
-style="font-family:font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:1.5rem;">Ver otras entradas</a>
+style="font-family:font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;font-size: 1.2rem;">Ver otras entradas</a>
 
 </div>
 
