@@ -7,34 +7,34 @@ Una página de ejemplo
 ---------------------
 **Conceptos Full Stack Web Developer**  
 HTML, CSS, JavaScript, Accesibilidad, Responsive  
-[Ver más]({% post_url 2022-04-23-pagina-de-ejemplo %})
+[<button>Ver más</button>]({% post_url 2022-04-23-pagina-de-ejemplo %})
 
 Buscaminas en JavaScript
 ------------------------
 **Pequeño juego online para manejo de eventos**  
 HTML, CSS, JavaScript, Bootstrap, JQuery  
-[Ver más]({% post_url 2022-04-28-buscaminas %})
+[<button>Ver más</button>]({% post_url 2022-04-28-buscaminas %})
 
 Carousel con Bootstrap
 ----------------------
 **Una pequeña galería de fotos de ejemplo**  
 HTML, CSS, JavaScript, Bootstrap, edición fotográfica  
-[Ver más]({% post_url 2022-04-29-galeria-carousel %})
+[<button>Ver más</button>]({% post_url 2022-04-29-galeria-carousel %})
 
 Lógica interactiva
 ------------------
 **Opciones, eventos, disparadores y estados**  
 HTML, JavaScrip  
-[Ver más]({% post_url 2022-04-30-logica-interactiva %})
+[<button>Ver más</button>]({% post_url 2022-04-30-logica-interactiva %})
 
 Fizz buzz
 ---------
 **Prueba de programación**  
 Javascript  
-[Ver más]({% post_url 2022-04-22-fizzbuzz %})
+[<button>Ver más</button>]({% post_url 2022-04-22-fizzbuzz %})
 
 Más entradas
 ------------
-[<button>Ver más entradas</button> de este blog](index.html)
+[<button>Ver más entradas</button>](index.html) de este blog
 
 
