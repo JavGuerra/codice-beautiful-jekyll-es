@@ -5,10 +5,9 @@ subtitle: Mira lo que hago
 ---
 <div class="text-center">
 
-<h2>Una página de ejemplo</h2>
-**Conceptos Full Stack Web Developer**  
-<span class="badge badge-info">HTML</span>, <span class="badge badge-info">CSS</span>, <span class="badge badge-info">JavaScript</span>, <span class="badge badge-info">Accesibilidad</span>, <span class="badge badge-info">Responsive</span>  
-[<button>Ver más</button>]({% post_url 2022-04-23-pagina-de-ejemplo %})
+<h2><a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">Una página de ejemplo</a></h2>
+<p class="font-weight-bold">Conceptos Full Stack Web Developer</p> 
+<span class="badge badge-info">HTML</span> <span class="badge badge-info">CSS</span> <span class="badge badge-info">JavaScript</span> <span class="badge badge-info">Accesibilidad</span> <span class="badge badge-info">Responsive</span>
 
 <h2>Buscaminas en JavaScript</h2>
 **Pequeño juego online para manejo de eventos**  
