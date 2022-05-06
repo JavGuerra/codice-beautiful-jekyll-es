@@ -8,7 +8,7 @@ subtitle: Mira lo que hago
 <article class="post-preview">
     <h2 class="post-title"><a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">Una página de ejemplo</a></h2>
     <h3 class="post-subtitle">Conceptos Full Stack Web Developer</h3>
-    <span class="badge badge-info">HTML</span> <span class="badge badge-info">CSS</span> <span class="badge badge-info">JavaScript</span> <span class="badge badge-info">Accesibilidad</span> <span class="badge badge-info">Responsive</span>
+    HTML, CSS, JavaScript, Accesibilidad, Responsive
 </article>
 
 <article class="post-preview">
@@ -26,7 +26,7 @@ subtitle: Mira lo que hago
 <article class="post-preview">
     <h2 class="post-title"><a href="{% post_url 2022-04-30-logica-interactiva %}">Lógica interactiva</a></h2>
     <h3 class="post-subtitle">Opciones, eventos, disparadores y estados</h3>
-    HTML, JavaScrip, lógica
+    Lógica, HTML, JavaScrip
 </article>
 
 <article class="post-preview">
@@ -35,7 +35,7 @@ subtitle: Mira lo que hago
     Lógica, JavaScript
 </article>
 
-<a href="index.html" class="btn btn-info">Ver otras entradas</a>
+<a href="{% link index.html %}" class="mt-4 btn btn-info page-link">Ver otras entradas</a>
 
 </div>
 
