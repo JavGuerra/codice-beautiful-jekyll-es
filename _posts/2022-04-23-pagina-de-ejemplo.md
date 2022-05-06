@@ -16,6 +16,9 @@ Por: __Javier Guerra__
 
 ## La página
 
+
+[<button>Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+
 Esta página corresponde a la práctica final del ramp-up del [bootcamp sobre Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando en este momento.
 
 En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye «algo más» de mi propia cosecha. A continuación algunas de estas mejoras.
