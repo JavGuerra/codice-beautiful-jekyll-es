@@ -5,9 +5,11 @@ subtitle: Mira lo que hago
 ---
 <div class="text-center">
 
-<h2 class="post-title"><a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">Una página de ejemplo</a></h2>
-<span class="post-subtitle">Conceptos Full Stack Web Developer</span><br />
-<span class="badge badge-info">HTML</span> <span class="badge badge-info">CSS</span> <span class="badge badge-info">JavaScript</span> <span class="badge badge-info">Accesibilidad</span> <span class="badge badge-info">Responsive</span>
+<article class="post-preview">
+    <h2 class="post-title"><a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">Una página de ejemplo</a></h2>
+    <span class="post-subtitle">Conceptos Full Stack Web Developer</span><br />
+    <span class="badge badge-info">HTML</span> <span class="badge badge-info">CSS</span> <span class="badge badge-info">JavaScript</span> <span class="badge badge-info">Accesibilidad</span> <span class="badge badge-info">Responsive</span>
+</article>
 
 <h2 class="post-title">Buscaminas en JavaScript</h2>
 **Pequeño juego online para manejo de eventos**  
