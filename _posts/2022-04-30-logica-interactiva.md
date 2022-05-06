@@ -3,7 +3,7 @@ layout: post
 title: Lógica interactiva
 subtitle: Opciones, eventos, disparadores y estados
 thumbnail-img: /assets/img/decisiones.jpg
-tags: [código, javascript, dom]
+tags: [código, javascript, lógica, dom]
 ---
 Programar es una diversión difícil. En ocasiones las interacciones entre los disparadores de eventos y los estados de las variables y los objetos interelacionados multiplican sus opciones, haciendo complicado establecer, de memoria, todas las permutaciones posibles para no dejar ninguna de ellas sin implementar en nuestro código.
 
