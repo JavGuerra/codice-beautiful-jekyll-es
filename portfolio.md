@@ -35,7 +35,8 @@ subtitle: Mira lo que hago
     Lógica, JavaScript
 </article>
 
-<a href="{% link index.html %}" class="h4 mt-5 btn btn-info text-uppercase">Ver otras entradas</a>
+<a href="{% link index.html %}" class="mt-5 btn btn-info text-uppercase"
+style="font-family:font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:1.5rem;">Ver otras entradas</a>
 
 </div>
 
