@@ -35,6 +35,6 @@ Javascript
 
 Más entradas
 ------------
-[Ver más entradas de este blog](index.html)
+[<button>Ver más entradas</button> de este blog](index.html)
 
 
