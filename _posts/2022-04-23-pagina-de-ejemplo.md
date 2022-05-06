@@ -46,6 +46,6 @@ En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye
 
 ## Acceder a la página web
 
-[Acceder a la página web](https://javguerra.github.io/ramp-up-fswd/index.html) de la práctica.
+[<button>Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html) de la práctica.
 
 ![icono](https://javguerra.github.io/ramp-up-fswd/img/qrcode.svg)

@@ -19,7 +19,7 @@ Como ejercicio de programación, es un buen ejemplo de manejo de eventos en Java
 
 ¿Te apetece una partidita?
 
-* [Jugar a Buscaminas en JavaScript on-line](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
+* [<button>Jugar a Buscaminas en JavaScript on-line</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
 * [Ver el codigo fuente en Github](https://github.com/JavGuerra/Buscaminas-en-JavaScript)
 
 PS.: La ayuda depara alguna sorpresa... pero intenta jugar sin hacer trampa.
