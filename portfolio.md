@@ -32,3 +32,9 @@ Fizz buzz
 **Prueba de programación**  
 Javascript  
 [Ver más]({% post_url 2022-04-22-fizzbuzz %})
+
+Más entradas
+------------
+[Ver más entradas de este blog](index.html)
+
+
