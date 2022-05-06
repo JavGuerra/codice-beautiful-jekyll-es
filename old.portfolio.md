@@ -3,36 +3,38 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
-<div class="text-center">
-
-<h2>Una página de ejemplo</h2>
+Una página de ejemplo
+---------------------
 **Conceptos Full Stack Web Developer**  
-<span class="badge badge-info">HTML</span>, <span class="badge badge-info">CSS</span>, <span class="badge badge-info">JavaScript</span>, <span class="badge badge-info">Accesibilidad</span>, <span class="badge badge-info">Responsive</span>  
+HTML, CSS, JavaScript, Accesibilidad, Responsive  
 [<button>Ver más</button>]({% post_url 2022-04-23-pagina-de-ejemplo %})
 
-<h2>Buscaminas en JavaScript</h2>
+Buscaminas en JavaScript
+------------------------
 **Pequeño juego online para manejo de eventos**  
 HTML, CSS, JavaScript, Bootstrap, JQuery  
 [<button>Ver más</button>]({% post_url 2022-04-28-buscaminas %})
 
-<h2>Carousel con Bootstrap</h2>
+Carousel con Bootstrap
+----------------------
 **Una pequeña galería de fotos de ejemplo**  
 HTML, CSS, JavaScript, Bootstrap, edición fotográfica  
 [<button>Ver más</button>]({% post_url 2022-04-29-galeria-carousel %})
 
-<h2>Lógica interactiva</h2>
+Lógica interactiva
+------------------
 **Opciones, eventos, disparadores y estados**  
 HTML, JavaScrip  
 [<button>Ver más</button>]({% post_url 2022-04-30-logica-interactiva %})
 
-<h2>Fizz buzz</h2>
+Fizz buzz
+---------
 **Prueba de programación**  
 Javascript  
 [<button>Ver más</button>]({% post_url 2022-04-22-fizzbuzz %})
 
-<h2>Más entradas</h2>
+Más entradas
+------------
 [<button>Ver más entradas</button>](index.html) de este blog
-
-</div>
 
 
