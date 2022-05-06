@@ -35,7 +35,9 @@ subtitle: Mira lo que hago
     Lógica, JavaScript
 </article>
 
-<a href="{% link index.html %}" class="mt-4 btn btn-info page-link">Ver otras entradas</a>
+<div class="page-item previous">
+    <a href="{% link index.html %}" class="mt-4 btn btn-info page-link">Ver otras entradas</a>
+</div>
 
 </div>
 
