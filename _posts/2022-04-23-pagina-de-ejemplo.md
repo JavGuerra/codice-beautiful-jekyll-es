@@ -17,6 +17,7 @@ Por: __Javier Guerra__
 
 ## La página
 
+![Conceptos FWSW](https://javguerra.github.io/ramp-up-fswd/img/banner.jpg)
 
 [<button>Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
 
