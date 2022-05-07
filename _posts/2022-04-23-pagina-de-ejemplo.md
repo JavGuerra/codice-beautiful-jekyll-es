@@ -3,6 +3,7 @@ layout: post
 title: Una página de ejemplo
 subtitle: Conceptos Full Stack Web Developer
 cover-img: https://javguerra.github.io/ramp-up-fswd/img/fondo.jpg
+thumbnail-img: https://javguerra.github.io/ramp-up-fswd/img/banner.jpg
 gh-repo:  JavGuerra/ramp-up-fswd 
 gh-badge: [star, fork, follow]
 tags: [web, código, html, css, javascript]
