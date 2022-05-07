@@ -6,21 +6,21 @@ subtitle: Mira lo que hago
 <div class="text-center">
 
 <article class="post-preview">
-<img src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" alt="Conceptos FSWD" width="250"/>
+<img class="mb-1" src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" alt="Conceptos FSWD" width="250"/>
 <h2 class="post-title"><a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">Una página de ejemplo</a></h2>
 <h3 class="post-subtitle">Conceptos Full Stack Web Developer</h3>
 <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
 <article class="post-preview">
-<img src="assets/img/buscaminas.png" alt="buscaminas" width="250"/>
+<img class="mb-1" src="{%  link assets/img/buscaminas.png %}" alt="buscaminas" width="250"/>
 <h2 class="post-title"><a href="{% post_url 2022-04-28-buscaminas %}">Buscaminas en JavaScript</a></h2>
 <h3 class="post-subtitle">Pequeño juego online para manejo de eventos</h3>
 <small>HTML, CSS, JavaScript, Bootstrap, JQuery</small> 
 </article>
 
 <article class="post-preview">
-<img src="https://badared.com/javguerra/daw/galeria/foto.jpg" alt="carousel" width="250"/>
+<img class="mb-1" src="https://badared.com/javguerra/daw/galeria/foto.jpg" alt="carousel" width="250"/>
 <h2 class="post-title"><a href="{% post_url 2022-04-29-galeria-carousel %}">Carousel con Bootstrap</a></h2>
 <h3 class="post-subtitle">Una pequeña galería de fotos de ejemplo</h3>
 <small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
