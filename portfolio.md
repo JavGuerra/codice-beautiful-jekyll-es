@@ -18,7 +18,7 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="post-preview">
-    ![Galería](https://badared.com/javguerra/daw/galeria/foto.jpg){: .mx-auto.d-block : width="250"}
+    <img scr="https://badared.com/javguerra/daw/galeria/foto.jpg" width="250" />
     <h2 class="post-title"><a href="{% post_url 2022-04-29-galeria-carousel %}">Carousel con Bootstrap</a></h2>
     <h3 class="post-subtitle">Una pequeña galería de fotos de ejemplo</h3>
     <small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
