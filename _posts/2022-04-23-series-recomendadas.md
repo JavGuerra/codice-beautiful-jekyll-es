@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Series de TV y una película friki
+title: Series de TV
 subtitle: Mis recomendaciones de streaming
 tags: [tv, series, películas]
 ---
 
-¿Ya acabó tu serie favorita? ¿No sabes que serie empezar a ver ahora? Te dejo unas recomendaciones.
+¿Ya acabó tu serie favorita? ¿No sabes que serie empezar a ver ahora? Te dejo mis recomendaciones.
 
-Haz click en los enlaces pára más información:
+Haz click en los enlaces para más información:
 
 ## Series relativamente actuales
 * [Home Ground](https://www.filmaffinity.com/es/film857157.html) - Filmin
@@ -47,10 +47,8 @@ Haz click en los enlaces pára más información:
 * [El código que valía millones](https://www.filmaffinity.com/es/film425311.html) - Netflix
 * [Endeavour](https://www.filmaffinity.com/es/film183353.html) - Filmin
 * [Baron noir](https://www.filmaffinity.com/es/film392787.html) - HBO Max
-* [Culpable](https://www.filmaffinity.com/es/film106920.html) - Netfilx
 * [Gloria](https://www.filmaffinity.com/es/film859950.html) - Netflix
 
-## Película friki antigua
-* [IKARIE XB 1](https://www.filmaffinity.com/es/film149876.html) - Filmin
-
 Espero que las disfrutes ;)
+
+Esta entrada se actualiza periódicamente.
