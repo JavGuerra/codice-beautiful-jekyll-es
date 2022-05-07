@@ -18,10 +18,10 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="post-preview">
-    ![Carousel](https://badared.com/javguerra/daw/galeria/foto.jpg){:width="200"}
-    <h2 class="post-title"><a href="{% post_url 2022-04-29-galeria-carousel %}">Carousel con Bootstrap</a></h2>
-    <h3 class="post-subtitle">Una pequeña galería de fotos de ejemplo</h3>
-    <small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
+<h2 class="post-title"><a href="{% post_url 2022-04-29-galeria-carousel %}">Carousel con Bootstrap</a></h2>
+<img scr="https://badared.com/javguerra/daw/galeria/foto.jpg" alt="Carousel" style="width: 250px;" />
+<h3 class="post-subtitle">Una pequeña galería de fotos de ejemplo</h3>
+<small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
 </article>
 
 <article class="post-preview">
