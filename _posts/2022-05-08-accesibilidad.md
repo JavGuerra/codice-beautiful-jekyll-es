@@ -2,12 +2,15 @@
 layout: post
 title: Accesibilidad Web
 subtitle: Buenas prácticas explicadas a través de un ejemplo
+thumbnail-img: /assets/img/accessibility.png
 tags: [código, HTML, CSS, javascript, accesibilidad, usabilidad]
 ---
 
 >«El poder de la Web está en su universalidad. El acceso por cualquier persona, independientemente de la discapacidad que presente es un aspecto esencial.»
 >  
 >_Fuente: [World Wide Web Consortium Launches International Program Office for Web Accessibility Initiative](https://www.w3.org/Press/IPO-announce). [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/), Director del W3C e inventor de la World Wide Web._
+
+![Accesibilidad](/assets/img/accessibility.png){: .mx-auto.d-block :}
 
 Todos presentamos o presentaremos en algún momento de nuestra vida alguna discapacidad. El envejecimiento de la población acentúa esto, sumando un número destacable de personas que requieren algún tipo de adaptación (visual, auditiva, motriz...) a la hora de acceder a la información, por eso es importante que nuestras web tengan esto en cuenta para poder llegar a cualquier tipo de público.
 
