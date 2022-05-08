@@ -27,15 +27,21 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="post-preview">
-    <h2 class="post-title"><a href="{% post_url 2022-04-30-logica-interactiva %}">Lógica interactiva</a></h2>
-    <h3 class="post-subtitle">Opciones, eventos, disparadores y estados</h3>
-    <small>Lógica, HTML, JavaScrip</small>
+<h2 class="post-title"><a href="{% post_url 2022-05-08-accesibilidad %}">Accesibilidad web</a></h2>
+<h3 class="post-subtitle">Buenas prácticas explicadas a través de un ejemplo</h3>
+<small>HTML, CSS, JavaScrip, Accesibilidad, Usabilidad</small>
 </article>
 
 <article class="post-preview">
-    <h2 class="post-title"><a href="{% post_url 2022-04-22-fizzbuzz %}">Fizz buzz</a></h2>
-    <h3 class="post-subtitle">Prueba de programación</h3>
-    <small>Lógica, JavaScript</small>
+<h2 class="post-title"><a href="{% post_url 2022-04-30-logica-interactiva %}">Lógica interactiva</a></h2>
+<h3 class="post-subtitle">Opciones, eventos, disparadores y estados</h3>
+<small>Lógica, HTML, JavaScrip</small>
+</article>
+
+<article class="post-preview">
+<h2 class="post-title"><a href="{% post_url 2022-04-22-fizzbuzz %}">Fizz buzz</a></h2>
+<h3 class="post-subtitle">Prueba de programación</h3>
+<small>Lógica, JavaScript</small>
 </article>
 
 <a href="{% link index.html %}" class="mt-5 btn btn-info text-uppercase"
