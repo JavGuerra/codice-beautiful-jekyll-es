@@ -2,6 +2,7 @@
 layout: post
 title: Series de TV
 subtitle: Mis recomendaciones de streaming
+thumbnail-img: /assets/img/tv.png
 tags: [tv, series, películas]
 ---
 
