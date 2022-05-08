@@ -73,7 +73,7 @@ Mediante el uso de etiquetas [WAI-ARIA](https://en.wikipedia.org/wiki/WAI-ARIA) 
 ```
 Esta pieza de código corresponde al menú de la página. El ```<button>``` permite que se despliegue y se repliegue (ON/OFF) el menú del ```<nav>``` cuando nuestro dispositivo tiene una pantalla pequeña (es _responsive_). Así pues, con ```aria-controls="menu"```, establecemos esa relación. Con ```aria-label="Botón de menú"``` aportamos una descripción de la función del botón. Y con ```aria-expanded="false"``` indicamos si el botón esta activado o no. En este caso aparece como ```false```, desactivado, pero esto puede cambiar la hacer clic, y es nuestra responsabilidad actualizar esta etiqueta mediante JavaScript, como se hace en el fichero ```script.js```:
 
-```JavaScript
+```javascript
 const h = document.getElementById("hamburguesa");
 h.onclick = hamburguesa;
 ...
