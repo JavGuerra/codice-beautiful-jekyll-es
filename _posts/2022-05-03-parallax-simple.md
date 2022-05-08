@@ -2,6 +2,7 @@
 layout: post
 title: Un simple efecto Parallax
 subtitle: Efectos con CSS
+thumbnail-img: /assets/img/css.png
 tags: [código, HTML, CSS]
 ---
 
