@@ -99,7 +99,7 @@ Conclusiones
 ------------
 Hacer desarrollo web accesible no es más complicado que hacer diseño _responsive_, aunque implica más tiempo de desarrollo.
 
-Contempla estas tres cosas:
+Contempla lo siguiente:
 - Hacer contenido claro, bien estructurado, y definir adecuadamente el contexto de cada cosa que mostremos en la web. Desarrollamos para personas.
 - Aportar atajos y ayudas a la navegación si es posible, y sin exagerar.
 - Vigilar los eventos interactivos, y señala adecuadamente sus estados.
