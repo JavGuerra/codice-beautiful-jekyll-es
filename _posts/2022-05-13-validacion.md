@@ -3,7 +3,7 @@ layout: post
 title: Validación de formularios
 subtitle: Combinando validaciones propias con las de HTML5
 thumbnail-img: /assets/img/validacion.png
-tags: [código, HTML, CSS, javascript, usabilidad]
+tags: [código, HTML, javascript, usabilidad]
 ---
 ¿Cómo procesar un formulario antes de enviarlo, realizando validaciones propias en sus campos y aprovechando simultáneamente la validación de restricciones implícita en HTML5?
 
