@@ -26,7 +26,7 @@ Esto podemos hacerlo de dos formas:
 
 La opción elegida aquí es la segunda por ser la más simple para cumplir el objetivo marcado de llevar a cabo ambas validaciones. Desde la mencionada función ```validaForm()``` comprobamos la edad con la función ```validaEdad()``` que debe devolver ```True``` o ```False```, y comprobamos si el formulario tiene errores con ```form.checkValidity()```, que también devuelve ```True``` o ```False```. Si ambas comprobaciones son ```True```, el formulario se envía.
 
-A diferencia del evento ```submit``` asociado al botón ```type="submit"```, cunado usamos ```form.submit()``` no se lleva a cabo una validación del formulario, por lo que debemos realizarla con ```form.checkValidity()```.
+A diferencia del evento ```submit``` asociado al botón ```type="submit"```, cuando usamos ```form.submit()``` no se lleva a cabo la validación del formulario, por lo que debemos realizarla nosotros mismos con ```form.checkValidity()```.
 
 Veamos el código JavaScript:
 
