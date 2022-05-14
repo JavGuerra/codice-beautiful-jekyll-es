@@ -9,11 +9,9 @@ Cree atractivos diseños interactivos basados ​​en HTML5 y gráficos en movi
 
 Así se presenta [Google Web Designer](http://badared.com/javguerra/daw/animacion/) en su web. Se trata de una herramienta disponible para varios sistemas operativos que puede descargarse para crear animaciones y elementos interactivos en HTML5 y que se integra con otros productos de Google, como Google Drive, Display & Video 360 y Google Ads.
 
-Veamos cómo funciona con un ejemplo:
+Veamos cómo funciona con un ejemplo: [<button>Ver animación</button>](http://badared.com/javguerra/daw/animacion/)
 
 ![Cronómetro](/assets/img/cronometro.png){: .mx-auto.d-block :}
-
-[<button>Ver animación.</button>](http://badared.com/javguerra/daw/animacion/)
 
 Esta simple animación que preparé para la asignatura de Diseño de Interfaces Web de F.P.G.S. de Desarrollo de Aplicaciones Web, contiene la imagen de un cronómetro en formato SVG que creé con la herramienta Inkscape, y dos botones que nos permiten iniciar y parar la animación o reiniciar la animación. Al iniciar con el botón «START», las agujas del cronómetro comienzan a correr hasta llegar a 20 segundos, momento en el que suena una campanilla, y la animación vuelve a su punto de origen.
 
@@ -31,4 +29,5 @@ Permite:
 
 Finalmente, el resultado del trabajo con **Google Web Designer** es completamente compatible con los estándares web actuales, manejando con CSS y JavaScript toda la animación y gestión de eventos, y ofreciendo resultados adaptables al dispositivo donde se muestre la animación interactiva.
 
-[<button>Descargar Google Web Designer</button>](http://badared.com/javguerra/daw/animacion/)
+* [<button>Descargar Google Web Designer</button>](http://badared.com/javguerra/daw/animacion/)
+* [<button>Ver animación de ejemplo</button>](http://badared.com/javguerra/daw/animacion/)
