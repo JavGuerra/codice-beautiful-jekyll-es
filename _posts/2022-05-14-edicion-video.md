@@ -2,6 +2,7 @@
 layout: post
 title: Edición de video
 subtitle: Ejemplo realizado con OpenShot Video Editor
+cover-img: http://badared.com/javguerra/daw/video/imgs/poster.jpg
 thumbnail-img: /assets/img/big-buck-bunny.png
 tags: [HTML, CSS, video, edición, herramientas]
 ---
@@ -20,4 +21,6 @@ El ejercicio muestra, no obstante, algunas cuestiones interesantes:
 * El video incluye efectos de imagen, transiciones, música y títulos de crédito.
 
 El video _maltratado_ aquí, corresponde al corto «[Big Buck Bunny](https://peach.blender.org/)» realizado con la herramienta 3D [Blender](https://www.blender.org/). Ambos, el video y la herramienta, son de uso libre.
+
+[OpenShot Video Editor](https://www.openshot.org/es/) es una herramienta de edición libre que merece una entrada a parte más adelante.
 
