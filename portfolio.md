@@ -27,6 +27,13 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="post-preview">
+<img class="shadow-sm mb-2" src="{%  link assets/img/cronometro.png %}" alt="Animación" width="250"/>
+<h2 class="post-title"><a href="{% post_url 2022-05-14-animacion %}">Animación interactiva</a></h2>
+<h3 class="post-subtitle">Ejemplo realizado con Google Web Designer</h3>
+<small>HTML, CSS, javascript, animación, herramientas</small>
+</article>
+
+<article class="post-preview">
 <img class="shadow-sm mb-2" src="{%  link assets/img/accessibility.png %}" alt="Accesibilidad" width="250"/>
 <h2 class="post-title"><a href="{% post_url 2022-05-08-accesibilidad %}">Accesibilidad web</a></h2>
 <h3 class="post-subtitle">Buenas prácticas explicadas a través de un ejemplo</h3>

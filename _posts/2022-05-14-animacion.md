@@ -27,7 +27,7 @@ Permite:
 * Crea y manipula contenido 3D usando CSS3. Permite girar objetos y diseños 2D a lo largo de cualquier eje, visualizando transformaciones y traslaciones 3D mientras editamos.
 * Admite una amplia gama de [formatos](https://www.richmediagallery.com/formats) de anuncios gráficos y de video en todas sus plataformas publicitarias.
 
-Finalmente, el resultado del trabajo con **Google Web Designer** es completamente compatible con los estándares web actuales, manejando con CSS y JavaScript toda la animación y gestión de eventos, y ofreciendo resultados adaptables al dispositivo donde se muestre la animación interactiva.
+Aunque no es muy conocida, es una herramienta potente, y finalmente, el resultado del trabajo con **Google Web Designer** es completamente compatible con los estándares web actuales, manejando con CSS y JavaScript toda la animación y gestión de eventos, y ofreciendo resultados adaptables al dispositivo donde se muestre la animación interactiva.
 
 * [<button>Descargar Google Web Designer</button>](http://badared.com/javguerra/daw/animacion/)
 * [<button>Ver animación de ejemplo</button>](http://badared.com/javguerra/daw/animacion/)
