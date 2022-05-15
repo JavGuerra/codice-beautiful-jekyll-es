@@ -57,6 +57,6 @@ El código JavaScript se inserta en la página en la posición donde se deben mo
 
 Para generar un nuevo «cadáver exquisito» hacemos clic en el botón «Pulse» que recargará la página, generando un nuevo resultado, pues el momento en el tiempo entre la primera composición de imágenes y la nueva es distinto.
 
-* [<button>Ver el juego dle cadáver exquisito</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
-* [Ver la página de información del juego](http://badared.com/javguerra/contenidos/lce/juego.htm)
+* [<button>Ver el juego del cadáver exquisito</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
+* [Ver la página de información del juego](http://badared.com/javguerra/contenidos/lce/index.htm)
 * [El cadáver exquisito en Wikipedia](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito)
