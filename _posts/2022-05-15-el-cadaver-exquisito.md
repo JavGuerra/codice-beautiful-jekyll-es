@@ -10,11 +10,11 @@ _Imagen: Victor Brauner, André Bretón, Jacques Hérold e Yves Tanguy (1935)_
 
 >«El cadáver / exquisito / beberá / el vino / nuevo»
 
-Alrededor de los años veinte, los pintores surrealistas inventaron un juego para "fabricar" figuras fantásticas. En realidad, era un derivado de un juego que ya se hacía con las palabras y que consistía en componer una frase entre varias personas: uno de los participantes en el juego escribe la primera palabra de una frase y luego pliega la hoja de forma que su palabra quede oculta; el que está a su lado hace lo mismo, pasa la hoja a su vecino y así sucesivamente... 
+Alrededor de los años veinte, los pintores surrealistas inventaron un juego para «fabricar» figuras fantásticas. En realidad, era un derivado de un juego que ya se hacía con las palabras y que consistía en componer una frase entre varias personas: uno de los participantes en el juego escribe la primera palabra de una frase y luego pliega la hoja de forma que su palabra quede oculta; el que está a su lado hace lo mismo, pasa la hoja a su vecino y así sucesivamente... 
 
 En Francia, el juego con las palabras se llama «[_Le cadavre exquis_](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito)» porque la primera frase escrita con este sistema rezaba: «El cadáver / exquisito / beberá / el vino / nuevo».
 
-En lugar de jugar con palabras, los pintores surrealistas utilizaron las partes de una figura: el primer jugador dibuja la cabeza; el segundo, el cuerpo; el tercero, las piernas; y el último, los pies. Basta con indicar, sobre la línea plegada, los puntos donde se dejó el dibujo escondido. Con este sistema es posible dibujar personajes fantásticos, animales y plantas... ¡De otro mundo!
+En lugar de jugar con palabras, los pintores surrealistas utilizaron las partes de una figura: el primer jugador dibuja la cabeza; el segundo, el cuerpo; el tercero, las piernas; y el último, los pies. Basta con indicar, sobre la línea plegada, los puntos donde se dejó el dibujo escondido. Con este sistema es posible dibujar personajes fantásticos, animales y plantas... ¡de otro mundo!
 
 Tomando esta idea como referencia, en un «**Taller de experimentación artística por ordenador**» que impartí para el [Museo Extremeño e Iberoamericano de Arte Contemporáneo (MEIAC)](https://meiac.es) en 1997, llevamos a cabo una versión digital de dicho juego.
 
