@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Edición de video
-subtitle: Ejemplo realizado con OpenShot Video Editor
+title: El cadáver exquisito
+subtitle: Un juego de experimentación artística por ordenador
 cover-img: http://badared.com/javguerra/contenidos/lce/imagen.gif
-thumbnail-img: /assets/img/el-cadaver-exquisito.png
-tags: [HTML, CSS, javascript, arte]
+thumbnail-img: http://badared.com/javguerra/contenidos/lce/imagen.gif
+tags: [HTML, CSS, javascript, arte, MEIAC]
 ---
 _Imagen: Victor Brauner, André Bretón, Jacques Hérold e Yves Tanguy (1935)_
 
@@ -53,9 +53,9 @@ document.write('<img src="abajo/image'+numero+'.jpg" width="250" height="130"><b
 
 Para obtener resultados al azar, usé los datos de fecha y hora para generar valores pseudo-aleatorios en un rango de enteros entre 0 y 9. Y para poner las imágenes emplee ```document.write()``` pasándole como parámetro el código HTML que mostraría cada una de las tres imágenes aleatorias. Para conseguir el número de imagen empleé ```Math.round()``` con la fórmula que puede verse en el código. Con dichas operaciones, cada vez que se genera la página se obtienen valores lo suficientemente distintos como para obtener resultados que no se repiten.
 
-El código JavaScript se inserta en la página en la posición donde se deben mostrar las imágenes, de esa forma el ```document.write()``` no requiere localizar el elemento donde será insertado.
+El código JavaScript se inserta en la página en la posición donde se deben mostrar las imágenes, de esa forma el ```document.write()``` no requiere localizar el elemento dentro del cual poner las imágenes. El código ya esa ahí.
 
-Para generar un nuevo «cadáver exquisito» hacemos clic en el botón «Pulse» que recargará la página, generando un nuevo resultado.
+Para generar un nuevo «cadáver exquisito» hacemos clic en el botón «Pulse» que recargará la página, generando un nuevo resultado, pues el momento en el tiempo entre la primera composición de imágenes y la nueva es distinto.
 
 * [<button>Ver el juego dle cadáver exquisito</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
 * [Ver la página de información del juego](http://badared.com/javguerra/contenidos/lce/juego.htm)
