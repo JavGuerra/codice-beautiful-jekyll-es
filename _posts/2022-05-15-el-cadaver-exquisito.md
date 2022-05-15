@@ -16,7 +16,7 @@ En Francia, el juego con las palabras se llama «[_Le cadavre exquis_](https://e
 
 En lugar de jugar con palabras, los pintores surrealistas utilizaron las partes de una figura: el primer jugador dibuja la cabeza; el segundo, el cuerpo; el tercero, las piernas; y el último, los pies. Basta con indicar, sobre la línea plegada, los puntos donde se dejó el dibujo escondido. Con este sistema es posible dibujar personajes fantásticos, animales y plantas... ¡de otro mundo!
 
-Tomando esta idea como referencia, en un «**Taller de experimentación artística por ordenador**» que impartí para el [Museo Extremeño e Iberoamericano de Arte Contemporáneo (MEIAC)](https://meiac.es) en 1997, llevamos a cabo una versión digital de dicho juego.
+Tomando esta idea como referencia, en un «**Taller de experimentación artística por ordenador**» que impartí para el [Museo Extremeño e Iberoamericano de Arte Contemporáneo (MEIAC)](http://meiac.es) en 1997, llevamos a cabo una versión digital de dicho juego.
 
 ![Página web](/assets/img/el-cadaver-exquisito.png){: .mx-auto.d-block :}
 
@@ -24,13 +24,13 @@ Aquí el resultado: [<button>Ver la página web</button>](http://badared.com/jav
 
 Visualmente, el resultado no está a la altura de los estándares de hoy día. Tampoco la codificación de la página es un prodigio, pero su código guarda algo interesante que ahora contaré.
 
-La mecánica del juego es sencilla. Los alumnos hicieron un total de 10 dibujos completos de sus personajes fantásticos imaginados. Estas imágenes fueron escaneadas, divididas en tres partes y almacenadas en tres carpetas distintas: «arriba», «medio» y «abajo» todas con el mismo tamaño. Cada imagen fue numerada como ```image0.jpg``` a ```image9.jpg```.
+La mecánica del juego es sencilla. Los alumnos hicieron un total de diez (10) dibujos completos de sus personajes fantásticos imaginarios, de cabeza a pies. Estas imágenes fueron escaneadas, divididas en tres partes y almacenadas en tres carpetas distintas: «arriba», «medio» y «abajo» todas con el mismo tamaño. Cada imagen fue numerada como ```image0.jpg``` a ```image9.jpg```, y todas ellas usaban los mismos puntos de corte para la cabeza, el cuerpo y las extremidades inferiores.
 
-La web elige al azar una imagen de cada una de las tres carpetas, mostrando una composición de ellas totalmente nueva e inesperada. Ahora es el ordenador el que juega al cadáver exquisito.
+La página elige al azar una imagen de cada una de las tres carpetas mencionadas, mostrando una composición de ellas totalmente nueva e inesperada. ¡Ahora es el ordenador el que juega al cadáver exquisito!
 
 ## ¿Como funciona?
 
-Esta es la parte sorprendente. en aquellos días los navegadores soportaban JavaScript de forma limitada, y las versiones del lenguaje no estaban tan avanzadas. No se disponía de la función matemática ```Math.random()``` y el acceso al DOM estaba en pañales. Pero con el siguiente código que me ayudó a escribir en su momento un buen amigo, se hizo posible.
+Esta es la parte sorprendente. En aquellos días los navegadores soportaban JavaScript limitadamente, y las versiones del lenguaje no estaban tan avanzadas. No se disponía de la función matemática ```Math.random()``` y el acceso al DOM estaba en pañales. Pero con el siguiente código que me ayudó a escribir en su momento un buen amigo, se hizo posible.
 
 ```javascript
 var valor=9;
