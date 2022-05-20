@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beca Santander
+title: Bootcamp Beca Santander
 subtitle: Programa digital reskilling Desarrollo Web Full Stack - Fundación Universia - Indra
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/beca-santander-fswd.png
@@ -19,6 +19,12 @@ La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para 
 - Módulo 2: Back end development 
 - Módulo 3: Front end con ReactJS 
 - Módulo 4: DevOps
-- Módulo 5: Lanza tu carrera digital 
+- Módulo 5: Lanza tu carrera digital
+
+## Trabajos realizados en el Bootcamp
+
+* [Práctica final del Ramp up]({% post_url 2022-04-23-pagina-de-ejemplo %})
+* [Ejercicios de JavaScript avanzado](https://javguerra.github.io/02-bootcamp-fs-javascript/)
+
 
 Para saber más: [Página de la beca en The Bridge](https://www.thebridge.tech/curso/bootcamp-indra-fundacion-universia#solicitud-beca)
