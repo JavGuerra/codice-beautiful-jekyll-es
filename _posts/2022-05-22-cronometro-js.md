@@ -2,12 +2,12 @@
 layout: post
 title: Cronómetro en JavaScript
 subtitle: Gestiona sesiones de los cronometrajes
-thumbnail-img: view-source:https://javguerra.github.io/CronometroJS/assets/img/banner.png
+thumbnail-img: https://javguerra.github.io/CronometroJS/assets/img/banner.png
 tags: [código, css, html, javascript]
 ---
-![CronómetroJS](https://javguerra.github.io/CronometroJS/assets/img/banner.png){: .mx-auto.d-block :}
-
 Ejercicio de programación realizado en el [bootcamp Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy haciendo.
+
+![CronómetroJS](https://javguerra.github.io/CronometroJS/assets/img/banner.png){: .mx-auto.d-block :}
 
 [<button>Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)
 
