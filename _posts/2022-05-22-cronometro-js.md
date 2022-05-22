@@ -35,33 +35,33 @@ La aplicación que he desarrollado cumple con el enunciado, haciendo uso de las 
 
 **Operativa de la aplicación**:
 
-- Los botones del cronómetro se activan y desactivan según sean necesarios en cada función de la aplicación.
+- Los botones del cronómetro se activan y desactivan según sean necesarios en cada función de la aplicación. Se recomienda leer mi entrada sobre [lógica interactiva]({% post_url 2022-04-30-logica-interactiva %}).
 - Implementa cuenta regresiva en el contador hasta 10.
 - Al guardar un cronometraje, se muestra la lista de los cronometrajes de la sesión actual. Podemos listar también los cronometrajes de todas las sesiones, incluida la actual. El listado mostrará la sesión, el número del cronometraje dentro de esta sesión, el tiempo guardado (minutos y segundos), la fecha y hora, y el botón de borrar.
-- Al borrar una sesión desde la lista de sesiones, si no se trata de la sesión actual, la aplicación reordena las sesiones para no dejar huecos entre ellas. Si tenemos cinco sesione,s y borramos la tres, la sesion cuatro pasará a ser la tres, y la sesión cinco pasará a ser la cuatro. 
+- Al borrar una sesión desde la lista de sesiones, si no se trata de la sesión actual, la aplicación reordena las sesiones para no dejar huecos entre ellas. Si tenemos cinco sesiones, y borramos la sesión tres, la sesión cuatro pasará a ser la tres, y la sesión cinco pasará a ser la cuatro. 
 
 **Desde el punto de vista de la usabilidad**:
 
 - Web adaptable según el dispositivo.
 - Cuidado aspecto visual empleando CSS.
-- Usa [Bootstrap Icons](https://icons.getbootstrap.com/) y fuente personalizada llamada [Digit](https://www.dafont.com/digit.font) (__sin info del autor__).
+- Usa [Bootstrap Icons](https://icons.getbootstrap.com/) y fuente personalizada llamada [Digit](https://www.dafont.com/digit.font) (_sin info del autor_).
 - Es accesible, empleando etiquetas descriptoras y etiquetas [WAI-ARIA](https://en.wikipedia.org/wiki/WAI-ARIA) para señalar las regiones de la web que cambian durante la ejecución de la aplicación.
 - Ha sido probada en los navegadores web **Firefox** y **Chrome**.
 
 ## Problemas resueltos:
 
-A la hora de guardar y recuperar las sesiones guardadas en **localStorage** creí erróneamente que estas se guardaban en orden descendiente, que podía recorrer la lista de claves de **localStorage** con un bucle, como si se tratase de una pila de datos '**LIFO**' (Last Input - First Output), de tal forma que la última clave que añadimos a localStorage sería la primera en la lista, y su número de orden sería 0. Así, si recorría la lista con ```clave = localStorage.key(i)```, obtendría primero la clave 0, la última, luego la 1, la penúltima, la 2, la antepenúltima, etc… pero esto no funciona siempre así.
+A la hora de guardar y recuperar las sesiones guardadas en **localStorage** creí erróneamente que estas se guardaban en orden descendiente, que podía recorrer la lista de claves de **localStorage** con un bucle, como si se tratase de una pila de datos «**LIFO**» (_Last Input - First Output_), de tal forma que la última clave que añadimos a **localStorage** sería la primera en la lista, y su número de orden sería 0. Así, si recorría la lista con ```clave = localStorage.key(i)```, obtendría primero la clave 0, la última, luego la 1, la penúltima, la 2, la antepenúltima, etc… pero esto no funciona siempre así.
 
 Parece que no podemos confiar en este orden, por lo que las sesiones deben guardarse y recuperarse sin tener en cuenta la posición que ocupan en **localStorage**, lo que me obligó a reescribir la función ```historLocal()``` (listado del historial) y las «delicadas» funciones ```borraClave(clave)``` (borra una sesión) y ```ordenaClaves(clave, numSesiones)``` (ordena las sesiones cuando hay un hueco) que, sinceramente, me llevaron más tiempo del que merecían hasta que volvieron a estar perfectamente ajustadas.
 
-Otra cuestión que me sorprendió fue la del manejo de los tiempos en los intervalos en la cuenta regresiva (Contar hasta 10). **Firefox** y **Chrome** no funcionan igual. Si contamos desde 10 segundos hasta 0, realmente hay 11 segundos. Pues bien, mientras en Firefox esto funcionaba bien empleando ```parada10s = setTimeout( parateCrono, 11000);``` (parateCrono es una función que para el cronómetro) en Chrome el resultado final de la cuenta regresiva, en vez de ```0``` es ```-1```, así que debí crear la siguiente función para corregir esto:
+Otra cuestión que me sorprendió fue la del manejo de los tiempos en los intervalos empleados en la cuenta regresiva (Contar hasta 10). **Firefox** y **Chrome** no funcionan igual. Si contamos desde 10 segundos hasta 0, realmente hay 11 segundos. Pues bien, mientras en Firefox esto funcionaba bien empleando ```parada10s = setTimeout( parateCrono, 11000);``` (parateCrono es una función que para el cronómetro) en Chrome el resultado final de la cuenta regresiva, en vez de ```0``` es ```-1```, así que debí crear la siguiente función para corregir esto:
 
 ```javascript
 function limite(miliSeg) {
     return navigator.userAgent.indexOf("Firefox") > -1 ? miliSeg + 1000 : miliSeg;
 }
 ```
-Que comprueba si estamos usando Firefox, entonces devuelve el valor 11000 (11 segundos), sino devuelve 10000 (10 segundos) para luego poder usarlo de esta forma:
+Que comprueba si estamos usando Firefox, entonces devuelve el valor ```11000``` (11 segundos), sino devuelve ```10000``` (10 segundos), para luego poder usarlo de esta forma:
 
 ```javascript
 parada10s = setTimeout( parateCrono, limite(10000));
@@ -75,7 +75,7 @@ if (minSeg.minutos == 59 && minSeg.segundos == 59) {
     btnInactivo(btnContin, true);
 }
 ```
-dentro de la función que muestra el cronómetro, y que para el cronómetro y pone inactivo el botón de continuar.
+dentro de la función que muestra el cronómetro, y que para el cronómetro y pone inactivo el botón de continuar cuando la aplicación llega a 59 minutos y 59 segundos.
 
 ## Enlaces
 
