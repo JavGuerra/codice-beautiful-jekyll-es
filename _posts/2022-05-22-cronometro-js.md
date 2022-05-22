@@ -57,14 +57,14 @@ Parece que no podemos confiar en este orden, por lo que las sesiones deben guard
 Otra cuestión que me sorprendió fue la del manejo de los tiempos en los intervalos en la cuenta regresiva (Contar hasta 10). **Firefox** y **Chrome** no funcionan igual. Si contamos desde 10 segundos hasta 0, realmente hay 11 segundos. Pues bien, mientras en Firefox esto funcionaba bien empleando ```parada10s = setTimeout( parateCrono, 11000);``` (parateCrono es una función que para el cronómetro) en Chrome el resultado final de la cuenta regresiva, en vez de ```0``` es ```-1```, así que debí crear la siguiente función para corregir esto:
 
 ```javascript
-function limite(segundos) {
-    return navigator.userAgent.indexOf("Firefox") > -1 ? segundos * 1000 + 1000 : segundos;
+function limite(miliSeg) {
+    return navigator.userAgent.indexOf("Firefox") > -1 ? miliSeg + 1000 : miliSeg;
 }
 ```
 Que comprueba si estamos usando Firefox, entonces devuelve el valor 11000 (11 segundos), sino devuelve 10000 (10 segundos) para luego poder usarlo de esta forma:
 
 ```javascript
-parada10s = setTimeout( parateCrono, limite(10));
+parada10s = setTimeout( parateCrono, limite(10000));
 ```
 
 Por último, señalar que la aplicación maneja sólo minutos y segundos, hasta un máximo de 3.599 segundos, por lo que he incluido el siguiente código:
