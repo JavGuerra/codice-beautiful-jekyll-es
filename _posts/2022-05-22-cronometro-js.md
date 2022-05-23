@@ -51,6 +51,21 @@ La aplicación que he desarrollado cumple con el enunciado, haciendo uso de las 
 
 ## Problemas resueltos:
 
+La aplicación emplea una serie de funciones para activar y desactivar los botones e incluir las etiquetas WAI-ARIA correspondientes.
+
+Con dos variables controlamos los eventos del cronómetro (```cronometro```) y del final de la cuenta atrás (```parada10s```).
+
+La variable ```tiempo``` guarda el tiempo en segundos que se llevan contabilizados en el cronometraje en cada momento.
+
+En ```sesion``` guardamos los cronometrajes de la sesión actual. Es un vector o Array de objetos, donde cada objeto es un cronometraje, que se guarda en el formato:
+
+```javascript
+{'segundos': tiempo, 'fechaHora': fechaHora}
+```
+En ```numSesion``` guardamos el número de sesión actual. Las sesiones se guardan en **localStorage** con el nombre que corresponde a su número de orden.
+
+Uso una sesión o clave guardada en **localStorage** con el nombre ```ultSesion``` que contiene el número de orden de la última sesión guardada. De esta forma puedo consultarla para saber si hay sesiones guardadas, y cuál es el número de orden de la última que se guardó.
+
 A la hora de guardar y recuperar las sesiones guardadas en **localStorage** creí erróneamente que estas se guardaban en orden descendiente, que podía recorrer la lista de claves de **localStorage** con un bucle, como si se tratase de una pila de datos «**LIFO**» (_Last Input - First Output_), de tal forma que la última clave que añadimos a **localStorage** sería la primera en la lista, y su número de orden sería 0. Así, si recorría la lista con ```clave = localStorage.key(i)```, obtendría primero la clave 0, la última, luego la 1, la penúltima, la 2, la antepenúltima, etc… pero esto no funciona siempre así.
 
 Parece que no podemos confiar en este orden, por lo que las sesiones deben guardarse y recuperarse sin tener en cuenta la posición que ocupan en **localStorage**, lo que me obligó a reescribir la función ```historLocal()``` (listado del historial) y las «delicadas» funciones ```borraClave(clave)``` (borra una sesión) y ```ordenaClaves(clave, numSesiones)``` (ordena las sesiones cuando hay un hueco) que, sinceramente, me llevaron más tiempo del que merecían hasta que volvieron a estar perfectamente ajustadas.
