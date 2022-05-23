@@ -44,6 +44,7 @@ La aplicación que he desarrollado cumple con el enunciado, haciendo uso de las 
 
 - Web adaptable según el dispositivo.
 - Cuidado aspecto visual empleando CSS.
+- El formateo básico se realiza mediante una clase CSS llamada [wysiwyg.css](https://jgthms.com/wysiwyg.css/) de la que hablé en [este post]({% post_url 2022-04-27-wysiwyg-css %}).
 - Usa [Bootstrap Icons](https://icons.getbootstrap.com/) y fuente personalizada llamada [Digit](https://www.dafont.com/digit.font) (_sin info del autor_).
 - Es accesible, empleando etiquetas descriptoras y etiquetas [WAI-ARIA](https://en.wikipedia.org/wiki/WAI-ARIA) para señalar las regiones de la web que cambian durante la ejecución de la aplicación.
 - Ha sido probada en los navegadores web **Firefox** y **Chrome**.
