@@ -82,6 +82,7 @@ dentro de la función que muestra el cronómetro, y que para el cronómetro y po
 
 * [<button>Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)
 * [Ver el código fuente](https://github.com/JavGuerra/CronometroJS)
+* [Descargar la app](file:///home/javguerra/Estudios/The_Bridge%20Bootcamp%20FSWD/ejercicios/02-bootcamp-fs-javascript/entregas/cronometro.zip)
 
 **Referencias**:  
 * https://www.w3schools.com/jsref/met_win_settimeout.asp
