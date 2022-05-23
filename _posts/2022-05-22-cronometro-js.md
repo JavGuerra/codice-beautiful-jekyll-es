@@ -86,8 +86,7 @@ Esto para el cronómetro y pone inactivo el botón de continuar cuando la aplica
 * [Descargar la app](file:///home/javguerra/Estudios/The_Bridge%20Bootcamp%20FSWD/ejercicios/02-bootcamp-fs-javascript/entregas/cronometro.zip)
 
 **Referencias**:  
-* https://www.w3schools.com/jsref/met_win_settimeout.asp
-* https://www.w3schools.com/jsref/met_win_setinterval.asp
-* https://es.javascript.info/localstorage
-* https://lineadecodigo.com/html5/listar-el-contenido-de-local-storage-en-html5/
+* [setTimeout](https://www.w3schools.com/jsref/met_win_settimeout.asp)
+* [setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+* [localStorage](https://es.javascript.info/localstorage)
 
