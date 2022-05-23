@@ -67,8 +67,9 @@ Que comprueba si estamos usando Firefox, entonces devuelve el valor ```11000``` 
 ```javascript
 parada10s = setTimeout( parateCrono, limite(10000));
 ```
+Los iconos de los botones inicialmente era confusa. Con la revisión del compañero del bootcamp **Francesc** cambié la combinación de iconos para hacer la aplicación más usable.
 
-Por último, señalar que la aplicación maneja sólo minutos y segundos, hasta un máximo de 3.599 segundos, por lo que he incluido el siguiente código:
+Por último, señalar que la aplicación maneja sólo minutos y segundos, hasta un máximo de 3.600 segundos (de 0 a 3.599). Inspirado por la presentación del compañero del bootcamp **Borja**, incluí el siguiente código dentro de la función que muestra el cronómetro:
 
 ```javascript
 if (minSeg.minutos == 59 && minSeg.segundos == 59) {
@@ -76,7 +77,7 @@ if (minSeg.minutos == 59 && minSeg.segundos == 59) {
     btnInactivo(btnContin, true);
 }
 ```
-dentro de la función que muestra el cronómetro, y que para el cronómetro y pone inactivo el botón de continuar cuando la aplicación llega a 59 minutos y 59 segundos.
+Esto para el cronómetro y pone inactivo el botón de continuar cuando la aplicación llega a 59 minutos y 59 segundos.
 
 ## Enlaces
 
