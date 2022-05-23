@@ -31,3 +31,5 @@ Esta tabla resumida incluye sólo la interacción de estados de los botones, -ob
 * Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/02-bootcamp-fs-javascript/entregas/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/02-bootcamp-fs-javascript/entregas/12-nodos-tabla.xls).
 
 De paso, este ejercicio sirve para mostrar el uso de JavaScript en el manejo de nodos del DOM.
+
+**Actualización**. Ver este ejemplo de uso de botonera aún más complicado: [Cronómetro en JavaScript]({% post_url 2022-05-22-cronometro-js %})
