@@ -53,16 +53,16 @@ La aplicación que he desarrollado cumple con el enunciado, haciendo uso de las 
 
 La aplicación emplea una serie de funciones para activar y desactivar los botones e incluir las etiquetas WAI-ARIA correspondientes.
 
-Con dos variables controlamos los eventos del cronómetro (```cronometro```) y del final de la cuenta atrás (```parada10s```).
+Con dos variables controlo los eventos del cronómetro (```cronometro```) y del final de la cuenta atrás (```parada10s```).
 
 La variable ```tiempo``` guarda el tiempo en segundos que se llevan contabilizados en el cronometraje en cada momento.
 
-En ```sesion``` guardamos los cronometrajes de la sesión actual. Es un vector o Array de objetos, donde cada objeto es un cronometraje, que se guarda en el formato:
+En ```sesion``` guardo los cronometrajes de la sesión actual. Es un vector o Array de objetos, donde cada objeto es un cronometraje, que se guarda en el formato:
 
 ```javascript
 {'segundos': tiempo, 'fechaHora': fechaHora}
 ```
-En ```numSesion``` guardamos el número de sesión actual. Las sesiones se guardan en **localStorage** con el nombre que corresponde a su número de orden.
+En ```numSesion``` guardo el número de sesión actual. Las sesiones se guardan en **localStorage** con el nombre que corresponde a su número de orden.
 
 Uso una sesión o clave guardada en **localStorage** con el nombre ```ultSesion``` que contiene el número de orden de la última sesión guardada. De esta forma puedo consultarla para saber si hay sesiones guardadas, y cuál es el número de orden de la última que se guardó.
 
@@ -82,7 +82,7 @@ Que comprueba si estamos usando Firefox, entonces devuelve el valor ```11000``` 
 ```javascript
 parada10s = setTimeout( parateCrono, limite(10000));
 ```
-Los iconos de los botones inicialmente era confusa. Con la revisión del compañero del bootcamp **Francesc** cambié la combinación de iconos para hacer la aplicación más usable.
+Los iconos empleados en los botones inicialmente eran confusos. Con la revisión del compañero del bootcamp **Francesc** cambié la combinación de iconos para hacer la aplicación más usable.
 
 Por último, señalar que la aplicación maneja sólo minutos y segundos, hasta un máximo de 3.600 segundos (de 0 a 3.599). Inspirado por la presentación del compañero del bootcamp **Borja**, incluí el siguiente código dentro de la función que muestra el cronómetro:
 
