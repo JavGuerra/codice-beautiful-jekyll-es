@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Spinner loader asíncrono
-subtitle: Spinner activo mientras que terminan los procesos asíncronos
+subtitle: Spinner activo mientras terminan todos los procesos asíncronos
 thumbnail-img: /assets/img/spinner-loader.png
-tags: [código, css, html, javascript]
+tags: [código, css, html, javascript, usabilidad]
 ---
 Durante los procersos asíncronos que se llevan a cabo, por ejemplo al usar ```fetch()``` para consumir una **API** remota, se producen retrasos al mostrar los resultados en el navegador. El uso de _spinner loader_ ayuda a informar al usuario de que uno o varios procesos están en marcha y se está procesando la información que solicitó tal vez mediante un campo de búsqueda.
 
@@ -54,13 +54,13 @@ Para dibujar el _spinner loader_, seguí las indicaciones de la entrada «[Cómo
 }
 ```
 
-El modal identificado como ```#zona``` se mostrará sin fondo y sin borde, osea, totalmente transparente. En él mostraremos el _spinner loader_. ```#zona``` tendrá el tamaño del  _spinner loader_, y aparecerá centrado tanto vertical como horizontalmente en la pantalla, manteniéndose centrado aún haciendo _scroll_.
+El modal identificado como ```#zona``` se mostrará sin fondo y sin borde, osea, totalmente transparente. En él muestro el _spinner loader_. ```#zona``` tendrá el tamaño del  _spinner loader_, y aparecerá centrado tanto vertical como horizontalmente en la pantalla, manteniéndose centrado aún haciendo _scroll_.
 
-Con ```.spinner```se describe el aspecto del _spinner loader_ y se indicará que debe animarse infinitamente girando 360 grados cada segundo infinitamente.
+Con ```.spinner```se describe el aspecto del _spinner loader_ y se indicará que debe animarse infinitamente girando 360 grados cada segundo.
 
 ## Activando / desactivando
 
-Como estamos trabajando con procesos asíncronos, se puede dar el caso de que, al lanzar un proceso asíncrono, el _spinner loader_ ya esté mostrado, por tanto no tendremos que mostrarlo. Debemos controlar si hay procesos asíncronos en marcha. Esto lo hago con una simple variable ```spin``` que va incrementando o decrementando su valor según el número de procesos asíncronos lanzados.
+Como estamos trabajando con procesos asíncronos, se puede dar el caso de que, al lanzar un proceso asíncrono, el _spinner loader_ ya esté mostrado, por tanto no tendremos que mostrarlo. Debo controlar si hay procesos asíncronos en marcha. Esto lo hago con una simple variable ```spin``` que va incrementando o decrementando su valor según el número de procesos asíncronos lanzados.
 
 Inicializo también la variable ```intervalo``` que usaré para controlar un ```setInterval()``` que comprueba periódicamente el estado de los procesos asíncronos, osea, la variable ```spin```.
 
@@ -96,7 +96,7 @@ function compruebaSpin() {
 
 Cuando iniciamos un proceso asíncrono, se debe llamar a la función ```ponSpin(true)``` con el valor ```true```, esto incrementará en ```1``` el valor de ```spin```. Sólo si estoy incrementando ```spin``` (```estado = true```), y es la primera vez que se activa (```!intervalo```), lanzo ```compruebaSpin()``` cada 300 milisengundos con ```intervalo = setInterval(compruebaSpin, 300);```y muestro la ventana modal que contiene el _spinner loader_ con ```elZona.showModal();```.
 
-Es necesario lanzar el ```setInterval()``` porque desconocemos en qué momento los proceso asíncronos terminarán, por lo que se debe comprobar el estado de los procesos cada cierto tiempo.
+Es necesario lanzar el ```setInterval()``` porque desconocemos en qué momento los procesos asíncronos terminarán, por lo que se debe comprobar el estado de los procesos cada cierto tiempo.
 
 Al finalizar un proceso asíncrono debemos llamar de nuevo a la función con ```ponSpin(false)```, y el valor ```false``` decrementará en ```1``` el valor de ```spin```, que irá decreciendo hasta llegar a ```0```.
 
