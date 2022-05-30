@@ -98,7 +98,9 @@ function final() {
 
 Cada una de estas cuatro funciones llama a la función ```paginacion```, para acutalizar el contenido de la galería con tres valores: el vector, la página a mostrar y el número de fotos por página.
 
-En la función ```final``` calculo el número de páginas posibles atendiendo a la longitud del vector, así, obteniendo el valor entero resultante de dividir la longitud del vector entre el número de imágenes por página devolverá el número de la última página (o el número total de páginas) que guardo en ```pagina```, valor que necesito para llamar a la función:
+En la función ```final``` calculo el número de páginas posibles atendiendo a la longitud del vector, así, obteniendo el valor entero resultante de dividir la longitud del vector entre el número de imágenes por página devolverá el número de la última página (o el número total de páginas) que guardo en ```pagina```, valor que necesito para llamar a la función ```paginacion```.
+
+## Paginando
 
 ```javascript
 /* Pagina los elementos de un vector en función de página y elementos por página */
@@ -216,4 +218,7 @@ Como se aprecia, ```true = activa``` y ```false = desactiva``` la botonera mostr
 
 Con esto ya tendríamos presentada la página de la galería con el número de elementos indicado, la información de la página y los botones para movernos por la galería, que era el objetivo de esta entrada.
 
-Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
+## Enlaces
+
+* Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
+* El ejemplo anterior usa la API de [DOG CEO](https://dog.ceo/dog-api/).
