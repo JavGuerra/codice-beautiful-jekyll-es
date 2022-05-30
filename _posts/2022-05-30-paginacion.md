@@ -167,6 +167,8 @@ Recibe como parámetros el botón y el estado que deseamos ponerle: ```true = in
 
 Una vez tengo los botones en sus estados correctos, sólo queda mostrar la galería.
 
+## Mostrando
+
 ```javascript
 /* Muestra la cantidad de elementos de un vector desde la posición dada */
 function listaElementos(vector, inicio, elementos) {
