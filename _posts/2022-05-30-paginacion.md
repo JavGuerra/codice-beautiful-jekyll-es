@@ -9,14 +9,14 @@ tags: [código, css, html, javascript]
 
 Imaginemos una lista de entradas de un blog, o una galería de imágenes, con un número de items o elementos alto. Pongamos mil. Esto se hace difícil de manejar, tanto por las dimensiones de las pantallas como por el número de elementos al que el usuario prestará atención, y también existe un problema técnico, el consumo de memoria que implica mostrar todos los items de esa lista, y el tiempo que tarda en hacerlo. Ese retraso entre que se carga la página, se «pinta» y se devuelve el control al usuario supone un tiempo de espera incómodo.
 
-Paginar es mostrar el contenido separado en páginas para, de esta forma, hacerlo más asequible al usuario, y esta es la solución de la que hablaré hoy en esta entrada.
+Paginar es mostrar el contenido separado en páginas para, de esta forma, hacerlo más asequible al usuario, y esta es la solución de la que hablaré en esta entrada.
 
 ## Planteamiento
 
 {: .box-note}
-**Note:** Para una mejor comprensión de la resolución de este ejercicio, algunas variables que podrían ser globales, como es el caso de ```longitud``` del vector y otras, se repiten en las disitntas funciones.
+**Nota:** Para una mejor comprensión de la resolución de este ejercicio, algunas variables que podrían ser globales, como es el caso de ```longitud``` del vector y otras, se repiten en las disitntas funciones.
 
-En un vector o array tenemos una serie de elementos o items que queremos mostrar paginados, y queremos que estos items se muestren por ejemplo de diez en diez. Para hacerlo necesitaremos el vector, el número de elementos por página y deberemos averiguar el número de páginas que podemos mostrar. recorreremos las páginas con una variable que hará las veces de índice.
+En un vector o array tenemos una serie de elementos o items que queremos mostrar paginados, y queremos que estos items se muestren por ejemplo de diez en diez. Para hacerlo necesitaremos el vector, el número de elementos por página y deberemos averiguar el número de páginas que podemos mostrar. Luego recorreremos las páginas ayudandonos de una variable que hará las veces de índice.
 
 Para mostrar el resultado, el HTML contendrá lo siguiente:
 
@@ -24,18 +24,18 @@ Para mostrar el resultado, el HTML contendrá lo siguiente:
 <section id="galeria" role="region" aria-live="polite"></section>
 
 <section id="navegacion">
-    <button id="irInic" class="letras" aria-label="Inicio">&lt;&lt;</button>
-    <button id="anteri" class="letras" aria-label="Anterior">&lt;</button>
-    <span   id="pagina" class="cuenta" role="region" aria-live="polite"></span>
-    <button id="siguie" class="letras" aria-label="Siguiente">&gt;</button>
-    <button id="irFin"  class="letras" aria-label="Fin">&gt;&gt;</button>
+    <button id="irInic" aria-label="Inicio">&lt;&lt;</button>
+    <button id="anteri" aria-label="Anterior">&lt;</button>
+    <span   id="pagina" role="region" aria-live="polite"></span>
+    <button id="siguie" aria-label="Siguiente">&gt;</button>
+    <button id="irFin"  aria-label="Fin">&gt;&gt;</button>
 </section>
 ```
-Una sección ```galeria``` donde mostrar los items, pongamos que son imágenes.
+Una sección ```galeria``` donde mostrar los items. en este caso las imágenes.
 
 Una sección de ```navegacion``` con los botones para recorrer las páginas y donde informar al usuario de la página donde nos econtramos.
 
-Esto implica la siguiente configuración en el fichero .js:
+Esto implica la siguiente configuración de valores iniciales en el fichero ```.js```:
 
 ```javascript
 let nFotos  = 10;
@@ -98,7 +98,7 @@ function final() {
 
 Cada una de estas cuatro funciones llama a la función ```paginacion```, para acutalizar el contenido de la galería con tres valores: el vector, la página a mostrar y el número de fotos por página.
 
-En la función final tenemos que calcular el número de páginas posible atendiendo a la longitud del vector, así, obteniendo el siguiente valor entero resultante de dividir la longitud del vector entre el número de imágenes por página nos devolverá el número de la última página (o el número total de páginas), valor que necesitamos para llamar a la función:
+En la función ```final``` calculo el número de páginas posibles atendiendo a la longitud del vector, así, obteniendo el valor entero resultante de dividir la longitud del vector entre el número de imágenes por página devolverá el número de la última página (o el número total de páginas) que guardo en ```pagina```, valor que necesito para llamar a la función:
 
 ```javascript
 /* Pagina los elementos de un vector en función de página y elementos por página */
@@ -124,7 +124,7 @@ function paginacion(vector, pagina, elementos) {
 }
 ```
 
-Esta es la función donde se produce la magia. Tras hallar la longitud del vector recibido, si esta es mayor que cero, paso a calcular primeramente el elemento de ```inicio``` de la página que vamos a mostrar. Si la pagina es 1, elemento del vector que guardará ```inicio``` será ```0``` (cero), si la página es la ```2``` el valor será ```10```, pues cabe recordar que el número de elementos por página (```nFotos```) es ```10```, y así sucesivamente.
+Esta es la función donde se produce la «magia». Tras hallar la longitud del vector recibido, si esta es mayor que cero, paso a calcular primeramente el elemento de ```inicio``` de la página que vamos a mostrar. Si la pagina es 1, elemento del vector que guardará ```inicio``` será ```0``` (cero), si la página es la ```2``` el valor será ```10```, -pues cabe recordar que el número de elementos por página (```nFotos```) es ```10```-, y así sucesivamente.
 
 Realizo una serie de comprobaciones para obtener el valor de ```inicio``` adecuado: Si la página que recibimos por parámetros es mayor que el número de páginas posibles del vector, la página a mostrar será la última. Si el valor de página es menor que ```1```, el valor de página será ```1```, evitando de esta forma que el programa intente mostrar elementos del vector que no existen.
 
@@ -152,7 +152,7 @@ function ctrlBotonesPag(pagina, numPags) {
 
 Esta función primeramente activa todos los botones, por si fuese el caso de que alguno de los ellos hubiera sido desactivado previamente, y luego comprueba si estamos en la primera página, desactivando entonces los botones de **ir al inicio** de la galería (```btnIrInic```) e **ir a la página anterior** (```btnAnteri```) o si estamos en la última página, desactivando entonces **ir al a página siguiente** (```btnSiguie```) e **ir al final** de la galería (```btnIrFin```).
 
-Para activar y desactivar empleo la siguiente función:
+Para activar y desactivar los botones, empleo la siguiente función:
 
 ```javascript
 /* Cambia el estado de un botón dado */
@@ -193,14 +193,14 @@ Los parámetros que recibimos son el vector (```galeria```), el número del item
 
 Seguidamente limpio la página para: el contenido de la galería, el contenido de la info de la paginación, y oculto la botonera. Esto último lo hago con la función ```botonera(status)``` que veremos al finalizar.
 
-Con ```vector.slice(inicio, fin).forEach((urlFoto, i) => { // })``` primeramente obtenemos los elementos del vector que necesitamos con ```.slice(inicio, fin)``` y mediante el ```.forEach()``` itero los elementos a mostrar, obteniendo del vector la url de la foto ```urlFoto``` y el índice de elementos del ```.forEach()```. Dentro de la función flecha se incluye el código para mostrar las imágenes dentro del elemento ```elGaleria``` del **HTML**, por ejemplo:
+Con ```vector.slice(inicio, fin).forEach((urlFoto, i) => { // })``` primeramente obtenemos los elementos del vector que necesitamos con ```.slice(inicio, fin)``` y mediante el ```.forEach()``` itero los elementos a mostrar, obteniendo del vector la url de la foto (```urlFoto```) y el índice (```i```) de elementos del ```.forEach()```. Dentro de la función flecha se debe incluir el código para mostrar las imágenes dentro del elemento ```elGaleria``` del **HTML**, por ejemplo:
 
 ```javascript
 elGaleria.innerHTML +=`<div><a href="${urlFoto}" target="_blank">`
     + `<img src="${urlFoto}" alt="Foto ${primero + i}" /></a></div>`
 ```
 
-Al terminar de recorrer el array resultante de aplicar ```.slice()```, incluyo la información de la página en el elemento ```elPagina``` del **HTML**, y muestro la botonera que anteriormente oculté. Esta sería la función: 
+Al terminar de recorrer el vector resultante de aplicar ```.slice()```, incluyo la información de la página en el elemento ```elPagina``` del **HTML**, y muestro la botonera que anteriormente oculté. Esta sería la función para hacerlo que mencioné antes: 
 
 ```javascript
 /* Activa o desactiva la botonera */
@@ -214,6 +214,6 @@ function botonera(status) {
 
 Como se aprecia, ```true = activa``` y ```false = desactiva``` la botonera mostrándola u ocultándola.
 
-Con todo ello, ya tendríamos presentada la página de la galería con el número de elementos indicado, la información de la página y los botones para movernos por la galería, que era el objetivo de esta entrada.
+Con esto ya tendríamos presentada la página de la galería con el número de elementos indicado, la información de la página y los botones para movernos por la galería, que era el objetivo de esta entrada.
 
-Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html).
+Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
