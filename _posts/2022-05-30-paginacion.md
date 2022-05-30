@@ -3,7 +3,7 @@ layout: post
 title: Paginación
 subtitle: Como hacer una barra de navegación en JS
 thumbnail-img: /assets/img/paginacion.jpg
-tags: [código, css, html, javascript]
+tags: [código, css, html, javascript, usabilidad]
 ---
 ![Paginación](/assets/img/paginacion.jpg){: .mx-auto.d-block :}
 
