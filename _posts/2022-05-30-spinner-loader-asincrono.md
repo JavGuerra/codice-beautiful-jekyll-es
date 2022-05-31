@@ -22,7 +22,7 @@ El **HTML** deberá contener la siguiente línea:
 ```html
 <dialog id='zona'><div class="spinner"></div></dialog>
 ```
-La etiqueta ```<dialog>``` es relativamente desconocida, pero de gran utilidad. La descubrí en el [siguiente twitt](https://twitter.com/Manz/status/1529836795130744834) de [@Manz](https://twitter.com/Manz). Esta etiqueta permite crear ventanas modales con **HTML**. ```<dialog>``` muestra una ventana por encima del contenido de la página y aplica un efecto de fondo sombreado al resto de la página.
+La etiqueta ```<dialog>``` es relativamente desconocida, pero de gran utilidad. La descubrí en [este twitt](https://twitter.com/Manz/status/1529836795130744834) de [@Manz](https://twitter.com/Manz). Esta etiqueta permite crear ventanas modales con **HTML**. ```<dialog>``` muestra una ventana por encima del contenido de la página y aplica un efecto de fondo sombreado al resto de la página.
 
 Para dibujar el _spinner loader_, seguí las indicaciones de la entrada «[Cómo crear un spinner loader con CSS](https://midu.dev/como-crear-un-spinner-con-css/)» Este es el código **CSS** que incluye también el del diálogo.
 
