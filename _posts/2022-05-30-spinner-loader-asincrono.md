@@ -5,7 +5,7 @@ subtitle: Spinner activo mientras terminan todos los procesos asíncronos
 thumbnail-img: /assets/img/spinner-loader.png
 tags: [código, css, html, javascript, usabilidad]
 ---
-Durante los procersos asíncronos que se llevan a cabo, por ejemplo al usar ```fetch()``` para consumir una **API** remota, se producen retrasos al mostrar los resultados en el navegador. El uso de _spinner loader_ ayuda a informar al usuario de que uno o varios procesos están en marcha y se está procesando la información que solicitó tal vez mediante un campo de búsqueda.
+Durante los procesos asíncronos que se llevan a cabo, por ejemplo al usar ```fetch()``` para consumir una **API** remota, se producen retrasos al mostrar los resultados en el navegador. El uso de _spinner loader_ ayuda a informar al usuario de que uno o varios procesos están en marcha y se está procesando la información que solicitó tal vez mediante un campo de búsqueda.
 
 ![Paginación](/assets/img/spinner-loader.png){: .mx-auto.d-block :}
 
@@ -94,7 +94,7 @@ function compruebaSpin() {
 }
 ```
 
-Cuando iniciamos un proceso asíncrono, se debe llamar a la función ```ponSpin(true)``` con el valor ```true```, esto incrementará en ```1``` el valor de ```spin```. Sólo si estoy incrementando ```spin``` (```estado = true```), y es la primera vez que se activa (```!intervalo```), lanzo ```compruebaSpin()``` cada 300 milisengundos con ```intervalo = setInterval(compruebaSpin, 300);```y muestro la ventana modal que contiene el _spinner loader_ con ```elZona.showModal();```.
+Cuando iniciamos un proceso asíncrono, se debe llamar a la función ```ponSpin(true)``` con el valor ```true```, esto incrementará en ```1``` el valor de ```spin```. Sólo si estoy incrementando ```spin``` (```estado = true```), y es la primera vez que se activa (```!intervalo```), lanzo ```compruebaSpin()``` cada 300 milisegundos con ```intervalo = setInterval(compruebaSpin, 300);```y muestro la ventana modal que contiene el _spinner loader_ con ```elZona.showModal();```.
 
 Es necesario lanzar el ```setInterval()``` porque desconocemos en qué momento los procesos asíncronos terminarán, por lo que se debe comprobar el estado de los procesos cada cierto tiempo.
 
