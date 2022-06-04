@@ -110,7 +110,7 @@ Ya disponemos de la gráfica incrustada en el HTML correctamente representada co
 
 El siguiente código en JavaScript permite obtener el resultado esperado:
 
-```JavaScript
+```javascript
 const nota = document.getElementById('nota');
 let aciertos = Math.floor(Math.random() * 10);
 
