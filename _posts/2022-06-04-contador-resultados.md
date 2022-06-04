@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contador de resultados
-subtitle: Gráfica dinámica con aguja indicadora de resultados en formato SVG.
+subtitle: Gráfica SVG dinámica con JavaScript con aguja indicadora de resultados.
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
