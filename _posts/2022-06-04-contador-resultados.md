@@ -5,7 +5,7 @@ subtitle: Gráfica SVG dinámica en JavaScript con aguja indicadora de resultado
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
-La información visual es percibida con más claridad que la escrita. A la hora de mostrar resultados, por ejemplo los aciertos o fallos de un examen on-line, podemos complementar la información escrita con una gráfica dinámica que muestre los resultados de un vistazo.
+La información visual es percibida con más claridad que la escrita. A la hora de mostrar resultados, por ejemplo los aciertos o fallos de un examen on-line, podemos complementar la información escrita con una gráfica dinámica que muestre los resultados de un vistazo, aportando además valor al resultado.
 
 ![Contador](https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png){: .mx-auto.d-block :}
 
