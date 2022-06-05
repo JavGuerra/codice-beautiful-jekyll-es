@@ -1,21 +1,21 @@
 ---
 layout: post
 title: Contador de resultados
-subtitle: Gráfica SVG dinámica con JavaScript con aguja indicadora de resultados.
+subtitle: Gráfica SVG dinámica en JavaScript con aguja indicadora de resultados.
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
-La información visual es percibida con más claridad que la escrita. A la hora de mostrar resultados, por ejemplo los aciertos o fallos de un examen on-line, podemos complementar la información escrita con una gráfica dinámica que muestre información entendible de un vistazo.
+La información visual es percibida con más claridad que la escrita. A la hora de mostrar resultados, por ejemplo los aciertos o fallos de un examen on-line, podemos complementar la información escrita con una gráfica dinámica que muestre los resultados de un vistazo.
 
 ![Contador](https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png){: .mx-auto.d-block :}
 
-[<button>Ver contador de ejemplo funcionando</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+[<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
 
 ## El contador
 
-Para mostrar la información de este ejemplo, he elaborado un SVG que contiene un contador en semicírculo con paneles descriptivos. La aguja apunta a los paneles rotulados con el texto: «insuficiente», «regular», «bien» y «excelente» según un resultado numérico entre 0 y 10, donde 0 es ninguna pregunta acertada y diez corresponde a un total de diez sobre diez preguntas contestadas correctamente.
+Para mostrar la información de este ejemplo, he elaborado una gráfica en formato .SVG que contiene un contador en semicírculo con paneles descriptivos. La aguja apunta a los paneles rotulados con el texto: «insuficiente», «regular», «bien» y «excelente» según un resultado numérico entre 0 y 10, donde 0 es ninguna pregunta acertada y diez corresponde a un total de diez sobre diez preguntas contestadas correctamente.
 
-El fichero SVG lo he realizado con [InkScape](https://inkscape.org/es/), una herramienta libre de dibujo vectorial. Para su elaboración, he tenido en cuenta dos cuestiones importantes:
+El fichero SVG lo he creado con [InkScape](https://inkscape.org/es/), una herramienta libre de dibujo vectorial. el diseño asemeja algunas imágenes que encontré haciendo una búsqueda por Internet. Para su elaboración, he tenido en cuenta dos cuestiones importantes:
 
 1. El tamaño del dibujo tiene las proporciones (ancho x alto) de la imagen que se mostrará en la página. En el caso de este contador, 400px x 240px. Es importante guardar el documento con la medida en píxeles, para poder trabajar después con el tamaño de la imagen desde CSS, si queremos aplicarle distintos tamaños, por ejemplo para la visualización de esta gráfica en diferentes tipos de pantalla (móviles, tablets...).
 2. La gráfica cuenta con una aguja indicadora. Para poder acceder a ella desde JavaScript y que la aguja apunte adecuadamente, he incluido una etiqueta ID (```id="aguja"```) en el elemento SVG que agrupa las líneas del dibujo que corresponden a la aguja. Esto podemos hacerlo directamente desde InkScape. En este caso, el elemento quedaría así:
@@ -23,7 +23,7 @@ El fichero SVG lo he realizado con [InkScape](https://inkscape.org/es/), una her
 ```html
 <g id="aguja" transform="matrix(.28946 0 0 .28839 126 -138.93)">
 ```
-El atributo transform indica la posición de la aguja, su tamaño y ángulo de giro. El que se indica aquí corresponde a la aguja en posición vertical, equivalente a un resultado de 5, entre 0 y 10. para cubrir todo el rango de puntuaciones, la aguja debe girar 18 grados en un sentido y en otro, es decir, que irá girando de 0 a 180 grados en saltos de 18 grados.
+El atributo «transform» dentro del SVG indica la posición de la aguja, su tamaño y ángulo de giro. El que se indica aquí corresponde a la aguja en posición vertical, equivalente a un resultado de 5, entre 0 y 10. Para cubrir todo el rango de puntuaciones, la aguja debe girar 18 grados en un sentido y en otro, es decir, que irá girando de 0 a 180 grados en saltos de 18 grados.
 
 Calcular los valores de la posición de la aguja en cada uno de esos intervalos no es tarea fácil. Para acortar camino, guardé la misma gráfica con la aguja en las distintas 11 posiciones y obtuve el valor de transform en cada una de ellas. Este será el valor que luego pasaremos a la gráfica para indicar qué posición debe tener la aguja en función de la puntuación obtenida. Esta es la tabla obtenida:
 
@@ -71,7 +71,7 @@ El código html sería el siguiente:
 ```
 Para no ocupar espacio de esta entrada el SVG no se muestra completo. Los puntos suspensivos corresponden a las etiquetas que deberían estar ahi. El SVG como se aprecia, estaría incrustado, completo, y el elemento que agrupa a los elementos que dibujan la aguja bien identificado.
 
-En el párrafo se mostraría el resultado de forma textual. ambos, imagen y resultado, están dentro de un contenedor llamado «resultados».
+En el párrafo se mostraría el resultado de forma textual. ambos, imagen y resultado, están dentro de un DIV contenedor llamado «resultados».
 
 La gráfica en SVG ocupa lo suyo. Hay técnicas para cargar dinámicamente la imagen sin necesidad de colocar el SVG in-line desde el principio, y este sería un tema interesante para otra entrada. Por ahora el SVG aparecerá incrustado en la página, ya que si lo enlazamos como una imagen (```<img src="contador.svg" alt="Contador"/>```) no podremos acceder a la etiqueta «aguja» que necesitamos para hacer la gráfica interactiva.
 
@@ -221,8 +221,8 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
                 '.089449 .2753 -.27428 .089119 257.71 63.373',
                 '0 .28946 -.28839 0 244.42 126.23'
             ]
-        
-			aguja.setAttribute('transform', `matrix(${posicionAguja[aciertos]})`);
+            
+            aguja.setAttribute('transform', `matrix(${posicionAguja[aciertos]})`);
         }
     </script>
 </body>
@@ -231,4 +231,4 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
 
 ## Enlace
 
-* [<button>Ver contador de ejemplo funcionando</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+[<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
