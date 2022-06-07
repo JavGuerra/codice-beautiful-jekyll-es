@@ -23,7 +23,7 @@ El fichero SVG lo he creado con [InkScape](https://inkscape.org/es/), una herram
 ```html
 <g id="aguja" transform="matrix(.28946 0 0 .28839 126 -138.93)">
 ```
-El atributo «transform» dentro del SVG indica la posición de la aguja, su tamaño y ángulo de giro. El que se indica aquí corresponde a la aguja en posición vertical, equivalente a un resultado de 5, entre 0 y 10. Para cubrir todo el rango de puntuaciones, la aguja debe girar 18 grados en un sentido y en otro, es decir, que irá girando de 0 a 180 grados en saltos de 18 grados.
+El atributo «transform» dentro del SVG indica la posición de la aguja, su tamaño y ángulo de giro. El que se muestra aquí corresponde a la aguja en posición vertical, equivalente a un resultado de 5, entre 0 y 10. Para cubrir todo el rango de puntuaciones, la aguja debe girar 18 grados en un sentido y en otro, es decir, que irá girando de 0 a 180 grados en saltos de 18 grados.
 
 Calcular los valores de la posición de la aguja en cada uno de esos intervalos no es tarea fácil. Para acortar camino, guardé la misma gráfica con la aguja en las distintas 11 posiciones y obtuve el valor de transform en cada una de ellas. Este será el valor que luego pasaremos a la gráfica para indicar qué posición debe tener la aguja en función de la puntuación obtenida. Esta es la tabla obtenida:
 
