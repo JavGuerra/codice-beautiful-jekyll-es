@@ -232,3 +232,4 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
 ## Enlace
 
 [<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+Ver también: [Creación de gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %})
