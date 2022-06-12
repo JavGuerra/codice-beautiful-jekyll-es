@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gráfica de lineas dinámica con SVG
-subtitle: Gráfica SVG dinámica en JavaScript con aguja indicadora de resultados.
+subtitle: Mostrar resultados gráficos con JavaScript.
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
@@ -185,4 +185,5 @@ Con cada recarga de la página, la gráfica mostrará valores distintos.
 ## Enlaces
 
 [<button>Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
-ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
+* Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/javascript-fswd/) Es necesario terminar una partida para obtener resultados.
+* Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
