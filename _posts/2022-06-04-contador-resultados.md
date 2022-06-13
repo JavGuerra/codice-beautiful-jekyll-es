@@ -234,3 +234,4 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
 [<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/javascript-fswd/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %})
+* Libro sobre SVG [SCALABLE](https://leanpub.com/scalable/) de Jorge Aznar.

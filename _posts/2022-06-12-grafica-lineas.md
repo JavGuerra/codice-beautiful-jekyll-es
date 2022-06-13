@@ -5,7 +5,7 @@ subtitle: Mostrar resultados gráficos con JavaScript.
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
-Como comentaba en el anterior artículo sobre [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), la información visual ayuda a asumir mejor la información. En este artículo mostraré como elaborar una gráfica de líneas dinámica que represente, por ejemplo, las puntuaciones de las últimas cinco jugadas con valores en un rango entre cero y diez.
+Como comentaba en el anterior artículo sobre [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), la representación visual ayuda a asumir mejor la información. En este artículo mostraré como elaborar una gráfica de líneas dinámica que represente, por ejemplo, las puntuaciones de las últimas cinco jugadas con valores en un rango entre cero y diez.
 
 ![Gráfica de líneas](https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png){: .mx-auto.d-block :}
 
@@ -39,7 +39,7 @@ Para los círculos en los puntos de conexión de la línea, que son referenciado
 
 Como hicimos en [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), para poder acceder al identificador dentro del SVG, este debe estar disponible en el DOM, por lo que no sería posible acceder a su __id__ haciendo uso del elemento ```<img>``` de HTML.
 
-El código HTML para insertar el SVG sería el siguiente:
+El código HTML para insertar «en linea» el SVG sería el siguiente:
 
 ```html
 <div id="contenedor">
@@ -55,16 +55,16 @@ El código HTML para insertar el SVG sería el siguiente:
     </svg>
 
     <p id="arreglo"></p>
-    
+
 </div>
 ```
 Para no ocupar espacio de esta entrada, el SVG no se muestra completo. Los puntos suspensivos corresponden a las etiquetas que deberían estar ahi. El SVG como se aprecia, estaría incrustado, y el elemento de la línea bien identificado con ```id="laLinea"```.
 
 En el párrafo ```"arreglo"``` es donde se mostrarán los valores numéricos que se usarán para representar la gráfica.
 
-Como dijimos en el anterior artículo, la gráfica en SVG ocupa lo suyo. Hay técnicas para cargar dinámicamente la imagen sin necesidad de colocar el SVG _in-line desde_ el principio, y este será el tema tema para otra entrada.
+Como dijimos en el anterior artículo, la gráfica en SVG ocupa lo suyo. Hay técnicas para cargar dinámicamente la imagen sin necesidad de colocar el SVG _in-line desde_ el principio, y este será el tema para otra entrada.
 
-Deliberadamente he eliminado las etiquetas ```width="400"``` y ```height="300"``` de la etiqueta ```svg``` porque voy a manejar estos valores desde CSS, aunque dejarlas tampoco sería un problema.
+Deliberadamente he eliminado los atributos ```width="400"``` y ```height="300"``` de la etiqueta ```svg``` porque voy a manejar estos valores desde CSS, aunque dejarlas tampoco sería un problema.
 
 Los estilos CSS para mostrar correctamente estos elementos son los siguientes:
 
@@ -83,11 +83,11 @@ Los estilos CSS para mostrar correctamente estos elementos son los siguientes:
     100% {transform: translateY(0)    scaleY(1)}
 }
 ```
-Como se ve, he definido también una animación para mostrar el resultado. Al cargar los nuevos valores de la gráfica, los puntos de la línea estarán en la posición del eje de la puntuación cero. (en la posición 73px) con una escala de 0, es decir la línea estará totalmente aplastada. Durante un segundo, irá tomando su forma original ocupando toda la gráfica con las medidas correctas. Esto hace el efecto de que los nodos de la línea se elevan hasta la posición que debe ocupar en la gráfica. Se entiende mejor [viendo el ejemplo](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html).
+Como se ve, he definido también una animación para mostrar el resultado. Al cargar los nuevos valores de la gráfica, los puntos de la línea estarán en la posición del eje de la puntuación cero, (en la posición 73px) con una escala de 0, es decir la línea estará totalmente aplastada. Durante un segundo, irá tomando su forma original ocupando toda la gráfica con las medidas correctas. Esto hace el efecto de que los nodos de la línea se elevan hasta la posición que debe ocupar en la gráfica. Se entiende mejor [viendo el ejemplo](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html).
 
 ## Dinamismo
 
-Ya disponemos de la gráfica incrustada en el HTML correctamente representada con CSS, y en esta parte veremos el motivo de toda esta preparación.
+Ya disponemos de la gráfica incrustada en el HTML, y en esta parte veremos el motivo de toda esta preparación.
 
 El siguiente código en JavaScript permite obtener el resultado esperado:
 
@@ -110,11 +110,11 @@ function fijaLinea(ordenadas = []) {
         `11 ${ord[0]} 33.5 ${ord[1]} 56 ${ord[2]} 78.5 ${ord[3]} 101 ${ord[4]}`);
 }
 ```
-Primeramente obtengo los elementos que emplearé en el código ```elLinea``` y ```elArreg```, y declaro el arreglo ```ejesY``` que contendrá los valores a mostrar. Seguidamente relleno el arreglo con cinco valores al azar en un rango entre 0 y 10. Muestro los valores en la web y llamo a la función ```fijaLinea(ejesY)``` y le paso como parámetro el arreglo. Esta función es la responsable de que la línea tenga la forma deseada.
+Primeramente obtengo los elementos que emplearé en el código ```elLinea``` y ```elArreg```, y declaro el arreglo ```ejesY``` que contendrá los valores a mostrar. Seguidamente relleno el arreglo con cinco valores al azar en un rango entre 0 y 10. Muestro los valores en la web, llamo a la función ```fijaLinea(ejesY)``` y le paso como parámetro el arreglo. Esta función es la responsable de que la línea tenga la forma deseada.
 
 En la posición y = 73 está la línea de la puntuación 0. Cada línea de puntuación esta a una distancia de -7.1px. Así: 0 = 73, 1 = 65,9, .. 9 = 9,1, 10 = 2. Con estos datos, la función ```fijaLinea()``` funciona de la siguiente manera: Si el arreglo que le pasamos tiene un número de elementos menor que cinco, rellena a ceros el arreglo. Después toma los últimos cinco elementos del arreglo (pudiera ser que el arreglo recibido tuviese más de cinco elementos).
 
-A cada elemento del array le aplica el cálculo correspondiente para convertir la puntuación a la coordenada «__y__» correspondiente. Con este nuevo arreglo, ya podemos pasar los datos de la línea al SVG con ```setAttribute```. El valor inicial del atributo ```points```:
+A cada elemento del array le aplica el cálculo necesario para convertir la puntuación a la coordenada «__y__» correspondiente. Con este nuevo arreglo, ya podemos pasar los datos de la línea al SVG con ```setAttribute```. El valor inicial del atributo ```points```:
 
 ```html
 points="11 73 33.5 73 56 73 78.5 73 101 73"
@@ -124,9 +124,7 @@ pasa a ser:
 ```html
 `11 ${ord[0]} 33.5 ${ord[1]} 56 ${ord[2]} 78.5 ${ord[3]} 101 ${ord[4]}`
 ```
-siendo los valores del arreglo ```ord``` cada una de las cinco posiciones «__y__» de los puntos de la polilínea.
-
-Esto es todo lo que necesitamos para mostrar los datos. Una función que reciba un arreglo de valores para mostrar.
+siendo los valores del arreglo ```ord``` cada una de las cinco posiciones «__y__» de los puntos de la polilínea. Esto es todo lo que necesitamos para mostrar los datos.
 
 ## El código completo
 
@@ -197,8 +195,13 @@ Con cada recarga de la página, la gráfica mostrará valores distintos.
 </html>
 ```
 
+Con estas indicaciones, hacer tu propia gráfica de líneas no debería ser excesivamente complicado.
+
+Para conocer más sobre SVG y cómo editarlo, te recomiendo el libro [SCALABLE](https://leanpub.com/scalable/) de Jorge Aznar.
+
 ## Enlaces
 
 [<button>Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/javascript-fswd/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
+* Libro sobre SVG [SCALABLE](https://leanpub.com/scalable/) de Jorge Aznar.
