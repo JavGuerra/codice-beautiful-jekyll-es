@@ -5,7 +5,7 @@ subtitle: Mostrar resultados gráficos con JavaScript.
 thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
-Como comentaba en el anterior artículo sobre [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), la representación visual ayuda a asumir mejor la información. En este artículo mostraré como elaborar una gráfica de líneas dinámica que represente, por ejemplo, las puntuaciones de las últimas cinco jugadas con valores en un rango entre cero y diez.
+Como comentaba en el anterior artículo sobre [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), la representación visual ayuda a asumir mejor la información. En este artículo mostraré cómo elaborar una gráfica de líneas dinámica que represente, por ejemplo, las puntuaciones de las últimas cinco jugadas con valores en un rango entre cero y diez.
 
 ![Gráfica de líneas](https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png){: .mx-auto.d-block :}
 
