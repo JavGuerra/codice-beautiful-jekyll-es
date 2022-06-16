@@ -204,4 +204,5 @@ Para conocer más sobre SVG y cómo editarlo, te recomiendo el libro [SCALABLE](
 [<button>Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/javascript-fswd/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
+* [Tutorial SVG](http://w3.unpocodetodo.info/svg/introduccion.php).
 * Libro sobre SVG [SCALABLE](https://leanpub.com/scalable/) de Jorge Aznar.
