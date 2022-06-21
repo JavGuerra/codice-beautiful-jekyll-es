@@ -30,7 +30,7 @@ Conceptualmente hablando, las estadísticas de la parte 1 bien podrían aparecer
 
 Algunas características destacables del enunciado son que la aplicación se debe ejecutar en una sola página web (SPA), que realiza consultas a una API y que muestra estadísticas. Esta última parte, aunque accesoria, pues no se ha visto en el bootcamp, supuso un reto interesante, ya que ha dado para escribir varias entradas previas en este blog: [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %}), [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), [Gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %}) y [Cargar SVG dinámicamente]{% post_url 2022-06-14-carga-svg %}), todas ellas técnicas incluidas en el ejercicio.
 
-Es un buen ejercicio para practicar, e igualmente espero que puedas disfrutarlo jugándolo.
+Es un buen ejercicio para practicar, e igualmente espero que puedas disfrutarlo jugándolo. Este ejercicio lo he llevado a cabo con el apoyo del compañero Alejando.
 
 # Características destacables de este ejercicio
 
@@ -75,4 +75,4 @@ Es un buen ejercicio para practicar, e igualmente espero que puedas disfrutarlo 
 * [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %})
 * [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
 * [Gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %})
-* [Cargar SVG dinámicamente]{% post_url 2022-06-14-carga-svg %})
+* [Cargar SVG dinámicamente]({% post_url 2022-06-14-carga-svg %})
