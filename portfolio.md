@@ -13,6 +13,14 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="post-preview">
+<img class="shadow-sm mb-2" src="https://javguerra.github.io/javascript-fswd/assets/img/banner.png" alt="Summer Quiz" width="250"/>
+<h2 class="post-title"><a href="{% post_url 2022-06-21-summer-quiz %}">Summer Quiz</a></h2>
+<h3 class="post-subtitle">Un juego que obtiene sus preguntas a través de una API</h3>
+<small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
+</article>
+
+
+<article class="post-preview">
 <img class="shadow-sm mb-2" src="{%  link assets/img/buscaminas.png %}" alt="Buscaminas" width="250"/>
 <h2 class="post-title"><a href="{% post_url 2022-04-28-buscaminas %}">Buscaminas en JavaScript</a></h2>
 <h3 class="post-subtitle">Pequeño juego online para manejo de eventos</h3>
@@ -31,13 +39,6 @@ subtitle: Mira lo que hago
 <h2 class="post-title"><a href="{% post_url 2022-05-14-animacion %}">Animación interactiva</a></h2>
 <h3 class="post-subtitle">Ejemplo realizado con Google Web Designer</h3>
 <small>HTML, CSS, javascript, animación, herramientas</small>
-</article>
-
-<article class="post-preview">
-<img class="shadow-sm mb-2" src="{%  link assets/img/big-buck-bunny.png %}" alt="Edición de video" width="250"/>
-<h2 class="post-title"><a href="{% post_url 2022-05-14-edicion-video %}">Edición de vídeo</a></h2>
-<h3 class="post-subtitle">Ejemplo realizado con OpenShot Video Editor</h3>
-<small>HTML, CSS, edición de vídeo</small>
 </article>
 
 <article class="post-preview">
