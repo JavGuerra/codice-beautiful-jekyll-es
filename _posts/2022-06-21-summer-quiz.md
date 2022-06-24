@@ -2,9 +2,9 @@
 layout: post
 title: Summer Quiz
 subtitle: Un juego que obtiene sus preguntas a través de una API
-cover-img: https://javguerra.github.io/javascript-fswd/assets/img/beach.png
-thumbnail-img: https://javguerra.github.io/javascript-fswd/assets/img/banner.png
-gh-repo:  https://github.com/JavGuerra/javascript-fswd 
+cover-img: https://javguerra.github.io/summer-quiz/assets/img/beach.png
+thumbnail-img: https://javguerra.github.io/summer-quiz/assets/img/banner.png
+gh-repo:  https://github.com/JavGuerra/summer-quiz 
 gh-badge: [star, fork, follow]
 tags: [web, código, html, css, javascript]
 comments: true
@@ -14,9 +14,9 @@ comments: true
 
 # El juego
 
-![Summer Quiz](https://javguerra.github.io/javascript-fswd/assets/img/banner.png){: .mx-auto.d-block :}
+![Summer Quiz](https://javguerra.github.io/summer-quiz/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button>Acceder al juego</button>](https://javguerra.github.io/javascript-fswd/)
+[<button>Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
 
 El [bootcamp de FSWD]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando, consta de varios módulos. El de JavaScript avanzado termina ahora, y este es el ejercicio final de esta fase de mi formación.
 
@@ -68,9 +68,9 @@ Es un buen ejercicio para practicar, e igualmente espero que puedas disfrutarlo 
 
 # Enlaces
 
-![QR Code](https://javguerra.github.io/javascript-fswd/assets/img/qrcode.svg)
+![QR Code](https://javguerra.github.io/summer-quiz/assets/img/qrcode.svg)
 
-[<button>Acceder al juego</button>](https://javguerra.github.io/javascript-fswd/)
+[<button>Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
 
 * [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %})
 * [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
