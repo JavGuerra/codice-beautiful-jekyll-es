@@ -159,14 +159,15 @@ function creaTabla(numCols, numFils) {
     table.appendChild(tbody);
     return table;
 }
-```
+```  
 
-1. Hago uso de la función ```.creaEl()``` para acortar la creación de elementos del DOM:
+ - Hago uso de la función ```.creaEl()``` para acortar la creación de elementos del DOM:
 
 ```javascript
 function creaEl(el) { return document.createElement(el); }
 ```
-2. Cada vez que creo un ```<td>``` (celda) le asigno un evento que llama a la función ```pinta()```:
+
+- Cada vez que creo un ```<td>``` (celda) le asigno un evento que llama a la función ```pinta()```:
 
 ```javascript
     td = creaEl('td');
