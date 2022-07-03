@@ -62,7 +62,7 @@ Para no ocupar espacio de esta entrada, el SVG no se muestra completo. Los punto
 
 En el párrafo ```"arreglo"``` es donde se mostrarán los valores numéricos que se usarán para representar la gráfica.
 
-Como dijimos en el anterior artículo, la gráfica en SVG ocupa lo suyo. Hay técnicas para cargar dinámicamente la imagen sin necesidad de colocar el SVG _in-line desde_ el principio, y este será el tema para otra entrada.
+Como dijimos en el anterior artículo, la gráfica en SVG ocupa lo suyo. Hay técnicas para [cargar dinámicamente la imagen]({% post_url 2022-06-14-carga-svg %}) sin necesidad de colocar el SVG _in-line_ desde el principio.
 
 Deliberadamente he eliminado los atributos ```width="400"``` y ```height="300"``` de la etiqueta ```svg``` porque voy a manejar estos valores desde CSS, aunque dejarlas tampoco sería un problema.
 
@@ -204,5 +204,6 @@ Para conocer más sobre SVG y cómo editarlo, te recomiendo el libro [SCALABLE](
 [<button>Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/summer-quiz/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})
+* Ver también: [Cargar SVG dinámicamente]({% post_url 2022-06-14-carga-svg %})
 * [Tutorial SVG](http://w3.unpocodetodo.info/svg/introduccion.php).
 * Libro sobre SVG [SCALABLE](https://leanpub.com/scalable/) de Jorge Aznar.
