@@ -1,9 +1,10 @@
+old
+inprogress
+
 # project
 _site
 .sass-cache
 .vagrant
-/old
-/inprogress
 
 # general
 .DS_Store
