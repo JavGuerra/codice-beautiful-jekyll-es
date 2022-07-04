@@ -10,6 +10,9 @@ tags: [tv, series, películas]
 
 Haz click en los enlaces para más información:
 
+{: .box-note}
+**Nota**: Esta entrada se actualiza periódicamente.
+
 ## Series relativamente actuales
 * [Home Ground](https://www.filmaffinity.com/es/film857157.html) - Filmin
 * [La asistenta](https://www.filmaffinity.com/es/film654299.html) - Netflix
@@ -52,4 +55,6 @@ Haz click en los enlaces para más información:
 
 Espero que las disfrutes ;)
 
-Esta entrada se actualiza periódicamente.
+# Buscar series
+- [Just Watch](https://www.justwatch.com/es)
+- [A good movie to watch](https://agoodmovietowatch.com/shows/) (_inglés_)
