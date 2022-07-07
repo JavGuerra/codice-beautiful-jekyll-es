@@ -52,6 +52,7 @@ Haz click en los enlaces para más información:
 * [Endeavour](https://www.filmaffinity.com/es/film183353.html) - Filmin
 * [Baron noir](https://www.filmaffinity.com/es/film392787.html) - HBO Max
 * [Gloria](https://www.filmaffinity.com/es/film859950.html) - Netflix
+* [Intimidad](https://www.filmaffinity.com/es/film244305.html) - Netflix
 
 Espero que las disfrutes ;)
 
