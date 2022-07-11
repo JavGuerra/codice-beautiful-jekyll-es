@@ -7,7 +7,7 @@ gh-repo:  https://github.com/JavGuerra/MosaicoJS
 gh-badge: [star, fork, follow]
 tags: [código, css, html, javascript, dom]
 ---
-Ejercicio que combina lógica de programación en JavaScript, y el uso de eventos asociados a los elementos del DOM que permiten elegir un pincel y pintar las celdas de una tabla para construir un mosaico con celdas de colores.
+Ejercicio que combina lógica de programación en JavaScript, y el uso de eventos asociados a los elementos del DOM que consiste en elegir un pincel y pintar las celdas de una tabla para construir un mosaico de colores.
 
 ![Mosaico JS](https://javguerra.github.io/MosaicoJS/assets/img/banner.png){: .mx-auto.d-block :}
 
