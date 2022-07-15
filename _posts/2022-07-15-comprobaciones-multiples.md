@@ -2,13 +2,13 @@
 layout: post
 title: Comprobaciones múltiples
 subtitle: Como simplificar el filtrado de datos. 
-thumbnail-img: /assets/img/filtro.jpg
+thumbnail-img: /assets/img/filtrado.jpg
 tags: [código, javascript, node, express]
 ---
 
 En programación es muy frecuente encontrarnos con valores de entrada que pueden o no estar presentes y con los que pretendemos llevar a cabo una tarea, por ejemplo, al trabajar con los campos (obligatorios o no) de un formulario con los que luego llevaremos a cabo búsquedas en una base de datos para dar de alta información, devolver datos al usuario... En esta entrada veremos como simplificar el filtrado cuando hacemos las comprobaciones necesarias con los datos recibidos.
 
-![Filtrado](/assets/img/filtro.jpg){: .mx-auto.d-block :}
+![Filtrado](/assets/img/filtrado.jpg){: .mx-auto.d-block :}
 
 # Supuesto práctico
 
