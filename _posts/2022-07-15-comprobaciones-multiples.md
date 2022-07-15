@@ -107,10 +107,10 @@ function respuesta(nombre = undefined, tipo = undefined, precio = undefined) {
 La variable código va a contener tres posibles valores:
 
 | Valor | Significado |
-| :------ |:--- |
+| -:- |:--- |
 | 0 | Datos encontrados. |
 | 1 | No se han encontrado datos. |
-| 2 | no se han recibido datos de entrada. |
+| 2 | No se han recibido datos de entrada. |
 
 De tal forma que en:
 
