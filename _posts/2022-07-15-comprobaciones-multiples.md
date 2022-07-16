@@ -43,9 +43,9 @@ Para hacer una búsqueda sobre esta lista, tendríamos que comprobar si hemos re
 let resultados = productos;
 
 if (nombre || tipo || precio) {
-    if (nombre) resultados = resultados.filter(elemento => elemento.nombre.includes(nombre));
-    if (tipo) resultados = resultados.filter(elemento => elemento.tipo.includes(tipo));
-    if (precio) resultados = resultados.filter(elemento => elemento.precio < precio);
+    if (nombre) resultados = resultados.filter(producto => producto.nombre.includes(nombre));
+    if (tipo) resultados = resultados.filter(producto => producto.tipo.includes(tipo));
+    if (precio) resultados = resultados.filter(producto => producto.precio < precio);
 } else {
     resultados = [];
 }
@@ -64,10 +64,10 @@ Es posible hacer un sólo filtrado que incluya las tres condiciones. Para ello u
 
 ```javascript
 const resultados = (nombre || tipo || precio)
-? productos.filter(elemento =>
-    (nombre ? elemento.nombre.includes(nombre) : true) &&
-    (tipo   ? elemento.tipo.includes(tipo) : true) &&
-    (precio ? elemento.precio < precio : true))
+? productos.filter(producto =>
+    (nombre ? producto.nombre.includes(nombre) : true) &&
+    (tipo   ? producto.tipo.includes(tipo) : true) &&
+    (precio ? producto.precio < precio : true))
 : [];
 ```
 La lista ```resultados``` tendrá el valor del filtro o una lista vacía según reciba o no reciba alguno de los valores para filtrar.
@@ -77,15 +77,30 @@ Dentro de ```filter``` incluimos ahora los tres criterios de filtrado de una vez
 Si una variable tiene valor, es decir, hemos recibido sus datos del formulario, entonces se incluirá la condición de filtrado, sino se incluirá un ```true```. Nos fijamos en una de las líneas:
 
 ```javascript
-    (nombre ? elemento.nombre.includes(nombre) : true) &&
+    (nombre ? producto.nombre.includes(nombre) : true) &&
 ```
-Si la variable ```nombre``` tiene datos, entonces se incluirá la comprobación ```elemento.nombre.includes(nombre)```, de otra forma se incluirá un ```true``` en el filtrado.
+Si la variable ```nombre``` tiene datos, entonces se incluirá la comprobación ```producto.nombre.includes(nombre)```, de otra forma se incluirá un ```true``` en el filtrado.
 
 Como estamos filtrando por un total de hasta tres comprobaciones que tienen que ser verdaderas (```&&```), si alguna de ellas no se cumple, el ```filter``` pasará al siguiente elemento de la lista, y no devolverá este elemento.
 
 Imaginemos que sólo hemos recibido el ```nombre``` del producto. ¿Qué pasa con las otras dos condiciones derivadas de ```tipo``` y ```precio```?. Devolverán ```true```, condicionando la respuesta de filtrado a lo que devuelva la condición de ```nombre```. Por ello los ```true``` que no sean resultado de la condición de una o varias de las variables no tendrán ninguna influencia en el valor de la comprobación.
 
 Si tenemos dos variables, la tercera será ```true``` y la condición de filtrado funcionará sólo si las dos condiciones con valores de entrada son ```true``` si han pasado la comprobación asociada a esa variable.
+
+# Otra manera más
+
+En programación no hay un único camino para hacer las cosas. Tras la lectura de esta entrada, **Marcos**, de un foro de Discord, me propuso esta alternativa aún más simple. Vamos a ver cómo funciona:
+
+```javascript
+const resultados = productos.filter(
+    (producto) => 
+      (!nombre || producto.nombre.includes(nombre)) &&
+      (!tipo || producto.tipo.includes(tipo)) &&
+      (!precio || producto.precio < precio)
+  )
+```
+La lógica de fondo no deja de ser la misma, se basa en un booleano (```true```) que nos dice si se va a procesar el filtrado o se va a incluir un ```true```, pero esta refinada forma de hacerlo consiste en «jugar» con el valor inverso del contenido de una variable, de tal forma que si la variable existe, su valor será ```false``` (Ej. ```!nombre```) debiendo aplicar entonces la condición de filtrado (```||```), y si no existe, el valor de la variable será ```true```. Elegante.
+
 
 # Un poco más allá
 
@@ -95,10 +110,10 @@ La siguiente es una función basada en la codificación anterior y devuelve un o
 function respuesta(nombre = undefined, tipo = undefined, precio = undefined) {
     let codigo = (nombre || tipo || precio) ? 0 : 2;
     const resultado = (codigo == 0)
-        ? productos.filter(elemento =>
-            (nombre ? elemento.nombre.includes(nombre) : true) &&
-            (tipo   ? elemento.tipo.includes(tipo) : true) &&
-            (precio ? elemento.precio < precio : true))
+        ? productos.filter(producto =>
+            (nombre ? producto.nombre.includes(nombre) : true) &&
+            (tipo   ? producto.tipo.includes(tipo) : true) &&
+            (precio ? producto.precio < precio : true))
         : [];
     if (codigo == 0) codigo = (resultado.length) ? 0 : 1;
     return { codigo, resultado };
