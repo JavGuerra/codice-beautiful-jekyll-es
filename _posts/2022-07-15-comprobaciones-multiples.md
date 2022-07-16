@@ -100,7 +100,7 @@ const resultados = (nombre || tipo || precio)
 : [];
 ```
 
-La lógica de fondo no deja de ser la misma, se basa en un booleano que nos dice si se va a procesar el filtrado o se va a incluir un ```true```, pero esta refinada forma de hacerlo consiste en «jugar» con el valor inverso del contenido de una variable, de tal forma que si la variable existe, su valor será ```false``` (Ej. ```!nombre```) debiendo aplicar entonces la condición de filtrado (```||```), y si no existe, el valor de la variable será ```true```. Elegante.
+La lógica de fondo no deja de ser la misma, se basa en un booleano que nos dice si se va a tener en cuenta la condición o se va a incluir un ```true```, pero esta refinada forma de hacerlo consiste en «jugar» con el valor inverso del contenido de una variable, de tal forma que si la variable existe, su valor será ```false``` (Ej. ```!nombre```) debiendo aplicar entonces la condición de filtrado (```||```), y si no existe, el valor de la variable será ```true```. Elegante.
 
 
 # Un poco más allá
