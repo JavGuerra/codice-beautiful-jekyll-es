@@ -95,7 +95,7 @@ En programación no hay un único camino para hacer las cosas. Tras la lectura d
 const resultados = (nombre || tipo || precio)
 ? productos.filter(producto =>
       (!nombre || producto.nombre.includes(nombre)) &&
-      (!tipo || producto.tipo.includes(tipo)) &&
+      (!tipo   || producto.tipo.includes(tipo)) &&
       (!precio || producto.precio < precio))
 : [];
 ```
