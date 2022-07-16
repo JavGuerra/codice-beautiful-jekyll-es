@@ -92,14 +92,15 @@ Si tenemos dos variables, la tercera será ```true``` y la condición de filtrad
 En programación no hay un único camino para hacer las cosas. Tras la lectura de esta entrada, **Marcos**, de un foro de Discord, me propuso una alternativa aún más simple. Vamos a ver cómo funciona:
 
 ```javascript
-const resultados = productos.filter(
-    (producto) => 
+const resultados = (nombre || tipo || precio)
+? productos.filter(producto =>
       (!nombre || producto.nombre.includes(nombre)) &&
       (!tipo || producto.tipo.includes(tipo)) &&
       (!precio || producto.precio < precio)
-  )
+: [];
 ```
-La lógica de fondo no deja de ser la misma, se basa en un booleano (```true```) que nos dice si se va a procesar el filtrado o se va a incluir un ```true```, pero esta refinada forma de hacerlo consiste en «jugar» con el valor inverso del contenido de una variable, de tal forma que si la variable existe, su valor será ```false``` (Ej. ```!nombre```) debiendo aplicar entonces la condición de filtrado (```||```), y si no existe, el valor de la variable será ```true```. Elegante.
+
+La lógica de fondo no deja de ser la misma, se basa en un booleano que nos dice si se va a procesar el filtrado o se va a incluir un ```true```, pero esta refinada forma de hacerlo consiste en «jugar» con el valor inverso del contenido de una variable, de tal forma que si la variable existe, su valor será ```false``` (Ej. ```!nombre```) debiendo aplicar entonces la condición de filtrado (```||```), y si no existe, el valor de la variable será ```true```. Elegante.
 
 
 # Un poco más allá
