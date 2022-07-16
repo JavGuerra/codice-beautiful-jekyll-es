@@ -153,7 +153,7 @@ La línea anterior es equivalente a:
     return { codigo: codigo, resultado: resultado };
 ```
 
-Esta función puede ser útil para, por ejemplo, trabajar con rutas en node.js/express. un ejemplo:
+Esta función puede ser útil para, por ejemplo, trabajar con rutas en node.js/express:
 
 ```javascript
 router.get('/', (req, res) => {
