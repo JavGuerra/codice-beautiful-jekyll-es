@@ -30,7 +30,7 @@ let productos = [
         "nombre": "ARMARIO RIO",
         "tipo": "hogar",
         "precio": 300
-    },
+    }
 ];
 ```
 Una búsqueda ```nombre: 'LAVADORA'``` devolvería el primer objeto. Si buscamos por ```tipo: 'hogar'``` nos devolverá el primer y el tercer objeto... Y si buscamos por ```tipo: 'video' y precio: menor que 1500``` nos devolverá el segundo objeto.
