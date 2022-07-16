@@ -33,11 +33,11 @@ let productos = [
     }
 ];
 ```
-Una búsqueda ```nombre: 'LAVADORA'``` devolvería el primer objeto. Si buscamos por ```tipo: 'hogar'``` nos devolverá el primer y el tercer objeto... Y si buscamos por ```tipo: 'video' y precio: menor que 1500``` nos devolverá el segundo objeto.
+Una búsqueda ```nombre: 'LAVADORA'``` me devolvería el primer objeto. Si busco por ```tipo: 'hogar'``` me devolverá el primer y el tercer objeto... Y si busco por ```tipo: 'video' y precio: menor que 1500``` me devolverá el segundo objeto.
 
 ## Comunmente...
 
-Para hacer una búsqueda sobre esta lista, tendría que comprobar si he recibido un valor para cada uno de las propiedades, y si es así, realizar el filtrado para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos campos como haya recibido. el código sería algo como esto:
+Para hacer una búsqueda sobre esta lista, tendría que comprobar si he recibido un valor para cada uno de las propiedades de los objetos de la lista, y si es así, realizar el filtrado por el primer valor para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos valores como haya recibido del formulario. el código sería algo como esto:
 
 ```javascript
 let resultados = productos;
