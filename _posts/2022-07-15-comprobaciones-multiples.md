@@ -112,15 +112,15 @@ function respuesta(nombre = undefined, tipo = undefined, precio = undefined) {
     let codigo = (nombre || tipo || precio) ? 0 : 2;
     const resultado = (codigo == 0)
         ? productos.filter(producto =>
-            (nombre ? producto.nombre.includes(nombre) : true) &&
-            (tipo   ? producto.tipo.includes(tipo) : true) &&
-            (precio ? producto.precio < precio : true))
+            (!nombre || producto.nombre.includes(nombre)) &&
+            (!tipo   || producto.tipo.includes(tipo)) &&
+            (!precio || producto.precio < precio))
         : [];
     if (codigo == 0) codigo = (resultado.length) ? 0 : 1;
     return { codigo, resultado };
 }
 ```
-La variable código va a contener tres posibles valores:
+La variable ```codigo``` va a contener tres posibles valores:
 
 | Valor | Significado |
 | :---: |:--- |
