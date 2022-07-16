@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Comprobaciones múltiples
-subtitle: Como simplificar el filtrado de datos. 
+title: Filtrados múltiples
+subtitle: Como simplificar la búsqueda de datos. 
 thumbnail-img: /assets/img/filtrado.jpg
 tags: [código, javascript, node, express]
 ---
