@@ -37,7 +37,7 @@ Una búsqueda ```nombre: 'LAVADORA'``` me devolvería el primer objeto. Si busco
 
 ## Comunmente...
 
-Para hacer una búsqueda sobre esta lista, tendría que comprobar si he recibido un valor para cada uno de las propiedades de los objetos de la lista, y si es así, realizar el filtrado por el primer valor para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos valores como haya recibido del formulario. el código sería algo como esto:
+Para hacer una búsqueda sobre esta lista, tendría que comprobar si he recibido un valor para cada uno de las propiedades de los objetos de la lista, y si es así, realizar el filtrado por el primer valor para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos valores como haya recibido del formulario. El código sería algo como esto:
 
 ```javascript
 let resultados = productos;
