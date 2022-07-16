@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Filtrados múltiples
+title: Filtrado múltiple
 subtitle: Como simplificar la búsqueda de información. 
 thumbnail-img: /assets/img/filtrado.jpg
 tags: [código, javascript, node, express]
