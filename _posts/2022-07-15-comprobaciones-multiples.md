@@ -96,7 +96,7 @@ const resultados = (nombre || tipo || precio)
 ? productos.filter(producto =>
       (!nombre || producto.nombre.includes(nombre)) &&
       (!tipo || producto.tipo.includes(tipo)) &&
-      (!precio || producto.precio < precio)
+      (!precio || producto.precio < precio))
 : [];
 ```
 
