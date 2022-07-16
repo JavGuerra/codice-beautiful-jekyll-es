@@ -138,7 +138,7 @@ se determina si se ha recibido alguna de las variables, asignándole el código 
 ```javascript
     if (codigo == 0) codigo = (resultado.length) ? 0 : 1;
 ```
-se determina si se ha obtenido algún resultado tras la búsqueda, si código era 0, es decir, si había datos de entrada.
+se determina si se ha obtenido algún resultado tras la búsqueda, si el código era 0, es decir, si había datos de entrada.
 
 por último en la línea:
 
