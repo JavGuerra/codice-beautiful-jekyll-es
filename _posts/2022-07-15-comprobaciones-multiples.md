@@ -89,7 +89,7 @@ Si tenemos dos variables, la tercera será ```true``` y la condición de filtrad
 
 # Otra manera más
 
-En programación no hay un único camino para hacer las cosas. Tras la lectura de esta entrada, **Marcos**, de un foro de Discord, me propuso esta alternativa aún más simple. Vamos a ver cómo funciona:
+En programación no hay un único camino para hacer las cosas. Tras la lectura de esta entrada, **Marcos**, de un foro de Discord, me propuso una alternativa aún más simple. Vamos a ver cómo funciona:
 
 ```javascript
 const resultados = productos.filter(
