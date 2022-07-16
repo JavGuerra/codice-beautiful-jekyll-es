@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/filtrado.jpg
 tags: [código, javascript, node, express]
 ---
 
-En programación es habitual trabajar con datos de entrada. Un caso común son los campos (obligatorios o no) que recibimos de un formulario para realizar búsquedas en una base de datos y devolver datos al usuario, o para dar de alta nueva información... pero estos datos de entrada, según las circunstancias, pueden variar. Para un mismo formulario, podemos recibir uno o varios campos, lo que complica la forma en que accedemos a la información. En esta entrada veremos como simplificar el filtrado para hacer consultas a los datos.
+En programación es habitual trabajar con datos de entrada. Un caso común son los campos (obligatorios o no) que recibimos de un formulario para realizar búsquedas en una base de datos y devolver datos al usuario, o para dar de alta nueva información... pero estos datos de entrada, según las circunstancias, pueden variar. Para un mismo formulario, podemos recibir uno o varios campos, lo que complica la forma en que hacemos las búsquedas de información. En esta entrada veremos como simplificar el filtrado para hacer consultas a los datos.
 
 ![Filtrado](/assets/img/filtrado.jpg){: .mx-auto.d-block :}
 
@@ -35,16 +35,16 @@ let productos = [
 ```
 Una búsqueda ```nombre: 'LAVADORA'``` devolvería el primer objeto. Si buscamos por ```tipo: 'hogar'``` nos devolverá el primer y el tercer objeto... Y si buscamos por ```tipo: 'video' y precio: menor que 1500``` nos devolverá el segundo objeto.
 
-## Así sería
+## Comunmente...
 
-Para hacer una búsqueda sobre esta lista, tendríamos que comprobar si hemos recibido un valor para cada uno de las propiedades, y si es así, realizar el filtrado para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos campos como hayamos recibido. Algo como esto:
+Para hacer una búsqueda sobre esta lista, tendría que comprobar si he recibido un valor para cada uno de las propiedades, y si es así, realizar el filtrado para obtener el primer resultado, pasar al siguiente valor si lo hubiese, para obtener el siguiente resultado filtrado, y así con tantos campos como haya recibido. el código sería algo como esto:
 
 ```javascript
 let resultados = productos;
 
 if (nombre || tipo || precio) {
     if (nombre) resultados = resultados.filter(producto => producto.nombre.includes(nombre));
-    if (tipo) resultados = resultados.filter(producto => producto.tipo.includes(tipo));
+    if (tipo)   resultados = resultados.filter(producto => producto.tipo.includes(tipo));
     if (precio) resultados = resultados.filter(producto => producto.precio < precio);
 } else {
     resultados = [];
@@ -74,18 +74,18 @@ La lista ```resultados``` tendrá el valor del filtro o una lista vacía según 
 
 Dentro de ```filter``` incluimos ahora los tres criterios de filtrado de una vez, pero igualmente debemos comprobar si cada uno de las variables que recibimos tiene o no valores para filtrar, es decir, si el dato de entrada existe.
 
-Si una variable tiene valor, es decir, hemos recibido sus datos del formulario, entonces se incluirá la condición de filtrado, sino se incluirá un ```true```. Nos fijamos en una de las líneas:
+Si una variable tiene valor, osea, si hemos recibido sus datos del formulario, entonces se incluirá la condición de filtrado, sino se incluirá un ```true```. Nos fijamos en una de las líneas:
 
 ```javascript
     (nombre ? producto.nombre.includes(nombre) : true) &&
 ```
-Si la variable ```nombre``` tiene datos, entonces se incluirá la comprobación ```producto.nombre.includes(nombre)```, de otra forma se incluirá un ```true``` en el filtrado.
+Si la variable ```nombre``` tiene datos, entonces se incluirá la comprobación ```producto.nombre.includes(nombre)``` en el filtrado, de otra forma se incluirá un ```true```.
 
-Como estamos filtrando por un total de hasta tres comprobaciones que tienen que ser verdaderas (```&&```), si alguna de ellas no se cumple, el ```filter``` pasará al siguiente elemento de la lista, y no devolverá este elemento.
+Como estamos filtrando por un total de hasta tres condiciones que tienen que ser verdaderas (```&&```), si alguna de ellas no se cumple, el ```filter``` pasará al siguiente elemento de la lista, y no devolverá este elemento.
 
 Imaginemos que sólo hemos recibido el ```nombre``` del producto. ¿Qué pasa con las otras dos condiciones derivadas de ```tipo``` y ```precio```?. Devolverán ```true```, condicionando la respuesta de filtrado a lo que devuelva la condición de ```nombre```. Por ello los ```true``` que no sean resultado de la condición de una o varias de las variables no tendrán ninguna influencia en el valor de la comprobación.
 
-Si tenemos dos variables, la tercera será ```true``` y la condición de filtrado funcionará sólo si las dos condiciones con valores de entrada son ```true``` si han pasado la comprobación asociada a esa variable.
+Si tenemos dos variables, la tercera será ```true```, y la condición de filtrado funcionará sólo si las dos condiciones con valores de entrada son ```true``` si han pasado la comprobación asociada a esa variable.
 
 # Otra manera más
 
