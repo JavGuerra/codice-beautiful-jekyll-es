@@ -158,7 +158,7 @@ Esta función puede ser útil para, por ejemplo, trabajar con rutas en node.js/e
 ```javascript
 router.get('/', (req, res) => {
     const { nombre, tipo, precio } = req.query;
-    res.json(respuesta(nombre, tipo, precio));
+    res.json( respuesta(nombre, tipo, precio) );
 });
 ```
 
