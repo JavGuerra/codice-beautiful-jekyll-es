@@ -58,7 +58,7 @@ Como se aprecia en el código, primeramente copio el contenido de ```productos``
 
 Seguidamente compruebo si tengo valores en las variables ```nombre```, ```tipo``` y ```precio```. Si alguna de ellas existe, realizo el filtrado sobre los datos, sino, devuelvo un arreglo o lista vacía. Así pues, si existe nombre, filtro por nombre, si existe tipo, filtro por tipo y si existe precio filtro por precio, consecutivamente.
 
-## Otra forma de hacerlo
+## Otra manera de hacerlo
 
 Es posible hacer un sólo filtrado que incluya las tres condiciones. Para ello usaré el operador condicional ternario (```?```):
 
