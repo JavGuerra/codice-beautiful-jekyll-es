@@ -110,14 +110,14 @@ La siguiente es una función basada en la codificación anterior y devuelve un o
 ```javascript
 function respuesta(nombre = undefined, tipo = undefined, precio = undefined) {
     let codigo = (nombre || tipo || precio) ? 0 : 2;
-    const resultado = (codigo == 0)
+    const resultados = (codigo == 0)
         ? productos.filter(producto =>
             (!nombre || producto.nombre.includes(nombre)) &&
             (!tipo   || producto.tipo.includes(tipo)) &&
             (!precio || producto.precio < precio))
         : [];
-    if (codigo == 0) codigo = (resultado.length) ? 0 : 1;
-    return { codigo, resultado };
+    if (codigo == 0) codigo = (resultados.length) ? 0 : 1;
+    return { codigo, resultados };
 }
 ```
 La variable ```codigo``` va a contener tres posibles valores:
@@ -136,21 +136,21 @@ De tal forma que en:
 se determina si se ha recibido alguna de las variables, asignándole el código correspondiente, y en la línea:
 
 ```javascript
-    if (codigo == 0) codigo = (resultado.length) ? 0 : 1;
+    if (codigo == 0) codigo = (resultados.length) ? 0 : 1;
 ```
 se determina si se ha obtenido algún resultado tras la búsqueda, si el código era 0, es decir, si había datos de entrada.
 
 por último en la línea:
 
 ```javascript
-    return { codigo, resultado };
+    return { codigo, resultados };
 ```
 Devolvemos el objeto con la información de lo sucedido y el resultado de la búsqueda.
 
 La línea anterior es equivalente a:
 
 ```javascript
-    return { codigo: codigo, resultado: resultado };
+    return { codigo: codigo, resultados: resultados };
 ```
 
 Esta función puede ser útil para, por ejemplo, trabajar con rutas en node.js/express:
