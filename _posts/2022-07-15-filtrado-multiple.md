@@ -21,12 +21,12 @@ let productos = [
         "tipo": "hogar",
         "precio": 700
     },
-        {
+    {
         "nombre": "TELEVISOR TV",
         "tipo": "video",
         "precio": 1200
     },
-        {
+    {
         "nombre": "ARMARIO RIO",
         "tipo": "hogar",
         "precio": 300
