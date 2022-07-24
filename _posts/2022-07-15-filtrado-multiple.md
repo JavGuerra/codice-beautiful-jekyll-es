@@ -3,7 +3,7 @@ layout: post
 title: Filtrado múltiple
 subtitle: Como simplificar la búsqueda de información. 
 thumbnail-img: /assets/img/filtrado.jpg
-tags: [código, javascript, node, express]
+tags: [código, javascript, node.js, express]
 ---
 
 En programación es habitual trabajar con datos de entrada. Un caso común son los campos (obligatorios o no) que recibimos de un formulario para realizar búsquedas en una base de datos y devolver datos al usuario, o para dar de alta nueva información... pero estos datos de entrada, según las circunstancias, pueden variar. Para un mismo formulario, podemos recibir uno o varios campos, lo que complica la forma en que hacemos las búsquedas de información. En esta entrada veremos como simplificar el filtrado para hacer consultas a los datos.
