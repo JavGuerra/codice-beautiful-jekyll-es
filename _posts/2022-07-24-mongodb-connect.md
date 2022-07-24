@@ -32,6 +32,8 @@ const collection = "products";
     });
 });
 ```
+En la primera línea, en función de si la aplicación está funcionando en local, en modo desarrollo, o bien en producción en el servidor, cargo o no el módulo ```dotenv``` que me permite tener las variables globales que luego usaré en url y db_name por ejemplo definidas en un fichero ```.env```. Puedes ampliar conocimientos sobre este asunto en [.dovenv](https://www.npmjs.com/package/dotenv).
+
 Tras importar mongoClient, y definir las variables que se emplearán en la conexión (url a la BBDD, nombre de la BBDD y nombre de la colección) lanzo un ```mongoClient.connect()``` que devuelve bien un error de conexión o abre la conexión (cliente) al gestor de BBDD MongoDB. Luego, con  ```const db = database.db(db_name);``` obtengo acceso a la BBDD, y seguidamente hago una consulta con ```db.collection(collection).find()```. Una vez obtengo el resultado de la búsqueda (en este caso todos los documentos dentro de la colección de la BBDD), los muestro por consola y cierro la base de datos con ```database.close();```.
 
 Pero si deseo hacer otra búsqueda, o en el módulo tengo una serie de rutas, todas ellas apuntando a una consulta a la BBDD, el número de aperturas y cierres de la conexión se multiplica por el número de consultas. Esto en una página personal o con poco tráfico es sostenible, pero no lo es para grandes flujos de acceso o incluso para situaciones de picos concretos de acceso al servidor (horas de más tráfico, momentos del año donde las consultas se incrementan, por ejemplo cuando se solicitan los resultados de un evento, las notas de fin de curso, una noticia que ha tenido popularidad o alcance...).
@@ -114,7 +116,7 @@ Pero claro, esta forma de proceder implica abrir una conexión por cada módulo 
 
 Para que todas las rutas puedan usar la variable ```db``` que se declara cuando se lleva a cabo la conexión, podría establecer una única conexión a la base de datos desde index.js (o app.js) osea, desde el fichero principal de la aplicación **node.js**, y referenciar las rutas dentro de una función _callback_ que le pase al módulo encargado de abrir la conexión.
 
-Esta idea fue la que me propuso **ZeroBI**, que se tomó el tiempo de responder a mis preguntas en un foro de Discord, y tras pasarme el código que él usa para establecer su conexión, y buscar un poco más de información en StackOverflow, el resultado fue el siguiente:
+Esta idea fue la que me propuso **ZeroBl**, que se tomó el tiempo de responder a mis preguntas en un foro de Discord, y tras pasarme el código que él usa para establecer su conexión, y buscar un poco más de información en StackOverflow, el resultado fue el siguiente:
 
 ## Módulo de conexión a la BBDD
 
@@ -173,7 +175,7 @@ const app = express();
 const port = process.env.PORT;
 const mongoDB = require('./services/DB');
 
-mongoDB.connectDB((err, client) => {
+mongoDB.connectDB(function (err, client) {
     if (err) throw err;
 
     // Ej. http:localhost:3000/ejemplo
@@ -183,7 +185,7 @@ mongoDB.connectDB((err, client) => {
     // otras rutas...
 
     // Ej. http:localhost:3000/exit
-    app.get('/exit', (req, res) => {
+    app.get('/exit', function (req, res) {
         client.close();
         res.end('Fin');
         process.kill(process.pid, 'SIGTERM');
@@ -199,11 +201,11 @@ mongoDB.connectDB((err, client) => {
         res.status(status).send(`Error ${status}: ${err.message}.`);
     });
 
-    const server = app.listen(port, () => {
+    const server = app.listen(port, function () {
         console.log(`Servidor levantado en el puerto ${port}.`);
     });
 
-    process.on('SIGTERM', () => {
+    process.on('SIGTERM', function () {
         server.close(() => console.log('Proceso terminado.'))
     });
 });
@@ -211,7 +213,7 @@ mongoDB.connectDB((err, client) => {
 Importo el módulo de ```mongoDB``` y conecto a la BBDD con:
 
 ```javascript
-mongoDB.connectDB((err, client) => {
+mongoDB.connectDB(function (err, client) {
     // Función callback
 });
 ```
