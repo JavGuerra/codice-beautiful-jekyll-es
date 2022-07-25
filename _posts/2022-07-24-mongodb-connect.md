@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conexión persistente a MongoDB en NodeJS
+title: Conexión persistente a MongoDB en Node.js
 subtitle: Abrir una única conexión a la base de datos a través de los distintos módulos de la aplicación.
 thumbnail-img: /assets/img/mongodb.png
 tags: [código, javascript, node.js, express, mongodb]
