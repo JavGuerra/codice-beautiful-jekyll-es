@@ -126,6 +126,8 @@ galeria.innerHTML += `<img src="${urlFoto}" `
 ```
 Esto insertará en el elemento del DOM identificado con ```#galeria``` una imagen (```img```) con el enlace a la foto (```src```), su ancho (```width```), alto (```height```) y una etiqueta ```alt``` que «describe» (vagamente) la foto. Con ```title``` podemos obtener la misma descripción al pasar con el ratón sobre la imagen.
 
+Por supuesto a la imagen podemos aplicarle las clases CSS que deseemos para, por ejemplo, que aparezca correctamente si usamos flexbox o similar para mostrar la galería...
+
 # El módulo image-size
 
 Si realizamos el test [Page Speed de Google](https://pagespeed.web.dev/) a nuestra página y no indicamos el ancho y alto de las imágenes, esto nos penalizará en la puntuación de viabilidad en el apartado _```Cumulative Layout Shift```_ o ```CLS```. El «movimiento inesperado de contenido» en español, mide la estabilidad visual cuantificando la frecuencia con la que los usuarios experimentan cambios de diseño inesperados. Así pues, cuanto más bajo sea el CLS, mejor.
