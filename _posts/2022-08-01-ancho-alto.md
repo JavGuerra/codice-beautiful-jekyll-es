@@ -140,7 +140,7 @@ Mediante la opción propuesta, podemos resolver este problema si somos nosotros 
 
 Como indica **Manz**, [image-size](https://www.npmjs.com/package/image-size) es una opción que permite obtener las dimensiones de una imagen y que podemos instalar con npm.
 
-## Un truco
+# Un truco
 
 Em Twitter **Manz** contaba:
 
