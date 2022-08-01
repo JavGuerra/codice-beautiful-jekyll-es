@@ -5,13 +5,13 @@ subtitle: Ideas para evitar el FOUC de contenido cuando desconocemos las medidas
 thumbnail-img: /assets/img/img.png
 tags: [código, javascript]
 ---
-Cuando una web está cargando, se producen cambios en el diseño conocidos como _Flash Of Unestiled Content_ (FOUC) que son visualmente molestos para el usuario y le hacen perder su punto de referencia en la página. Las imágenes son uno de los principales causantes de estos cambios. Hasta que no son cargadas no se conoce su ancho y alto, por lo que es un buen criterio de diseño indicar el ancho y alto de la imagen en el HTML. Pero ¿qué ocurre cunado no conocemos las medidas de las imágenes que vamos a cargar? Pongamos como ejemplo una galería de fotos que tomamos mediante fetch. En esta entrada veremos como afrontarlo.
+Cuando una web está cargando, se producen cambios en el diseño conocidos como _Flash Of Unestiled Content_ (FOUC) que son visualmente molestos para el usuario y le hacen perder su punto de referencia en la página. Las imágenes son uno de los principales causantes de estos cambios. Hasta que no son cargadas no se conoce su ancho y alto, por lo que es un buen criterio de diseño indicar el ancho y alto de la imagen en el HTML. Pero ¿qué ocurre cuando no conocemos las medidas de las imágenes que vamos a cargar? Pongamos como ejemplo una galería de fotos que tomamos mediante fetch. En esta entrada veremos como afrontarlo.
 
 ![Imagen](/assets/img/img.png){: .mx-auto.d-block :}
 
 # El código
 
-Pongamos que tenemos un arreglo con un listado de URLs de fotos de perritos que queremos mostrar en una galería de fotos. este arreglo podemos definirlo u obtenerlo mediante ```fetch``` desde una API u otro lugar. Cada imagen tiene un tamaño distinto, osea, unas medidas para los valores ```width``` y ```height``` diferentes. Nuestro objetivo es conocer estos valores antes de mostrar las fotos en la galería, para asignarles si ancho y alto correctos y evitar de esa manera el FUOC. De otra forma, a medida que se carguen las imágenes en la galería, estas irán abriéndose hueco para ocupar su espacio «empujando» el diseño.
+Pongamos que tenemos un arreglo con un listado de URLs de fotos de perritos que queremos mostrar en una galería de fotos. Este arreglo podemos definirlo u obtenerlo mediante ```fetch``` desde una API u otro lugar. Cada imagen tiene un tamaño distinto, osea, unas medidas para los valores ```width``` y ```height``` diferentes. Nuestro objetivo es conocer estos valores antes de mostrar las fotos en la galería, para asignarles si ancho y alto correctos y evitar de esa manera el FUOC. De otra forma, a medida que se carguen las imágenes en la galería, estas irán abriéndose hueco para ocupar su espacio «empujando» el diseño.
 
 Con este código que seguramente encontré en y adapté de StackOverflow o un sitio similar podemos hacerlo. Lo describo más abajo.
 
@@ -68,7 +68,7 @@ const fotos = [
 
 ## Obtener las medidas
 
-Aquí es donde se produce la magia. Veámos como:
+Aquí es donde se produce la magia. Veamos como:
 
 ```javascript
 function medidas(urlFoto) {
@@ -84,7 +84,7 @@ function medidas(urlFoto) {
     });
 }
 ```
-Esta función recibe como parámetro la url de la imagen a calcular y envuelve una promesa que resolverá un objeto con las medidas ```ancho``` y ```alto``` o bien un error.
+Esta función recibe como parámetro la URL de la imagen a calcular y envuelve una promesa que resolverá un objeto con las medidas ```ancho``` y ```alto``` o bien un error.
 
 Para hacerlo, instancio una nueva imagen con ```const img = new Image();``` y declaro dos eventos asociados a ```img```, un evento que se disparará cuando se cargue la imagen en ```img``` con ```img.src = urlFoto;``` (```img.onload```) y otro que se disparará si se produce un error al cargar la imagen (```img.onerror```).
 
@@ -128,7 +128,7 @@ Esto insertará en el elemento del DOM identificado con ```#galeria``` una image
 
 # El módulo image-size
 
-Si realizamos el test [Page Speed de Google](https://pagespeed.web.dev/) a nuestra página y no indicamos el ancho y alto de las imágenes, esto nos penalizará en la puntuación de viabilidad de nuestra página web en el apartado _```Cumulative Layout Shift_```_ o ```CLS```. El «movimiento inesperado de contenido» en español, mide la estabilidad visual que cuantifica la frecuencia con la que los usuarios experimentan cambios de diseño inesperados. Así pues, cuanto más bajo sea el CLS, mejor.
+Si realizamos el test [Page Speed de Google](https://pagespeed.web.dev/) a nuestra página y no indicamos el ancho y alto de las imágenes, esto nos penalizará en la puntuación de viabilidad de nuestra página web en el apartado _```Cumulative Layout Shift```_ o ```CLS```. El «movimiento inesperado de contenido» en español, mide la estabilidad visual que cuantifica la frecuencia con la que los usuarios experimentan cambios de diseño inesperados. Así pues, cuanto más bajo sea el CLS, mejor.
 
 **Manz**, de [manz.dev](https://manz.dev/), en su canal de [Discord](https://discord.manz.dev/), cuenta lo siguiente:
 
@@ -142,7 +142,7 @@ Como indica **Manz**, esta es una opción que permite obtener las dimensiones de
 
 ## Un truco
 
-Em Twitter @Manz contaba:
+Em Twitter **Manz** contaba:
 
 > Otras soluciones más simples e ingeniosas pueden ser establecer un alto máximo para el contenedor, de modo que no haga reflow de elementos inferiores, y los items del interior (galería) los vas haciendo aparecer a medida que se carguen con CSS/JS.
 
