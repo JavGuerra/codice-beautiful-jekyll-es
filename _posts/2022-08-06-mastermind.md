@@ -5,7 +5,7 @@ subtitle: Programación en una sola página web, sin librerías.
 thumbnail-img: /assets/img/mastermind.png
 tags: [código, PHP]
 ---
-Este juego interactúa con el usuario y pasa parámetros mediante POST a través de un formulario. El reto es hacerlo de tal forma que esos parámetros sean recibidos y procesados en la misma página que los envió, por lo tanto, la página debe contener toda la operativa de los distintos escenarios posibles del juego: al iniciar le juego, tras una tirada, si se producen errores, si se termina el juego... Veamos cómo. 
+Este juego interactúa con el usuario y pasa parámetros mediante POST a través de un formulario. El reto es hacerlo de tal forma que esos parámetros sean recibidos y procesados en la misma página que los envió, por lo tanto, la página debe contener toda la operativa de los distintos escenarios posibles del juego: al iniciar el juego, tras una tirada, si se producen errores, si se termina el juego... Veamos cómo. 
 
 ![Mastermind](/assets/img/mastermind.png){: .mx-auto.d-block :}
 
@@ -13,32 +13,32 @@ Este juego interactúa con el usuario y pasa parámetros mediante POST a través
 
 # El juego
 
-Mastermind es un juego simple. Se trata de adivinar un número de 4 dígitos distintos (no repetidos). Cada dígito podrá tener un valor entre 0 y 9. A través de un formulario, introducimos los cuatro dígitos. Al enviar el formulario recibiremos la respuesta de cuantos dígitos hemos acertado, o si hemos acertado el número completo con los dígitos en su orden correcto.
+Mastermind es un juego simple. Se trata de adivinar un número de 4 dígitos distintos (no repetidos). Cada dígito tendrá un valor entre 0 y 9. A través de un formulario, introducimos los cuatro dígitos. Al enviar el formulario recibiremos la respuesta de cuantos dígitos hemos acertado, o si hemos acertado el número completo con los dígitos en su orden correcto.
 
 Si un dígito está en su posición correcta dentro del número, se contabilizará como un «muerto». Con cuatro muertos ganamos el juego, es decir, habremos acertado el número.
 
-Si un dígito está en el número, pero su posición en él no es la correcta, se contabilizará como un «herido». Esto nos permitirá sospechar que vamos por buen camino, y podremos probar nuevas combinaciones.
+Si un dígito forma parte del número de cuatro dígitos, pero su posición en él no es la correcta, se contabilizará como un «herido». Esto nos permitirá sospechar que vamos por buen camino, y podremos probar nuevas combinaciones.
 
 Para enviar el formulario debemos completar las casillas con los cuatro dígitos.
 
-Para iniciar otra partida ya sea a mitad de jugada o tras haber ganado, es suficiente con recargar la página sin enviar el formulario.
+Para iniciar otra partida, ya sea a mitad de jugada o tras haber ganado, es suficiente con recargar la página sin enviar el formulario.
 
 # Escenarios
 
-Dado que tenemos un juego en una SPA (_Simple Page Aplication_) la lógica del juego tiene que estar contenida en ella al completo, y mediante condicionales, actuar de una forma u otra según sea el caso. Estos casos son:
+Dado que tenemos un juego en una SPA (_Simple Page Aplication_), la lógica del juego tiene que estar contenida en ella al completo, y mediante condicionales, actuar de una forma u otra según sea el caso. Estos casos son:
 
-1. Si es la primera vez que accedemos a la página
-2. La recepción de datos y comprobaciones tras una tirada
-3. Si el juego ha terminado: Se ha averiguado en número
-4. Enviar datos y comprobar si hay errores en el formulario
+1. La primera vez que accedemos a la página del juego.
+2. La recepción de datos y comprobaciones tras una tirada.
+3. Cuando el juego ha terminado: Se ha averiguado el número.
+4. Enviar datos y comprobar si hay errores en el formulario.
 
 Puedes ver el código del juego completo al final de esta entrada.
 
-Veamos cada escenario y el código a emplear. Obviaré en esta entrada los estilos CSS que son incluidos en el `head` de la página. Pero antes, vamos con el formulario.
+Veamos cada escenario y su correspondiente código. Obviaré en esta entrada los estilos CSS que son incluidos en el `head` de la página. Pero antes, vamos con el formulario.
 
 ## Formulario
 
-El formulario es simple. Emplea una serie de campos ocultos que veremos después para pasar la información recabada del formulario y de las tiradas anteriores en el juego. Su estructura será:
+El formulario es simple. Emplea una serie de campos ocultos, que veremos después, para pasar la información recabada del formulario (los 4 dígitos) y de las tiradas anteriores en el juego. Su estructura será:
 
 ```html
 <form name="input" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
@@ -48,7 +48,7 @@ El formulario es simple. Emplea una serie de campos ocultos que veremos después
     <input type="submit" name="enviar" class="boton" value="Enviar" />
 </form>
 ```
-Con `<?php echo $_SERVER['PHP_SELF'];?>` indico la dirección donde debo enviar (mediante POST) el resultado del formulario, en este caso nuestra misma página, esté esta donde esté ubicada.
+Con `<?php echo $_SERVER['PHP_SELF'];?>` indico la dirección donde debo enviar (mediante POST) el resultado del formulario, en este caso la misma página (`PHP_SELF`), esté en la ruta que esté.
 
 Con `name="enviar"` podré indicar si estoy enviando los datos del formulario. Empleando el botón `submit` tengo esa garantía, ya que es el medio de que dispongo (el botón) para hacer justamente el envío.
 
@@ -76,7 +76,7 @@ Con `isset($_POST['enviar'])` obtengo `true` si he recibido datos del formulario
 
 Inicializo la variable `$muertos` que contendrá el número de dígitos acertados en su posición correcta. Al principio será 0, porque aún no hay aciertos. Usaré esta variable como condicional más adelante.
 
-La variable `$mostrarNum` es un _swich_ que me provee de una característica del juego, la de mostrar o no un interrogante en pantalla. Al pasar con el ratón sobre este interrogante podemos comprobar el número que estamos intentando acertar. Esta opción se implementó para hacer comprobaciones durante el desarrollo, pero ha quedado como una característica. Pon la variable en `false` si sientes que vas a tener la tentación de hacer trampas...
+La variable `$mostrarNum` es un _swich_ que me provee de una característica del juego, la de mostrar o no un interrogante en pantalla. Al pasar con el ratón sobre este interrogante puedo comprobar el número que estoy intentando acertar. Esta opción se implementó para hacer comprobaciones durante el desarrollo, pero ha quedado como una característica. Pon la variable en `false` si sientes que vas a tener la tentación de hacer trampas...
 
 Esta ayuda se mostrará en el programa con la siguiente línea:
 
@@ -94,7 +94,7 @@ $numero = implode($numero);
 ```
 En el arreglo `$numero` introduzco los dígitos del 0 al 9 con `range()`, y luego los mezclo (altero su posición en el arreglo) con `shuffle()`. Con `array_slice()` recorto el arreglo para que contenga sólo los cuatro primeros elementos, osea, los cuatro dígitos al azar. Finalmente, con `implode()` concateno esos cuatro elementos en uno, siendo ahora `$numero` una cadena de cuatro caracteres.
 
-Podría haber obtenido un número al azar entre `0` y `9999` con `rand()` o incluso con `mt_rand()`, pero esto conllevaría conversiones de número a cadena y rellenado de `0` a la izquierda si el número obtenido al azar es menor que 1000, y comprobar que cada dígito sea distinto. Esta solución propuesta es más divertida e imaginativa, ¿verdad?
+Podría haber obtenido un número al azar entre `0` y `9999` con `rand()` o incluso con `mt_rand()`, pero esto conllevaría conversiones de número a cadena, rellenado de `0` a la izquierda si el número obtenido al azar es menor que 1000, y comprobar que cada dígito sea distinto. Esta solución propuesta es más divertida e imaginativa, ¿verdad?
 
 ## 2. Recibiendo datos del formulario
 
@@ -148,7 +148,7 @@ function validaEntero($numero) {
 ```
 Devuelve `true` o `false` si el dígito que le pasamos es un número entre 0 y 9 o no.
 
-De esta forma, podemos usarlo para tratar obtener el número enviado:
+De esta forma, podemos usarlo para tratar y obtener el número enviado:
 
 ```php
     if (validaEntero($d1) && validaEntero($d2) && validaEntero($d3) && validaEntero($d4)) {
@@ -190,11 +190,11 @@ function numHeridos($numero, $numEnviado, $muertos) {
     return $contador - $muertos;
 }
 ```
-La función `numMuertos()` comparará los valores de cada posición de los caracteres de cada una de las dos cadenas, el número que intentamos averiguar y el numero que hemos enviado por le formulario. Con cada coincidencia el `$contador` se incrementa en 1. La función devuelve el número de coincidencias exactas, osea, el número de muertos. 
+La función `numMuertos()` comparará los valores de cada posición de los caracteres de cada una de las dos cadenas, el número que intentamos averiguar y el numero que hemos enviado por el formulario. Con cada coincidencia,el `$contador` se incrementa en 1. La función devuelve el número de coincidencias exactas, osea, el número de muertos. 
 
-La función `numHeridos()` por otra parte, recorre los caracteres del número que hemos enviado y comprueba si están contenido en el número que debemos acertar. Si es así el `$contador` se incrementa en 1. La función devuelve la diferencia entre el número de heridos y el número de muertos, ya que los aciertos en esta función no discriminan si los valores coincidentes están en su posición correcta o no, y los contabiliza como heridos, cuando puede que realmente estos valores sean muertos, y ya estaban contabilizados en `$muertos`.
+La función `numHeridos()` por otra parte, recorre los caracteres del número que hemos enviado y comprueba si están contenido en el número que debemos acertar. Si es así el `$contador` se incrementa en 1. La función devuelve la diferencia entre el número de heridos y el número de muertos, ya que los aciertos en esta función no discriminan si los valores coincidentes están en su posición correcta o no, y los contabiliza como heridos, cuando puede que realmente estos valores sean muertos, y estos ya estaban contabilizados en la variable `$muertos`.
 
-Cuando tenemos estos datos, ya podemos añadir el resultado a la lista de tiradas:
+Cuando tenemos los datos, ya podemos añadir el resultado a la lista de tiradas:
 
 ```php
 // Añadir tirada
@@ -222,7 +222,7 @@ if ($enviado && $muertos == 4) {
 
 }
 ```
-Si tengo cuatro muertos, he ganado!. habré acertado el número en una serie de intentos que muestro con `count($tiradas)`. En caso contrario, sigo jugando.
+Si tengo cuatro muertos, ¡he ganado!. habré acertado el número en una serie de intentos que muestro con `count($tiradas)`. En caso contrario, sigo jugando.
 
 Si hay tiradas `if (isset($tiradas))` muestro los datos de cada una de ellas con un `foreach`: número introducido, muertos y heridos de cada tirada, y a continuación muestro el formulario para seguir intentándolo.
 
@@ -268,15 +268,15 @@ Aquí el código que iré desgranado y que va dentro de la comprobación anterio
 </form>
 ```
 
-Ya expliqué, más arriba, los parámetros de `form` y el envío del formulario. Entendido esto, el formulario tiene tres cuestiones de interés para nosotros.
+Ya expliqué, más arriba, los parámetros de `form` y el envío del formulario. Entendido esto, el formulario tiene tres cuestiones de interés.
 
 1. Preparar los datos que se enviarán en el formulario, incluyendo los que llegaron a través del anterior formulario.
-2. Recibir los datos en los cuatro campos `input` para ser enviados. En cada campo deberá estar el valor de cada dígito recibido del formulario anterior. Las características de HTML se ocupan de que los valores introducidos estén en rango antes de enviarse, pero aún así podemos recibir datos alterados por `POST`, así pues:
-3. Comprobar que los datos recibidos sean los correctos, y si no es así, resaltar el error.
+2. Recibir los datos en los cuatro campos `input` para ser enviados. En cada campo deberá estar el valor de cada dígito recibido del formulario anterior. Las características de HTML se ocupan de que los valores introducidos estén en rango antes de enviarse, pero aún así podemos recibir datos alterados por `POST`, luego:
+3. Comprobar que los datos recibidos sean los correctos, y si no, reseñar el error.
 
 ### 4.1. Campos ocultos
 
-en esta parte del formulario completo los distintos campos ocultos con información necesaria para la siguiente tirada: el número a acertar, y cada uno de los arreglos de cada tirada anterior, conteniendo el número que enviamos en la tirada, el número de muertos y el número de heridos.
+En esta parte del formulario, completo los distintos campos ocultos con información necesaria para la siguiente tirada: el número a acertar, y cada uno de los arreglos de cada tirada anterior, conteniendo el número que enviamos en la tirada, el número de muertos y el número de heridos.
 
 ```php
 <!-- Campos ocultos -->
@@ -300,7 +300,7 @@ if (isset($_POST['tiradas'])) $tiradas = $_POST['tiradas'];
 
 ### 4.2. Recibir los datos de los input
 
-Aquí el código para los cuatro campos `input`:
+El código para los cuatro campos `input` es el siguiente:
 
 ```html
 <!-- Dígito 1 -->
@@ -320,7 +320,7 @@ Aquí el código para los cuatro campos `input`:
 <?php if ($enviado && !validaEntero($d4)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 ```
 
-Mediante este código, repetido (convenientemente modificado) en cada `input`, muestro en el valor de cada dígito recibido de la jugada anterior, si esta se produjo, sino no muestro nada.
+Mediante este código, repetido en cada `input` (convenientemente modificado), muestro el valor de cada dígito recibido de la jugada anterior, si esta se produjo. Sino no muestro nada.
 
 ```html
 value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>"
@@ -332,9 +332,9 @@ Para asegurarnos que los dígitos que recibimos del formulario anterior son corr
 ```php
 if ($enviado && !validaEntero($d1)) echo '<span class="alerta"> &larr;</span>'."\n";
 ```
-Con este código tras cada campo, señalaremos aquellos campos `input` que contengan un error, en este caso añadiendo una flecha (&larr;) de color rojo a través de la clase CSS `alerta`.
+Con este código tras cada campo, señalaremos aquellos campos `input` que contengan un error, en este caso añadiendo una flecha (&larr;) y pintándola de color rojo con la clase CSS `alerta`.
 
-Completado el formulario, con sus campos ocultos y los datos de todos los input, que son campos obligatorios y tienen rangos numéricos definidos, ya podemos enviarlo (botón `sent`) a la misma página para ser procesados tal como se indicó en el **punto 2** de esta entrada, y así hasta acertar el número o hasta que recarguemos la página, caso en el que empezaremos de cero ,en el **punto 1** de esta entrada.
+Completado el formulario, con sus campos ocultos y los datos de todos los input, -que son campos obligatorios y tienen rangos numéricos definidos-, ya podemos enviarlo (botón `sent`) a la misma página para ser procesados tal como se indicó en el **punto 2** de esta entrada, y así hasta acertar el número o hasta que recarguemos la página, caso en el que empezaremos de cero, en el **punto 1** de esta entrada.
 
 # El programa completo
 
