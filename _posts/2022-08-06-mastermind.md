@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Juego Mastermind en PHP
+title: Mastermind en PHP
 subtitle: Programado en una sola página web, sin usar librerías.
 thumbnail-img: /assets/img/mastermind.png
 tags: [web, código, PHP, juego, formularios]
