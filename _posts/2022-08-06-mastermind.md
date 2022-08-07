@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mastermind en PHP
-subtitle: Programado en una sola página web, sin librerías.
+subtitle: Programado en una sola página web, sin usar librerías.
 thumbnail-img: /assets/img/mastermind.png
 tags: [código, PHP]
 ---
