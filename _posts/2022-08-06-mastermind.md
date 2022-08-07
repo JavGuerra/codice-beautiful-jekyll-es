@@ -247,12 +247,11 @@ Aquí el código que iré desgranado y que va dentro de la comprobación anterio
     ?>
 
     <!-- Dígito 1 -->
-    <input type="text" name="d1" size="1" maxlength="1" class="campo" pattern="[0-9]" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
-    
+    <input type="number" name="d1" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
     <?php if ($enviado && !validaEntero($d1)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
     <!-- Dígito 2 -->
-    <input type="number" name="d2" class="campo" min="0" max="9" maxlength="1" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
+    <input type="number" name="d2" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
     <?php if ($enviado && !validaEntero($d2)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
     <!-- Dígito 3 -->
@@ -304,11 +303,11 @@ El código para los cuatro campos `input` es el siguiente:
 
 ```html
 <!-- Dígito 1 -->
-<input type="text" name="d1" size="1" maxlength="1" class="campo" pattern="[0-9]" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
+<input type="number" name="d1" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
 <?php if ($enviado && !validaEntero($d1)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
 <!-- Dígito 2 -->
-<input type="number" name="d2" class="campo" min="0" max="9" maxlength="1" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
+<input type="number" name="d2" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
 <?php if ($enviado && !validaEntero($d2)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
 <!-- Dígito 3 -->
@@ -478,11 +477,11 @@ CADENA;
             ?>
 
             <!-- Dígito 1 -->
-			<input type="text" name="d1" size="1" maxlength="1" class="campo" pattern="[0-9]" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
+            <input type="number" name="d1" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d1)) echo $d1; ?>" required="required" />
             <?php if ($enviado && !validaEntero($d1)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
             <!-- Dígito 2 -->
-            <input type="number" name="d2" class="campo" min="0" max="9" maxlength="1" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
+            <input type="number" name="d2" class="campo" min="0" max="9" value="<?php if ($enviado && validaEntero($d2)) echo $d2; ?>" required="required" />
             <?php if ($enviado && !validaEntero($d2)) echo '<span class="alerta"> &larr;</span>'."\n" ?>
 
             <!-- Dígito 3 -->
