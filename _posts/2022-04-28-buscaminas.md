@@ -3,7 +3,7 @@ layout: post
 title: Buscaminas en JavaScript
 subtitle: Pequeño juego online para manejo de eventos
 thumbnail-img: /assets/img/buscaminas.png
-tags: [código, css, html, javascript, bootstrap, jquery, juego]
+tags: [web, código, css, html, javascript, bootstrap, jquery, juego]
 ---
 Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html) como un juego atípico que no consiste en evitar las minas, como estamos acostumbrados en los juegos de escritorio del mismo nombre, sino en hacerlas estallar.
 

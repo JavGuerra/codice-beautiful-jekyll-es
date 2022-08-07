@@ -5,7 +5,7 @@ subtitle: Programa digital reskilling Desarrollo Web Full Stack - Fundación Uni
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/beca-santander-fswd.png
 share-img: /assets/img/path.jpg
-tags: [web, formación, beca]
+tags: [formación, beca]
 ---
 
 El pasado 9 de marzo fui informado de que había sido seleccionado para cursar el Bootcamp de Desarrollo Web Full Stack que [Becas Santander](https://www.becas-santander.com/es/index.html) lleva a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).

@@ -3,7 +3,7 @@ layout: post
 title: Carousel con Bootstrap
 subtitle: Una pequeña galería de fotos de ejemplo
 thumbnail-img: https://badared.com/javguerra/daw/galeria/foto.jpg
-tags: [código, css, html, javascript, bootstrap, fotografía, edición, venezuela]
+tags: [web, código, css, html, javascript, bootstrap, fotografía, edición, venezuela]
 ---
 Las primeras veces que viajé a Venezuela quedé impactado por su belleza y las gentes que allí conocí. Me inspiró para realizar esta [galería de fotos](https://badared.com/javguerra/daw/galeria/) de ejemplo para la asignatura de Diseño de Interfaces Web de Formación Profesional de Grado Superior de Desarrollo de Aplicaciones Web (DAW).
 

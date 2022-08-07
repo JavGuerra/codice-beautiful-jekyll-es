@@ -6,7 +6,7 @@ cover-img: https://javguerra.github.io/summer-quiz/assets/img/beach.png
 thumbnail-img: https://javguerra.github.io/summer-quiz/assets/img/banner.png
 gh-repo:  https://github.com/JavGuerra/summer-quiz 
 gh-badge: [star, fork, follow]
-tags: [web, código, html, css, javascript]
+tags: [web, código, html, css, javascript, juego]
 comments: true
 ---
 

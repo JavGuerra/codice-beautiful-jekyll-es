@@ -3,7 +3,7 @@ layout: post
 title: Juego Mastermind en PHP
 subtitle: Programado en una sola página web, sin usar librerías.
 thumbnail-img: /assets/img/mastermind.png
-tags: [código, PHP]
+tags: [web, código, PHP, juego, formularios]
 ---
 Este juego interactúa con el usuario y pasa parámetros mediante POST a través de un formulario. El reto es hacerlo de tal forma que esos parámetros sean recibidos y procesados en la misma página que los envió, por lo tanto, la página debe contener toda la operativa de los distintos escenarios posibles del juego: al iniciar el juego, tras una tirada, si se producen errores, si se termina el juego... Veamos cómo. 
 

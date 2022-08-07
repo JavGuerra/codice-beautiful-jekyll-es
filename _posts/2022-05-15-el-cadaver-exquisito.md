@@ -4,7 +4,7 @@ title: El cadáver exquisito
 subtitle: Un juego de experimentación artística por ordenador
 cover-img: http://badared.com/javguerra/contenidos/lce/imagen.gif
 thumbnail-img: http://badared.com/javguerra/contenidos/lce/imagen.gif
-tags: [HTML, CSS, javascript, arte, MEIAC]
+tags: [web, HTML, CSS, javascript, arte, MEIAC, juego]
 ---
 _Imagen: Victor Brauner, André Bretón, Jacques Hérold e Yves Tanguy (1935)_
 

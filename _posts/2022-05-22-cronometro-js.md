@@ -3,7 +3,7 @@ layout: post
 title: Cronómetro en JavaScript
 subtitle: Gestiona sesiones de los cronometrajes
 thumbnail-img: https://javguerra.github.io/CronometroJS/assets/img/banner.png
-tags: [código, css, html, javascript]
+tags: [web, código, css, html, javascript]
 ---
 Ejercicio de programación realizado en el [bootcamp Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy haciendo.
 
