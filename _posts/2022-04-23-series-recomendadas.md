@@ -53,6 +53,7 @@ Haz click en los enlaces para más información:
 * [Baron noir](https://www.filmaffinity.com/es/film392787.html) - HBO Max
 * [Gloria](https://www.filmaffinity.com/es/film859950.html) - Netflix
 * [Intimidad](https://www.filmaffinity.com/es/film244305.html) - Netflix
+* [Los emigrantes](https://www.filmaffinity.com/es/film632845.html) - Filmin
 
 Espero que las disfrutes ;)
 
