@@ -3,7 +3,7 @@ layout: post
 title: Conocer el ancho y alto de una imagen con JavaScript antes de usarla en HTML
 subtitle: Ideas para evitar el «FOUC» de contenido cuando desconocemos las medidas de las imágenes.
 thumbnail-img: /assets/img/img.png
-tags: [código, javascript, node.js]
+tags: [código, javascript, node.js, imágenes]
 ---
 Cuando una web está cargando, se producen cambios en el diseño conocidos como _Flash Of Unestiled Content_ (FOUC) que son visualmente molestos para el usuario y le hacen perder su punto de referencia en la página. Las imágenes son uno de los principales causantes de estos cambios. Hasta que no son cargadas no se conoce su ancho y alto, por lo que es un buen criterio de diseño indicar el ancho y alto de la imagen en el HTML. Pero ¿qué ocurre cuando no conocemos las medidas de las imágenes que vamos a cargar? Pongamos como ejemplo una galería de fotos que tomamos mediante fetch. En esta entrada veremos como afrontarlo.
 
