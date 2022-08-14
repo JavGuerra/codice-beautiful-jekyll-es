@@ -3,7 +3,6 @@ layout: page
 title: Sobre mi
 subtitle: Por qué querrías conocerme
 ---
-
 Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
 
 Me apasiona la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología, el diseño gráfico, las [series de TV]({% post_url 2022-04-23-series-recomendadas %}), el cine y enseñar. Me gusta el trabajo bien hecho, y durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en este área.
