@@ -23,4 +23,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [PHP básico](/assets/img/certificados/PHP_básico-Open_Bootcamp.png) - Open Bootcamp
 * [PHP](/assets/img/certificados/PHP-Linked-In.png) - Linked-In
 
+# TODO
 
+* [Cloud Computing](https://learndigital.withgoogle.com/activate/course/cloud-computing) - Google Activate
+* [Desarrollo de aplicaciones móviles](https://learndigital.withgoogle.com/activate/course/apps) - Google Activate
