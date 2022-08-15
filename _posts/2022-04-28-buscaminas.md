@@ -9,6 +9,8 @@ Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-J
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
 
+[<button>Jugar a Buscaminas</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
+
 Una vez se genera el tablero con las dimensiones que deseemos, tendremos una serie de intentos para acertar la posición de las minas. Cada fallo cuenta, así como cada acierto. Termina la partida cuando se han superado el número de fallos posibles o cuando se encuentran todas las minas.
 
 Realicé este juego durante una semana, como práctica de programación de la asignatura de Desarrollo Web en Entorno Cliente de Formación Profesional de Grado Superior de Desarrollo de Aplicaciones Web (DAW).
