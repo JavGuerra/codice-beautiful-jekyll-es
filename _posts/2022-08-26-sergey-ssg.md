@@ -53,7 +53,7 @@ Lo que necesito es que cada página web estática contenga el cuerpo de la pági
 
 Según parece, hay un estándar en ciernes llamado **HTML módulos** que permitiría importar HTML como si fuesen módulos de Javascript mediante `import`. Para saber más: [HTML Modules Explainer](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md)
 
-Hasta que se estandarize, Sergey SSG es una razonable alternativa. Otro posible SSG sencillo puede ser [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml).
+Hasta que se estandarice, Sergey SSG es una razonable alternativa. Otro posible SSG sencillo puede ser [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml).
 
 # Vamos por partes
 
@@ -373,7 +373,7 @@ Puede gestionar enlaces con [sergey-link](https://sergey.cool/links/), algo muy 
 
 Sergey SSG también puede importar texto en formato Markdown como se indica [aquí](https://sergey.cool/markdown/).
 
-Si intentas visualizar los cambios de las páginas que estás creando antes de generar tus ficheros estáticos, estos se mostrarán con errores, ya que el código de Sergey SSG no es reconoxcido por el navegador. Te recomiendo que revises las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG e incluso para tener una previsualización de los cambios que vas realizando en tiempo real.
+Si intentas visualizar los cambios de las páginas que estás creando antes de generar tus ficheros estáticos, estos se mostrarán con errores, ya que el código de Sergey SSG no es reconocido por el navegador. Te recomiendo que revises las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG e incluso para tener una previsualización de los cambios que vas realizando en tiempo real.
 
 # Enlaces
 
