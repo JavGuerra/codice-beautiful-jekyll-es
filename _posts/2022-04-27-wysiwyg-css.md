@@ -3,7 +3,7 @@ layout: post
 title: wysiwyg.css
 subtitle: Un pequeño CSS para el contenido HTML o Markdown con una única clase
 thumbnail-img: https://raw.githubusercontent.com/jgthms/wysiwyg.css/master/docs/wysiwyg.png
-tags: [css, html, markdown, marco]
+tags: [css, html, markdown, marco, herramienta]
 ---
 En ocasiones debemos presentar pequeñas páginas web a las que no merece la pena dedicarles tiempo de maquetación con CSS, como páginas para mostrar ejemplos, ejercicios, etc. pero a las que queremos darle una presentación básica que nos muestre el contenido algo más pulido que con los estilos por defecto del navegador.
 

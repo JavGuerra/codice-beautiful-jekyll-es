@@ -3,7 +3,7 @@ layout: post
 title: Usando Sergey SSG
 subtitle: En la página de las tarjetas de emergencia de Conectiva
 thumbnail-img: /assets/img/sergey-ssg.svg
-tags: [html, node.js, ssg]
+tags: [html, node.js, ssg, herramienta]
 ---
 
 «Si alguna has hecho un cambio en cada encabezado en un sitio web totalmente estático, sabrás lo engorroso y propenso a errores que es copiar y pegar los cambios en todos los ficheros. Ahí es donde entra en juego Sergey. Sergey le permite mover ese encabezado a un único fichero que se puede importar y te ayuda a incluirlo donde lo necesites.»
