@@ -122,7 +122,7 @@ Vemos aquí un `<sergey-import src="inicio">` que indica cual es el `import` que
 
 Con este _import_ definimos el `title` de la página, la `description` y puedo añadir contenido en este caso al final de `head` si lo deseo, como he hecho con el `script` dentro del `sergey-import`, ya que en el fichero `inicio.html` he colocado un `<sergey-slot />` justo antes de la etiqueta de cierre de la cabecera.
 
-En este caso no incluyo _templates_ para los `<sergey-slot name="assets" />` en inicio.html porque no los necesito, pero cuando uso este _import_ en ficheros que están dentro de subcarpetas, si debo indicar sus rutas, pudiendo añadir en este caso:
+En este caso no incluyo _templates_ para los `<sergey-slot name="assets" />` en inicio.html porque no los necesito, pero cuando uso este _import_ en ficheros que están dentro de subcarpetas, si debo indicar sus rutas, pudiendo añadir entonces:
 
 ```html
 <sergey-template name="assets">../</sergey-template>
