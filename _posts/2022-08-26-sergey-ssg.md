@@ -28,6 +28,8 @@ Se optó por desarrollar la página sin usar ningún CMS ni base de datos de res
 
 # Sergey SSG
 
+Todos los [generadores de sitios estáticos](https://www.cloudflare.com/es-es/learning/performance/static-site-generator/) funcionan de forma análoga. Toman una serie de páginas codificadas de una forma concreta y las convierten a HTML que puede ser usado en un navegador. lo que los diferencia es el código que incluyen estas páginas para generar el resultado que deseamos.
+
 Ya que el propósito de esta entrada no es hacer una revisión de la herramienta, te dejo enlace a un video de [Jonathan MirCha](https://jonmircha.com/) sobre sus características y uso básico paso a paso.
 
 * [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU)
@@ -376,6 +378,7 @@ Si intentas visualizar los cambios de las páginas que estás creando antes de g
 # Enlaces
 
 * [Ir a la página de las tarjetas de emergencia](https://conectiva.lat/emergencias)
+* [Generadores de sitios estáticos](https://www.cloudflare.com/es-es/learning/performance/static-site-generator/)
 * [Sergey SSG](https://sergey.cool/)
 * [Repositorio de Sergey SSG en GitHub](https://github.com/trys/sergey)
 * [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU) - Video
