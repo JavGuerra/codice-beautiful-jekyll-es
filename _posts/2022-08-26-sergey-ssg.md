@@ -8,7 +8,7 @@ tags: [html, node.js, ssg, herramienta]
 
 «Si alguna has hecho un cambio en cada encabezado en un sitio web totalmente estático, sabrás lo engorroso y propenso a errores que es copiar y pegar los cambios en todos los ficheros. Ahí es donde entra en juego Sergey. Sergey le permite mover ese encabezado a un único fichero que se puede importar y te ayuda a incluirlo donde lo necesites.»
 
-Así describe el autor de esta herramienta la funcionalidad de su Generador de Sitios Estáticos. Se trata de una utilidad simple que permite hacer importaciones de código en nuestro HTML empleando node.js para renderizar la página resultante.
+Así describe el autor de esta herramienta la funcionalidad de su Generador de Sitios Estáticos. Se trata de una utilidad simple que permite hacer importaciones de código en nuestro HTML empleando node.js para generar la página resultante.
 
 ![Sergey SSG](/assets/img/sergey-ssg.svg){: .mx-auto.d-block :}
 
@@ -284,7 +284,7 @@ Una vez vista cada importación por partes, veamos cómo quedaría el index.html
 
 <sergey-import src="fin" />
 ```
-Este código, al renderizarlo con `npm start`, mostraría lo siguiente:
+Al generar la página con `npm start` a partir de este código, se mostraría lo siguiente:
 
 ```html
 <!DOCTYPE html>
@@ -363,7 +363,7 @@ Este código, al renderizarlo con `npm start`, mostraría lo siguiente:
 
 </html>
 ```
-Los ficheros renderizados resultantes, ya como páginas estáticas con todo su contenido, estarán en la carpeta `public`, y serán estos ficheros los que podremos subir a nuestro servidor.
+Los ficheros generados resultantes, ya como páginas estáticas con todo su contenido, estarán en la carpeta `public`, y serán estos ficheros los que podremos subir a nuestro servidor.
 
 # Más opciones en Sergey SSG
 
