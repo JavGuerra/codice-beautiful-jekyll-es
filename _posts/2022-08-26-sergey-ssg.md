@@ -53,7 +53,7 @@ Lo que necesito es que cada página web estática contenga el cuerpo de la pági
 
 Según parece, hay un estándar en ciernes llamado **HTML módulos** que permitiría importar HTML como si fuesen módulos de Javascript mediante `import`. Para saber más: [HTML Modules Explainer](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md)
 
-Hasta que se estandarice, Sergey SSG es una razonable alternativa. Otro posible SSG sencillo puede ser [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml).
+Hasta que se estandarice, Sergey SSG es una razonable alternativa.
 
 # Vamos por partes
 
@@ -383,7 +383,4 @@ Si intentas visualizar los cambios de las páginas que estás creando antes de g
 * [Repositorio de Sergey SSG en GitHub](https://github.com/trys/sergey)
 * [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU) - Video
 * [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml) - Alternativa
-
-
-
-
+* [Mini SSG](https://minissg.vercel.app/) - Alternativa
