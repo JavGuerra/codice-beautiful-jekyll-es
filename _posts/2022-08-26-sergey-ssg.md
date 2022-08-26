@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Usando Sergey SSG
-subtitle: La página de las tarjetas de emergencia de Conectiva
+subtitle: En la página de las tarjetas de emergencia de Conectiva
 thumbnail-img: /assets/img/sergey-ssg.svg
 tags: [html, node.js, ssg]
 ---
 
-«Si alguna has hecho un cambio en cada encabezado en un sitio web totalmente estático, sabrás lo engorroso y propenso a errores que es copiar y pegar los cambios en todos los archivos. Ahí es donde entra en juego Sergey. Sergey le permite mover ese encabezado a un único archivo que se puede importar y te ayuda a incluirlo donde lo necesites.»
+«Si alguna has hecho un cambio en cada encabezado en un sitio web totalmente estático, sabrás lo engorroso y propenso a errores que es copiar y pegar los cambios en todos los ficheros. Ahí es donde entra en juego Sergey. Sergey le permite mover ese encabezado a un único fichero que se puede importar y te ayuda a incluirlo donde lo necesites.»
 
 Así describe el autor de esta herramienta la funcionalidad de su Generador de Sitios Estáticos. Se trata de una utilidad simple que permite hacer importaciones de código en nuestro HTML empleando node.js para renderizar la página resultante.
 
@@ -24,7 +24,7 @@ Hay una serie de requisitos funcionales y operativos:
 2. Liviana. Por el mismo motivo, debe pesar poco para un consumo bajo de ancho de banda.
 3. Mantenible. La página debe poder actualizarse con rapidez y sin gran esfuerzo.
 
-Se optó por desarrollar la página sin usar ningún CMS ni base de datos de respaldo, empleando sólo HTML + CSS. Para la maquetación se usó Bootstrap, simplificando el desarrollo y su posterior mantenimiento, y las zonas comunes de las páginas web fueron extraídas para ser insertadas como _slots_, en cada página HTML. Esto permite que para hacer cambios en estos contenidos repetidos sólo sea necesario modificar un archivo, y el resto de páginas mostrarán los cambios.
+Se optó por desarrollar la página sin usar ningún CMS ni base de datos de respaldo, empleando sólo HTML + CSS. Para la maquetación se usó Bootstrap, simplificando el desarrollo y su posterior mantenimiento, y las zonas comunes de las páginas web fueron extraídas para ser insertadas como _slots_, en cada página HTML. Esto permite que para hacer cambios en estos contenidos repetidos sólo sea necesario modificar un fichero, y el resto de páginas mostrarán los cambios.
 
 # Sergey SSG
 
@@ -38,16 +38,16 @@ Ver las indicaciones de instalación en: [https://sergey.cool/](https://sergey.c
 
 # Importaciones
 
-La [página de ejemplo](https://conectiva.lat/emergencias) consta de una página principal o portada y de ella derivan todas las otras páginas estáticas de la web. Todas ellas tienen la misma estructura:
+La [página de ejemplo](https://conectiva.lat/emergencias) consta de una HTML principal o portada y de él derivan todas las otras páginas estáticas de la web. Todas ellas tienen la misma estructura:
 
 - Inicio, con la información del _head_ de la página.
 - Cabecera de la página, con el logo y el título de la página. (En algunos casos contiene más de un logo)
 - Cuerpo de la página. Este es el contenido que cambia en cada página.
 - Fin, o pie de página.
 
-Inicio, cabecera y fin son los contenidos que se repiten, si bien en ellos, como por ejemplo en el inicio o en la cabecera, hay información específica de cada página, como el título.
+Inicio, cabecera y fin son los contenidos que se repiten y no cambian, si bien en ellos, como veremos, hay información específica de cada página.
 
-Lo que necesito es que cada página web estática contenga el cuerpo de la página, es decir la información propia y específica de esa página, pero que las otras partes de la página que tienen una estructura repetida se inserten en la página estática desde otro archivo. Por alguna razón, HTML no implementa esta característica que si tienen CSS y JavaScript, y aunque en su momento se intentó llevar a cabo, no cuajó. Ver info sobre [Imports HTML](https://www.todojs.com/que-pasa-con-import-y-los-web-components/).
+Lo que necesito es que cada página web estática contenga el cuerpo de la página, es decir la información propia y específica de esa página, pero que las otras partes de la página que tienen una estructura repetida se inserten en la página desde otro fichero. Por alguna razón, HTML no implementa esta característica que si tienen CSS y JavaScript, y aunque en su momento se intentó llevar a cabo, no cuajó. Ver info sobre [Imports HTML](https://www.todojs.com/que-pasa-con-import-y-los-web-components/).
 
 Según parece, hay un estándar en ciernes llamado **HTML módulos** que permitiría importar HTML como si fuesen módulos de Javascript mediante `import`. Para saber más: [HTML Modules Explainer](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md)
 
@@ -57,7 +57,7 @@ Hasta que se estandarize, Sergey SSG es una razonable alternativa. Otro posible 
 
 ...dijo el descuartizador de Boston. Este mal chiste da pie a entender cómo vamos a trabajar.
 
-Cada parte susceptible de repetirse en las distintas páginas se sacará a parte, en una carpeta llamada `_imports`, y estos documentos «importables» serán referenciados en cada una de las páginas donde se utilicen.
+Cada parte susceptible de repetirse en las distintas páginas se sacará, a una carpeta llamada `_imports`, y estos documentos «importables» serán referenciados en cada una de las páginas donde se utilicen.
 
 Para conocer las etiquetas de importación de Sergey SSG, puedes visitar la sección [Slots](https://sergey.cool/slots/) de su página.
 
@@ -72,7 +72,7 @@ Las partes que vamos a reutilizar son:
 
 ## 1. Inicio
 
-Este archivo, como dije, contiene el `head` de la página, y el comienzo del `body`:
+Este fichero contiene el `head` de la página, y el comienzo del `body`:
 
 ```html
 <!DOCTYPE html>
@@ -106,7 +106,7 @@ Este archivo, como dije, contiene el `head` de la página, y el comienzo del `bo
 <body>
     <div class="container">
 ```
-Como se aprecia, hay una serie de etiquetas `sergey-slot` en este archivo. Para entenderlo mejor, tenemos que ver cómo se inserta este archivo en las páginas.
+Como se aprecia, hay una serie de etiquetas `sergey-slot` en este fichero. Para entenderlo mejor, tenemos que ver cómo se inserta este fichero en las páginas.
 
 ```html
 <sergey-import src="inicio">
@@ -118,22 +118,22 @@ Como se aprecia, hay una serie de etiquetas `sergey-slot` en este archivo. Para 
 
 Estas son las líneas que uso en, por ejemplo, el fichero index.html para insertar la cabecera de la página.
 
-Vemos un `<sergey-import src="inicio">` que indica cual es el `import` que vamos a insertar, que en este caso se llama `inicio`, y una serie de etiquetas `sergey-template` con información de la cabecera. Esta información será distinta en cada HTML, pero no así el resto de contenido de la cabecera. Con estos `sergey-template` indicamos que datos debe incluir en el `import` genérico donde aparezca una etiqueta `sergey-slot`, consiguiendo de esta forma tener un fichero externo donde podremos hacer cambios de forma sencilla que afectarán a todas las páginas que lo use, pero sin perder la funcionalidad de la personalización de cada página.
+Vemos un `<sergey-import src="inicio">` que indica cual es el `import` que vamos a insertar, que en este caso se llama `inicio`, y una serie de etiquetas `sergey-template` con información de la cabecera. Esta información será distinta en cada HTML, pero no así el resto de contenido de la cabecera. Con estos `sergey-template` indicamos que datos debe incluir en el `import` genérico donde aparezca una etiqueta `sergey-slot`, consiguiendo de esta forma tener un fichero externo donde podremos hacer cambios de forma sencilla que afectarán a todas las páginas que lo usen, pero sin perder la funcionalidad de la personalización de cada página.
 
 Con este _import_ definimos el `title` de la página, `description` y podemos añadir contenido en este caso al final de `head` si lo deseamos, como he hecho yo con el `script`, ya que en el fichero `inicio.html` he colocado un `<sergey-slot />` justo antes de la etiqueta de cierre de la cabecera.
 
-En este caso no incluyo _templates_ para los `"<sergey-slot name="assets" />` de inicio.html porque no los necesito, pero cuando uso este _import_ en archivos en subcarpetas, si debo indicar sus ruta,s pudiendo añadir en este caso:
+En este caso no incluyo _templates_ para los `"<sergey-slot name="assets" />` de inicio.html porque no los necesito, pero cuando uso este _import_ en ficheros en subcarpetas, si debo indicar sus rutas, pudiendo añadir en este caso:
 
 ```html
 <sergey-template name="assets">../</sergey-template>
 ```
-para indicar que estamos en una subcarpeta, añadiendo de esta forma `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`.
+para indicar así que estoy en una subcarpeta, añadiendo de esta forma `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`, que ahora serían `../assets/favicon.png` y `../assets/estilos.css` respectivamente.
 
-Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a verla luz. Por lo demás, e software funciona correctamente y hace su función.
+Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a verla luz. Por lo demás, el software funciona correctamente y hace su función.
 
 ## 2. Cabecera
 
-Como recordamos, la cabecera contiene el logo y el título y subtítulo. El código:
+La cabecera contiene el logo, el título y subtítulo. El código es:
 
 ```html
         <header>
@@ -161,7 +161,7 @@ que es llamado desde el HTML con el código:
     <sergey-template name="h2">Enfermedades Poco&nbsp;Frecuentes</sergey-template>
 </sergey-import>
 ```
-En este caso se trata del código incluido en el archivo `index.html`. si se tratase de un archivo en una subcarpeta, deberíamos incluir los `_template_` de la ruta del logo. Por ejemplo:
+En este caso se trata del código incluido en el fichero `index.html`. si se tratase de un fichero en una subcarpeta, deberíamos incluir los `_template_` de la ruta del logo. Por ejemplo:
 
 ```html
 <sergey-import src="cabecera">
@@ -174,20 +174,20 @@ Como en el caso anterior, el _import_ trae el fichero, en este caso `cabecera.ht
 
 ## 3. Cabecera múltiple
 
-En algunas páginas, como ocurre [aquí](https://conectiva.lat/emergencias/acoed/eds/tarjeta.html), la cabeceras incluye dos logos. El código del _import en este caso es:
+En algunas páginas, como ocurre [aquí](https://conectiva.lat/emergencias/acoed/eds/tarjeta.html), la cabeceras incluye dos logos. El código del _import_ en este caso es:
 
 ```html
         <header>
             <div class="row">
                 <div class="col-sm order-sm-last text-end">
-					<ul class="enLinea">
+                    <ul class="enLinea">
                         <sergey-slot />
                         <li>
-							<a href="https://conectiva.lat" target="_blank">
-								<img src="<sergey-slot name="assets" />assets/conectiva-logo.svg" width="148" alt="Logo de Conectiva" />
-							</a>
-						</li>
-					</ul>
+                            <a href="https://conectiva.lat" target="_blank">
+                                 <img src="<sergey-slot name="assets" />assets/conectiva-logo.svg" width="148" alt="Logo de Conectiva" />
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-sm">
                     <h1><sergey-slot name="h1" /></h1>
@@ -198,7 +198,7 @@ En algunas páginas, como ocurre [aquí](https://conectiva.lat/emergencias/acoed
 
         <a href="#contenido" class="visually-hidden-focusable">Ir a los recursos</a>
 ```
-que no se diferencia mucho de la cabecera simple, si no es por la inclusión de un `<sergey-slot />` y dela lista ordenada que va a incluir los distintos logos. Este _import_ será llamado desde las páginas con el código:
+que no se diferencia mucho de la cabecera simple, si no es por la inclusión de un `<sergey-slot />` y de la lista ordenada que va a incluir los distintos logos. Este _import_ será llamado desde las páginas con el código:
 
 ```html
 <sergey-import src="cabecera-multiple">
@@ -245,14 +245,14 @@ En el fichero fin.html defino el pie y el cierre de página:
 </html>
 ```
 
-En este caso no uso ningún _slot_ por lo que el código que uso para importarlo es muy simple:
+En este caso no uso ningún _slot_, por lo que el código para importarlo es muy simple:
 
 ```html
 <sergey-import src="fin" />
 ```
 # Una página completa
 
-Una vez vista cada importación de cada parte de la página, veamos cómo sería el index.html:
+Una vez vista cada importación por partes, veamos cómo quedaría el index.html:
 
 ```html
 <sergey-import src="inicio">
@@ -369,7 +369,6 @@ Revisa las distintas [opciones](https://sergey.cool/options/) para ejecutar Serg
 * [Sergey SSG](https://sergey.cool/)
 * [Repositorio de Sergey SSG en GitHub](https://github.com/trys/sergey)
 * [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU) - Video de Jonathan MirCha
-*
 * [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml) - Alternativa
 
 
