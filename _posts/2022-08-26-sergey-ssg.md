@@ -127,9 +127,17 @@ En este caso no incluyo _templates_ para los `<sergey-slot name="assets" />` en 
 ```html
 <sergey-template name="assets">../</sergey-template>
 ```
-para indicar así que estoy en una subcarpeta, añadiendo `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`, que ahora serán `../assets/favicon.png` y `../assets/estilos.css` respectivamente, pudiendo alcanzar sin errores los contenidos ubicados en la carpeta `assets`.
+para indicar así que estoy en una subcarpeta, añadiendo `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`, que ahora serán `../assets/favicon.png` y `../assets/estilos.css` respectivamente, alcanzando sin errores los contenidos ubicados en la carpeta `assets`. Como vimos en el fichero inicio.html, los slot para estas rutas serían:
 
-Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a ver la luz. Por lo demás, el software funciona correctamente y hace su función.
+```html
+    <link rel="shortcut icon" href="<sergey-slot name="assets" />assets/favicon.png" />
+    <link rel="stylesheet" href="<sergey-slot name="assets" />assets/estilos.css" />
+```
+
+No importa usar comillas dobles dentro de comillas dobles, ya que Sergey SSG se encargará de sustituir `<sergey-slot name="assets" />` por `../` en el fichero final resultante.
+
+{: .box-note}
+Nota: Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a ver la luz. Por lo demás, el software funciona correctamente y hace su función.
 
 ## 2. Cabecera
 
@@ -153,7 +161,7 @@ La cabecera contiene el logo, el título y subtítulo. El código es:
         <a href="#contenido" class="visually-hidden-focusable">Ir a los recursos</a>
 ```
 
-que es llamado desde el HTML con el código:
+que es llamado desde el HTML con:
 
 ```html
 <sergey-import src="cabecera">
@@ -170,7 +178,7 @@ En este caso se trata del código incluido en el fichero `index.html`. si se tra
     <sergey-template name="assets">../</sergey-template>
 </sergey-import>
 ```
-Como en el caso anterior, el _import_ trae el fichero, en este caso `cabecera.html`, y lo inserta en el html rellenando los _slots_ con el contenido especificado en los `template`.
+Como en `inicio.html`, el _import_ trae el fichero, en este caso `cabecera.html`, y lo inserta en el html rellenando las etiquetas `slots` con el contenido especificado en las etiquetas `template`.
 
 ## 3. Cabecera múltiple
 
@@ -250,6 +258,8 @@ En este caso no uso ningún _slot_, por lo que el código para importarlo es muy
 ```html
 <sergey-import src="fin" />
 ```
+Imagina la de cosas que se pueden hacer con esta forma de trabajar. Incluir por ejemplo un banner donde quieras en tu página y poder cambiarlo según las circunstancias, extraer partes de la página para hacerla modular, menús, secciones, etc.
+
 # Una página completa
 
 Una vez vista cada importación por partes, veamos cómo quedaría el index.html:
@@ -353,7 +363,7 @@ Este código, al renderizarlo con `npm start`, mostraría lo siguiente:
 ```
 Los ficheros renderizados resultantes, ya como páginas estáticas con todo su contenido, estarán en la carpeta `public`, y serán estos ficheros los que podremos subir a nuestro servidor.
 
-# Más opciones
+# Más opciones en Sergey SSG
 
 Sergey SSG tiene un par de opciones más interesantes.
 
@@ -361,7 +371,7 @@ Puede gestionar enlaces con [sergey-link](https://sergey.cool/links/), algo muy 
 
 Sergey SSG también puede importar texto en formato Markdown como se indica [aquí](https://sergey.cool/markdown/).
 
-Por último, te recomiendo que revises las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG.
+Si intentas visualizar los cambios de las páginas que estás creando antes de generar tus ficheros estáticos, estos se mostrarán con errores, ya que el código de Sergey SSG no es reconoxcido por el navegador. Te recomiendo que revises las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG e incluso para tener una previsualización de los cambios que vas realizando en tiempo real.
 
 # Enlaces
 
