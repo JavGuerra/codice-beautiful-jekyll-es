@@ -116,20 +116,20 @@ Como se aprecia, hay una serie de etiquetas `sergey-slot` en este fichero. Para 
 </sergey-import>
 ```
 
-Estas son las líneas que uso en, por ejemplo, el fichero index.html para insertar la cabecera de la página.
+Estas son las líneas que uso en el fichero index.html para insertar la cabecera de la página.
 
-Vemos un `<sergey-import src="inicio">` que indica cual es el `import` que vamos a insertar, que en este caso se llama `inicio`, y una serie de etiquetas `sergey-template` con información de la cabecera. Esta información será distinta en cada HTML, pero no así el resto de contenido de la cabecera. Con estos `sergey-template` indicamos que datos debe incluir en el `import` genérico donde aparezca una etiqueta `sergey-slot`, consiguiendo de esta forma tener un fichero externo donde podremos hacer cambios de forma sencilla que afectarán a todas las páginas que lo usen, pero sin perder la funcionalidad de la personalización de cada página.
+Vemos aquí un `<sergey-import src="inicio">` que indica cual es el `import` que voy a insertar, que en este caso se llama `inicio` (inicio.html), y una serie de etiquetas `sergey-template` con información que debe ir en la cabecera que voy a importar. Esta información será distinta en cada HTML, pero no así el resto de contenido de la cabecera que está en el fichero externo. Con estos `sergey-template` indico qué datos deben sustituirse en el `import` genérico allí donde aparezca una etiqueta `sergey-slot` en inicio.html, consiguiendo de esta forma tener un fichero externo, común a todas las páginas que lo incluyan, donde puedo hacer cambios de forma sencilla que afectarán a todas esas páginas, pero sin perder la funcionalidad de la personalización de algunos aspectos de cada página, como por ejemplo el titulo...
 
-Con este _import_ definimos el `title` de la página, `description` y podemos añadir contenido en este caso al final de `head` si lo deseamos, como he hecho yo con el `script`, ya que en el fichero `inicio.html` he colocado un `<sergey-slot />` justo antes de la etiqueta de cierre de la cabecera.
+Con este _import_ definimos el `title` de la página, la `description` y puedo añadir contenido en este caso al final de `head` si lo deseo, como he hecho con el `script` dentro del `sergey-import`, ya que en el fichero `inicio.html` he colocado un `<sergey-slot />` justo antes de la etiqueta de cierre de la cabecera.
 
-En este caso no incluyo _templates_ para los `"<sergey-slot name="assets" />` de inicio.html porque no los necesito, pero cuando uso este _import_ en ficheros en subcarpetas, si debo indicar sus rutas, pudiendo añadir en este caso:
+En este caso no incluyo _templates_ para los `<sergey-slot name="assets" />` en inicio.html porque no los necesito, pero cuando uso este _import_ en ficheros que están dentro de subcarpetas, si debo indicar sus rutas, pudiendo añadir en este caso:
 
 ```html
 <sergey-template name="assets">../</sergey-template>
 ```
-para indicar así que estoy en una subcarpeta, añadiendo de esta forma `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`, que ahora serían `../assets/favicon.png` y `../assets/estilos.css` respectivamente.
+para indicar así que estoy en una subcarpeta, añadiendo `../` al inicio de la ruta de `assets/favicon.png` y `assets/estilos.css`, que ahora serán `../assets/favicon.png` y `../assets/estilos.css` respectivamente, pudiendo alcanzar sin errores los contenidos ubicados en la carpeta `assets`.
 
-Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a verla luz. Por lo demás, el software funciona correctamente y hace su función.
+Cuando en el fichero de importación incluyo un `<sergey-slot />` pero no le envío contenido, Sergey SSG crea un salto de línea no deseado. Cuando hacemos un import de contenido que está tabulado, Sergey tabula la primera línea del contenido que incluye en `<sergey-slot />` correctamente, pero no hace lo mismo con el resto de líneas, que no conservan el tabulado original. Si eres un obseso de la tabulación de tus líneas de código tienes un problema. He abierto una [_Issue_](https://github.com/trys/sergey/issues/69) para que estas cuestiones puedan ser corregidas en la siguiente versión, si esta llega a ver la luz. Por lo demás, el software funciona correctamente y hace su función.
 
 ## 2. Cabecera
 
@@ -351,24 +351,24 @@ Este código, al renderizarlo con `npm start`, mostraría lo siguiente:
 
 </html>
 ```
-Los ficheros renderizados resultantes estarán en la carpeta `public`, y será esta carpeta la que podremos subir a nuestro servidor ya con las páginas estáticas con todo su contenido.
+Los ficheros renderizados resultantes, ya como páginas estáticas con todo su contenido, estarán en la carpeta `public`, y serán estos ficheros los que podremos subir a nuestro servidor.
 
 # Más opciones
 
 Sergey SSG tiene un par de opciones más interesantes.
 
-Puede gestionar enlaces con [sergey-link](https://sergey.cool/links/), algo muy útil cuando queremos mostrar a los usuarios dónde se encuentran.
+Puede gestionar enlaces con [sergey-link](https://sergey.cool/links/), algo muy útil cuando queremos mostrar a los usuarios dónde se encuentran dentro de la página.
 
 Sergey SSG también puede importar texto en formato Markdown como se indica [aquí](https://sergey.cool/markdown/).
 
-Revisa las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG.
+Por último, te recomiendo que revises las distintas [opciones](https://sergey.cool/options/) para ejecutar Sergey SSG.
 
 # Enlaces
 
 * [Ir a la página de las tarjetas de emergencia](https://conectiva.lat/emergencias)
 * [Sergey SSG](https://sergey.cool/)
 * [Repositorio de Sergey SSG en GitHub](https://github.com/trys/sergey)
-* [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU) - Video de Jonathan MirCha
+* [LiveCoding Primeros pasos con Sergey un SSG minimalista](https://youtu.be/r5pfaxVCatU) - Video
 * [PostHTML Static Site Starter](https://www.telagraphic.com/posthtml) - Alternativa
 
 
