@@ -18,11 +18,10 @@ En esta entrada voy a mostrar un ejemplo práctico. Cómo usar [Sergey SSG](http
 
 [<button>Ir a la página de las tarjetas de emergencia</button>](https://conectiva.lat/emergencias)
 
-Hay una serie de requisitos funcionales y operativos:
+Hay una serie de requisitos funcionales y operativos por los que se ha optado por la creación de una página estática:
 
-1. Rápida. La página debe cargar lo más rápido posible para que pueda ser accedida incluso en entornos donde hay poco ancho de banda, ya que la información médica que contiene debe estar disponible en cualquier lugar de Latinoamérica.
-2. Liviana. Por el mismo motivo, debe pesar poco para un consumo bajo de ancho de banda.
-3. Mantenible. La página debe poder actualizarse con rapidez y sin gran esfuerzo.
+1. Rápida. La página debe cargar lo más rápido posible para que pueda ser accedida incluso en entornos donde hay poco ancho de banda, ya que la información médica que contiene debe estar disponible en cualquier lugar de Latinoamérica, por este motivo, debe pesar poco para un consumo bajo de ancho de banda y no usar procesos como la consulta a BBDD que retrasen su carga.
+2. Mantenible. La página debe poder actualizarse con rapidez y sin gran esfuerzo.
 
 Se optó por desarrollar la página sin usar ningún CMS ni base de datos de respaldo, empleando sólo HTML + CSS. Para la maquetación se usó Bootstrap, simplificando el desarrollo y su posterior mantenimiento, y las zonas comunes de las páginas web fueron extraídas para ser insertadas como _slots_, en cada página HTML. Esto permite que para hacer cambios en estos contenidos repetidos sólo sea necesario modificar un fichero, y el resto de páginas mostrarán los cambios.
 
