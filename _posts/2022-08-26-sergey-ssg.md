@@ -48,7 +48,9 @@ La [página de ejemplo](https://conectiva.lat/emergencias) consta de una HTML pr
 
 Inicio, cabecera y fin son los contenidos que se repiten y no cambian, si bien en ellos, como veremos, hay información específica de cada página.
 
-Lo que necesito es que cada página web estática contenga el cuerpo de la página, es decir la información propia y específica de esa página, pero que las otras partes de la página que tienen una estructura repetida se inserten en la página desde otro fichero. Por alguna razón, HTML no implementa esta característica que si tienen CSS y JavaScript, y aunque en su momento se intentó llevar a cabo, no cuajó. Ver info sobre [Imports HTML](https://www.todojs.com/que-pasa-con-import-y-los-web-components/).
+Lo que necesito es que cada página web estática contenga el cuerpo de la página, es decir la información propia y específica de esa página, pero que las otras partes de la página que tienen una estructura repetida se inserten en la página desde otro fichero.
+
+Por alguna razón, HTML no implementa esta característica que si tienen CSS y JavaScript, y aunque en su momento se intentó llevar a cabo, no cuajó. Ver info sobre [Imports HTML](https://www.todojs.com/que-pasa-con-import-y-los-web-components/).
 
 Según parece, hay un estándar en ciernes llamado **HTML módulos** que permitiría importar HTML como si fuesen módulos de Javascript mediante `import`. Para saber más: [HTML Modules Explainer](https://github.com/WICG/webcomponents/blob/gh-pages/proposals/html-modules-explainer.md)
 
