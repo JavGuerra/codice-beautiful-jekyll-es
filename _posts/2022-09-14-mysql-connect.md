@@ -170,7 +170,7 @@ function makeDb(config) {
 module.exports = {config, makeDb};
 ```
 
-Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Nótese que este `util` no se refiere a mi módulo `utils.js` en la carpeta `modules`, sino a un módulo por defecto de Node.js.
+Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Nótese que este `util` no se refiere a mi módulo `utils.js` en la carpeta `modules`, sino al módulo por defecto de Node.js.
 
 Defino los datos de configuración en un objeto, y creo una función `makeDb()` que recibe como parámetro la configuración para establecer la conexión (`mysql.createConnection(config)`) y que devuelve mediante _return_ dos funciones en un objeto: `query()` y `close()`. Con `.call()` indico los parámetros de la función que va a ser convertida en promesa.
 
