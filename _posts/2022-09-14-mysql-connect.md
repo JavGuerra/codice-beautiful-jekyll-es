@@ -73,9 +73,9 @@ module.exports = { getAllProducts };
 
 ## La consulta
 
-para que esta línea `return getMysqlDbList(request);` en `searchServices.js` funcione, la función `getMysqlDbList()` en `utils.js` debe devolver el resultado de la consulta. El código debería ser algo como esto:
+Para que esta línea `return getMysqlDbList(request);` en `searchServices.js` funcione, la función `getMysqlDbList()` en `utils.js` debe devolver el resultado de la consulta. El código debería ser algo como esto:
 
-`utils.js`
+`utils.js` (no lo usaremos de esta forma)
 ```javascript
 const client = require('../modules/connection');
 
@@ -90,7 +90,7 @@ const getMysqlDbList = async (request) => {
 ```
 El problema es que la consultas con mysql en node.js no soportan async/await. Una conexión mysql entonces tendría esta forma:
 
-`utils.js`
+`utils.js` (no lo usaremos de esta forma)
 ```javascript
 const connection = require('../modules/connection');
 
@@ -110,7 +110,7 @@ Como se aprecia, `results` está dentro de la función _callback_ que obtiene lo
 
 Una conexión típica a la BBDD, cuyo código estaría en `connection.js`, sería:
 
-`connection.js`
+`connection.js` (no lo usaremos de esta forma)
 ```javascript
 const mysql = require('mysql');
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
@@ -178,7 +178,7 @@ Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar un
 
 # La función getMysqlDbList()
 
-El siguiente código muestra cómo ha quedado la función `getMysqlDbList()`:
+El siguiente código muestra cómo ha quedado la función `getMysqlDbList()` dentro del fichero `utils.js` definitivo (obviar los anteriores ejemplos):
 
 `utils.js`
 ```javascript
