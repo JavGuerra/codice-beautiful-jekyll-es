@@ -24,7 +24,7 @@ Poder obtener los datos de la consulta SQL, en el flujo de nuestro programa, nos
 │   └── searchServices.js
 ├── index.js
 ```
-Pongamos que llega una consulta a la ruta que es gestionada por `searchRoutes.js`, esta emplea una función del controlador que importa de `searchControllers.js` que procesa la consulta, y que a su vez llama a una función del servicio `searchServices.js` que se encarga de hacer la petición SQL a la BBDD.
+Pongamos que llega una consulta a la ruta de nuestra API que es gestionada por `searchRoutes.js`, esta emplea una función del controlador que importa de `searchControllers.js` que procesa la consulta, y que a su vez llama a una función del servicio `searchServices.js` que se encarga de hacer la petición SQL a la BBDD.
 
 Dado que todas las peticiones a la BBDD son análogas (abrir conexión, hacer petición, devolver resultado) he creado una función llamada `getMysqlDbList()` que he colocado en un módulo llamado `utils.js` que importo y uso en `searchServices.js`.
 
@@ -139,7 +139,7 @@ Ahora mostraré los cambios que sufrirá este fichero.
 
 Node.js tiene un módulo `util` con algunas funciones, entre ellas `promisify()` que permite la conversión de una función que acepta un _callback_ a una función que devuelve una promesa. A este cambio se le conoce con el aparatoso y extraño nombre de `Promisificación`.
 
-Con esta función podemos convertir nuestra consulta a la base de datos basada en _callback_ a una promesa que puede usar async/await para devolver la info resultante de la consulta, pero esto no está exento de inconvenientes. Como necesitando cerrar la conexión tras la consulta SQL, lo que haré es crear una función en `connection.js` que exportaré junto con los datos de conexión para ser usados por `getMysqlDbList()`.
+Con esta función podemos convertir nuestra consulta a la base de datos basada en _callback_ a una promesa que puede usar async/await para devolver la info resultante de la consulta, pero esto no está exento de inconvenientes. Como necesito cerrar la conexión tras la consulta SQL, lo que haré es crear una función en `connection.js` que exportaré junto con los datos de conexión para ser usados por `getMysqlDbList()`.
 
 `connection.js`
 ```javascript
