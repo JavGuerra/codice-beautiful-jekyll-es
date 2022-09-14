@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conexiones MySQL asíncronas en Node.js
-subtitle: Usando util.promisify() para convertir conexiones en promesas.
+subtitle: Usando util.promisify() para convertir conexiones que aceptan callbacks en promesas.
 thumbnail-img: /assets/img/mysql.png
 tags: [código, javascript, node.js, mysql]
 ---
