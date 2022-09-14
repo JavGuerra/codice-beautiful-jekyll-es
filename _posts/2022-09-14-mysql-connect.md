@@ -223,7 +223,6 @@ Para poder ejecutar esta función en el fichero utils.js se requiere del módulo
 
 # Enlaces
 
-* Página de la que he obtenido la pista para resolver est cuestión [Node.js, MySQL and async/await](https://codeburst.io/node-js-mysql-and-async-await-6fb25b01b628)
+* Página de la que he obtenido la pista para resolver esta cuestión [Node.js, MySQL and async/await](https://codeburst.io/node-js-mysql-and-async-await-6fb25b01b628)
 * La función util.promisify() en Node.js [util.promisify()](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original)
 * Usando el método .call [¿Para qué sirven los métodos .call() y .apply() en JavaScript?](https://dev.to/imsergiobernal/para-que-sirven-los-metodos-call-y-apply-en-javascript-4bj2)
-
