@@ -178,6 +178,11 @@ Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar un
 
 # La función getMysqlDbList()
 
+### Warning
+
+{: .box-warning}
+**Advertencia:** En líneas generales no es buena idea conectar y desconectar en cada _request_ ya que se introduce esa latencia en cada solicitud, por tanto esta es una solución que puede y debe ser mejorada en el futuro.
+
 El siguiente código muestra cómo ha quedado la función `getMysqlDbList()` dentro del fichero `utils.js` definitivo (Obviar los anteriores ejemplos de utils.js):
 
 `utils.js`
@@ -226,3 +231,5 @@ Para poder ejecutar esta función en el fichero utils.js se requiere del módulo
 * Página de la que he obtenido la pista para resolver esta cuestión [Node.js, MySQL and async/await](https://codeburst.io/node-js-mysql-and-async-await-6fb25b01b628)
 * La función util.promisify() en Node.js [util.promisify()](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original)
 * Usando el método .call [¿Para qué sirven los métodos .call() y .apply() en JavaScript?](https://dev.to/imsergiobernal/para-que-sirven-los-metodos-call-y-apply-en-javascript-4bj2)
+* Libreria alternativa que incluye promesas (Aportada por borja) [Node MySQL 2](https://www.npmjs.com/package/mysql2)
+* Ejemplo de uso de pool de conexiones mysql, aportado por Jose, de «Desarrollo útil». [Node.js Rest APIs with Express & MySQL example](https://github.com/bezkoder/nodejs-express-mysql)
