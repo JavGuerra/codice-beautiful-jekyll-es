@@ -6,9 +6,12 @@ thumbnail-img: /assets/img/mysql.png
 tags: [código, javascript, node.js, mysql]
 ---
 
-El módulo `mysql` de node.js lleva a cabo conexiones a la BBDD empleando _callback_ para obtener los datos de las consultas SQL y no permite, por defecto, el uso de asyn/await. Al abrir la conexión, el resultado de estas consultas permanecerá dentro de la función _callback_. En este artículo mostraré cómo convertir conexiones MySQL de node.js en promesas que permitan el uso de async/await, pudiendo así extraer de la función el resultado de la consulta. 
+El módulo `mysql` de node.js lleva a cabo conexiones a la BBDD empleando _callback_ para obtener los datos de las consultas SQL y no permite, por defecto, el uso de asyn/await. Al abrir la conexión, el resultado de estas consultas permanecerá dentro de la función _callback_. En este artículo mostraré cómo convertir conexiones MySQL de node.js en promesas que permitan el uso de async/await, pudiendo así extraer de la función el resultado de la consulta.
 
 ![MySQL](/assets/img/mysql.png){: .mx-auto.d-block :}
+
+{: .box-note}
+**Nota:** Esta entrada es un ejercicio sin un sentido práctico específico. Se recomienda el uso de mysql2 que incluye soporte para promesas o el uso de un ORM como Sequelize.
 
 Poder obtener los datos de la consulta SQL, en el flujo de nuestro programa, nos facilita la tarea de observar buenas prácticas que permitan separar las rutas de los controladores y los servicios. Con un módulo de conexión podemos realizar las consultas desde los servicios, y estos a su vez devolver el resultado al controlador que fue llamado desde la ruta.
 
@@ -230,4 +233,5 @@ Para poder ejecutar esta función en el fichero utils.js se requiere del módulo
 * La función util.promisify() en Node.js [util.promisify()](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original)
 * Usando el método .call [¿Para qué sirven los métodos .call() y .apply() en JavaScript?](https://dev.to/imsergiobernal/para-que-sirven-los-metodos-call-y-apply-en-javascript-4bj2)
 * Libreria alternativa que incluye promesas (Aportada por borja) [Node MySQL 2](https://www.npmjs.com/package/mysql2)
+* ORM: [Sequelize](https://sequelize.org/)
 * Ejemplo de uso de pool de conexiones mysql, aportado por Jose, de «Desarrollo útil». [Node.js Rest APIs with Express & MySQL example](https://github.com/bezkoder/nodejs-express-mysql)
