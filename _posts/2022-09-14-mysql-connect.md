@@ -49,10 +49,10 @@ Por supuesto, este módulo será importado en `index.js`.
 
 `searchControllers.js`
 ```javascript
-const { getAllProducts } = require('../services/searchServices');
+const searchServices = require('../services/searchServices');
 
 const getAllProducts = async (req, res) => {
-    const products = await getAllProducts();
+    const products = await searchServices.getAllProducts();
     res.json(products);
 };
 
@@ -88,7 +88,7 @@ const getMysqlDbList = async (request) => {
     }
 }
 ```
-El problema es que la consultas con mysql en node.js no soportan async/await. Una conexión mysql entonces tendría esta forma:
+El problema es que la consultas a mysql en node.js no soportan async/await. Una conexión mysql entonces tendría esta forma, empleando una función _callback_:
 
 `utils.js` (no lo usaremos de esta forma)
 ```javascript
@@ -108,7 +108,7 @@ Como se aprecia, `results` está dentro de la función _callback_ que obtiene lo
 
 ## La conexión
 
-Una conexión típica a la BBDD, cuyo código estaría en `connection.js`, sería:
+Una conexión típica a la BBDD, cuyo código estaría en `connection.js`, podría ser:
 
 `connection.js` (no lo usaremos de esta forma)
 ```javascript
@@ -133,7 +133,7 @@ connection.connect(function(err) {
 
 module.exports = connection;
 ```
-Ahora mostraré los cambios que sufrirá este fichero.
+A continuación mostraré los cambios que sufrirá este fichero.
 
 # Promisificación
 
@@ -170,7 +170,7 @@ function makeDb(config) {
 module.exports = {config, makeDb};
 ```
 
-Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Nótese que este `util` nada tiene que ver con mi módulo `utils.js` en la carpeta `modules`.
+Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Nótese que este `util` no se refiere a mi módulo `utils.js` en la carpeta `modules`, sino a un módulo por defecto de Node.js.
 
 Defino los datos de configuración en un objeto, y creo una función `makeDb()` que recibe como parámetro la configuración para establecer la conexión (`mysql.createConnection(config)`) y que devuelve mediante _return_ dos funciones en un objeto: `query()` y `close()`. Con `.call()` indico los parámetros de la función que va a ser convertida en promesa.
 
@@ -178,7 +178,7 @@ Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar un
 
 # La función getMysqlDbList()
 
-El siguiente código muestra cómo ha quedado la función `getMysqlDbList()` dentro del fichero `utils.js` definitivo (obviar los anteriores ejemplos):
+El siguiente código muestra cómo ha quedado la función `getMysqlDbList()` dentro del fichero `utils.js` definitivo (Obviar los anteriores ejemplos de utils.js):
 
 `utils.js`
 ```javascript
