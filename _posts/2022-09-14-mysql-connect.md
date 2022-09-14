@@ -169,13 +169,16 @@ function makeDb(config) {
 }
 module.exports = {config, makeDb};
 ```
-Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Defino los datos de configuración en un objeto, y creo una función `makeDb()` que recibe como parámetro la configuración de la conexión para establecer la conexión (`mysql.createConnection(config)`) y devuelve mediante _return_ dos funciones en un objeto: `query()` y `close()`. Con `.call()` indico los parámetros a la función que va a ser convertida en promesa.
 
-Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar una consulta al a BBDD desde `getMysqlDbList()` en `utils.js`.
+Como se aprecia, importo el módulo `util` del que utilizaré su función `promisify()`. Nótese que este `util` nada tiene que ver con mi módulo `utils.js` en la carpeta `modules`.
+
+Defino los datos de configuración en un objeto, y creo una función `makeDb()` que recibe como parámetro la configuración para establecer la conexión (`mysql.createConnection(config)`) y que devuelve mediante _return_ dos funciones en un objeto: `query()` y `close()`. Con `.call()` indico los parámetros de la función que va a ser convertida en promesa.
+
+Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar una consulta a la BBDD desde `getMysqlDbList()` en `utils.js`.
 
 # La función getMysqlDbList()
 
-el siguiente código muestra cómo ha quedado la función `getMysqlDbList()`:
+El siguiente código muestra cómo ha quedado la función `getMysqlDbList()`:
 
 `utils.js`
 ```javascript
