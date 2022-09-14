@@ -178,8 +178,6 @@ Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar un
 
 # La función getMysqlDbList()
 
-### Warning
-
 {: .box-warning}
 **Advertencia:** En líneas generales no es buena idea conectar y desconectar en cada _request_ ya que se introduce esa latencia en cada solicitud, por tanto esta es una solución que puede y debe ser mejorada en el futuro.
 
