@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Conexiones MySQL asíncronas en Node.js
-subtitle: Usando util.promisify() para convertir en promesas conexiones síncronas a BBDD.
+title: Conexiones a MySQL asíncronas en Node.js
+subtitle: Usando util.promisify() para convertir en promesas conexiones síncronas de BBDD.
 thumbnail-img: /assets/img/mysql.png
 tags: [código, javascript, node.js, mysql]
 ---
