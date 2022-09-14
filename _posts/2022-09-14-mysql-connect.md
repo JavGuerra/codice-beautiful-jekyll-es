@@ -182,7 +182,7 @@ Con la exportación de `config` y `makeDb()` tengo lo necesario para realizar un
 # La función getMysqlDbList()
 
 {: .box-warning}
-**Advertencia:** En líneas generales no es buena idea conectar y desconectar en cada _request_ ya que se introduce esa latencia en cada solicitud, por tanto esta es una solución que puede y debe ser mejorada en el futuro.
+**Advertencia:** En líneas generales no es buena idea conectar y desconectar a la BBDD en cada _request_ ya que se introduce esa latencia en cada solicitud, por tanto esta es una solución que puede y debe ser mejorada en el futuro.
 
 El siguiente código muestra cómo ha quedado la función `getMysqlDbList()` dentro del fichero `utils.js` definitivo (Obviar los anteriores ejemplos de utils.js):
 
