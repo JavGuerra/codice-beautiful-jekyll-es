@@ -11,7 +11,7 @@ El módulo `mysql` de node.js lleva a cabo conexiones a la BBDD empleando _callb
 ![MySQL](/assets/img/mysql.png){: .mx-auto.d-block :}
 
 {: .box-note}
-**Nota:** Esta entrada es un ejercicio sin un sentido práctico específico. Se recomienda el uso de mysql2 que incluye soporte para promesas o el uso de un ORM como Sequelize.
+**Nota:** Esta entrada es un ejercicio sin un sentido práctico específico en el que se hace uso del módulo mysql de Node.js. Para producción se recomienda el uso de mysql2, que incluye soporte para promesas, o el uso de un ORM como Sequelize.
 
 Poder obtener los datos de la consulta SQL, en el flujo de nuestro programa, nos facilita la tarea de observar buenas prácticas que permitan separar las rutas de los controladores y los servicios. Con un módulo de conexión podemos realizar las consultas desde los servicios, y estos a su vez devolver el resultado al controlador que fue llamado desde la ruta.
 
