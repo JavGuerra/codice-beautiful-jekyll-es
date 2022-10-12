@@ -12,12 +12,12 @@ El pasado 9 de marzo fui informado de que había sido seleccionado para cursar e
 
 ![¡Conseguido!](/assets/img/beca-santander-fswd.png){: .mx-auto.d-block :}
 
-La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para estudiantes con Discapacidad**, me permite acceder al Bootcamp de formación impartido por The Bridge desde marzo a noviembre, y en él se impartirán los siguientes módulos:
+La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para estudiantes con Discapacidad**, me permite acceder al Bootcamp de formación impartido por The Bridge desde marzo a noviembre, y en él se verán los siguientes módulos:
 
 - Módulo 0: Ramp up 
 - Módulo 1: JavaScript avanzado 
 - Módulo 2: Back end development 
-- Módulo 3: Front end con ReactJS 
+- Módulo 3: Front end con React 
 - Módulo 4: DevOps
 - Módulo 5: Lanza tu carrera digital
 
@@ -26,5 +26,7 @@ La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para 
 * [Práctica final del Ramp up]({% post_url 2022-04-23-pagina-de-ejemplo %})
 * [Ejercicios de JavaScript avanzado](https://javguerra.github.io/02-bootcamp-fs-javascript/)
 * [Práctica final JavaScript: «Summer Quiz»]({% post_url 2022-06-21-summer-quiz %})
+* [Ejercicios de backend con node.js](https://github.com/JavGuerra/03-bootcamp-fs-backend)
+* [Ejercicios de frontend con React](https://github.com/JavGuerra/04-bootcamp-fs-frontend)
 
 Para saber más: [Página de la beca en The Bridge](https://www.thebridge.tech/curso/bootcamp-indra-fundacion-universia#solicitud-beca)
