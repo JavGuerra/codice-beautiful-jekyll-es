@@ -59,7 +59,7 @@ Puedes obtener más información sobre las [opciones de populate](https://mongoo
 
 # Filtrando
 
-Decía más arriba que nos puede interesar hacer un filtrado en la búsqueda sobre nuestra base de datos por el nombre del autor, que es dato dentro de otro dato, pero antes recordaré cómo buscar por uno o varios datos de la colección.
+Decía más arriba que nos puede interesar hacer un filtrado en la búsqueda sobre nuestra base de datos por el nombre del autor, que es un dato dentro de otro dato, pero antes recordaré cómo buscar por uno o varios datos de la colección.
 
 ```javascript
     const filtro = {};
