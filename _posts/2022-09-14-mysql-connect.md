@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/mysql.png
 tags: [código, javascript, node.js, mysql]
 ---
 
-El módulo `mysql` de node.js lleva a cabo conexiones a la BBDD empleando _callback_ para obtener los datos de las consultas SQL y no permite, por defecto, el uso de asyn/await. Al abrir la conexión, el resultado de estas consultas permanecerá dentro de la función _callback_. En este artículo mostraré cómo convertir conexiones MySQL de node.js en promesas que permitan el uso de async/await, pudiendo así extraer de la función el resultado de la consulta.
+El módulo `mysql` de node.js lleva a cabo conexiones a la BBDD empleando _callback_ para obtener los datos de las consultas SQL y no permite, por defecto, el uso de async/await. Al abrir la conexión, el resultado de estas consultas permanecerá dentro de la función _callback_. En este artículo mostraré cómo convertir conexiones MySQL de node.js en promesas que permitan el uso de async/await, pudiendo así extraer de la función el resultado de la consulta.
 
 ![MySQL](/assets/img/mysql.png){: .mx-auto.d-block :}
 
