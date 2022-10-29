@@ -2,7 +2,7 @@
 layout: post
 title: Usando populate con paginate y filtrando los resultados
 subtitle: Cómo relacionar colecciones cuando se usa mongoose-paginate-v2.
-thumbnail-img: /assets/img/mysql.png
+thumbnail-img: https://raw.githubusercontent.com/aravindnc/mongoose-paginate-v2/43a093ff9a90cef7c80efc60e1a42539d83d8d75/static/banner.jpg
 tags: [código, javascript, node.js, mongodb, mongoose, paginate]
 ---
 
