@@ -67,7 +67,7 @@ Decía más arriba que nos puede interesar hacer un filtrado en la búsqueda sob
     if (precio) filtro.precio = { $lte: precio };
 ```
 
-Este código creará un objeto `filtro` que permitirá que busquemos en la colección `libros` por título y precio, ya que, si estos datos de búsqueda existen, con `filtro.titulo` y `filtro.precio` añadimos ambas propiedades al objeto filtro que usaremos en la búsqueda de la forma en que hemos visto en todos los ejemplos anteriores. (Nota: entiéndase que podríamos tener libros con el mismo título y distinto precio según la editorial o la colección).
+Este código creará un objeto `filtro` que permitirá que busquemos en la colección `libros` por título y precio, ya que, si estos datos de búsqueda existen, con `filtro.titulo` y `filtro.precio` añadimos ambas propiedades al objeto filtro que usaremos en la búsqueda de la forma en que hemos visto en todos los ejemplos anteriores. (Nota: entiéndase que podríamos tener libros con el mismo título y distinto precio según la editorial o la colección editorial).
 
 Con ```{ $regex: `.*${titulo}.*/` }``` buscamos por la expresión regular dada, en cambio con `$lte: precio` buscamos por un valor igual o menor al proporcionado. Ver más información sobre [operadores de búsqueda en mongodb](https://www.mongodb.com/docs/manual/reference/operator/) en el manual on-line.
 
