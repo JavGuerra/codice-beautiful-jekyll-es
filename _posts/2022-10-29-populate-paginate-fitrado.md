@@ -10,7 +10,7 @@ Si bien mongodb tiene formas de obtener resultados paginados (limit, skip), el m
 
 ![mongoose-paginate-v2](https://raw.githubusercontent.com/aravindnc/mongoose-paginate-v2/43a093ff9a90cef7c80efc60e1a42539d83d8d75/static/banner.jpg){: .mx-auto.d-block :}
 
-* El ejemplo
+# El ejemplo
 
 Imaginemos que tenemos dos colecciones en una BBDD mongodb, una de `libros` y otra de `autores`, y un dato en cada documento de la colección libros llamado `autor` que sirve para contener la información agregada del autor en la colección libros. En el _schema_, el dato `autor` podría tener esta forma:
 
@@ -37,7 +37,7 @@ Libro.paginate(filtro, { page, limit });
 
 donde `page` indica la página de resultados a obtener y `limit` el número de resultados por página.
 
-pero esto sólo nos devolverá los datos de la colección `autores`, sin agregar los datos de la colección libros`. ¿Cómo se haría esto?
+Pero esto sólo nos devolverá los datos de la colección `autores`, sin agregar los datos de la colección `libros`. ¿Cómo se haría esto?
 
 # Agregando y paginando
 
@@ -48,7 +48,7 @@ Libro.paginate(filtro, { page, limit, populate: 'autor.ref' });
 ```
 de esta forma podemos obtener un resultado con la información de ambas colecciones.
 
-la opción populate permite también otras opciones. Imaginemos que en la agregación queremos obviar el dato `nombre` de la colección `autores` que ya tenemos en la colección `libros`. Podemos pasarle a `populate` un objeto de la siguiente forma:  
+La opción populate permite también otras opciones. Imaginemos que en la agregación queremos obviar el dato `nombre` de la colección `autores` que ya tenemos en la colección `libros`. Podemos pasarle a `populate` un objeto de la siguiente forma:  
 
 ```javascript
 Libro.paginate(filtro, { page, limit, populate: {path: 'autor.ref', select: '-nombre'}' });
@@ -67,9 +67,9 @@ Decía más arriba que nos puede interesar hacer un filtrado en la búsqueda sob
     if (precio) filtro.precio = { $lte: precio };
 ```
 
-Este código creará un objeto `filtro` que permitirá que busquemos en la colección `libros` por título y precio, ya que, si estos datos de búsqueda existen, con `filtro.titulo` y `filtro.precio` añadimos ambas propiedades al objeto filtro que usaremos en la búsqueda de la forma en que hemos visto en todos los ejemplos anteriores. (nota: podríamos tener libros con el mismo título y distinto precio según la editorial o la colección).
+Este código creará un objeto `filtro` que permitirá que busquemos en la colección `libros` por título y precio, ya que, si estos datos de búsqueda existen, con `filtro.titulo` y `filtro.precio` añadimos ambas propiedades al objeto filtro que usaremos en la búsqueda de la forma en que hemos visto en todos los ejemplos anteriores. (Nota: entiéndase que podríamos tener libros con el mismo título y distinto precio según la editorial o la colección).
 
-Con `{ $regex: '.*${titulo}.*/' }` buscamos por la expresión regular dada, en cambio con `$lte: precio` buscamos por un valor igual o menor al proporcionado. Ver más información sobre [operadores de búsqueda en mongodb](https://www.mongodb.com/docs/manual/reference/operator/) en el manual on-line.
+Con ```{ $regex: `.*${titulo}.*/` }``` buscamos por la expresión regular dada, en cambio con `$lte: precio` buscamos por un valor igual o menor al proporcionado. Ver más información sobre [operadores de búsqueda en mongodb](https://www.mongodb.com/docs/manual/reference/operator/) en el manual on-line.
 
 Esto permitirá que:
 
@@ -87,7 +87,8 @@ Teniendo claro lo anterior, acceder al dato `nombre` dentro de `autor` no es com
     const filtro = {};
     if (nombre) filtro["autor.nombre"] = { $regex: `.*${nombre}.*` };
 ```
-Uso aquí los corchetes `[]` porque para poder usar el filtro en mongodb debo pasarle la propiedad al objeto filtro de esta forma: `{ "autor.nombre" : { $regex: '.*${nombre}.*' } }` como se indica en la sección [consulta sobre documentos incrustados/anidados](https://www.mongodb.com/docs/manual/tutorial/query-embedded-documents/) del manual online.
+
+Uso aquí los corchetes `[]` porque para poder usar el filtro en mongodb debo pasarle la propiedad al objeto filtro de esta forma: ```{ "autor.nombre" : { $regex: `.*${nombre}.*` } }``` como se indica en la sección [consulta sobre documentos incrustados/anidados](https://www.mongodb.com/docs/manual/tutorial/query-embedded-documents/) del manual online.
 
 Este filtro devolverá aquellos documentos de la colección `libros` que, dentro del dato `autor`, contengan el nombre dado dentro del dato anidado `nombre`.
 
