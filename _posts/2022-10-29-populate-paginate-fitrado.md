@@ -37,7 +37,7 @@ Libro.paginate(filtro, { page, limit });
 
 donde `page` indica la página de resultados a obtener y `limit` el número de resultados por página.
 
-Pero esto sólo nos devolverá los datos de la colección `autores`, sin agregar los datos de la colección `libros`. ¿Cómo se haría esto?
+Pero sólo nos devolverá los datos de la colección `autores`, sin agregar los datos de la colección `libros`. ¿Cómo se haría esto?
 
 # Agregando y paginando
 
