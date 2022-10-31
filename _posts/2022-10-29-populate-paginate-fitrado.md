@@ -20,7 +20,7 @@ Imaginemos que tenemos dos colecciones en una BBDD mongodb, una de `libros` y ot
         nombre: String
     }
 ```
-La propiedad `ref` es la que «tenderá el puente» entre ambas colecciones, y contendrá el `_id` del documento a relacionar de la colección `autor`. La propiedad `nombre` contendrá, como se espera, el nombre del autor. Si bien este dato estará también en la colección `autor`, y puede ser redundante cuando agregamos los resultados, el dato nos permite realizar el filtrado de libros por autor incluso sin realizar la agregación.
+La propiedad `ref` es la que «tenderá el puente» entre ambas colecciones, y contendrá el `_id` del documento a relacionar de la colección `autores`. La propiedad `nombre` contendrá, como se espera, el nombre del autor. Si bien este dato estará también en la colección `autores`, y puede ser redundante cuando agregamos los resultados, el dato tiene su utilidad, pues nos permite realizar el filtrado de libros por autor incluso sin realizar la agregación.
 
 Una búsqueda haciendo uso de populate tendría esta forma:
 
