@@ -5,13 +5,13 @@ subtitle: Conseguir que nuestros datos no dependan de una ubicación estática.
 thumbnail-img: /assets/img/dynamic_links.png
 tags: [código, javascript, node.js, mongodb, imágenes]
 ---
-Las bases de datos a menudo contienen referencias a recursos que no son almacenados en su misma estructura. Un claro ejemplo de ello son las fotografías o imágenes que acompañan a los productos de un catálogo. En tal caso, guardar la información es sencillo, es suficiente con almacenar la ruta completa al recurso en un campo de tipo _String_, pero, ¿que ocurre si, presumiblemente, nuestros datos van a cambiar de ubicación, o van a correr en distintas instancias o en diferentes hospedajes? En ese caso, lo recomendable es almacenar la información del nombre del recurso en la BBDD, y entonces tendremos dos alternativas para generar el enlace completo: modificar los datos de la BBDD para que la url al recurso sea la adecuada cada vez que cambiamos de ubicación los datos, o bien generar la ruta al recurso de forma dinámica cuando se realizan las consultas. Vamos a ver aquí la segunda.
+Las bases de datos a menudo contienen referencias a recursos que no son almacenados en su misma estructura. Un claro ejemplo de ello son las fotografías o imágenes que acompañan a los productos de un catálogo. En tal caso, guardar la información es sencillo, es suficiente con almacenar la ruta completa al recurso en un campo de tipo _String_, pero, ¿que ocurre si, presumiblemente, nuestros datos van a cambiar de ubicación, o van a correr en distintas instancias o en diferentes hospedajes? En ese caso, lo recomendable es almacenar la información del nombre del recurso en la BBDD, y entonces tendremos dos alternativas para generar el enlace completo: modificar los datos de la BBDD mediante un _script_ para que la url al recurso sea la adecuada cada vez que cambiamos de ubicación los datos, o bien generar la ruta al recurso de forma dinámica, al vuelo, cuando se realizan las consultas. Vamos a ver aquí la segunda.
 
 ![enlaces dinámicos](/assets/img/dynamic_links.png){: .mx-auto.d-block :}
 
 # El ejemplo
 
-Partimos de la siguiente premisa. En las variables globales del sistema tenemos almacenadas la ruta y el puerto del servidor donde están almacenadas las imágenes, que es la información susceptible de cambiar de lugar. Tal vez estos datos estén disponibles mediante [dotenv](https://www.npmjs.com/package/dotenv).
+Partimos de la siguiente premisa. En las variables globales del sistema tenemos almacenadas la ruta y el puerto del servidor donde están ubicadas las imágenes, que es la información susceptible de cambiar de lugar. Tal vez estos datos estén disponibles mediante [dotenv](https://www.npmjs.com/package/dotenv).
 
 Tomemos como referencia el ejemplo de la [entrada anterior]({% post_url 2022-10-29-populate-paginate-fitrado %}). Dos colecciones relacionadas, `libros` y `autores`, y en las que queremos incluir un dato en cada documento de la colección libros con la foto de portada del libro, y un dato con la foto del autor en cada documento de la colección autores. Algo como:
 
@@ -24,6 +24,7 @@ autor: {
     foto: 'cervantes.jpg',
 }
 ```
+obviamente, tanto la colección libros como la conección autores tendrán otros datos, no sólo la portada o la foto.
 
 # La ruta
 
@@ -39,6 +40,12 @@ De esta forma, para acceder a la imagen `don-quijote.png` debemos completar la s
 ```text
 HOST + ':' + PORT + '/' + 'portadas' + '/' + 'don-quijote.png'
 ```
+y obtendríamos:
+
+```text
+https://lalibreria2022.com:80/portadas/don-quijote.png
+```
+
 # Alterando los resultados
 
 Cuando llevamos a cabo las búsquedas de información sobre la BBDD, esta nos devolverá, como ya sabemos, el nombre del recurso ('don-quijote.png'), pero queremos que la BBDD devuelva dinámicamente la ruta antes mencionada. Para ello hay que recorrer el resultado obtenido y hacer cambios sobre los datos. Un `forEach()` es suficiente.
@@ -57,7 +64,7 @@ Tras cada búsqueda, aplicando esta función al resultado, recorro todos los doc
 Cuando llevamos a cabo consultas agregadas, el proceso es similar. En una consulta donde obtenemos los libros y las referencias a sus respectivos autores, debemos repetir el proceso también para el dato `foto` de la colección `autores`, pero hay que tener en cuenta lo siguiente:
 
 {: .box-note}
-**Nota:** Cuando recorremos una colección agregada lo hacemos sobre una colección y sobre referencias a otra colección, es decir, si hay varios libros de un mismo autor, aunque aparezca en varios libros agregados, serán los mismos datos del autor en cada libro.
+**Nota:** Cuando recorremos una colección agregada lo hacemos sobre una colección y sobre referencias a otra colección, es decir, si hay varios libros de un mismo autor, aunque los datos del autor se muestren en varios libros agregados, solo están almacenados una vez.
 
 Esto tiene importancia porque, al realizar el cambio de la ruta de la foto del autor, estaríamos cambiándola tantas veces como libros existan, y generando entonces una url errónea con rutas repetidas. Si tenemos dos libros de Cervantes, la ruta a la foto podría verse así:
 
@@ -77,7 +84,7 @@ const insertarRutas = datos => {
     return data;
 }
 ```
-Con el `if` me aseguro que la foto no contiene la ruta completa, y si es así, la completa.
+Con el condicional (`if`) me aseguro de que la foto no contiene ya la ruta completa, y si no es así, la completa.
 
 # Enlaces
 
