@@ -6,7 +6,7 @@ thumbnail-img: https://raw.githubusercontent.com/JavGuerra/final-fswd/main/front
 tags: [formación, beca]
 ---
 
-Durante este año he cursado el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
+Durante este año 2022 he cursado el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
 
 ![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
 
