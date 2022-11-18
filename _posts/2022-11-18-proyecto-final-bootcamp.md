@@ -69,7 +69,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 
 - [Página del proyecto en GitHub](https://github.com/JavGuerra/final-fswd). Ver enunciado y presentación en pdf.  
 
-Artículos informativos relacionados con esta práctica:  
+Artículos informativos relacionados con este proyecto:  
 
 - [Usando populate con paginate y filtrando los resultados]({% post_url 2022-10-29-populate-paginate-fitrado %})  
 - [Generar enlaces dinámicos de imágenes almacenadas en MongoDB]({% post_url 2022-11-06-rutas-dinamicas-imagenes-mongodb %})  
