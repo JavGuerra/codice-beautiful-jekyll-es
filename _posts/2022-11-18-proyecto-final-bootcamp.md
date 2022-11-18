@@ -68,6 +68,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 ## Enlaces
 
 - [Página del proyecto en GitHub](https://github.com/JavGuerra/final-fswd). Ver enunciado y presentación en pdf.  
+- [Video de la presentación en YouTube](https://youtu.be/XlswjqhxJZ8)  
 
 Artículos informativos relacionados con este proyecto:  
 
