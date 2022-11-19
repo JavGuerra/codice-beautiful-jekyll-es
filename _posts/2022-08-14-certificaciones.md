@@ -13,7 +13,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
-# Certificaciones básicas
+# Certificaciones
 
 * [Introducción a la programación](/assets/img/certificados/Introducción_a_la_programación-Open_Bootcamp.png) - Open Bootcamp
 * [Conceptos de la programación](/assets/img/certificados/Conceptos_de_programación-Open_Bootcamp.png) - Open Bootcamp  
@@ -24,7 +24,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [CSS](https://badgr.com/public/assertions/HqxCGrbYQeeaqRDUYtPQWQ) - The Bridge  
 * [JavaScript básico](/assets/img/certificados/JavaScript_básico-Open_Bootcamp.png) - Open Bootcamp  
 * [JavaScript](https://badgr.com/public/assertions/V2P3yFAxTemAfk3nvGK7mw) - The Bridge  
-* [ES6](https://badgr.com/public/assertions/G20ghDb1QCmRX3qdhqOE3Q) - the Bridge  
+* [ES6](https://badgr.com/public/assertions/G20ghDb1QCmRX3qdhqOE3Q) - The Bridge  
 * [PHP básico](/assets/img/certificados/PHP_básico-Open_Bootcamp.png) - Open Bootcamp
 * [PHP](/assets/img/certificados/PHP-Linked-In.png) - Linked-In
 * [Backend developer](https://badgr.com/public/assertions/4hyWt_gnSOOY3uNApKi9Mg) - The Bridge  
