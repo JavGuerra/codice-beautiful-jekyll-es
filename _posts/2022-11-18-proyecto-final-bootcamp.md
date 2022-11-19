@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Tienda 8 bits
-subtitle: Presentación del proyecto de graduación del Bootcamp Full Stack Web Developer
+subtitle: Proyecto de graduación del Bootcamp Full Stack Web Developer
 thumbnail-img: https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png
-tags: [formación, beca]
+tags: [formación, beca, Node.js, Express, React, MongoDB, JavaScript]
 ---
 
 Durante este año 2022 he cursado el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
