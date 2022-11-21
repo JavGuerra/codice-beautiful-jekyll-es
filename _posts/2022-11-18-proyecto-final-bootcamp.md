@@ -70,7 +70,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 ## Enlaces
 - [Ir a la aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  
 - [Enunciado de la práctica en PDF](https://github.com/JavGuerra/final-fswd/blob/main/enunciado.pdf)  
-- [Página del proyecto en GitHub](https://github.com/JavGuerra/final-fswd). Ver enunciado y presentación en pdf.  
+- [Página del proyecto en GitHub](https://github.com/JavGuerra/final-fswd)  
 - [Video de la presentación en YouTube](https://youtu.be/XlswjqhxJZ8)  
 - [Presentación en PDF](https://github.com/JavGuerra/final-fswd/blob/main/presentacion.pdf)  
 
