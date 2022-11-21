@@ -67,6 +67,12 @@ Sobre las fuentes de letra: [Google Fonts](https://fonts.google.com/)
 Sobre los iconos: [Heroicons](https://heroicons.com/)
 Material usado sin ánimo de lucro bajo criterios didácticos y formativos. 
 
+## Acceder a la aplicación
+
+![Código QR](https://raw.githubusercontent.com/JavGuerra/final-fswd/f4d0d188a687f1b7c8b7b77f036176347f838c1b/qrcode.svg)  
+
+[<button>Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
+
 ## Enlaces
 - [Ir a la aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  
 - [Enunciado de la práctica en PDF](https://github.com/JavGuerra/final-fswd/blob/main/enunciado.pdf)  
