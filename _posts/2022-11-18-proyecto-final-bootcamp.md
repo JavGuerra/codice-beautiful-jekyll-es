@@ -76,8 +76,9 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 
 ## Enlaces
 - [Ir a la aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  
+- [Ver documentación de la API](https://api-tienda8bits.up.railway.app/)  
 - [Enunciado de la práctica en PDF](https://github.com/JavGuerra/final-fswd/blob/main/enunciado.pdf)  
-- [Página del proyecto en GitHub](https://github.com/JavGuerra/final-fswd)  
+- [Página del proyecto en repositorio GitHub](https://github.com/JavGuerra/final-fswd)  
 - [Video de la presentación en YouTube](https://youtu.be/XlswjqhxJZ8)  
 - [Presentación en PDF](https://github.com/JavGuerra/final-fswd/blob/main/presentacion.pdf)  
 
