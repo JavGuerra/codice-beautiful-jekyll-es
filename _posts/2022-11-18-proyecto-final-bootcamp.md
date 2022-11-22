@@ -35,7 +35,7 @@ __Características destacadas de la API__:
 * Emplea módulos ESM. 
 * Está preparada para el versionado de la API.  
 * Está preparada para el uso de BBDD MongoDB local o en remoto (config.js).  
-* Preserva la seguridad del acceso a la API con el uso del módulo `helmet`.  
+* Preserva la seguridad del acceso a la API con el uso del módulo helmet.  
 * Devuelve las rutas de los enlaces a las fotos y logos dinámicamente.  
 * Cuenta con documentación de la API.  
 
