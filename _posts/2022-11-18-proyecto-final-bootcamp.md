@@ -29,9 +29,9 @@ El evento se llevó a cabo de forma presencial y on-line, y de él he rescatado 
 ## Back end
 
 __Tecnologías empleadas__: Node.JS + Express + MongoDB + Mongoose  
-__Otros módulos__: compression, cors, dotenv, nodemon, mongoose-paginator-v2
+__Otros módulos__: compression, cors, helmet, dotenv, nodemon, mongoose-paginator-v2
 
-__Características destacadas__:
+__Características destacadas de la API__:
 * Emplea módulos ESM. 
 * Está preparada para el versionado de la API.  
 * Está preparada para el uso de BBDD MongoDB local o en remoto (config.js).  
@@ -44,7 +44,7 @@ __Características destacadas__:
 __Tecnologías empleadas__: React + Vite, axios, react-router-dom, react-hook-form  
 __Otros módulos propios__: setSpin, inactiveBtn
 
-__Características destacadas__:
+__Características destacadas de la App__:
 * El diseño es adaptable (responsive) según el dispositivo.  
 * CSS propio. No usa frameworks.  
 * Es accesible (revisado con el complemento [WAVE](https://wave.webaim.org/)).   
