@@ -82,7 +82,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 - [Video de la presentación en YouTube](https://youtu.be/XlswjqhxJZ8)  
 - [Presentación en PDF](https://github.com/JavGuerra/final-fswd/blob/main/presentacion.pdf)  
 
-__Artículos informativos relacionados con este proyecto__:  
+__Artículos informativos elaborados por el autor relacionados con esta práctica:__:  
 
 - [Usando populate con paginate y filtrando los resultados]({% post_url 2022-10-29-populate-paginate-fitrado %})  
 - [Generar enlaces dinámicos de imágenes almacenadas en MongoDB]({% post_url 2022-11-06-rutas-dinamicas-imagenes-mongodb %})  
