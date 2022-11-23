@@ -12,7 +12,7 @@ Cuando mostramos al usuario un listado con muchos resultados totales, le estamos
 
 # El ejemplo
 
-Esta entrada está basada en el [proyecto «Tienda 8 bits»]({% 2022-11-18-proyecto-final-bootcamp %}), y aquí puedes ver su funcionamiento en esta [página de ejemplo](https://javguerra.badared.com/proyecto/tienda8bits/).
+Esta entrada está basada en el [proyecto «Tienda 8 bits»]({% post_url 2022-11-18-proyecto-final-bootcamp %}), y aquí puedes ver su funcionamiento en esta [página de ejemplo](https://javguerra.badared.com/proyecto/tienda8bits/).
 
 Queremos listar una serie de fichas de productos por tres criterios, modelo de producto, precio y año de fabricación, y lo haremos alternativamente, es decir, por uno de entre esos tres criterios de ordenación a la vez.
 
