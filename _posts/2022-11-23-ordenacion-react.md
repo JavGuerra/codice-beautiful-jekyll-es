@@ -58,7 +58,7 @@ return (
     />
 );
 ```
-Por props le hacemos llegar al componente Sort los datos de filtrado (sortData), la función que establece (set) el filtrado (setSortData) y la función que establece la página actual (setCurrentPage). Esto último es necesario porque cada vez que cambie el filtrado estableceremos la página 1 como la página actual, de otra los datos obtenidos con el nuevo filtrado se mostrarían confusos para el usuario.
+Por props le hacemos llegar al componente Sort los datos de filtrado (sortData), la función que establece (set) el filtrado (setSortData) y la función que establece la página actual (setCurrentPage). Esto último es necesario porque cada vez que cambie el filtrado estableceremos la página 1 como la página actual, de otra forma los datos obtenidos con el nuevo filtrado se mostrarían confusos para el usuario.
 
 ## El componente Sort
 
@@ -113,7 +113,7 @@ Primeramente importo el componente `SortIcon` que luego veremos. Éste component
 
 Como dije, el componente `Sort` recibe por props tres parámetros `{sortData, setSortData, setCurrentPage}` con el dato de ordenación, la función para fijar la nueva ordenación y la función para fijar la página actual de la paginación de resultados.
 
-Lo primero que hago es obtener los datos del objeto `sortData`recibido por props.
+Lo primero que hago es obtener los datos del objeto `sortData` recibido por props.
 
 La función `handleIcon` será la encargada de efectuar el cambio de filtro de ordenación.
 
@@ -141,6 +141,8 @@ Con `setSortData`, que recibí por props, voy a fijar el criterio de ordenación
 Con `[sortName]:` dentro del objeto que voy a pasar a `setSortData` indico que la propiedad se tiene que llamar como el nombre del filtro recibido en `sortName` (que pueden ser tres: "sortmodel", "sortprice" o "sortyear").
 
 Con `order ? -order : 1` determino el valor de la propiedad del objeto que voy a pasar a `setSortData`. Si el valor de order existe, es decir no es `undefined` su valor ahora será el valor alternativo (positivo o negativo) al que ya tiene. Si el valor era 1, ahora será -1. Si era -1, pasará a ser 1. y en caso de que el valor de order fuera `undefined`, es decir, que no fuese este el filtro por el que estábamos filtrando antes, establezco su valor inicial a 1.
+
+Como cada vez que empleo `setSortData` defino sólo un filtro de ordenación, el resto de filtros tendrá un valor `undefined` cuando se renderizen en el componente `Sort`.
 
 Con `setCurrentPage(1)` fijo la página de la paginación de resultados a 1.
 
@@ -181,7 +183,7 @@ Con el operador condicional ternario compruebo si order es `undefined` (!order) 
 
 Los iconos corresponden a la librería de iconos de [Heroicons](https://heroicons.com/) en su versión JSX.
 
-Para terminar, lo más importante. Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon(sortName, order)}` se ejecuta, con los parámetros `sortName`y `order`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
+Para terminar, lo más importante. Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon(sortName, order)}` se ejecuta, con los parámetros `sortName` y `order`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
 
 # Enlaces
 
