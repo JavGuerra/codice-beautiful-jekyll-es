@@ -5,6 +5,7 @@ subtitle: Listando alternativamente, por distintos criterios, la información de
 thumbnail-img: https://lamardelibros.files.wordpress.com/2015/08/dalton.jpg
 tags: [react, javascript]
 ---
+
 Cuando mostramos al usuario un listado con muchos resultados totales, le estamos dando también un problema. Buscar la información que necesita entre tantos resultados requiere tiempo y esfuerzo. Para atajar este problema podemos incluir un campo de búsqueda, pero aún así, la información aparecerá desordenada. En esta entrada veremos como ordenar los resultados de menor a mayor y viceversa, y cómo hacerlo por varios criterios alternativamente en React. 
 
 ![Ordenación](https://lamardelibros.files.wordpress.com/2015/08/dalton.jpg){: .mx-auto.d-block :}
@@ -185,5 +186,5 @@ Para terminar, lo más importante. Al hacer click en cualquiera de los tres icon
 # Enlaces
 
 * [Página de ejemplo «Tienda 8 bits»](https://javguerra.badared.com/proyecto/tienda8bits/)  
-* [Información sobre el proyecto]({% 2022-11-18-proyecto-final-bootcamp %})  
+* [Información sobre el proyecto]({% post_url 2022-11-18-proyecto-final-bootcamp %})  
 * [Heroicons](https://heroicons.com/)  
