@@ -86,3 +86,4 @@ __Artículos informativos relacionados con este proyecto__:
 
 - [Usando populate con paginate y filtrando los resultados]({% post_url 2022-10-29-populate-paginate-fitrado %})  
 - [Generar enlaces dinámicos de imágenes almacenadas en MongoDB]({% post_url 2022-11-06-rutas-dinamicas-imagenes-mongodb %})  
+- [Ordenando resultados en React]({% post_url 2022-11-23-ordenacion-react %})  
