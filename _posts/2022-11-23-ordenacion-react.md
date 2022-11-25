@@ -78,15 +78,15 @@ const Sort = ({sortData, setSortData, setCurrentPage}) => {
 
   return (
     <ul>
-      <li onClick={handleIcon("sortmodel", sortmodel)}>
+      <li onClick={() => handleIcon("sortmodel", sortmodel)}>
         Modelo <SortIcon order={sortmodel} />
       </li>
 
-      <li onClick={handleIcon("sortprice", sortprice)}>
+      <li onClick={() => handleIcon("sortprice", sortprice)}>
         Precio <SortIcon order={sortprice} />
       </li>
 
-      <li onClick={handleIcon("sortyear", sortyear)}>
+      <li onClick={() => handleIcon("sortyear", sortyear)}>
         Año <SortIcon order={sortyear} />
       </li>
     </ul>
@@ -104,12 +104,9 @@ Lo primero que hago es obtener los datos del objeto `sortData` recibido por prop
 
 La función `handleIcon` será la encargada de efectuar el cambio de filtro de ordenación.
 
-A cada `sortIcon`, en el renderizado, le paso cuatro valores: 
+A cada `sortIcon`, en el renderizado, le paso cuatro valores `order`, que contiene el valor de ordenación del filtrado (1 ó -1). 
 
-* __name__: con el nombre que aparecerá en la página identificando al filtro.  
-* __sortName__: el nombre del filtro que vamos a fijar al hacer clic en este icono mediante la función handleIcon.  
-* __order__: que contiene el valor de ordenación del filtro (1 ó -1).  
-* __handleIcon__: la función que gestionará el cambio de filtro y el valor de ordenación, y fijará la página actual a 1.  
+Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon("nombre_del_filtro", variable_de_ordenación)}` se ejecuta, con los parámetros `"nombre_del_filtro"` y `variable_de_ordenación`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
 
 ## La función handleIcon
 
@@ -159,15 +156,13 @@ const SortIcon = ({order}) => {
 export default SortIcon;
 ```
 
-Por props, `SortIcon`recibe cuatro parámetros: `name, sortName, order, handleIcon`.
+Por props, `SortIcon` recibe el parámetro `order`.
 
-En el renderizado lo que hago es poner el nombre `name` y dibujar el icono en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo SVG para los tres iconos, y cambio el valor de d en función de su estátus (order).
+En el renderizado lo que hago es dibujar el icono en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo SVG para los tres iconos, y cambio el valor de d en función de su estátus (order).
 
 Con el operador condicional ternario compruebo si order es `undefined` (!order) y si es así, asigno a `d` los datos para pintar el icono de "no seleccionado". En caso contrario, hago otra comprobación con el operador condicional ternario, esta vez para indicar si el icono a dibujar es el de  ordenación ascendente o descendente.
 
 Los iconos corresponden a la librería de iconos de [Heroicons](https://heroicons.com/) en su versión JSX.
-
-Para terminar, lo más importante. Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon(sortName, order)}` se ejecuta, con los parámetros `sortName` y `order`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
 
 # Enlaces
 
