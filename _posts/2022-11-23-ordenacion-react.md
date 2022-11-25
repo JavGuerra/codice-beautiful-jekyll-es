@@ -79,15 +79,15 @@ const Sort = ({sortData, setSortData, setCurrentPage}) => {
   return (
     <ul>
       <li onClick={handleIcon("sortmodel", sortmodel)}>
-        Modelo&nbsp;<SortIcon order={sortmodel} />
+        Modelo <SortIcon order={sortmodel} />
       </li>
 
       <li onClick={handleIcon("sortprice", sortprice)}>
-        Precio&nbsp;<SortIcon order={sortprice} />
+        Precio <SortIcon order={sortprice} />
       </li>
 
       <li onClick={handleIcon("sortyear", sortyear)}>
-        Año&nbsp;<SortIcon order={sortyear} />
+        Año <SortIcon order={sortyear} />
       </li>
     </ul>
   );
