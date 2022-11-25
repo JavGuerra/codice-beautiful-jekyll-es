@@ -78,20 +78,16 @@ const Sort = ({sortData, setSortData, setCurrentPage}) => {
 
   return (
     <ul>
-      <li>
-        <SortIcon name="Modelo" order={sortmodel}
-          handleIcon={() => handleIcon("sortmodel", sortmodel)}
-        />
+      <li onClick={handleIcon("sortmodel", sortmodel)}>
+        Modelo&nbsp;<SortIcon order={sortmodel} />
       </li>
-      <li>
-        <SortIcon name="Precio" order={sortprice}
-          handleIcon={() => handleIcon("sortprice", sortprice)}
-        />
+
+      <li onClick={handleIcon("sortprice", sortprice)}>
+        Precio&nbsp;<SortIcon order={sortprice} />
       </li>
-      <li>
-        <SortIcon name="Año" order={sortyear}
-          handleIcon={() => handleIcon("sortyear", sortyear)}
-        />
+
+      <li onClick={handleIcon("sortyear", sortyear)}>
+        Año&nbsp;<SortIcon order={sortyear} />
       </li>
     </ul>
   );
@@ -144,7 +140,7 @@ Con esta simple función podemos entonces, como dije, seleccionar el filtrado en
 Este componente es el encargado de mostrar el nombre y el icono de cada uno de los tres criterios de ordenación en la página.
 
 ```javascript
-const SortIcon = ({name, order, handleIcon}) => {
+const SortIcon = ({order}) => {
 
   const d = !order
     ? "M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9"
@@ -153,13 +149,10 @@ const SortIcon = ({name, order, handleIcon}) => {
       : "M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0l-3.75-3.75M17.25 21L21 17.25";
 
   return (
-    <span onClick={handleIcon}>
-      {name}&nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none"
-          viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" d={d} />
-      </svg>
-    </span>
+    <svg xmlns="http://www.w3.org/2000/svg" className="icon" fill="none"
+      viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" d={d} />
+    </svg>
   );
 }
 
