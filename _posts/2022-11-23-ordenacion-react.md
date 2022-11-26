@@ -96,7 +96,7 @@ const Sort = ({sortData, setSortData, setCurrentPage}) => {
 export default Sort;
 ```
 
-Primeramente importo el componente `SortIcon` que luego veremos. Éste componente se encargará de mostrar el nombre y el icono de ordenación por cada uno de los tres criterios y hacer los cambios necesarios al hacer clic en él.
+Primeramente importo el componente `SortIcon` que luego veremos. Éste componente se encargará de mostrar, junto al nombre del criterio de ordenación, el icono de ordenación por cada uno de los tres criterios.
 
 Como dije, el componente `Sort` recibe por props tres parámetros `{sortData, setSortData, setCurrentPage}` con el dato de ordenación, la función para fijar la nueva ordenación y la función para fijar la página actual de la paginación de resultados.
 
@@ -104,7 +104,7 @@ Lo primero que hago es obtener los datos del objeto `sortData` recibido por prop
 
 La función `handleIcon` será la encargada de efectuar el cambio de filtro de ordenación.
 
-A cada `sortIcon`, en el renderizado, le paso cuatro valores `order`, que contiene el valor de ordenación del filtrado (1 ó -1). 
+A cada `sortIcon`, en el renderizado, le paso el valor de `order`, que contiene el valor de ordenación del filtrado (1 ó -1). 
 
 Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon("nombre_del_filtro", variable_de_ordenación)}` se ejecuta, con los parámetros `"nombre_del_filtro"` y `variable_de_ordenación`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
 
@@ -134,7 +134,7 @@ Con esta simple función podemos entonces, como dije, seleccionar el filtrado en
 
 ## El componente SortIcon
 
-Este componente es el encargado de mostrar el nombre y el icono de cada uno de los tres criterios de ordenación en la página.
+Este componente es el encargado de mostrar el icono de estado de cada uno de los tres criterios de ordenación en la página.
 
 ```javascript
 const SortIcon = ({order}) => {
