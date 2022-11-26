@@ -22,19 +22,19 @@ Los filtros, en la página, tendrán un aspecto parecido a este:
 
 ![Filtros](/assets/img/filtros.png){: .mx-auto.d-block :}
 
-Voy a usar React + Vite para este ejercicio.
+En este caso, el primer filtro de ordenación, el de modelo, es el que está seleccionado, y la ordenación la realiza en orden ascendente. Los otros dos filtros no están activos.
 
 # La App
 
-En nuestra página App.jsx, para este ejercicio, voy a usar dos _useState_ uno que contendrá los filtros de ordenación en un objeto y otro que contendrá el valor de la página actual de los resultados, paginados, que vamos a mostrar.
+En nuestra página App.jsx, para este ejercicio, voy a definir dos _useState_, uno que contendrá los filtros de ordenación en un objeto y otro que contendrá el valor de la página actual de los resultados paginados (grupos de resultados) que vamos a mostrar.
 
 ```javascript
 const [sortData, setSortData] = useState({ sortmodel: 1 });
 const [currentPage, setCurrentPage] = useState(1);
 ```
-En una aplicación completa deberemos incluir otros useState para, por ejemplo, guardar los datos obtenidos de la consulta a la API, o los criterios de búsqueda de datos...
+En una aplicación completa deberemos incluir otros useState para, por ejemplo, guardar los datos obtenidos de la consulta a la API, o los criterios de búsqueda de datos... En este ejercicio me limito a incluir los que son operativos para la explicación.
 
-Dentro del objeto que tendremos en `sortData` iremos incluyendo, alternativamente, `sortmodel` para filtrar por el modelo, `sortprice` para filtrar por el precio, y `sortyear` para filtrar por el año. Los valores posibles para cada una de estas propiedades de filtrado serán `1` y `-1`, siendo 1 el valor que indica ordenación ascendente, y -1 el valor que indica ordenación descendente, que son los valores que acepta nuestra API.
+Dentro del objeto que tendremos en `sortData` iremos incluyendo, alternativamente, `sortmodel` para filtrar por el modelo, `sortprice` para filtrar por el precio, y `sortyear` para filtrar por el año. Sólo uno de ellos a la vez. Los valores posibles para cada una de estas propiedades de filtrado serán `1` y `-1`, siendo 1 el valor que indica ordenación ascendente, y -1 el valor que indica ordenación descendente, que son los valores que acepta nuestra API.
 
 ```javascript
 useEffect(() => {
@@ -45,7 +45,7 @@ useEffect(() => {
     
 }, [sortData, currentPage]);
 ```
-Cuando `sortData` cambie por la interacción con el usuario mediante el uso de la función `setSortData`, el contenido de `useEffect` se ejecutará, pasando los datos de filtrado a la consulta a la API que se puede hacer mediante fetch, axios... Los datos deben ser preparados para hacer la consulta, para ello, deberemos comprobar cual de los tres filtros (sortmodel, sortprice, sortyear) estamos usando y cuales no (_undefined_), e incluir el filtro indicado en la consulta.
+Cuando el objeto almacenado en `sortData` cambie por la interacción con el usuario mediante el uso de la función `setSortData`, el contenido de `useEffect` se ejecutará, pasando los datos de filtrado a la consulta a la API que se puede hacer mediante fetch, axios... Los datos deben ser preparados para hacer la consulta, y para ello, deberemos comprobar cual de los tres filtros (sortmodel, sortprice, sortyear) estamos usando y cuales no (_undefined_), e incluir el filtro indicado en la consulta.
 
 El componente que va a llevar a cabo la ordenación se llama `Sort`, y esta sería su forma para renderizarlo en la página:
 
@@ -62,7 +62,7 @@ Por props le hacemos llegar al componente Sort los datos de filtrado (sortData),
 
 ## El componente Sort
 
-El código será el siguiente, e iré explicando cada parte a continuación:
+El código del componente será el siguiente, e iré explicando cada parte a continuación:
 
 ``` javascript
 import SortIcon from "./SortIcon";
@@ -96,17 +96,17 @@ const Sort = ({sortData, setSortData, setCurrentPage}) => {
 export default Sort;
 ```
 
-Primeramente importo el componente `SortIcon` que luego veremos. Éste componente se encargará de mostrar, junto al nombre del criterio de ordenación, el icono de ordenación por cada uno de los tres criterios.
+Primeramente importo el componente `SortIcon` que luego veremos. Éste componente se encargará de mostrar el icono de ordenación de cada uno de los tres criterios.
 
 Como dije, el componente `Sort` recibe por props tres parámetros `{sortData, setSortData, setCurrentPage}` con el dato de ordenación, la función para fijar la nueva ordenación y la función para fijar la página actual de la paginación de resultados.
 
-Lo primero que hago es obtener los datos del objeto `sortData` recibido por props.
+Lo primero que hago es obtener los datos del objeto `sortData` recibido por props. Por supuesto, sólo uno de los tres datos va a tener valor. Los otros dos, que no son el criterio de filtrado seleccionado, tendrán valor _undefined_.
 
-La función `handleIcon` será la encargada de efectuar el cambio de filtro de ordenación.
+La función `handleIcon` será la encargada de efectuar el cambio de filtro de ordenación. La muestro después con detalle.
 
 A cada `sortIcon`, en el renderizado, le paso el valor de `order`, que contiene el valor de ordenación del filtrado (1 ó -1). 
 
-Al hacer click en cualquiera de los tres iconos, la función `handleIcon` dentro de  `onClick={() => handleIcon("nombre_del_filtro", variable_de_ordenación)}` se ejecuta, con los parámetros `"nombre_del_filtro"` y `variable_de_ordenación`, lo que permite hacer cambios en la ordenación, disparando el `useEffect` de App.jsx, y haciendo que los productos listados se actualicen.
+Al hacer click en cualquiera de los tres criterios de ordenación en la página, la función `handleIcon` dentro de  `onClick={() => handleIcon("nombre_del_filtro", variable_de_ordenación)}` se ejecuta, con los parámetros `"nombre_del_filtro"` y `variable_de_ordenación`, lo que permite hacer el cambio en la ordenación, disparando el `useEffect` de App.jsx, y provocando que los productos listados se actualicen.
 
 ## La función handleIcon
 
@@ -118,19 +118,19 @@ const handleIcon = (sortName, order) => {
     setCurrentPage(1);
 };
 ```
-La función recibe dos parámetros, `sortName`, con el nombre del filtro seleccionado en función del icono (SortIcon) en el que hagamos clic, y `order`, con el valor del ordenación de ese filtro (1 ó -1).
+La función recibe dos parámetros, `sortName`, con el nombre del filtro seleccionado en función del icono (SortIcon) en el que hagamos clic, y `order`, con el valor de ordenación de ese filtro (1 ó -1).
 
-Con `setSortData`, que recibí por props, voy a fijar el criterio de ordenación y su valor.
+Con la función `setSortData`, que recibí por props, voy a fijar el criterio de ordenación y su valor.
 
-Con `[sortName]:` dentro del objeto que voy a pasar a `setSortData` indico que la propiedad se tiene que llamar como el nombre del filtro recibido en `sortName` (que pueden ser tres: "sortmodel", "sortprice" o "sortyear").
+Con `[sortName]:` dentro del objeto que voy a pasar a `setSortData` indico que la propiedad se tiene que llamar como el nombre del filtro recibido en `sortName` (que puede ser uno de estos tres: "sortmodel", "sortprice" o "sortyear").
 
-Con `order ? -order : 1` determino el valor de la propiedad del objeto que voy a pasar a `setSortData`. Si el valor de order existe, es decir no es `undefined` su valor ahora será el valor alternativo (positivo o negativo) al que ya tiene. Si el valor era 1, ahora será -1. Si era -1, pasará a ser 1. y en caso de que el valor de order fuera `undefined`, es decir, que no fuese este el filtro por el que estábamos filtrando antes, establezco su valor inicial a 1.
+Con `order ? -order : 1` determino el valor de la propiedad del objeto que voy a pasar a `setSortData`. Si el valor de order existe, es decir no es `undefined` su valor ahora será el valor alternativo (positivo o negativo) al que ya tiene. Si el valor era 1, ahora será -1. Si era -1, pasará a ser 1. Y en caso de que el valor de order fuera `undefined`, es decir, que no fuese este el filtro por el que estábamos filtrando antes, establezco su valor inicial a 1.
 
 Como cada vez que empleo `setSortData` defino sólo un filtro de ordenación, el resto de filtros tendrá un valor `undefined` cuando se renderizen en el componente `Sort`.
 
 Con `setCurrentPage(1)` fijo la página de la paginación de resultados a 1.
 
-Con esta simple función podemos entonces, como dije, seleccionar el filtrado entre uno de los tres filtros posibles, y establecer su criterio de ordenación.
+Con esta simple función puedo entonces, como dije, seleccionar el filtrado entre uno de los tres filtros posibles, y establecer el criterio de ordenación, ascendente o descendente, del filtro seleccionado.
 
 ## El componente SortIcon
 
@@ -158,9 +158,9 @@ export default SortIcon;
 
 Por props, `SortIcon` recibe el parámetro `order`.
 
-En el renderizado lo que hago es dibujar el icono en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo SVG para los tres iconos, y cambio el valor de d en función de su estátus (order).
+En el renderizado lo que hago es dibujar el icono SVG en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo código SVG para los tres iconos, y cambio sólo el valor de d en función de su estátus (order).
 
-Con el operador condicional ternario compruebo si order es `undefined` (!order) y si es así, asigno a `d` los datos para pintar el icono de "no seleccionado". En caso contrario, hago otra comprobación con el operador condicional ternario, esta vez para indicar si el icono a dibujar es el de  ordenación ascendente o descendente.
+Con el operador condicional ternario compruebo si `order` es `undefined` (!order) y si es así, asigno a `d` los datos para pintar el icono de "no seleccionado". En caso contrario, hago otra comprobación con otro operador condicional ternario, esta vez para conocer si el icono a dibujar es el de ordenación ascendente o descendente, y asignar a `d` los datos correspondientes a cada icono.
 
 Los iconos corresponden a la librería de iconos de [Heroicons](https://heroicons.com/) en su versión JSX.
 
