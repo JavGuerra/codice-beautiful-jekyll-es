@@ -162,7 +162,7 @@ En el renderizado lo que hago es dibujar el icono SVG en función del valor de `
 
 Con el operador condicional ternario compruebo si `order` es `undefined` (!order) y si es así, asigno a `d` los datos para pintar el icono de "no seleccionado". En caso contrario, hago otra comprobación con otro operador condicional ternario, esta vez para conocer si el icono a dibujar es el de ordenación ascendente o descendente, y asignar a `d` los datos correspondientes a cada icono.
 
-Los iconos corresponden a la librería de iconos de [Heroicons](https://heroicons.com/) en su versión JSX.
+Los iconos corresponden a la librería [Heroicons](https://heroicons.com/), descargados en su versión JSX.
 
 # Enlaces
 
