@@ -156,7 +156,7 @@ const SortIcon = ({order}) => {
 export default SortIcon;
 ```
 
-Por props, `SortIcon` recibe el parámetro `order`.
+Por _props_, `SortIcon` recibe el parámetro `order`.
 
 En el renderizado lo que hago es dibujar el icono SVG en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo código SVG para los tres iconos, y cambio sólo el valor de d en función de su estatus (order).
 
