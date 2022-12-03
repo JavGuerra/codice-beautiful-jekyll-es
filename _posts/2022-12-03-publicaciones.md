@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publicaciones y artículos
-subtitle: materiales propios relacionados con las TIC y la educación
+subtitle: Materiales propios relacionados con las TIC y la educación
 thumbnail-img: /assets/img/publicaciones.png
 tags: [retro, formación]
 ---
@@ -77,9 +77,7 @@ Basado en tecnologías IrDA y/o Bluetooth, pretendía crear una serie de recurso
 
 El proyecto quedó finalista en la II Competición de planes de negocio - 50K de Creara.  
 
-Fue un antecedente de los códigos QR o los chips RFID que son tan comunes hoy en día.
-
-Se elaboró un dispositivo emisor y software servidor de contenidos.
+Fue un antecedente de los códigos QR o los chips RFID que son tan comunes hoy en día. Se elaboró un dispositivo emisor y software servidor de contenidos.
 
 ## Programa Interactivo "Badajoz Tu Ciudad"
 
