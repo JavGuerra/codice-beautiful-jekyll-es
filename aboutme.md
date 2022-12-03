@@ -10,7 +10,7 @@ Te cuento que, además de programar, me apasiona aprender y compartir mis conoci
 
 Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en este área.
 
-Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El éxito de una empresa de desarrollo de aplicaciones pasa por tener clientes satisfechos con las herramientas a medida que contratan.
+Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El éxito de una empresa de desarrollo de aplicaciones pasa por tener clientes satisfechos.
 
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
