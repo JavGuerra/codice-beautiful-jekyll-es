@@ -18,7 +18,9 @@ Este post es un compendio de algunas publicaciones y artículos propios en torno
 ## «Sobrevivencias»
 Autopublicación · 15 dic. 2013
 
-[Mostrar publicación](https://openlibrary.org/books/OL25442626M/Sobrevivencias_v1.2)  
+![Sobrevivencias](https://covers.openlibrary.org/b/id/7276858-L.jpg)  
+[Mostrar publicación](https://openlibrary.org/books/OL25442626M/Sobrevivencias_v1.2) 
+
 **Resumen**: Libro de vivencias sobre el síndrome de Marfan publicadas en el blog Mundo Marfan Latino http://mundomarfan.org, que brinda un espejo en el que afectados y familiares puede mirarse, y aprender de la experiencia de los otros. Está divido en tres secciones: vivencias cotidianas, vivencias quirúrgicas y vivencias de los padres. El Marfan es una enfermedad rara y degenerativa del tejido conectivo relacionado con distintas partes del cuerpo. Afecta a 1 de cada 5.000 personas. Se caracteriza por un aumento inusual de la estatura y de la longitud de las extremidades. Algunas de sus consecuencias pueden ser: discapacidad visual, problemas musculo-esqueléticos crónicos severos, problemas respiratorios, y problemas en el corazón y la aorta potencialmente peligrosos para la vida de la persona afectada. El libro es una sinfonía tocada por muchas manos y dirigida desde el corazón por este reto que nos ha tocado vivir. Son historias de personas comunes cuyas vidas les han impuesto el desafío de sacar lo mejor de sí.
 
 ## Uso de la Web 2.0 en las enfermedades poco frecuentes: Caso Mundo Marfan Latino
@@ -34,7 +36,7 @@ Palabras clave: Web 2.0, redes sociales, Red Social de Pacientes, enfermedades r
 
 ## Revista conmemorativa «20 años del Sinclair QL en España»
 SinclairQL.es · 9 mar. 2005  
-
+![20 años del QL en España](https://badaman.badared.com/ql/revista20/portada.jpg)
 [Mostrar publicación](https://badaman.badared.com/ql/revista20/index.htm)  
 
 Esta revista conmemorativa del 20 aniversario del QL versión MGE es el resultado de la mirada crítica, comprometida y también ilusionada hacia el mundo del ordenador QL en nuestro país. Un repaso de lo más significativo de los últimos 20 años y un paseo hacia el conocimiento del ordenador más controvertido de Sinclair de la mano de quienes mejor lo conocen, sus usuarios.
@@ -82,7 +84,7 @@ Fue un antecedente de los códigos QR o los chips RFID que son tan comunes hoy e
 ## Programa Interactivo "Badajoz Tu Ciudad"
 
 Año 1997.
-
+![Badajoz tu ciudad](https://javguerra.badared.com/contenidos/btc/titulba.gif)
 [Más información](https://javguerra.badared.com/contenidos/btc/index.htm)
 
 Programa interactivo con información completa y amplia acerca de la ciudad de Badajoz. Con textos del Cronista Alberto González. Creado con el software NeoBook.
@@ -96,7 +98,7 @@ Elaboración del Catálogo Oficial Interactivo de la feria FISEX 95. Badajoz. Cr
 ## Proyecto Mediateca
 
 Año 1995.
-
+![Proyecto Mediateca](https://javguerra.badared.com/proyecto/mediateca/logo.gif)
 [Más información](https://javguerra.badared.com/proyecto/mediateca/index.htm)
 
 Iniciativa tecnológica sobre documentación y aplicación de las nuevas tecnologías a la sociedad extremeña. Contemplaba la gestión de varios centros orientados al uso ciudadano.
