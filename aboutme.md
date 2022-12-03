@@ -29,4 +29,4 @@ Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer m
 ![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}
 
 ## Aptitudes
-Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso integridad • compañerismo • planificación y organización
+Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización
