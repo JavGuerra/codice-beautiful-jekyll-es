@@ -6,13 +6,13 @@ subtitle: Por qué querrías conocerme
 
 Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
 
-Te cuento que, además de programar, me apasiona aprender, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, transmitir mis conocimientos, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
+Te cuento que, además de programar, me apasiona aprender y compartir mis conocimientos, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, transmitir mis conocimientos, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
 
 Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en este área.
 
 Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El éxito de una empresa de desarrollo de aplicaciones pasa por tener clientes satisfechos con las herramientas a medida que contratan.
 
-Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo.
+Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
 ## Conocimientos
 Algunas de las tecnologías con las que trabajo:
