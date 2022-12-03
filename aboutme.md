@@ -25,7 +25,7 @@ Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS �
 [Mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %})
 
 ## Méritos y publicaciones
-Fundador de varias ONG. Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
+Fundador de varias ONG. Autor de [publicaciones, artículos]({% post_url 2022-12-03-publicaciones %}) y proyectos de retro-informática y tele-educación.
 
 ## Portfolio
 Visita [mi portfolio]({% link portfolio.md %}) para saber algo más sobre mis conocimientos aplicados.
