@@ -14,9 +14,9 @@ Cuando mostramos al usuario un listado con muchos resultados totales, le estamos
 
 Esta entrada está basada en el [proyecto «Tienda 8 bits»]({% post_url 2022-11-18-proyecto-final-bootcamp %}), y aquí puedes ver su funcionamiento en esta [página de ejemplo](https://javguerra.badared.com/proyecto/tienda8bits/).
 
-Queremos listar una serie de fichas de productos por tres criterios, modelo de producto, precio y año de fabricación, y lo haremos alternativamente, es decir, por uno de entre esos tres criterios de ordenación a la vez.
+Queremos listar una serie de fichas de productos por tres criterios, modelo de producto, precio y año de fabricación, y lo haremos alternativamente, es decir, por uno de entre esos tres criterios de ordenación cada vez.
 
-La ordenación se hará de menor a mayor, osea, en orden ascendente, y de mayor a menor, en orden descendente. La API de este ejemplo debe estar preparada para ello, aunque no entraré a mostrar eso en esta entrada.
+La ordenación se hará de menor a mayor, osea, en orden ascendente, y de mayor a menor, en orden descendente. La API de este ejemplo debe estar preparada para ello, aunque no me pararé a mostrar eso en esta entrada.
 
 Los filtros, en la página, tendrán un aspecto parecido a este:
 
@@ -45,9 +45,9 @@ useEffect(() => {
     
 }, [sortData, currentPage]);
 ```
-Cuando el objeto almacenado en `sortData` cambie por la interacción con el usuario mediante el uso de la función `setSortData`, el contenido de `useEffect` se ejecutará, pasando los datos de filtrado a la consulta a la API que se puede hacer mediante fetch, axios... Los datos deben ser preparados para hacer la consulta, y para ello, deberemos comprobar cual de los tres filtros (sortmodel, sortprice, sortyear) estamos usando y cuales no (_undefined_), e incluir el filtro indicado en la consulta.
+Cuando el objeto almacenado en `sortData` cambie por la interacción con el usuario, al seleccionar otro criterio de ordenación, entrará en juego la función `setSortData`, y el contenido dentro de `useEffect` se ejecutará, pasando los datos de filtrado `sortData` a la petición a la API mediante fetch, axios... Los datos deben ser preparados antes de hacer la consulta, y para ello, deberemos comprobar cual de los tres filtros (sortmodel, sortprice, sortyear) está seleccionado y cuales no (_undefined_), e incluir el filtro indicado en la consulta.
 
-El componente que va a llevar a cabo la ordenación se llama `Sort`, y esta sería su forma para renderizarlo en la página:
+El componente que va a llevar a cabo la ordenación se llama `Sort`, y esta sería la llamada para renderizarlo en la página:
 
 ```javascript
 return (
@@ -58,7 +58,7 @@ return (
     />
 );
 ```
-Por props le hacemos llegar al componente Sort los datos de filtrado (sortData), la función que establece (set) el filtrado (setSortData) y la función que establece la página actual (setCurrentPage). Esto último es necesario porque cada vez que cambie el filtrado estableceremos la página 1 como la página actual, de otra forma los datos obtenidos con el nuevo filtrado se mostrarían confusos para el usuario.
+Por _props_ le hacemos llegar al componente Sort los datos de filtrado (sortData), la función que establece (set) el filtrado (setSortData) y la función que establece la página actual (setCurrentPage). Esto último es necesario porque cada vez que cambie el filtrado estableceremos la página 1 como la página actual, de otra forma los datos obtenidos con el nuevo filtrado se mostrarían confusos para el usuario.
 
 ## El componente Sort
 
@@ -118,13 +118,13 @@ const handleIcon = (sortName, order) => {
     setCurrentPage(1);
 };
 ```
-La función recibe dos parámetros, `sortName`, con el nombre del filtro seleccionado en función del icono (SortIcon) en el que hagamos clic, y `order`, con el valor de ordenación de ese filtro (1 ó -1).
+La función recibe dos parámetros, `sortName`, con el nombre del filtro seleccionado en función del icono (SortIcon) en el que se haga clic, y `order`, con el valor de ordenación de ese filtro (1 ó -1).
 
 Con la función `setSortData`, que recibí por props, voy a fijar el criterio de ordenación y su valor.
 
-Con `[sortName]:` dentro del objeto que voy a pasar a `setSortData` indico que la propiedad se tiene que llamar como el nombre del filtro recibido en `sortName` (que puede ser uno de estos tres: "sortmodel", "sortprice" o "sortyear").
+Con `[sortName]:` dentro del objeto que voy a pasar a `setSortData` para cambiar `sortData` indico que la propiedad se tiene que llamar como el nombre del filtro recibido en `sortName` (que puede ser uno de estos tres: "sortmodel", "sortprice" o "sortyear"). Con los corchetes consigo que el texto recibido sea el nombre de la propiedad.
 
-Con `order ? -order : 1` determino el valor de la propiedad del objeto que voy a pasar a `setSortData`. Si el valor de order existe, es decir no es `undefined` su valor ahora será el valor alternativo (positivo o negativo) al que ya tiene. Si el valor era 1, ahora será -1. Si era -1, pasará a ser 1. Y en caso de que el valor de order fuera `undefined`, es decir, que no fuese este el filtro por el que estábamos filtrando antes, establezco su valor inicial a 1.
+Con `order ? -order : 1` determino el valor de la propiedad del objeto que voy a pasar a `setSortData`. Si el valor de order existe, es decir no es `undefined`, y por tanto es el criterio de ordenación actual, su valor ahora será el valor alternativo (positivo o negativo) al que ya tiene. Si el valor era 1, ahora será -1. Si era -1, pasará a ser 1. Y en caso de que el valor de order fuera `undefined`, es decir, que no fuese este el filtro por el que estábamos filtrando antes, establezco su valor inicial a 1.
 
 Como cada vez que empleo `setSortData` defino sólo un filtro de ordenación, el resto de filtros tendrá un valor `undefined` cuando se renderizen en el componente `Sort`.
 
@@ -158,7 +158,7 @@ export default SortIcon;
 
 Por props, `SortIcon` recibe el parámetro `order`.
 
-En el renderizado lo que hago es dibujar el icono SVG en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo código SVG para los tres iconos, y cambio sólo el valor de d en función de su estátus (order).
+En el renderizado lo que hago es dibujar el icono SVG en función del valor de `order`, que puede ser: 1, -1 y _undefined_. Para elegir que icono mostrar, cambio el valor de la propiedad `d` de la imagen SVG que pinta el icono. La propiedad `d` es la única que cambia en los tres iconos elegidos, el de ordenación ascendente (1), descendente (-1) y no seleccionado (_undefined_), así que utilizo el mismo código SVG para los tres iconos, y cambio sólo el valor de d en función de su estatus (order).
 
 Con el operador condicional ternario compruebo si `order` es `undefined` (!order) y si es así, asigno a `d` los datos para pintar el icono de "no seleccionado". En caso contrario, hago otra comprobación con otro operador condicional ternario, esta vez para conocer si el icono a dibujar es el de ordenación ascendente o descendente, y asignar a `d` los datos correspondientes a cada icono.
 
