@@ -84,7 +84,8 @@ Fue un antecedente de los códigos QR o los chips RFID que son tan comunes hoy e
 ## Programa Interactivo "Badajoz Tu Ciudad"
 
 Año 1997.
-![Badajoz tu ciudad](https://javguerra.badared.com/contenidos/btc/titulba.gif)
+
+![Badajoz tu ciudad](https://javguerra.badared.com/contenidos/btc/titulba.gif)  
 [Más información](https://javguerra.badared.com/contenidos/btc/index.htm)
 
 Programa interactivo con información completa y amplia acerca de la ciudad de Badajoz. Con textos del Cronista Alberto González. Creado con el software NeoBook.
@@ -98,7 +99,8 @@ Elaboración del Catálogo Oficial Interactivo de la feria FISEX 95. Badajoz. Cr
 ## Proyecto Mediateca
 
 Año 1995.
-![Proyecto Mediateca](https://javguerra.badared.com/proyecto/mediateca/logo.gif)
+
+![Proyecto Mediateca](https://javguerra.badared.com/proyecto/mediateca/logo.gif)  
 [Más información](https://javguerra.badared.com/proyecto/mediateca/index.htm)
 
 Iniciativa tecnológica sobre documentación y aplicación de las nuevas tecnologías a la sociedad extremeña. Contemplaba la gestión de varios centros orientados al uso ciudadano.
