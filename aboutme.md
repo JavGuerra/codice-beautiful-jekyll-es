@@ -11,7 +11,7 @@ Sysadmin · IT Manager · Teaching**
 
 Te cuento que, además de programar, me apasiona aprender y compartir mis conocimientos, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
 
-Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en este área.
+Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en el área.
 
 Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El éxito de una empresa de desarrollo de aplicaciones pasa por tener clientes satisfechos.
 
