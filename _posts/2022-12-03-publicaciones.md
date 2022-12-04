@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/publicaciones.png
 tags: [retro, formación]
 ---
 
-Este post es un compendio de algunas publicaciones y artículos propios en torno a los temas de mi interés que he realizado a lo largo de los años.
+Este post es un compendio de algunas publicaciones y artículos propios en torno a los mis temas de interés realizados a lo largo de los años.
 
 ![Publicaciones](/assets/img/publicaciones.png){: .mx-auto.d-block :}
 
