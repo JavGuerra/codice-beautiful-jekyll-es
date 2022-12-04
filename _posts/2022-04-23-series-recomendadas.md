@@ -15,6 +15,7 @@ Haz click en los enlaces para más información:
 
 ## Series relativamente actuales
 
+- [Mad Men](https://www.filmaffinity.com/es/film596790.html) - ¿? 
 - [Home Ground](https://www.filmaffinity.com/es/film857157.html) - Filmin
 - [La asistenta](https://www.filmaffinity.com/es/film654299.html) - Netflix
 - [La rebelión de las chicas buenas](https://www.filmaffinity.com/es/film133427.html) - Prime Video
@@ -56,7 +57,8 @@ Haz click en los enlaces para más información:
 - [Intimidad](https://www.filmaffinity.com/es/film244305.html) - Netflix
 - [Los emigrantes](https://www.filmaffinity.com/es/film632845.html) - Filmin
 - [El puente (Bron)](https://www.filmaffinity.com/es/film235426.html) - ¿?
-- [The Bridge - remake Bron USA](https://www.filmaffinity.com/es/film239005.html) - Orange TV / Acorn TV
+- [The Bridge - remake Bron USA](https://www.filmaffinity.com/es/film239005.html) - Orange TV / Acorn TV  
+- [Por toda la humanidad](https://www.filmaffinity.com/es/film748109.html) - Apple TV
 
 Espero que las disfrutes ;)
 
