@@ -29,6 +29,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [PHP](/assets/img/certificados/PHP-Linked-In.png) - Linked-In
 * [Backend developer](https://badgr.com/public/assertions/4hyWt_gnSOOY3uNApKi9Mg) - The Bridge  
 * [Frontend developer](https://badgr.com/public/assertions/fRryxx3PQSuKXj0U9opgzQ) - The Bridge  
+* [Full Stack Web Developer](/assets/img/certificados/javguerra-fswd.png) - The Bridge  
 * [Node.JS](https://badgr.com/public/assertions/o61ERhieSlyDVgSR586sAQ) - The Bridge  
 * [Express.JS](https://badgr.com/public/assertions/ftjl0em_Sr-8V8AM784p7g) - The Bridge  
 * [MongoDB](https://badgr.com/public/assertions/HMRslte_QFuFhQ21viB3Cw) - The Bridge  
