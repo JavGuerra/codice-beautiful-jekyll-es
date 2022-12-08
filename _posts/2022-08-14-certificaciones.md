@@ -15,17 +15,17 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 
 # Certificaciones
 
-* [Introducción a la programación](/assets/img/certificados/Introducción_a_la_programación-Open_Bootcamp.png) - Open Bootcamp
-* [Conceptos de la programación](/assets/img/certificados/Conceptos_de_programación-Open_Bootcamp.png) - Open Bootcamp  
+* [Introducción a la programación](https://community.open-bootcamp.com/user/javguerra/certificaciones/9a7984cb-1446-4388-a27f-f408cc855551) - Open Bootcamp
+* [Conceptos de la programación](https://community.open-bootcamp.com/user/javguerra/certificaciones/6a224184-06e1-4d35-bb82-a7130d3ee0d4) - Open Bootcamp  
 * [Web dev Fundamentals](https://badgr.com/public/assertions/sfMbjaRBRhesk8_3OHHwZQ) - The Bridge  
-* [HTML y CSS básico](/assets/img/certificados/HTML_y_CSS_básico-Open_Bootcamp.png) - Open Bootcamp
+* [HTML y CSS](https://community.open-bootcamp.com/user/javguerra/certificaciones/3f6abc4b-7b0e-4804-9d21-e62f94b69889) - Open Bootcamp
 * [HTML](/assets/img/certificados/HTML-Linked-In.png) - Linked-In
 * [HTML](https://badgr.com/public/assertions/jBXzblkKRJu2RT6OAhw_1A) - The Bridge  
 * [CSS](https://badgr.com/public/assertions/HqxCGrbYQeeaqRDUYtPQWQ) - The Bridge  
-* [JavaScript básico](/assets/img/certificados/JavaScript_básico-Open_Bootcamp.png) - Open Bootcamp  
+* [JavaScript](https://community.open-bootcamp.com/user/javguerra/certificaciones/c2790d40-7e72-431f-aa08-1f013a3328ba) - Open Bootcamp  
 * [JavaScript](https://badgr.com/public/assertions/V2P3yFAxTemAfk3nvGK7mw) - The Bridge  
 * [ES6](https://badgr.com/public/assertions/G20ghDb1QCmRX3qdhqOE3Q) - The Bridge  
-* [PHP básico](/assets/img/certificados/PHP_básico-Open_Bootcamp.png) - Open Bootcamp
+* [PHP](https://community.open-bootcamp.com/user/javguerra/certificaciones/2821d390-7744-4657-a74c-7d6e4907f8ad) - Open Bootcamp
 * [PHP](/assets/img/certificados/PHP-Linked-In.png) - Linked-In
 * [Backend developer](https://badgr.com/public/assertions/4hyWt_gnSOOY3uNApKi9Mg) - The Bridge  
 * [Frontend developer](https://badgr.com/public/assertions/fRryxx3PQSuKXj0U9opgzQ) - The Bridge  
