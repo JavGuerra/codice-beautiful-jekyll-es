@@ -21,7 +21,7 @@ Estoy abierto a nuevas experiencias y a aprender de las personas con las que tra
 Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
 
 ## Conocimientos
-Algunas de las tecnologías con las que trabajo:
+Algunas de las tecnologías con las que trabajo son:
 
 Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • MongoDB • Java • PHP • Laravel Jetstream  • CI/CD • Accesibilidad web • HTML5 • CSS3 • Sass • Bootstrap • Tailwind • Bulma • JavaScript ES6 • NodeJS+Express • Firebase • React • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • Ofimática
 
