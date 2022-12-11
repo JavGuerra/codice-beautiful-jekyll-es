@@ -9,7 +9,7 @@ Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-J
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
 
-[<button>Jugar a Buscaminas</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
+[<button class="mt-5 btn btn-info text-uppercase">Jugar a Buscaminas</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
 
 Una vez se genera el tablero con las dimensiones que deseemos, tendremos una serie de intentos para acertar la posición de las minas. Cada fallo cuenta, así como cada acierto. Termina la partida cuando se han superado el número de fallos posibles o cuando se encuentran todas las minas.
 
@@ -19,10 +19,10 @@ La aplicación, programada en JavaScript, usa Bootstrap y JQuery, es _cross-brow
 
 Como ejercicio de programación, es un buen ejemplo de manejo de eventos en JavaScript para interactuar con las casillas del tablero.
 
-¿Te apetece una partidita?
+## ¿Te apetece una partidita?
 
-* [<button>Jugar a Buscaminas en JavaScript on-line</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
-* [Ver el codigo fuente en Github](https://github.com/JavGuerra/Buscaminas-en-JavaScript)
+[<button class="mt-5 btn btn-info text-uppercase">Jugar a Buscaminas en JavaScript on-line</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)  
+[Ver el codigo fuente en Github](https://github.com/JavGuerra/Buscaminas-en-JavaScript)  
 
 PS.: La ayuda depara alguna sorpresa... pero intenta jugar sin hacer trampa.
 
