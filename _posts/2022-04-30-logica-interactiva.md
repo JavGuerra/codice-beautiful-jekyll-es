@@ -9,7 +9,7 @@ Programar es una diversión difícil. En ocasiones las interacciones entre los d
 
 ![Decisiones](/assets/img/decisiones.jpg){: .mx-auto.d-block :}
 
-[<button class="mt-5 btn btn-info text-uppercase">Página web de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html)
+[<button class="btn btn-info text-uppercase">Página web de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html)
 
 En la página que he preparado para ilustrar esta entrada, tenemos cinco botones de un menú de opciones. Cada opción interactúa con los estados de los otros botones mientras se van añadiendo, quitando o cambiando elementos del DOM (en este caso artículos de una sección), y activando o desactivando los botones según sea necesario en cada momento. Es fácil entender la mecánica del ejemplo probándolo.
 
@@ -29,7 +29,7 @@ En este ejemplo, «Arranque» se refiere al estado de los botones al inicio. «C
 
 Esta tabla resumida incluye sólo la interacción de estados de los botones, -obviando el estado de las variables para no complicar el ejemplo-, anotando en las celdas de cada columna el estado del botón según los disparadores indicados al principio de cada fila. A la hora de pasar a la fase de codificación de nuestra aplicación, nos será fácil determinar si hemos implementado todas y cada una de las interacciones posibles reflejadas en la tabla simplemente cotejándola. Cuando tengas ante ti un abanico de opciones inabarcables, esta puede ser una solución para salir del atolladero.
 
-[<button class="mt-5 btn btn-info text-uppercase">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html).
+[<button class="btn btn-info text-uppercase">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html).
 
 Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.xls).
 
