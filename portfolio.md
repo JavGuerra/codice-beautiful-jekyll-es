@@ -6,10 +6,12 @@ subtitle: Mira lo que hago
 <div class="text-center">
 
 <article class="post-preview">
-<img class="shadow-sm mb-2" src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" alt="Tienda 8 bits" width="250"/>
-<h2 class="post-title"><a href="{% post_url 2022-11-18-proyecto-final-bootcamp %}">Tienda 8 bits</a></h2>
+<a href="{% post_url 2022-11-18-proyecto-final-bootcamp %}">
+    <img class="shadow-sm mb-2" src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" alt="Tienda 8 bits" width="250"/>
+    <h2 class="post-title">Tienda 8 bits</h2>
+</a>
 <h3 class="post-subtitle">Proyecto de graduación Full Stack Web Developer</h3>
-<small>Node.js, Express, React, MongoDB, JavaScript</small>
+<p><small>Node.js, Express, React, MongoDB, JavaScript</small></p>
 </article>
 
 <article class="post-preview">
