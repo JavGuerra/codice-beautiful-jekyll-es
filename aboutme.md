@@ -31,14 +31,14 @@ Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS �
 👉🏻 Visita [mi portfolio]({% link portfolio.md %}) para saber algo más sobre mis conocimientos aplicados.
 
 ## Méritos y publicaciones
-Fundador de varias ONG. Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
+✌🏻 Fundador de varias ONG. Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
 
 * [Publicaciones y artículos]({% post_url 2022-12-03-publicaciones %})  
 * [Traducciones de software]({% post_url 2022-08-13-traducciones %})  
 * [Cliparts]({% post_url 2022-08-13-cliparts %}) y [Logotipos]({% post_url 2022-08-14-logos %})  
 
 ## Saber más
-Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer más sobre mi y mis proyectos profesionales.
+🔗 Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer más sobre mi y mis proyectos profesionales.
 
 ![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}
 
