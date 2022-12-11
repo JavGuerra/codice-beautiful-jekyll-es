@@ -22,7 +22,7 @@ El evento se llevó a cabo de forma presencial y on-line, y de él he rescatado 
 
 ![Video de presentación](/assets/img/tienda.png){: .mx-auto.d-block :}
 
-[<button>Ver el video en YouTube</button>](https://youtu.be/XlswjqhxJZ8)
+[<button class="mt-5 btn btn-info text-uppercase">Ver el video en YouTube</button>](https://youtu.be/XlswjqhxJZ8)
 
 # Descripción técnica
 
@@ -72,7 +72,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 
 ![Código QR](https://raw.githubusercontent.com/JavGuerra/final-fswd/f4d0d188a687f1b7c8b7b77f036176347f838c1b/qrcode.svg)  
 
-[<button>Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
+[<button class="mt-5 btn btn-info text-uppercase">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
 
 ## Enlaces
 - [Aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  
