@@ -10,7 +10,7 @@ Durante este año 2022 he cursado el [Bootcamp de Desarrollo Web Full Stack]({% 
 
 ![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button>Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
+[<button class="mt-5 btn btn-info text-uppercase">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
 
 El pasado día 17 de noviembre finalizó la formación con un acto de entrega de diplomas on-line en el que tuve ocasión de mostrar mi proyecto final «Tienda 8 bits» junto con Alex, otro de mis compañeros, que también expuso su proyecto.
 
@@ -42,7 +42,7 @@ __Características destacadas de la API__:
 ## Front end
 
 __Tecnologías empleadas__: React + Vite, axios, react-router-dom, react-hook-form  
-__Módulos propios__: setSpin, inactiveBtn
+__Módulos propios__: setSpin, inactiveBtn, compareTwoObjects
 
 __Características destacadas de la App__:
 * El diseño es adaptable (responsive) según el dispositivo.  
