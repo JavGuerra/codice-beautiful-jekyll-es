@@ -125,7 +125,9 @@ function consultaAPI(ruta, callback) {
 
 ## Enlaces
 
-* Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
-* El ejemplo anterior usa la API [Dog CEO](https://dog.ceo/dog-api/).
+* Podemos ver un caso de uso en esta [<button class="btn btn-info text-uppercase">galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)  
+
+El ejemplo anterior usa la API [Dog CEO](https://dog.ceo/dog-api/).
+
 * Info sobre la etiqueta [```<dialog>```](https://twitter.com/Manz/status/1529836795130744834).
 * Artículo «[Cómo crear un spinner loader con CSS](https://midu.dev/como-crear-un-spinner-con-css/)».

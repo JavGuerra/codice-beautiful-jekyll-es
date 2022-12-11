@@ -222,5 +222,8 @@ Con esto ya tendríamos presentada la página de la galería con el número de e
 
 ## Enlaces
 
-* Podemos ver un caso de uso en esta [<button>galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
-* El ejemplo anterior usa la API [Dog CEO](https://dog.ceo/dog-api/).
+* Podemos ver un caso de uso en esta:
+
+[<button class="btn btn-info text-uppercase">galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)
+
+El ejemplo anterior usa la API [Dog CEO](https://dog.ceo/dog-api/).

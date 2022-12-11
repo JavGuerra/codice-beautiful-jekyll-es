@@ -27,8 +27,9 @@ Este efecto tiene un inconveniente, y es que no funciona bien en el navegador Sa
 
 Mis páginas de ejemplo con este efecto Parallax:
 
-* [<button>página de ejemplo</button>](https://javguerra.github.io/ramp-up-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
-* [<button>página _landing_</button>](https://badared.com/conectiva/evento/THTC2021/)
+[<button class="btn btn-info text-uppercase">página de ejemplo</button>](https://javguerra.github.io/ramp-up-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
+
+[<button class="btn btn-info text-uppercase">página _landing_</button>](https://badared.com/conectiva/evento/THTC2021/)
 
 El efecto Parallax puede complicarse aún más para conseguir resultados increibles. [Aquí](https://www.paellacreativa.com.ar/2012/05/24/efecto-parallax-diseno-web/) puedees ver algunos ejemplos.
 

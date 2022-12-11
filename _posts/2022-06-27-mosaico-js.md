@@ -11,7 +11,7 @@ Ejercicio que combina lógica de programación en JavaScript, y el uso de evento
 
 ![Mosaico JS](https://javguerra.github.io/MosaicoJS/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button>Probar el juego</button>](https://javguerra.github.io/MosaicoJS/)
+[<button class="btn btn-info text-uppercase">Probar el juego</button>](https://javguerra.github.io/MosaicoJS/)
 
 # El juego
 
@@ -193,5 +193,6 @@ Puedes jugar al juego y ver el código completo en el repositorio haciendo clic 
 
 # Enlaces
 
-* [<button>Probar el juego</button>](https://javguerra.github.io/MosaicoJS/)
-* Repositorio [JavGuerra/MosaicoJS ](https://github.com/JavGuerra/MosaicoJS)
+[<button class="btn btn-info text-uppercase">Probar el juego</button>](https://javguerra.github.io/MosaicoJS/)  
+
+Repositorio [JavGuerra/MosaicoJS ](https://github.com/JavGuerra/MosaicoJS)

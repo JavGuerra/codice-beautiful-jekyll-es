@@ -9,7 +9,7 @@ Este juego interactúa con el usuario y pasa parámetros mediante POST a través
 
 ![Mastermind](/assets/img/mastermind.png){: .mx-auto.d-block :}
 
-[<button>Probar el juego</button>](https://badared.com/javguerra/daw/mastermind/)
+[<button class="btn btn-info text-uppercase">Probar el juego</button>](https://badared.com/javguerra/daw/mastermind/)
 
 # El juego
 
@@ -508,4 +508,4 @@ CADENA;
 
 # Enlaces
 
-[<button>Probar el juego</button>](https://badared.com/javguerra/daw/mastermind/)
+[<button class="btn btn-info text-uppercase">Probar el juego</button>](https://badared.com/javguerra/daw/mastermind/)

@@ -9,7 +9,7 @@ La información visual es percibida con más claridad que la escrita. A la hora 
 
 ![Contador](https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png){: .mx-auto.d-block :}
 
-[<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+[<button class="btn btn-info text-uppercase">Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
 
 ## El contador
 
@@ -231,7 +231,8 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
 
 ## Enlace
 
-[<button>Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+[<button class="btn btn-info text-uppercase">Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)  
+
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/summer-quiz/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %})
 * Ver también: [Cargar SVG dinámicamente]({% post_url 2022-06-14-carga-svg %})

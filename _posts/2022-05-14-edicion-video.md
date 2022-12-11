@@ -8,9 +8,11 @@ tags: [HTML, CSS, video, edición, herramientas]
 ---
 Esta simple edición de video que preparé para la asignatura de Diseño de Interfaces Web de FPGS. de Desarrollo de Aplicaciones Web, no es, desde luego, una obra de arte, ya que incluye filtros de video sin demasiado sentido, tal como pedía el ejercicio, pero ejemplifica el trabajo realizado con una herramienta de edición de video no lineal como es OpenShot Video Editor.
 
-Aquí el resultado: [<button>Ver video</button>](http://badared.com/javguerra/daw/video/index.html)
+Aquí el resultado:
 
 ![Video](/assets/img/big-buck-bunny.png){: .mx-auto.d-block :}
+
+[<button class="btn btn-info text-uppercase">Ver video</button>](http://badared.com/javguerra/daw/video/index.html)
 
 El ejercicio muestra, no obstante, algunas cuestiones interesantes:
 
