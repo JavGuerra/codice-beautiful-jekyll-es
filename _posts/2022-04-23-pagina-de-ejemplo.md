@@ -19,7 +19,7 @@ Por: __Javier Guerra__
 
 ![Conceptos FWSW](https://javguerra.github.io/ramp-up-fswd/img/banner.jpg)
 
-[<button>Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="mt-5 btn btn-info text-uppercase">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
 
 Esta página corresponde a la práctica final del ramp-up del [bootcamp sobre Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando en este momento.
 
@@ -48,6 +48,6 @@ En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye
 
 ## Acceder a la página web
 
-[<button>Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html) de la práctica.
+![icono](https://javguerra.github.io/ramp-up-fswd/img/qrcode.svg)  
 
-![icono](https://javguerra.github.io/ramp-up-fswd/img/qrcode.svg)
+[<button class="mt-5 btn btn-info text-uppercase">Ir a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)  
