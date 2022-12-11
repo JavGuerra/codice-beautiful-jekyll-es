@@ -31,7 +31,7 @@ Esta tabla resumida incluye sólo la interacción de estados de los botones, -ob
 
 De paso, este ejercicio sirve para mostrar el uso de JavaScript en el manejo de nodos del DOM.
 
-[<button class="btn btn-info text-uppercase">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html).
+[<button class="btn btn-info text-uppercase">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html)
 
 Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.xls).
 
