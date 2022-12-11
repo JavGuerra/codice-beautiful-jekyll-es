@@ -25,10 +25,10 @@ Algunas de las tecnologías con las que trabajo son:
 
 Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • MongoDB • Java • PHP • Laravel Jetstream  • CI/CD • Accesibilidad web • HTML5 • CSS3 • Sass • Bootstrap • Tailwind • Bulma • JavaScript ES6 • NodeJS+Express • Firebase • React • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • Ofimática
 
-Ver [mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %}).
+👉🏻 Ver [mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %}).
 
 ## Portfolio
-Visita [mi portfolio]({% link portfolio.md %}) para saber algo más sobre mis conocimientos aplicados.
+👉🏻 Visita [mi portfolio]({% link portfolio.md %}) para saber algo más sobre mis conocimientos aplicados.
 
 ## Méritos y publicaciones
 Fundador de varias ONG. Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
