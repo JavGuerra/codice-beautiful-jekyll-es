@@ -12,7 +12,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Tienda 8 bits</h2>
     </a>
     <h3 class="post-subtitle">Proyecto de graduación Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
-    <small>Node.js, Express, React, MongoDB, JavaScript</small>
+    <small>Node.js, Express, React, MongoDB, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
 <article class="post-preview">
