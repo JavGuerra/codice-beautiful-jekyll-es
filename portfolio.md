@@ -11,7 +11,7 @@ subtitle: Mira lo que hago
             src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" />
         <h2 class="post-title">Tienda 8 bits</h2>
     </a>
-    <h3 class="post-subtitle">Proyecto de graduación Full Stack Web Developer</h3>
+    <h3 class="post-subtitle">Proyecto de graduación Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
     <small>Node.js, Express, React, MongoDB, JavaScript</small>
 </article>
 
@@ -19,9 +19,9 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">
         <img class="shadow-sm mb-2" alt="Conceptos FSWD" width="250"
             src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
-        <h2 class="post-title">Una página de ejemplo</h2>
+        <h2 class="post-title">Una página de&nbsp;ejemplo</h2>
     </a>
-    <h3 class="post-subtitle">Conceptos Full Stack Web Developer</h3>
+    <h3 class="post-subtitle">Conceptos Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
     <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
@@ -31,7 +31,7 @@ subtitle: Mira lo que hago
             src="https://javguerra.github.io/javascript-fswd/assets/img/banner.png" />
         <h2 class="post-title">Summer Quiz</h2>
     </a>
-    <h3 class="post-subtitle">Juego que obtiene sus preguntas a través de una API</h3>
+    <h3 class="post-subtitle">Juego que obtiene sus preguntas de una API</h3>
     <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
@@ -42,7 +42,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/buscaminas.png %}" />
         <h2 class="post-title">Buscaminas en JavaScript</h2>
     </a>
-    <h3 class="post-subtitle">Juego online que hace uso de manejo de eventos</h3>
+    <h3 class="post-subtitle">Juego que hace uso de manejo&nbsp;de&nbsp;eventos</h3>
     <small>HTML, CSS, JavaScript, Bootstrap, JQuery</small> 
 </article>
 
@@ -62,7 +62,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/cronometro.png %}" />
         <h2 class="post-title">Animación interactiva</h2>
     </a>
-    <h3 class="post-subtitle">Realizada con Google Web Designer</h3>
+    <h3 class="post-subtitle">Realizada con Google&nbsp;Web&nbsp;Designer</h3>
     <small>HTML, CSS, javascript, animación, herramientas</small>
 </article>
 
@@ -72,7 +72,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/accessibility.png %}" />
         <h2 class="post-title">Accesibilidad web</h2>
     </a>
-    <h3 class="post-subtitle">Buenas prácticas explicadas a través de un ejemplo</h3>
+    <h3 class="post-subtitle">Buenas prácticas explicadas con un ejemplo</h3>
     <small>HTML, CSS, JavaScrip, Accesibilidad, Usabilidad</small>
 </article>
 
