@@ -9,13 +9,16 @@ Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
 **Junior fullstack web developer · MERN/Java/PHP/Laravel(TALL)  
 Sysadmin · IT Manager · Teaching**
 
-Te cuento que, además de programar, me apasiona aprender y compartir mis conocimientos, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
+Además de programar, me apasiona aprender y compartir mis conocimientos, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
 
 Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en el área.
 
-Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El éxito de una empresa de desarrollo de aplicaciones pasa por tener clientes satisfechos.
+Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El buen software debe cumplir su objetivo siendo intuitivo y fácil de aprender. Los pequeños errores en el resultado desmerecen el trabajo del equipo de desarrollo.
 
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
+
+## Aptitudes
+Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
 
 ## Conocimientos
 Algunas de las tecnologías con las que trabajo:
@@ -39,5 +42,3 @@ Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer m
 
 ![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}
 
-## Aptitudes
-Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
