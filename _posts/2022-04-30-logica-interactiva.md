@@ -29,10 +29,10 @@ En este ejemplo, «Arranque» se refiere al estado de los botones al inicio. «C
 
 Esta tabla resumida incluye sólo la interacción de estados de los botones, -obviando el estado de las variables para no complicar el ejemplo-, anotando en las celdas de cada columna el estado del botón según los disparadores indicados al principio de cada fila. A la hora de pasar a la fase de codificación de nuestra aplicación, nos será fácil determinar si hemos implementado todas y cada una de las interacciones posibles reflejadas en la tabla simplemente cotejándola. Cuando tengas ante ti un abanico de opciones inabarcables, esta puede ser una solución para salir del atolladero.
 
+De paso, este ejercicio sirve para mostrar el uso de JavaScript en el manejo de nodos del DOM.
+
 [<button class="btn btn-info text-uppercase">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html).
 
 Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.xls).
-
-De paso, este ejercicio sirve para mostrar el uso de JavaScript en el manejo de nodos del DOM.
 
 **Actualización**. Ver este ejemplo de uso de botonera aún más complicado: [Cronómetro en JavaScript]({% post_url 2022-05-22-cronometro-js %})
