@@ -4,7 +4,7 @@ title: Sobre mi
 subtitle: Por qué querrías conocerme
 ---
 
-Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
+👋🏻 Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
 
 **Junior fullstack web developer · MERN/Java/PHP/Laravel(TALL)  
 Sysadmin · IT Manager · Teaching**
@@ -18,7 +18,7 @@ Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
 ## Aptitudes
-Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
+👍🏻 Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
 
 ## Conocimientos
 Algunas de las tecnologías con las que trabajo son:
