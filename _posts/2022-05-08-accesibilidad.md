@@ -16,7 +16,7 @@ Todos presentaremos en algún momento de nuestra vida alguna discapacidad en men
 
 Con ayuda de la página de ejemplo que preparé y reseñe en [esta entrada]({% post_url 2022-04-23-pagina-de-ejemplo %}), iré describiendo algunas buenas prácticas que suelo emplear en las webs que desarrollo.
 
-[<button class="mt-5 btn btn-info text-uppercase">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="btn btn-info text-uppercase">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
 
 Comprensión del contexto
 ------------------------
@@ -106,7 +106,7 @@ Para que tus diseños sean exitosos, contempla lo siguiente:
 - Vigilar los eventos interactivos, y señala adecuadamente sus estados.
 - Revisar el código con herramientas que nos permitan conocer si hemos pasado algo por alto, y así corregirlo, como el [complemento WAVE](https://wave.webaim.org/) para el navegador.
 
-[<button class="mt-5 btn btn-info text-uppercase">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="btn btn-info text-uppercase">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
 
 **Enlaces de interés**:
 - [Introducción a la accesibilidad web](https://www.w3.org/WAI/fundamentals/accessibility-intro/es) - W3C
