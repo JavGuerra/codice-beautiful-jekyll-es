@@ -15,4 +15,4 @@ Es un buen ejercicio para mostrar las posibilidades del diseño web con HTML y C
 
 La foto de esta entrada es un montaje que realicé con Gimp tomando como base las tres fotos de la galería componiendo con ellas un collage y aplicando filtros de envejecido. 
 
-Visita la [<button>galería de fotos</button>](https://badared.com/javguerra/daw/galeria/).
+[<button class="mt-5 btn btn-info text-uppercase">visita la galería de fotos</button>](https://badared.com/javguerra/daw/galeria/).
