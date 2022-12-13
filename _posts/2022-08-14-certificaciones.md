@@ -33,9 +33,10 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [Programación Orientada a Objetos (OOP)](https://badgr.com/public/assertions/cltpw5JPQJmNeoLuPVcvRw) - The Bridge  
 * [Node.JS](https://badgr.com/public/assertions/o61ERhieSlyDVgSR586sAQ) - The Bridge  
 * [Express.JS](https://badgr.com/public/assertions/ftjl0em_Sr-8V8AM784p7g) - The Bridge  
-* [MongoDB](https://badgr.com/public/assertions/HMRslte_QFuFhQ21viB3Cw) - The Bridge  
 * [SQL](https://badgr.com/public/assertions/ME9Mu2uhTZ-mPeETfiRONA) - The Bridge  
+* [MongoDB](https://badgr.com/public/assertions/HMRslte_QFuFhQ21viB3Cw) - The Bridge  
 * [React](https://badgr.com/public/assertions/gcN2L7uxQv2QtYtAln6JwA) - The Bridge  
+* [GitHub](https://badgr.com/public/assertions/n6lkSO2VQtOuX2CQZfZ1fg) - The Bridge  
 * [Firebase](https://badgr.com/public/assertions/jay8ViRwQJmJahFrIz3RRw) - The Bridge  
 
 
