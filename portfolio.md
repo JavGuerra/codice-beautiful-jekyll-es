@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
-<div class="container text-center">
+<div class=".container-fluid text-center">
 <div class="row">
 
 <article class="col-sm-12 col-lg-6 post-preview">
