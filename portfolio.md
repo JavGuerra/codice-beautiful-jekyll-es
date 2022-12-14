@@ -3,9 +3,10 @@ layout: page
 title: Portfolio
 subtitle: Mira lo que hago
 ---
-<div class="text-center">
+<div class="container text-center">
+<div class="row">
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-11-18-proyecto-final-bootcamp %}">
         <img class="shadow-sm mb-2" alt="Tienda 8 bits" width="250" 
             src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" />
@@ -15,7 +16,7 @@ subtitle: Mira lo que hago
     <small>Node.js, Express, React, MongoDB, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">
         <img class="shadow-sm mb-2" alt="Conceptos FSWD" width="250"
             src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
@@ -25,7 +26,7 @@ subtitle: Mira lo que hago
     <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-06-21-summer-quiz %}">
         <img class="shadow-sm mb-2" alt="Summer Quiz" width="250"
             src="https://javguerra.github.io/javascript-fswd/assets/img/banner.png" />
@@ -36,7 +37,7 @@ subtitle: Mira lo que hago
 </article>
 
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-04-28-buscaminas %}">
         <img class="shadow-sm mb-2" alt="Buscaminas" width="250"
             src="{% link assets/img/buscaminas.png %}" />
@@ -46,7 +47,7 @@ subtitle: Mira lo que hago
     <small>HTML, CSS, JavaScript, Bootstrap, JQuery</small> 
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-04-29-galeria-carousel %}">
         <img class="shadow-sm mb-2" alt="Carousel" width="250"
             src="https://badared.com/javguerra/daw/galeria/foto.jpg" />
@@ -56,7 +57,7 @@ subtitle: Mira lo que hago
     <small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-05-14-animacion %}">
         <img class="shadow-sm mb-2" alt="Animación" width="250"
             src="{% link assets/img/cronometro.png %}" />
@@ -66,7 +67,7 @@ subtitle: Mira lo que hago
     <small>HTML, CSS, javascript, animación, herramientas</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-05-08-accesibilidad %}">
         <img class="shadow-sm mb-2" alt="Accesibilidad" width="250"
             src="{% link assets/img/accessibility.png %}" />
@@ -76,7 +77,7 @@ subtitle: Mira lo que hago
     <small>HTML, CSS, JavaScrip, Accesibilidad, Usabilidad</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-04-30-logica-interactiva %}">
         <img class="shadow-sm mb-2" alt="Opciones" width="250"
             src="{% link assets/img/opciones.png %}" />
@@ -86,7 +87,7 @@ subtitle: Mira lo que hago
     <small>Lógica, HTML, JavaScrip</small>
 </article>
 
-<article class="post-preview">
+<article class="col-sm-12 col-lg-6 post-preview">
     <a href="{% post_url 2022-04-22-fizzbuzz %}">
         <img class="shadow-sm mb-2" alt="Code" width="250"
             src="{% link assets/img/code.png %}" />
@@ -95,6 +96,7 @@ subtitle: Mira lo que hago
     <h3 class="post-subtitle">Prueba de programación</h3>
     <small>Lógica, JavaScript</small>
 </article>
+</div>
 
 <a href="{% link index.html %}" class="mt-5 btn btn-info text-uppercase"
 style="font-family:font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 1.2rem;">Ver otras entradas</a>
