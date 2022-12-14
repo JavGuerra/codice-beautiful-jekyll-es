@@ -13,7 +13,7 @@ Además de programar, me apasiona aprender y compartir mis conocimientos, la Inf
 
 Durante mi trayectoria profesional he tenido la oportunidad de conocer varios sectores productivos relacionados con las TIC, adquiriendo una amplia visión de conjunto en el área.
 
-Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. El buen software debe cumplir su objetivo siendo intuitivo y fácil de aprender. Los pequeños errores en el resultado desmerecen el trabajo del equipo de desarrollo.
+Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. Pienso que el buen software debe cumplir su objetivo siendo intuitivo y fácil de aprender, y que los pequeños errores en el resultado desmerecen el trabajo del equipo de desarrollo.
 
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
