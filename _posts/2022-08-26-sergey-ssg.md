@@ -115,7 +115,6 @@ Como se aprecia, hay una serie de etiquetas `sergey-slot` en este fichero. Para 
 <sergey-import src="inicio">
     <sergey-template name="title">Tarjetas de Emergencia</sergey-template>
     <sergey-template name="description">Descargar las tarjetas de emergencia para Enfermedades Poco Frecuentes.</sergey-template>
-    <script data-goatcounter="https://emergencias.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </sergey-import>
 ```
 
@@ -271,7 +270,6 @@ Una vez vista cada importación por partes, veamos cómo quedaría el index.html
 <sergey-import src="inicio">
     <sergey-template name="title">Tarjetas de Emergencia</sergey-template>
     <sergey-template name="description">Descargar las tarjetas de emergencia para Enfermedades Poco Frecuentes.</sergey-template>
-    <script data-goatcounter="https://emergencias.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </sergey-import>
 
 <sergey-import src="cabecera">
@@ -313,7 +311,6 @@ Al generar la página con `npm start` a partir de este código, se mostraría lo
     <link rel="manifest" href="https://conectiva.lat/emergencias/manifest.json" />
     <link rel="shortcut icon" href="assets/favicon.png" />
     <link rel="stylesheet" href="assets/estilos.css" />
-    <script data-goatcounter="https://emergencias.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <body>
