@@ -88,12 +88,23 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
+    <a href="{% post_url 2022-12-15-karaca %}">
+        <img class="shadow-sm mb-2" alt="Code" width="250"
+            src="{% link assets/img/code.png %}" />
+        <h2 class="post-title">El algoritmo de Karaca</h2>
+    </a>
+    <h3 class="post-subtitle">Reto de programación</h3>
+    <small>Lógica, JavaScript</small>
+</article>
+</div>
+
+<article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-04-22-fizzbuzz %}">
         <img class="shadow-sm mb-2" alt="Code" width="250"
             src="{% link assets/img/code.png %}" />
         <h2 class="post-title">Fizz buzz</h2>
     </a>
-    <h3 class="post-subtitle">Prueba de programación</h3>
+    <h3 class="post-subtitle">Reto de programación</h3>
     <small>Lógica, JavaScript</small>
 </article>
 </div>
