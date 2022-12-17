@@ -96,7 +96,6 @@ subtitle: Mira lo que hago
     <h3 class="post-subtitle">Reto de programación</h3>
     <small>Lógica, JavaScript</small>
 </article>
-</div>
 
 <article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-04-22-fizzbuzz %}">
