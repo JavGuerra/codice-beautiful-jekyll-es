@@ -23,7 +23,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Una página de&nbsp;ejemplo</h2>
     </a>
     <h3 class="post-subtitle">Conceptos Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
-    <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
+    <small>HTML, CSS, <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -33,7 +33,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Summer Quiz</h2>
     </a>
     <h3 class="post-subtitle">Juego que obtiene sus preguntas de una API</h3>
-    <small>HTML, CSS, JavaScript, Accesibilidad, Responsive</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 
@@ -44,7 +44,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Buscaminas en JavaScript</h2>
     </a>
     <h3 class="post-subtitle">Juego que hace uso de manejo&nbsp;de&nbsp;eventos</h3>
-    <small>HTML, CSS, JavaScript, Bootstrap, JQuery</small> 
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span></small> 
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -54,7 +54,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Carousel con Bootstrap</h2>
     </a>
     <h3 class="post-subtitle">Galería de fotos</h3>
-    <small>HTML, CSS, JavaScript, Bootstrap, edición fotográfica</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -64,7 +64,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Animación interactiva</h2>
     </a>
     <h3 class="post-subtitle">Realizada con Google&nbsp;Web&nbsp;Designer</h3>
-    <small>HTML, CSS, javascript, animación, herramientas</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Animación&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Herramientas&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -74,7 +74,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Accesibilidad web</h2>
     </a>
     <h3 class="post-subtitle">Buenas prácticas explicadas con un ejemplo</h3>
-    <small>HTML, CSS, JavaScrip, Accesibilidad, Usabilidad</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Usabilidad&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -84,7 +84,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Lógica interactiva</h2>
     </a>
     <h3 class="post-subtitle">Opciones, eventos, disparadores y estados</h3>
-    <small>Lógica, HTML, JavaScrip</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -94,7 +94,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">El algoritmo de Karaca</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
-    <small>Lógica, JavaScript</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -104,7 +104,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Fizz buzz</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
-    <small>Lógica, JavaScript</small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 </div>
 
