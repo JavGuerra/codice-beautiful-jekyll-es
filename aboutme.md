@@ -17,6 +17,8 @@ Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. Pi
 
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
+[<button class="btn btn-info text-uppercase">🔻 Descarga mi CV en PDF</button>](/docs/CV-javguerra.pdf)
+
 ## Aptitudes
 👍🏻 Mis actitudes destacadas son: Creatividad • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
 
