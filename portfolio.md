@@ -54,7 +54,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Carousel con Bootstrap</h2>
     </a>
     <h3 class="post-subtitle">Galería de fotos</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
+    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
