@@ -20,8 +20,8 @@ Estoy abierto a nuevas experiencias y a aprender de las personas con las que tra
 [<button class="btn btn-info text-uppercase">🔻 Descarga mi CV en PDF</button>](/assets/doc/CV-javguerra.pdf)
 
 ## Aptitudes
-👍🏻 Mis actitudes destacadas son: 
-<span class="badge bg-secondary">Creatividad</span> • iniciativa • liderazgo • comunicación escrita • compromiso • integridad • compañerismo • planificación y organización.
+👍🏻 Mis actitudes destacadas son:  
+<span class="badge rounded-pill bg-info">Creatividad</span> <span class="badge rounded-pill bg-info">Iniciativa</span> <span class="badge rounded-pill bg-info">Liderazgo</span> <span class="badge rounded-pill bg-info">Comunicación escrita</span> <span class="badge rounded-pill bg-info">Compromiso</span> <span class="badge rounded-pill bg-info">Integridad</span> <span class="badge rounded-pill bg-info">Compañerismo</span> <span class="badge rounded-pill bg-info">Planificación y organización</span>
 
 ## Conocimientos
 Algunas de las tecnologías con las que trabajo son:
