@@ -32,7 +32,7 @@ subtitle: Mira lo que hago
             src="https://javguerra.github.io/javascript-fswd/assets/img/banner.png" />
         <h2 class="post-title">Summer Quiz</h2>
     </a>
-    <h3 class="post-subtitle">Juego que obtiene sus preguntas de una API</h3>
+    <h3 class="post-subtitle">Juego con preguntas de una API</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
@@ -41,9 +41,9 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-04-28-buscaminas %}">
         <img class="shadow-sm mb-2" alt="Buscaminas" width="250"
             src="{% link assets/img/buscaminas.png %}" />
-        <h2 class="post-title">Buscaminas en JavaScript</h2>
+        <h2 class="post-title">Buscaminas JS</h2>
     </a>
-    <h3 class="post-subtitle">Juego con eventos JS</h3>
+    <h3 class="post-subtitle">Juego con eventos interactivos</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
 </article>
 
