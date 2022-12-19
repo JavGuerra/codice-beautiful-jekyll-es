@@ -22,7 +22,7 @@ subtitle: Mira lo que hago
             src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
         <h2 class="post-title">Una página de&nbsp;ejemplo</h2>
     </a>
-    <h3 class="post-subtitle">Conceptos Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
+    <h3 class="post-subtitle">Conceptos Full&nbsp;Stack</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
@@ -43,7 +43,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/buscaminas.png %}" />
         <h2 class="post-title">Buscaminas en JavaScript</h2>
     </a>
-    <h3 class="post-subtitle">Juego que hace uso de manejo&nbsp;de&nbsp;eventos</h3>
+    <h3 class="post-subtitle">Juego con eventos JS</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
 </article>
 
@@ -63,7 +63,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/cronometro.png %}" />
         <h2 class="post-title">Animación interactiva</h2>
     </a>
-    <h3 class="post-subtitle">Realizada con Google&nbsp;Web&nbsp;Designer</h3>
+    <h3 class="post-subtitle">Con Google&nbsp;Web&nbsp;Designer</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Animación&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Herramientas&nbsp;</span></small>
 </article>
 
@@ -83,7 +83,7 @@ subtitle: Mira lo que hago
             src="{% link assets/img/opciones.png %}" />
         <h2 class="post-title">Lógica interactiva</h2>
     </a>
-    <h3 class="post-subtitle">Opciones, eventos, disparadores y estados</h3>
+    <h3 class="post-subtitle">Opciones, eventos, disparadores&nbsp;y&nbsp;estados</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 
@@ -91,7 +91,7 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-12-15-karaca %}">
         <img class="shadow-sm mb-2" alt="Code" width="250"
             src="{% link assets/img/code.png %}" />
-        <h2 class="post-title">El algoritmo de Karaca</h2>
+        <h2 class="post-title">Algoritmo Karaca</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
     <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
