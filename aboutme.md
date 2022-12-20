@@ -82,4 +82,4 @@ const aboutMe = {
 ## Saber más
 🔗 Visita [mi perfil en Linkedin](https://linkedin.com/in/javguerra) para conocer más sobre mi trabajo y sobre mi.
 
-![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}
+[![Código QR](assets/img/qr-code.png){: .mx-auto.d-block :}](https://linkedin.com/in/javguerra)
