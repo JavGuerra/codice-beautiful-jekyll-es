@@ -61,6 +61,9 @@ const aboutMe = {
 👉🏻 Ver [mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %}).
 
 ## Portfolio
+
+[![Portfolio](/assets/img/portfolio.jpg)]({% link portfolio.md %})
+
 👉🏻 Visita [mi portfolio]({% link portfolio.md %}) para saber algo más sobre mis conocimientos aplicados.
 
 ## Méritos y publicaciones
