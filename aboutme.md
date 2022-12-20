@@ -26,8 +26,38 @@ Estoy abierto a nuevas experiencias y a aprender de las personas con las que tra
 ## Conocimientos
 Algunas de las tecnologías con las que trabajo son:
 
-Linux • OS X • Windows • DOS • IT manager • ITIL • Kanban • AWS • Sysadmin • Bash • Docker • Git • Apache • MySQL/MariaDB • MongoDB • Java • PHP • Laravel Jetstream  • CI/CD • Accesibilidad web • HTML5 • CSS3 • Sass • Bootstrap • Tailwind • Bulma • JavaScript ES6 • NodeJS+Express • Firebase • React • Jamstack • Netlify • Heroku • PWA • Wordpress • Drupal • Joomla • nextCloud • Limesurvey • Moodle • Redes • Montaje de ordenadores • Edición de video • Diseño gráfico • CAD • Plotters de corte/impresión • Ofimática
+```javascript
+const aboutMe = {
+    code: ["JavaScript", "Java", "PHP", "HTML5" "CSS3", "SQL", "Bash"],
+    oldCode: ["COBOL", "Pascal", "BASIC"],
+    methodologies: ["Kanban", "ITIL", "OOP", "Jamstack", "PWA"],
+    technologies: {
+        frontEndDev: {
+            javaScript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
+            html: ["xHTML", "SVG", "JSX", "Blade", "Accessibility"],
+            css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"],
+        },
+        backEndDev: {
+            javaScript: ["NodeJS", "Express"],
+            php: ["Laravel", "LiveWire"]
+        },
+        software: {
+            codeTools: ["Git/GitHub", "VSCodium", "Brackets", "Geany"],
+            cms: ["Wordpress", "Drupal", "Joomla"],
+            saas: ["nextCloud", "Limesurvey", "Moodle"],
+            design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus", "Dia"],
+            video: ["OpenShot", "Avidemux", "OBS Studio"],
+            audio: ["Avidemux"]
+        }
+        systems: ["Linux", "OS X", "Windows", "DOS"],
+        dataBases: ["MySQL/MariaDB", "MongoDB"],
+        infrastructures: ["Apache", "Docker", "AWS", "Firebase", "Netlify", "Heroku", "CI/CD", "Networks"]
+    },
+    currentOccupation: "Open for job opportunities",
+    othersOccupations: ["IT manager", "Project management", "Sysadmin", "Graphic design", "Teaching"]
+};
 
+``` 
 👉🏻 Ver [mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %}).
 
 ## Portfolio
