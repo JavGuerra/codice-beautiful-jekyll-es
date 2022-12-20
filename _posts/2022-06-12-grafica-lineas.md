@@ -9,7 +9,7 @@ Como comentaba en el anterior artículo sobre [la creación de un contador de re
 
 ![Gráfica de líneas](https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
 
 ## La gráfica de líneas
 
@@ -201,7 +201,7 @@ Para conocer más sobre SVG y cómo editarlo, te recomiendo el libro [SCALABLE](
 
 ## Enlaces
 
-[<button class="btn btn-info text-uppercase">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)  
 
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/summer-quiz/) (Es necesario terminar una partida para obtener resultados.)
 * Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})

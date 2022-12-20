@@ -13,7 +13,7 @@ Veamos cómo funciona con un ejemplo:
 
 ![Cronómetro](/assets/img/cronometro.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ver animación</button>](http://badared.com/javguerra/daw/animacion/)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver animación</button>](http://badared.com/javguerra/daw/animacion/)  
 
 Esta simple animación que preparé para la asignatura de Diseño de Interfaces Web de F.P.G.S. de Desarrollo de Aplicaciones Web, contiene la imagen de un cronómetro en formato SVG que creé con la herramienta Inkscape, y dos botones que nos permiten iniciar y parar la animación o reiniciar la animación. Al iniciar con el botón «START», las agujas del cronómetro comienzan a correr hasta llegar a 20 segundos, momento en el que suena una campanilla, y la animación vuelve a su punto de origen.
 
@@ -31,6 +31,6 @@ Permite:
 
 Aunque no es muy conocida, es una herramienta potente, y finalmente, el resultado del trabajo con **Google Web Designer** es completamente compatible con los estándares web actuales, manejando con CSS y JavaScript toda la animación y gestión de eventos, y ofreciendo resultados adaptables al dispositivo donde se muestre la animación interactiva.
 
-[<button class="btn btn-info text-uppercase">Ver animación</button>](http://badared.com/javguerra/daw/animacion/)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver animación</button>](http://badared.com/javguerra/daw/animacion/)
 
 [Descargar Google Web Designer](http://badared.com/javguerra/daw/animacion/)

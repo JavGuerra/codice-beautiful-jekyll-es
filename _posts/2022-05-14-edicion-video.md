@@ -12,7 +12,7 @@ Aquí el resultado:
 
 ![Video](/assets/img/big-buck-bunny.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ver video</button>](http://badared.com/javguerra/daw/video/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver video</button>](http://badared.com/javguerra/daw/video/index.html)
 
 El ejercicio muestra, no obstante, algunas cuestiones interesantes:
 

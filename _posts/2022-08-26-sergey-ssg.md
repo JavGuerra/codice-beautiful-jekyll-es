@@ -16,7 +16,7 @@ Así describe el autor de esta herramienta la funcionalidad de su Generador de S
 
 En esta entrada voy a mostrar un ejemplo práctico. Cómo usar [Sergey SSG](https://sergey.cool/) en la web de una iniciativa sobre tarjetas de emergencia para [enfermedades raras o poco frecuentes](https://es.wikipedia.org/wiki/Enfermedad_rara).
 
-[<button class="btn btn-info text-uppercase">Ir a la página de las tarjetas de emergencia</button>](https://conectiva.lat/emergencias)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la página de las tarjetas de emergencia</button>](https://conectiva.lat/emergencias)
 
 Hay una serie de requisitos funcionales y operativos por los que se ha optado por la creación de una página estática:
 

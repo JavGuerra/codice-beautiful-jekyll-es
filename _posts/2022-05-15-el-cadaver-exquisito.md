@@ -20,7 +20,7 @@ Tomando esta idea como referencia, en un «**Taller de experimentación artísti
 
 ![Página web](/assets/img/el-cadaver-exquisito.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ver la página web</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver la página web</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
 
 Visualmente, el resultado no está a la altura de los estándares de hoy día. Tampoco la codificación de la página es un prodigio, pero su código guarda algo interesante que ahora contaré.
 
@@ -57,7 +57,7 @@ El código JavaScript se inserta en la página en la posición donde se deben mo
 
 Para generar un nuevo «cadáver exquisito» hacemos clic en el botón «Pulse» que recargará la página, generando un nuevo resultado, pues el momento en el tiempo entre la primera composición de imágenes y la nueva es distinto.
 
-[<button class="btn btn-info text-uppercase">Ver el juego del cadáver exquisito</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver el juego del cadáver exquisito</button>](http://badared.com/javguerra/contenidos/lce/juego.htm)
 
 * [Ver la página de información del juego](http://badared.com/javguerra/contenidos/lce/index.htm)
 * [El cadáver exquisito en Wikipedia](https://es.wikipedia.org/wiki/Cad%C3%A1ver_exquisito)

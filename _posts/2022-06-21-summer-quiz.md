@@ -16,7 +16,7 @@ comments: true
 
 ![Summer Quiz](https://javguerra.github.io/summer-quiz/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
 
 El [bootcamp de FSWD]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando, consta de varios módulos. El de JavaScript avanzado termina ahora, y este es el ejercicio final de esta fase de mi formación.
 
@@ -70,7 +70,7 @@ Es un buen ejercicio para practicar, e igualmente espero que puedas disfrutarlo 
 
 ![QR Code](https://javguerra.github.io/summer-quiz/assets/img/qrcode.svg)
 
-[<button class="btn btn-info text-uppercase">Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder al juego</button>](https://javguerra.github.io/summer-quiz/)
 
 * [Repositorio / Codigo](https://github.com/JavGuerra/summer-quiz)
 * [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %})

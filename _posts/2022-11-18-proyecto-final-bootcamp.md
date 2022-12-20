@@ -10,7 +10,7 @@ Durante este año 2022 he cursado el [Bootcamp de Desarrollo Web Full Stack]({% 
 
 ![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
 
 El pasado día 17 de noviembre finalizó la formación con un acto de entrega de diplomas on-line en el que tuve ocasión de mostrar mi proyecto final «Tienda 8 bits» junto con Alex, otro de mis compañeros, que también expuso su proyecto.
 
@@ -22,7 +22,7 @@ El evento se llevó a cabo de forma presencial y on-line, y de él he rescatado 
 
 ![Video de presentación](/assets/img/tienda.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Ver el video en YouTube</button>](https://youtu.be/XlswjqhxJZ8)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver el video en YouTube</button>](https://youtu.be/XlswjqhxJZ8)
 
 # Descripción técnica
 
@@ -72,7 +72,7 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 
 ![Código QR](https://raw.githubusercontent.com/JavGuerra/final-fswd/f4d0d188a687f1b7c8b7b77f036176347f838c1b/qrcode.svg)  
 
-[<button class="btn btn-info text-uppercase">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
 
 ## Enlaces
 - [Aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  

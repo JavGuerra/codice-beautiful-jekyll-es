@@ -9,7 +9,7 @@ Ejercicio de programación realizado en el [bootcamp Full Stack Web Developer]({
 
 ![CronómetroJS](https://javguerra.github.io/CronometroJS/assets/img/banner.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info text-uppercase">Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)
 
 ## Enunciado
 
@@ -96,7 +96,7 @@ Esto para el cronómetro y pone inactivo el botón de continuar cuando la aplica
 
 ## Enlaces
 
-[<button class="btn btn-info text-uppercase">Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Usar el cronómetro</button>](https://javguerra.github.io/CronometroJS/index.html)  
 
 [Ver el código fuente](https://github.com/JavGuerra/CronometroJS)
 

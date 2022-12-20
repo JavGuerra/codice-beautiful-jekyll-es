@@ -125,7 +125,7 @@ function consultaAPI(ruta, callback) {
 
 ## Enlaces
 
-* Podemos ver un caso de uso en esta [<button class="btn btn-info text-uppercase">galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)  
+* Podemos ver un caso de uso en esta [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">galería de perritos</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html)  
 
 El ejemplo anterior usa la API [Dog CEO](https://dog.ceo/dog-api/).
 
