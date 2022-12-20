@@ -109,7 +109,7 @@ subtitle: Mira lo que hago
 </div>
 
 <a href="{% link index.html %}" class="mt-5 btn btn-info"
-style="font-family:font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 1.2rem;">🖖&nbsp;&nbsp;Ver otras entradas</a>
+style="font-family:Arial, Helvetica, sans-serif; font-size: 1.2rem;">🖖&nbsp;&nbsp;Ver otras entradas</a>
 
 </div>
 
