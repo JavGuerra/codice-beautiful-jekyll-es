@@ -34,32 +34,25 @@ Algunas de las tecnologías con las que trabajo son:
 ```javascript
 const aboutMe = {
     code: ["JavaScript", "Java", "PHP", "HTML5", "CSS3", "SQL", "Bash"],
-    oldCode: ["COBOL", "Pascal", "BASIC"],
     methodologies: ["Kanban", "ITIL", "OOP", "Jamstack", "PWA"],
     technologies: {
-        frontEndDev: {
+        frontendDev: {
             javaScript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
             html: ["xHTML", "SVG", "JSX", "Blade", "Accessibility"],
             css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"]
         },
-        backEndDev: {
+        backendDev: {
             javaScript: ["NodeJS", "Express"],
             php: ["Laravel", "LiveWire"]
         },
         software: {
             codeTools: ["Git/GitHub", "VSCodium", "Brackets"],
-            cms: ["Wordpress", "Drupal", "Joomla"],
-            saas: ["nextCloud", "Limesurvey", "Moodle"],
-            design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus"],
-            video: ["OpenShot", "OBS Studio"],
-            audio: ["Avidemux"]
+            design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus"]
         },
         systems: ["Linux", "OS X", "Windows", "DOS"],
         dataBases: ["MySQL/MariaDB", "MongoDB"],
-        infrastructures: ["Apache", "Docker", "AWS", "Firebase", "Netlify", "Heroku", "CI/CD", "Networks"]
-    },
-    currentOccupation: "Open for job opportunities",
-    othersOccupations: ["IT manager", "Project management", "Sysadmin", "Graphic design", "Teaching"]
+        infrastructures: ["nextCloud", "Apache", "Docker", "AWS", "Firebase", "Netlify", "Heroku", "CI/CD", "Networks"]
+    }
 };
 
 ``` 
