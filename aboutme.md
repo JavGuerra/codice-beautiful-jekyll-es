@@ -38,12 +38,12 @@ const aboutMe = {
     code: ["JavaScript", "Java", "PHP", "HTML5", "CSS3", "SQL", "Bash"],
     methodologies: ["Kanban", "ITIL", "OOP", "Jamstack", "PWA"],
     technologies: {
-        frontendDev: {
+        frontend: {
             javaScript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
             html: ["xHTML", "SVG", "JSX", "Blade", "Accessibility"],
             css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"]
         },
-        backendDev: {
+        backend: {
             javaScript: ["NodeJS", "Express"],
             php: ["Laravel", "LiveWire"]
         },
