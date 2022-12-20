@@ -18,7 +18,7 @@ Como programador, soy cuidadoso y aplicado, y me gusta el trabajo bien hecho. Pi
 
 Estoy abierto a nuevas experiencias y a aprender de las personas con las que trabajo para superarme personalmente. Me motiva especialmente el teletrabajo y el trabajo en equipo.
 
-[<button class="btn btn-info text-uppercase">🔻 Descarga mi CV en PDF</button>](/assets/doc/CV-javguerra.pdf)  
+[<button class="btn btn-info text-uppercase">📄 Descarga mi CV en PDF</button>](/assets/doc/CV-javguerra.pdf) [<button class="btn btn-info text-uppercase">📧 Escríbeme</button>](mailto:javguerra@badared.com)  
 <br />
 <hr />
 
