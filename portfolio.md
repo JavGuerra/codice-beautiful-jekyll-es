@@ -23,7 +23,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Una página de&nbsp;ejemplo</h2>
     </a>
     <h3 class="post-subtitle">Conceptos Full&nbsp;Stack</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -33,7 +33,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Summer Quiz</h2>
     </a>
     <h3 class="post-subtitle">Juego con preguntas de una API</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 
@@ -44,7 +44,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Buscaminas JS</h2>
     </a>
     <h3 class="post-subtitle">Juego con eventos interactivos</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -54,7 +54,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Carousel con Bootstrap</h2>
     </a>
     <h3 class="post-subtitle">Galería de fotos</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -64,7 +64,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Animación interactiva</h2>
     </a>
     <h3 class="post-subtitle">Con Google&nbsp;Web&nbsp;Designer</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Animación&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Herramientas&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Animación&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Herramientas&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -74,7 +74,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Accesibilidad web</h2>
     </a>
     <h3 class="post-subtitle">Buenas prácticas explicadas con un ejemplo</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Usabilidad&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Usabilidad&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -84,7 +84,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Lógica interactiva</h2>
     </a>
     <h3 class="post-subtitle">Opciones, eventos, disparadores&nbsp;y&nbsp;estados</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -94,7 +94,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Algoritmo Karaca</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
@@ -104,7 +104,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Fizz buzz</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
 </article>
 </div>
 
