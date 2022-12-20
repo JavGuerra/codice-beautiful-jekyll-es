@@ -28,7 +28,7 @@ Algunas de las tecnologías con las que trabajo son:
 
 ```javascript
 const aboutMe = {
-    code: ["JavaScript", "Java", "PHP", "HTML5" "CSS3", "SQL", "Bash"],
+    code: ["JavaScript", "Java", "PHP", "HTML5", "CSS3", "SQL", "Bash"],
     oldCode: ["COBOL", "Pascal", "BASIC"],
     methodologies: ["Kanban", "ITIL", "OOP", "Jamstack", "PWA"],
     technologies: {
@@ -42,11 +42,11 @@ const aboutMe = {
             php: ["Laravel", "LiveWire"]
         },
         software: {
-            codeTools: ["Git/GitHub", "VSCodium", "Brackets", "Geany"],
+            codeTools: ["Git/GitHub", "VSCodium", "Brackets"],
             cms: ["Wordpress", "Drupal", "Joomla"],
             saas: ["nextCloud", "Limesurvey", "Moodle"],
-            design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus", "Dia"],
-            video: ["OpenShot", "Avidemux", "OBS Studio"],
+            design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus"],
+            video: ["OpenShot", "OBS Studio"],
             audio: ["Avidemux"]
         },
         systems: ["Linux", "OS X", "Windows", "DOS"],
