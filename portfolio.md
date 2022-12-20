@@ -13,7 +13,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Tienda 8 bits</h2>
     </a>
     <h3 class="post-subtitle">Proyecto de graduación Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
-    <small><span class="badge rounded-pill bg-info text-white">&nbsp;Node.JS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Express&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;React&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;MongoDB&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Node.JS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Express&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;React&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;MongoDB&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
