@@ -21,7 +21,7 @@ Estoy abierto a nuevas experiencias y a aprender de las personas con las que tra
 <br />
 <hr />
 
-## Aptitudes
+## Actitudes
 
 👍🏻 Mis actitudes destacadas son:  
 <span class="badge bg-info text-white">&nbsp;Compañerismo&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Compromiso&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Integridad&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Liderazgo&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Iniciativa&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Creatividad&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Comunicación&nbsp;escrita&nbsp;</span> <span class="badge bg-info text-white">&nbsp;Planificación&nbsp;y&nbsp;organización&nbsp;</span>  
