@@ -48,7 +48,7 @@ const aboutMe = {
             design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus", "Dia"],
             video: ["OpenShot", "Avidemux", "OBS Studio"],
             audio: ["Avidemux"]
-        }
+        },
         systems: ["Linux", "OS X", "Windows", "DOS"],
         dataBases: ["MySQL/MariaDB", "MongoDB"],
         infrastructures: ["Apache", "Docker", "AWS", "Firebase", "Netlify", "Heroku", "CI/CD", "Networks"]
