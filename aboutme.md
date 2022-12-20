@@ -35,7 +35,7 @@ const aboutMe = {
         frontEndDev: {
             javaScript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
             html: ["xHTML", "SVG", "JSX", "Blade", "Accessibility"],
-            css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"],
+            css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"]
         },
         backEndDev: {
             javaScript: ["NodeJS", "Express"],
