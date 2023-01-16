@@ -38,6 +38,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [React](https://badgr.com/public/assertions/gcN2L7uxQv2QtYtAln6JwA) - The Bridge  
 * [GitHub](https://badgr.com/public/assertions/n6lkSO2VQtOuX2CQZfZ1fg) - The Bridge  
 * [Firebase](https://badgr.com/public/assertions/jay8ViRwQJmJahFrIz3RRw) - The Bridge  
+* [Java](https://community.open-bootcamp.com/user/javguerra/certificaciones/f487036b-77f6-4cc2-a02b-74654d287b2f) - Open Bootcamp  
 
 
 # TODO
