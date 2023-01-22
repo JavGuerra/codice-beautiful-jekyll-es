@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Desarrollos para el bien público
+title: Desarrollos web para el bien público
 subtitle: Mis páginas «pro bono» desarrolladas, implantadas o administradas
 thumbnail-img: https://upload.wikimedia.org/wikipedia/commons/9/9c/GNOME_Web_logo.png
-tags: [espacio, NASA, viaje]
+tags: [retro, pro-bono]
 ---
 
 A lo largo de los años he colaborado con algunas ONGs o he creado estas y me he ocupado del desarrollo TIC, sobre todo de sus webs, las que he desarrollado o implantado y administrado según el caso. En esta entrada recojo un listado de aquellas que aún están disponibles on-line.
