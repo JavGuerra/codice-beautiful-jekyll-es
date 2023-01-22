@@ -47,7 +47,7 @@ Tecnologías: HTML + CSS + Sergey SSG
  Simposio Iberoamericano Atención integral en Enfermedades Raras  
 Tecnologías: HTML + CSS + Bulma CSS + JavaScript Vanilla + accesibilidad
 
-* __Evento THTC2022__, _landing_ (2022)
+* __Evento THTC2022__, _landing_ (2022)  
 [https://conectiva.lat/evento/THTC2022/](https://conectiva.lat/evento/THTC2022/)  
 Primeras Jornadas Iberoamericanas de los Trastornos Hereditarios del Tejido Conectivo  
 Tecnologías: HTML + CSS + Bulma CSS + JavaScript Vanilla + accesibilidad
