@@ -15,7 +15,7 @@ A lo largo de los años he colaborado con algunas ONGs o he creado estas y me he
 
 ## Tecnología
 
-* __Códice (_esta web_)__ (2022-actualidad)   
+* __Códice__ (_esta web_) (2022-actualidad)   
 [https://javguerra.github.io/](https://javguerra.github.io/)  
 Página con contenidos sobre mis aprendizajes en desarrollo web y otras cuestiones tecnológicas.  
 Tecnologías: Jekyll, beautiful Jekyll, Markdown
@@ -44,12 +44,12 @@ Tecnologías: HTML + CSS
 
 * __Proyecto Mediateca__ (1995-1999)  
 [https://javguerra.badared.com/proyecto/mediateca/](https://javguerra.badared.com/proyecto/mediateca/)  
-Web del proyecto Mediateca.
+Web del proyecto Mediateca.  
 Tecnologías: HTML + CSS
 
 * __El cadáver exquisito__ (1997)  
 [http://badared.com/javguerra/contenidos/lce/juego.htm](http://badared.com/javguerra/contenidos/lce/juego.htm)  
-Página de una de las actividades desarrolladas en el Taller de Arte por ordenador en el MEIAC. [Más info]({% post_url 2022-05-15-el-cadaver-exquisito %}).
+Página de una de las actividades desarrolladas en el Taller de Arte por ordenador en el MEIAC. [Más info]({% post_url 2022-05-15-el-cadaver-exquisito %}).  
 Tecnologías: HTML + CSS + JavaScript Vanilla
 
 ## Otros
