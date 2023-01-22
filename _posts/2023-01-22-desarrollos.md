@@ -18,8 +18,8 @@ A lo largo de los años he colaborado con algunas ONGs o he creado estas y me he
 * __Códice (_esta web_)__ (2022-actualidad)   
 [https://javguerra.github.io/](https://javguerra.github.io/)  
 Página con contenidos sobre mis aprendizajes en desarrollo web y otras cuestiones tecnológicas.  
-Tecnologías: Jekyll, beautiful Jekyll, Markdown  
-
+Tecnologías: Jekyll, beautiful Jekyll, Markdown
+ 
 * __Sinclair QL Recursos en Castellano__ (2002-2010)  
 [https://sinclairql.es](https://sinclairql.es)  
 Web con recursos documentales donados por varios colaboradores sobre el ordenador de los 80: Sinclair QL.  
@@ -28,7 +28,29 @@ Tecnologías: HTML + CSS compatible con navegadores antiguos (usa frames)
 * __QBlog, el blog sobre Sinclair QL en castellano__ (2004-actualidad)  
 [https://sinclairqles.wordpress.com/](https://sinclairqles.wordpress.com/)  
 Blog implantado sobre el Sinclair QL que gestiono junto con Afx y Zerover.  
-Tecnología: Wordpress CMS  
+Tecnología: Wordpress CMS
+
+## Antiguas
+
+* __Web personal__ (2009)  
+[https://javguerra.badared.com/](https://javguerra.badared.com/)  
+Página web en desuso que requiere reescritura actualizada.  
+Tecnologías: HTML + CSS
+
+* __Cooperantes por Internet__ (1998)  
+[https://javguerra.badared.com/proyecto/cooperantes/index.htm](https://javguerra.badared.com/proyecto/cooperantes/index.htm)  
+Web del proyecto Cooperantes por Internet.  
+Tecnologías: HTML + CSS
+
+* __Proyecto Mediateca__ (1995-1999)  
+[https://javguerra.badared.com/proyecto/mediateca/](https://javguerra.badared.com/proyecto/mediateca/)  
+Web del proyecto Mediateca.
+Tecnologías: HTML + CSS
+
+* __El cadáver exquisito__ (1997)  
+[http://badared.com/javguerra/contenidos/lce/juego.htm](http://badared.com/javguerra/contenidos/lce/juego.htm)  
+Página de una de las actividades desarrolladas en el Taller de Arte por ordenador en el MEIAC. [Más info]({% post_url 2022-05-15-el-cadaver-exquisito %}).
+Tecnologías: HTML + CSS + JavaScript Vanilla
 
 ## Otros
 
