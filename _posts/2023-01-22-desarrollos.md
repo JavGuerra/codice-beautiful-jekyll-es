@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Desarrollos para el bien público
-subtitle: Páginas «pro bono» desarrolladas, implantadas o administradas por mi
+subtitle: Mis páginas «pro bono» desarrolladas, implantadas o administradas
 thumbnail-img: https://upload.wikimedia.org/wikipedia/commons/9/9c/GNOME_Web_logo.png
 tags: [espacio, NASA, viaje]
 ---
@@ -70,4 +70,4 @@ Tecnologías: MoonMoon planet (PHP)
 * __Coronavirus__ (2020)  
 [https://mundomarfan.org/coronavirus/](https://mundomarfan.org/coronavirus/)  
 Página informativa sobre las consecuencias de la COVID-19 en personas afectadas por el síndrome de Marfan.  
-Tecnologías: HTML + CSS + Bootstrap + JavaScript
+Tecnologías: HTML + CSS + Bootstrap + JavaScript + accesibilidad
