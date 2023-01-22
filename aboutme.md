@@ -58,7 +58,7 @@ const aboutMe = {
 };
 
 ``` 
-👉🏻 Ver [mis certificaciones TIC]({% post_url 2022-08-14-certificaciones %}).  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">👉🏻&nbsp;Ver mis certificaciones TIC</button>]({% post_url 2022-08-14-certificaciones %}).  
 <br />
 <hr />
 
@@ -73,6 +73,7 @@ const aboutMe = {
 ## Méritos y publicaciones
 ✌🏻 Fundador de varias ONG. Autor de publicaciones, artículos y proyectos de retro-informática y tele-educación.
 
+* [Desarrollos web para el bien público]({% post_url 2023-01-22-desarrollos %})  
 * [Publicaciones y artículos]({% post_url 2022-12-03-publicaciones %})  
 * [Traducciones de software]({% post_url 2022-08-13-traducciones %})  
 * [Cliparts]({% post_url 2022-08-13-cliparts %}) y [Logotipos]({% post_url 2022-08-14-logos %})  
