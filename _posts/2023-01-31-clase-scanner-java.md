@@ -1,11 +1,11 @@
 ---
 layout: post
 title: ConsoleInput kit
-subtitle: Creando una clase básica con métodos para lectura de datos por consola
+subtitle: Creando una clase básica con métodos para lectura de datos por consola en Java
 thumbnail-img: https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg
 tags: [java, consola]
 ---
-Cuando se emplea la clase Scanner en Java surgen multitud de inconvenientes a la hora de solicitar datos por consola. Algunos errores están asociados a la introducción de tipos de datos no solicitados, pero hay un error especialmente incómodo, el de las pulsaciones de tecla Intro que queda nen el _buffer_ del Scanner. En esta entrada vemos cómo solucionar estos errores y algunos métodos básicos de ejemplo.
+Cuando se emplea la clase Scanner en Java surgen multitud de inconvenientes a la hora de solicitar datos por consola. Algunos errores están asociados a la introducción de tipos de datos no solicitados, pero hay un error especialmente incómodo, el de las pulsaciones de tecla Intro que quedan en el _buffer_ del Scanner. En esta entrada vemos cómo solucionar estos errores y algunos métodos básicos de ejemplo.
 
 ![Java logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg){: .mx-auto.d-block :}
 
