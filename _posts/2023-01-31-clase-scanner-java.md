@@ -23,10 +23,7 @@ import java.util.Scanner;
 public abstract class ConsoleInput {  
   
     private static final Scanner IN = new Scanner(System.in);
-
-    /**  
-     * Cierra el Scanner
-     */    
+ 
     public static void closeScanner() {  
         IN.close();  
     }  
@@ -80,9 +77,6 @@ Esta solución aplica también a `.nextInt()`, `.nextLong()`, `.nextDouble()` y 
 La primera aplicación práctica de esto puede ser el método siguiente:
 
 ```java
-/**  
- * Espera la pulsación de la tecla Intro.  
- **/  
  public static void getEnter() {  
     IN.nextLine();  
 }
@@ -121,12 +115,7 @@ Si no se incluye esta línea en el `catch` y estamos solicitando el dato por con
 Aquí el código completo del método `.getLongIntPos()`:
 
 ```java
-/**  
- * Solicita con un mensaje por consola y comprueba que se introduzca un número largo, entero, positivo (>=0).  
- * @param message String Pregunta del usuario  
- * @return Long Número introducido  
- */  
- public static Long getLongIntPos(String message) {  
+public static Long getLongIntPos(String message) {  
     long num;  
     while(true) {  
         System.out.print(message);  
@@ -158,13 +147,7 @@ System.out.println(numero);
 Dado el método anterior, es fácil hacer cambios para que el valor recibido se encuentre entre un rango determinado.
 
 ```java
-/**  
- * Solicita con un mensaje por consola y comprueba que se introduzca un número largo, entero, positivo (>=0). * cuyo rango esté entre el valor mínimo y el valor máximo recibido, ambos inclusive. * @param message String Pregunta del usuario  
- * @param min Long Valor mínimo  
- * @param max Long Valor máximo  
- * @return Long Número introducido  
- */  
- public static Long getLongIntPosByRange(String message, Long min, Long max) {  
+public static Long getLongIntPosByRange(String message, Long min, Long max) {  
     long num;  
     if (min > max) { num = min; min = max; max = num; }  
     while(true) {  
@@ -194,12 +177,7 @@ La otra diferencia con `.getLongIntPos()` es que la condición de salida ahora e
 En la línea de los casos anteriores, el código del método `.getString()` para obtener una cadena de caracteres (una frase) sería:
 
 ```java
-/**  
- * Solicita con un mensaje por consola y comprueba que se introduzca una cadena de texto de, al menos, 3 caracteres. 
- * @param message String Pregunta del usuario  
- * @return String Cadena de texto introducida  
- */  
- public static String getString(String message) {  
+public static String getString(String message) {  
     String str;  
     while(true) {  
         System.out.print(message);  
@@ -226,12 +204,7 @@ Si la cadena introducida no tiene al menos tres caracteres (`str.length() >= 3`)
 Con el método `getYesNo()` obtengo un `true` para 'sí' o un `false` para 'no'. El código es el siguiente:
 
 ```java
-/**  
- * Solicita con un mensaje por consola un carácter para confirmar ('S', 's') o ('N', 'n').  
- * @param message String Pregunta del usuario  
- * @return Boolean true/Sí o false/No  
- */  
- public static Boolean getYesNo(String message) {  
+public static Boolean getYesNo(String message) {  
     char chr;  
     while(true) {  
         System.out.print(message);  
@@ -265,10 +238,7 @@ En este método vuelve a ser necesario el uso de `IN.nextLine()`.
 Buscando por Internet, encontré este sencillo código para limpiar la consola:
 
 ```java
-/**  
- * Limpia la consola 
- */
- public static void clearConsole() {  
+public static void clearConsole() {  
     System.out.print("\033[H\033[2J");  
     System.out.flush();  
 }
