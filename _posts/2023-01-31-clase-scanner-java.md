@@ -37,7 +37,7 @@ Como se aprecia, dentro de un paquete llamado `utilities` creo la clase `Console
 
 # Introducir datos por consola
 
-## .next() vs. .nextLine()
+## El problema: .next() vs. .nextLine()
 
 Cuando queremos leer un dato por consola, podemos usar el método `.next()` o `.nextLine()`, siendo `IN` el objeto de la clase Scanner instanciado para leer por teclado.
 
