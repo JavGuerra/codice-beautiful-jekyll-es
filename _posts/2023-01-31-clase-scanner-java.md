@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ConsoleInput kit
-subtitle: Creando una clase básica con métodos para lectura de datos por consola en Java
+subtitle: Una clase en Java para lectura de datos por consola
 thumbnail-img: https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg
 tags: [java, consola]
 ---
