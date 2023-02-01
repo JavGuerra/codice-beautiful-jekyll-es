@@ -97,12 +97,12 @@ Como puede que el dato introducido no sea un número largo, envolveré estas sen
 
 ```java
 try {  
-	num = IN.nextLong();  
-	IN.nextLine();  
+    num = IN.nextLong();  
+    IN.nextLine();  
 } catch (InputMismatchException e) {  
-	System.out.println("Tipo de dato no reconocido.");  
-	IN.nextLine();  
-	continue;  
+    System.out.println("Tipo de dato no reconocido.");  
+    IN.nextLine();  
+    continue;  
 } 
 ```
 
@@ -263,7 +263,7 @@ public abstract class ConsoleInput {
      * @param message String Pregunta del usuario  
      * @return Long Número introducido  
      */
-	public static Long getLongIntPos(String message) {  
+    public static Long getLongIntPos(String message) {  
         long num;  
         while(true) {  
             System.out.print(message);  
@@ -288,7 +288,7 @@ public abstract class ConsoleInput {
      * @param max Long Valor máximo  
      * @return Long Número introducido  
      */    
-	public static Long getLongIntPosByRange(String message, Long min, Long max) {  
+    public static Long getLongIntPosByRange(String message, Long min, Long max) {  
         long num;  
         if (min > max) { num = min; min = max; max = num; }  
         while(true) {  
