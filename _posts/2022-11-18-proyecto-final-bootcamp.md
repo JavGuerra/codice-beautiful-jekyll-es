@@ -6,13 +6,13 @@ thumbnail-img: https://raw.githubusercontent.com/JavGuerra/final-fswd/main/front
 tags: [formación, beca, node.js, express, react, mongodb, javascript]
 ---
 
-Durante este año 2022 he cursado el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
+Durante el año 2022 cursé el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
 
 ![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
 
 [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
 
-El pasado día 17 de noviembre finalizó la formación con un acto de entrega de diplomas on-line en el que tuve ocasión de mostrar mi proyecto final «Tienda 8 bits» junto con Alex, otro de mis compañeros, que también expuso su proyecto.
+El día 17 de noviembre finalizó la formación con un acto de entrega de diplomas on-line en el que tuve ocasión de mostrar mi proyecto final «Tienda 8 bits» junto con Alex, otro de mis compañeros, quien también expuso su proyecto.
 
 A parte de los compañeros y los profesores, asistieron al evento Alejandra Cuenca y Diego Díaz por parte de The Bridge, Cristina Soriano por Minsait/Indra, y Beatriz Arribas y Carlos Sánchez por Universia.
 
