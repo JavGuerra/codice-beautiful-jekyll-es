@@ -172,9 +172,37 @@ Para evitar errores y complicar el código, asumo que si el valor máximo es men
 
 La otra diferencia con `.getLongIntPos()` es que la condición de salida ahora es que el número que recibimos por consola debe estar entre los valores mínimo y máximo indicados (`num >= min && num <= max`).
 
+## Obtener una palabra
+
+El código del método `.getWord()` obtiene una palabra.
+
+```java
+public static String getWord(String message) {  
+    String str;  
+    while(true) {  
+        System.out.print(message);  
+        try {  
+            str = IN.next();  
+            IN.nextLine();  
+        } catch (InputMismatchException e) {  
+            System.out.println("Tipo de dato no reconocido.");  
+            IN.nextLine();  
+            continue;  
+        }  
+        str = str.trim();  
+        if (str.length() >= 3) return str;  
+        System.out.println("Cadena no válida.");  
+    }  
+}
+```
+
+La diferencia con los métodos anteriores es la condición de salida.
+
+Si la palabra introducida no tiene al menos tres caracteres (`str.length() >= 3`), te la volverá a pedir. A la palabra introducida le limpio los posibles espacios al inicio y final con `.trim()`.
+
 ## Obtener una cadena de caracteres
 
-En la línea de los casos anteriores, el código del método `.getString()` para obtener una cadena de caracteres (una frase) sería:
+En la línea de los casos anteriores, el código del método `.getString()` obtiene una cadena de caracteres (una frase) sería:
 
 ```java
 public static String getString(String message) {  
@@ -305,6 +333,28 @@ public abstract class ConsoleInput {
             System.out.println("Valor fuera de rango.");  
         }  
     }  
+
+/**  
+ * Solicita con un mensaje por consola y comprueba que se introduzca una palabra de, al menos, 3 caracteres. * @param message String Pregunta del usuario  
+ * @return String Palabra introducida  
+ */
+public static String getWord(String message) {  
+    String str;  
+    while(true) {  
+        System.out.print(message);  
+        try {  
+            str = IN.next();  
+            IN.nextLine();  
+        } catch (InputMismatchException e) {  
+            System.out.println("Tipo de dato no reconocido.");  
+            IN.nextLine();  
+            continue;  
+        }  
+        str = str.trim();  
+        if (str.length() >= 3) return str;  
+        System.out.println("Cadena no válida.");  
+    }  
+}
   
     /**  
      * Solicita con un mensaje por consola y comprueba que se introduzca una cadena de texto de, al menos, 3 caracteres.     
