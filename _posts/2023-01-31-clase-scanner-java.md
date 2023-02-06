@@ -334,28 +334,29 @@ public abstract class ConsoleInput {
         }  
     }  
 
-/**  
- * Solicita con un mensaje por consola y comprueba que se introduzca una palabra de, al menos, 3 caracteres. * @param message String Pregunta del usuario  
- * @return String Palabra introducida  
- */
-public static String getWord(String message) {  
-    String str;  
-    while(true) {  
-        System.out.print(message);  
-        try {  
-            str = IN.next();  
-            IN.nextLine();  
-        } catch (InputMismatchException e) {  
-            System.out.println("Tipo de dato no reconocido.");  
-            IN.nextLine();  
-            continue;  
+    /**  
+    * Solicita con un mensaje por consola y comprueba que se introduzca una palabra de, al menos, 3 caracteres. 
+    * @param message String Pregunta del usuario  
+    * @return String Palabra introducida  
+    */
+    public static String getWord(String message) {  
+        String str;  
+        while(true) {  
+            System.out.print(message);  
+            try {  
+                str = IN.next();  
+                IN.nextLine();  
+            } catch (InputMismatchException e) {  
+                System.out.println("Tipo de dato no reconocido.");  
+                IN.nextLine();  
+                continue;  
+            }  
+            str = str.trim();  
+            if (str.length() >= 3) return str;  
+            System.out.println("Cadena no válida.");  
         }  
-        str = str.trim();  
-        if (str.length() >= 3) return str;  
-        System.out.println("Cadena no válida.");  
-    }  
-}
-  
+    }
+
     /**  
      * Solicita con un mensaje por consola y comprueba que se introduzca una cadena de texto de, al menos, 3 caracteres.     
      * @param message String Pregunta del usuario  
