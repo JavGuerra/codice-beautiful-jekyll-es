@@ -6,7 +6,7 @@ thumbnail-img: https://raw.githubusercontent.com/JavGuerra/cartelera-java-spring
 tags: [java, spring, bootstrap, tymeleaft, security]
 ---
 
-Durante los meses de enero y febrero, y hasta el 9 de marzo de 2023, he participado en un curso de especialización de Java + Spring realizado por la Fundación Adecco dentro del Proyecto Digital School Erasmus+
+Durante los meses de enero y febrero, y hasta el 9 de marzo de 2023, he participado en un curso de especialización en Java + Spring de la Fundación Adecco dentro del Proyecto Digital School Erasmus+
 
 ![Logo cartelera](https://raw.githubusercontent.com/JavGuerra/cartelera-java-spring/a77e7c8dded2eaa8235d92814427e56a628ca465/src/main/resources/static/img/logo.svg){: .mx-auto.d-block :}
 
@@ -18,15 +18,15 @@ En su desarrollo se ha empleado **Spring security**, **Tymeleaft** y **Bootstrap
 
 La planificación y el desarrollo se han llevado a cabo usando **Trello** y **GitHub**.
 
-Además de los requisitos solicitados para el MVP, la app implementa:
+Además de los requisitos solicitados para el MVP, en la app se ha implementado:
 
-- Sprint Security para securización de rutas
-- Registro de Usuario
+- Securización de rutas
+- Registro de usuario
 - Refactorización de métodos
-- Documentación JavaDoc
+- Documentación con JavaDoc
 - Implementación de Logs
 
-[Ir al repositorio de la práctica](https://github.com/JavGuerra/cartelera-java-spring)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir al repositorio de la práctica</button>](https://github.com/JavGuerra/cartelera-java-spring)
 
 ### Estado de la aplicación
 
@@ -52,7 +52,9 @@ Si bien su estado es inconcluso, habida cuenta de que la planificación inicial 
 
 ![Cartelera demo](/assets/img/cartelera-demo.png){: .mx-auto.d-block :}
 
-Puede ver un video sobre la aplicación en: [Demo sobre la práctica](https://youtu.be/DfS8oC7WmDk)  
+Puede ver un video sobre la aplicación.
+
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Demo sobre la práctica</button>](https://youtu.be/DfS8oC7WmDk)  
 
 ## Indicaciones de instalación
 
