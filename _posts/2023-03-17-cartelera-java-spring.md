@@ -81,8 +81,3 @@ Sobre el código fuente: [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
 
 - [Repositorio](https://github.com/JavGuerra/cartelera-java-spring)  
 - [Video de la presentación](https://youtu.be/DfS8oC7WmDk)  
-
-
-
-
-
