@@ -26,6 +26,8 @@ Además de los requisitos solicitados para el MVP, la app implementa:
 - Documentación JavaDoc
 - Implementación de Logs
 
+[Ir al repositorio de la práctica](https://github.com/JavGuerra/cartelera-java-spring)
+
 ### Estado de la aplicación
 
 ![Cartelera planificación](/assets/img/cartelera-planificacion.png){: .mx-auto.d-block :}
