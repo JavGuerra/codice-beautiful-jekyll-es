@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cartelera
+title: Cartelera de cine
 subtitle: Práctica final del curso de Java + Spring
 thumbnail-img: https://raw.githubusercontent.com/JavGuerra/cartelera-java-spring/a77e7c8dded2eaa8235d92814427e56a628ca465/src/main/resources/static/img/logo.svg
 tags: [java, spring, bootstrap, tymeleaft, security]
@@ -50,7 +50,7 @@ Si bien su estado es inconcluso, habida cuenta de que la planificación inicial 
 
 ![Cartelera demo](/assets/img/cartelera-demo.png){: .mx-auto.d-block :}
 
-Puede ver un video sobre la aplicación en: https://youtu.be/DfS8oC7WmDk  
+Puede ver un video sobre la aplicación en: [Demo sobre la práctica](https://youtu.be/DfS8oC7WmDk)  
 
 ## Indicaciones de instalación
 
