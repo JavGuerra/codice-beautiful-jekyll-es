@@ -54,7 +54,7 @@ Si bien su estado es inconcluso, habida cuenta de que la planificación inicial 
 
 Puede ver un video sobre la aplicación.
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver video (3 min.)</button>](https://youtu.be/DfS8oC7WmDk)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver video (*3 min.*)</button>](https://youtu.be/DfS8oC7WmDk)  
 
 ## Indicaciones de instalación
 
