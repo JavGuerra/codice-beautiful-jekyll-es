@@ -28,7 +28,7 @@ Además de los requisitos solicitados para el MVP, la app implementa:
 
 ### Estado de la aplicación
 
-![Cartelera planificación](assets/img/cartelera-planificacion.png){: .mx-auto.d-block :}
+![Cartelera planificación](/assets/img/cartelera-planificacion.png){: .mx-auto.d-block :}
 
 La aplicación ha sido realizada en un plazo de cuatro semanas en las que íbamos aplicando lo que aprendíamos por la mañana.
 
@@ -48,7 +48,7 @@ Si bien su estado es inconcluso, habida cuenta de que la planificación inicial 
 
 ## DEMO
 
-![Cartelera demo](assets/img/cartelera-demo.png){: .mx-auto.d-block :}
+![Cartelera demo](/assets/img/cartelera-demo.png){: .mx-auto.d-block :}
 
 Puede ver un video sobre la aplicación en: https://youtu.be/DfS8oC7WmDk  
 
