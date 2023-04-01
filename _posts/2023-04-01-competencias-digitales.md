@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Competencias digitales
-subtitle: Materiales del módulo impartido para la Fundación GoodJob
+title: Materiales sobre competencias digitales
+subtitle: Módulo sobre Linux e Internet impartido para la Fundación GoodJob
 thumbnail-img: /assets/img/internet.jpg
 gh-repo:  JavGuerra/curso-bloque-2 
 gh-badge: [star, fork, follow]
