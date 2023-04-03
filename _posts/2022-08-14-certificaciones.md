@@ -33,7 +33,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 * [PHP](/assets/img/certificados/PHP-Linked-In.png) - Linked-In
 * [Programación Orientada a Objetos (OOP)](https://badgr.com/public/assertions/cltpw5JPQJmNeoLuPVcvRw) - The Bridge 
 * [Java](https://community.open-bootcamp.com/user/javguerra/certificaciones/f487036b-77f6-4cc2-a02b-74654d287b2f) - Open Bootcamp   
-* [Java + Spring](/assets/img/certificados/java-adecco.jpg) - Fundación Adecco
+* [Java + Spring](/assets/img/certificados/java-adecco.png) - Fundación Adecco
 * [Node.JS](https://badgr.com/public/assertions/o61ERhieSlyDVgSR586sAQ) - The Bridge  
 * [Express.JS](https://badgr.com/public/assertions/ftjl0em_Sr-8V8AM784p7g) - The Bridge  
 * [SQL](https://badgr.com/public/assertions/ME9Mu2uhTZ-mPeETfiRONA) - The Bridge  
