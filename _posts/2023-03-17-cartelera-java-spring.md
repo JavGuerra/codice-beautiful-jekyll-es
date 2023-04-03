@@ -81,7 +81,12 @@ Para hacer login, todos los usuarios registrados cuentan con la contraseña: **6
 
 Sobre el código fuente: [GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
 
+## Calificación
+
+El curso, así como la práctica, ha obtenido una calificación de 10/10.
+
 ## Enlaces
 
 - [Repositorio](https://github.com/JavGuerra/cartelera-java-spring)  
 - [Video de la presentación](https://youtu.be/DfS8oC7WmDk)  
+- [Certificado de aprovechamiento](/assets/img/certificados/java-adecco.png)  
