@@ -62,6 +62,7 @@ Haz click en los enlaces para más información:
 - [Sí, ministro](https://www.filmaffinity.com/es/film398662.html) - Filmin  
 - [Sí, primer ministro](https://www.filmaffinity.com/es/film165657.html) - Filmin  
 - [Shameless](https://www.filmaffinity.com/es/film906532.html) - Prime Video  
+- [Ted Lasso](https://www.filmaffinity.com/es/film161198.html) - Apple TV
 
 Espero que las disfrutes ;)
 
