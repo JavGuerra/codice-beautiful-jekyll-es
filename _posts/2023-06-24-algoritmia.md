@@ -2,7 +2,7 @@
 layout: post
 title: Algoritmia
 subtitle: Los algoritmos nos enseñan el camino
-thumbnail-img: 
+thumbnail-img: /assets/img/algoritmo.jpg
 tags: [programación, código, formación, alumnos]
 ---
 
