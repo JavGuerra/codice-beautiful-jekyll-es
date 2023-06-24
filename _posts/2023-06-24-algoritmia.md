@@ -12,7 +12,7 @@ Cuando tenemos que resolver problemas, ya sea en el ámbito de la programación 
 
 # Definición
 
-Un algoritmo es una secuencia ordenada de *pasos*, descrita sin ambigüedades, que conducen a la *solución de un problema* dado. [+info](https://es.wikipedia.org/wiki/Algoritmo)
+Un algoritmo es una secuencia ordenada de **pasos**, descrita sin ambigüedades, que conducen a la **solución de un problema** dado. [+info](https://es.wikipedia.org/wiki/Algoritmo)
 
 # ¿Qué necesitamos?
 
@@ -76,6 +76,8 @@ Para llegar a un algoritmo válido, debemos:
 5. Programar el algoritmo usando un lenguaje de programación.
 6. Ejecutar el programa para comprobar si se ha conseguido llegar a la solución.
 
+## Características
+
 Un algoritmo válido debe contar con una serie de características:
 
 - Debe tener un punto de inicio bien definido.
@@ -118,7 +120,7 @@ Para la integración del algoritmo dentro de un programa de mayores dimensiones 
 
 ## Verificación vs. validación
 
-No es lo mismo verificar que validad. El algoritmo puede funcionar correctamente, pero puede que el algoritmo no resuelva correctamente el problema.
+No es lo mismo verificar que validar. El algoritmo puede funcionar correctamente, pero puede que el algoritmo no resuelva correctamente el problema.
 
 **Verificación**: ¿Estamos construyendo correctamente el algoritmo?
 
