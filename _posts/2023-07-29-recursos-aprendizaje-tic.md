@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Recursos de aprendizaje TIC
-subtitle: Materiales formativos para aprender sobre TIC en línea
+title: Aprendizaje TIC en línea
+subtitle: Recursos formativos gratuitos y en español
 thumbnail-img: /assets/img/estudios.png
 tags: [formación]
 ---
 
-Este post es un compendio heterogéneo de recursos formativos gratuitos y en español y en línea para aprender sobre tecnologías de información y las comunicaciones (TIC). Pretende ser una catálogo general para las personas que desean formarse pero no es una guía detallada por materias o áreas o que siga un criterio de idoneidad específico.
+Este post es un compendio heterogéneo de recursos formativos gratuitos, en español y en línea para aprender sobre tecnologías de información y las comunicaciones (TIC). Pretende ser una catálogo general para las personas que desean formarse pero no es una guía detallada por materias o áreas o que siga un criterio de idoneidad específico.
 
 ![Publicaciones](/assets/img/estudios.png){: .mx-auto.d-block :}
 
