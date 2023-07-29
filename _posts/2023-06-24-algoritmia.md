@@ -99,6 +99,8 @@ La **práctica** y **la experiencia**, a través de los procesos de ensayo y err
 
 **Diagrama de flujo**: Es una forma de representación gráfica de algoritmos que usa las convecciones estructurales de un lenguaje de programación. Es un tipo de representación más formal. Se usa para documentar y trabajar en equipo siguiendo normativas concretas. [+info](https://es.wikipedia.org/wiki/Diagrama_de_flujo)
 
+Puedes utilizar la herramienta multiplataforma [PSeInt](https://pseint.sourceforge.net/) para crear pseudocódigo en español y sus diagramas de flujo asociados. La página cuenta con [documentación](https://pseint.sourceforge.net/index.php?page=documentacion.php) en línea para el uso de esta herramienta.
+
 # Error, defecto, fallo
 
 ¿De qué hablamos cuando verificamos?
