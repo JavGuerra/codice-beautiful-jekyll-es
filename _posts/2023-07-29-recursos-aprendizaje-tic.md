@@ -41,7 +41,7 @@ Catálogo centrado en las áreas de interés de Cisco, pero no sólo en sus prod
 
 EdX ofrece cursos en línea gratuitos sobre tecnología, incluyendo informática y ciencia de datos. Los cursos son impartidos por instituciones reputadas como el Tecnológico de Monterrey, Harvard o el MIT.
 
-## [Udemi](https://www.udemy.com/)
+## [Udemy](https://www.udemy.com/)
 
 Gran cantidad de cursos gratuitos que deberás filtrar en su catálogo de formaciones.
 
@@ -53,13 +53,17 @@ Cada vez con mayor número de materiales en español, esta academia tiene un ár
 
 Orientado a universitarios y postgrados. Cuenta con cada vez más contenido en español. Ofrece la posibilidad de obtener certificados de los estudios realizados que conllevan un coste. Explora su catálogo.
 
-## [Aprende.org](https://aprende.org/listado-cursos)
+## [Capacítate para el empleo](https://capacitateparaelempleo.org/categorias/view/7)
 
-En «Capacítate para el empleo» selecciona «Tecnología» para ver el amplio catálogo de cursos en video elaborado por la Fundación Carlos Slim.
+Amplio catálogo de cursos en video elaborado por la Fundación Carlos Slim.
 
 ## [OpenWebinars](https://openwebinars.net/cursos/)
 
 Cuenta con un plan básico gratuito para particulares que permite realizar cinco formaciones al mes.
+
+## [Conecta empleo](https://conectaempleo-formacion.fundaciontelefonica.com/)
+
+Plataforma de formaciones y clases magistrales para mejorar la empleabilidad elaborada por la Fundación Telefónica.
 
 ## [FreeCodeCamp](https://www.freecodecamp.org/espanol/)
 
@@ -67,6 +71,8 @@ Orientada a la programación, cuenta con formaciones y certificaciones.
 
 # Otros recursos
 * [Formación profesional a distancia](https://www.educacionyfp.gob.es/fpadistancia/oferta-formativa/oferta-formativa-ciclos/informatica-comunicaciones.html) - Formación Profesional oficial en España sobre Informática y comunicaciones. Listado por regiones.
+* [Aprender gratis](https://aprendergratis.es/) - Plataforma de búsqueda de cursos.
+* [Cibervoluntarios](https://www.cibervoluntarios.org/es) - Cursos y píldoras TIC impartidas por voluntarios.
 * [Procumún](https://procomun.intef.es/search-full?f%5B0%5D=knowledgearea_keyword%3AInform%C3%A1tica%20y%20Tecnolog%C3%ADas%20de%20la%20Informaci%C3%B3n&f%5B1%5D=knowledgearea_keyword%3ATecnolog%C3%ADas) - Red de recursos educativos en abierto. Tecnología, Informática y tecnologías de la información.
 * [MatesGG](https://intef.es/recursos-educativos/matesgg/) - Recursos educativos sobre Matemáticas.
 * [Observatorio de tecnología educativa](https://intef.es/recursos-educativos/observatorio-de-tecnologia-educativa/) - Biblioteca virtual de artículos sobre tecnología educativa, creados por docentes para docentes, en torno a la innovación digital en el aula.
