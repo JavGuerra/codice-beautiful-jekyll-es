@@ -14,6 +14,8 @@ Cuando tenemos que resolver problemas, ya sea en el ámbito de la programación 
 
 Un algoritmo es una secuencia ordenada de **pasos**, descrita sin ambigüedades, que conducen a la **solución de un problema** dado. [+info](https://es.wikipedia.org/wiki/Algoritmo)
 
+Puedes ver este [video](https://youtu.be/U3CGMyjzlvM) para tener una idea más clara de lo que es un algoritmo.
+
 # ¿Qué necesitamos?
 
 Para resolver problemas necesitamos:
