@@ -72,4 +72,4 @@ Orientada a la programación, cuenta con formaciones y certificaciones.
 * [Observatorio de tecnología educativa](https://intef.es/recursos-educativos/observatorio-de-tecnologia-educativa/) - Biblioteca virtual de artículos sobre tecnología educativa, creados por docentes para docentes, en torno a la innovación digital en el aula.
 * [Curso gratis de programación básica](https://platzi.com/cursos/programacion-basica/) - Platzi.
 * [Profundizxación en el desarrollo web moderno](https://fullstackopen.com/es/) - Universidad de Helsinki y otros.
-* [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists) Cursos de la extinta plataforma de formación.
+* [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists) - Cursos de la extinta plataforma de formación.
