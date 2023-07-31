@@ -27,10 +27,6 @@ Amplio catálogo de cursos prácticos y rutas de aprendizaje personalizadas. Inc
 
 Catálogo de formaciones de Google en el ámbito de las TIC. Ofrece también certificados profesionales de Google.
 
-## [Alison Academy](https://alison.com/es/cursos/it)
-
-Cursos online, gratuitos con certificados y diplomas.
-
 ## [AWS Academy](https://aws.amazon.com/es/training/awsacademy/)
 
 Muy centrado en sus productos, y las áreas de nube, arquitecturas IT, desarrollo, DevOps, aprendizaje automático y operaciones.
