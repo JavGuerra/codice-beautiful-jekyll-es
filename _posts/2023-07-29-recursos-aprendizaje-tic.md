@@ -10,6 +10,8 @@ Este post es un compendio heterogéneo de recursos formativos gratuitos, en espa
 
 ![Publicaciones](/assets/img/estudios.png){: .mx-auto.d-block :}
 
+> «Toda persona tiene derecho a la educación. La educación debe ser gratuita, al menos en lo concerniente a la instrucción elemental y fundamental. La instrucción elemental será obligatoria. La instrucción técnica y profesional habrá de ser generalizada; el acceso a los estudios superiores será igual para todos, en función de los méritos respectivos.» - Artículo 26, punto 1 de la declaración Universal de los Derechos Humanos de la ONU.
+
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
