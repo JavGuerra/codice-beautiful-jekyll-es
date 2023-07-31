@@ -154,3 +154,7 @@ Intenta realizar el ejercicio considerando las instrucciones siguientes. Tienes 
 
 - [Instrucciones para realizar el ejercicio del barco (PDF)](/assets/doc/barco.pdf)  
 - [Solución (TXT)](/assets/doc/barco_solucion.txt)  
+
+# Saber más
+
+- [Algortitmos](https://es.khanacademy.org/computing/computer-science/algorithms) - Ciencias de la computación, Habilidades. Khan Academy. Incluye material introductorio y también explicaciones sobre cómo funcionan distintos tipos de algoritmos y los algoritmos de ordenación.  
