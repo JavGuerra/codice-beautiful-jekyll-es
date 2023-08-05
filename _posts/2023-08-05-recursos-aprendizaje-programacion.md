@@ -77,6 +77,11 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Uniwebsidad](https://uniwebsidad.com/?from=librosweb)
 * [Page Speed](https://pagespeed.web.dev/)
 
+# Juegos de aprendizaje
+
+* [Blocky](https://blockly.games/)
+* [Zanahorias](https://www.google.com/logos/2017/logo17/logo17.html?hl=es)
+
 # Recursos complementarios
 
 * [97 cosas que todo programador debería saber](https://97cosas.com/programador/)
@@ -95,18 +100,14 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 * [MatesGG](https://intef.es/recursos-educativos/matesgg/)
 
-# Juegos
-
-* [Blocky](https://blockly.games/)
-* [Zanahorias](https://www.google.com/logos/2017/logo17/logo17.html?hl=es)
-
 # Recursos propios
 
 * [Aprende Informática en línea]({% post_url 2023-07-29-recursos-aprendizaje-tic %})
-* [Algoritmia](https://javguerra.github.io/2023-06-24-algoritmia/)
-* [Lógica interactiva](https://javguerra.github.io/2022-04-30-logica-interactiva/)
-* [Accesibilidad](https://javguerra.github.io/2022-05-08-accesibilidad/)
+* [Algoritmia]({% post_url 2023-06-24-algoritmia %})
+* [Lógica interactiva]({% post_url 2022-04-30-logica-interactiva %})
+* [Accesibilidad]({% post_url 2022-05-08-accesibilidad %})
+* [Materiales sobre competencias digitales]({% post_url 2023-04-01-competencias-digitales %})
 * [JavaScript en 14 minutos](https://javguerra.github.io/javascript-en-14-minutos/)
 * [Diseño web en 4 minutos](https://javguerra.github.io/diseno-web-en-4-minutos/)
 * [Full Stack web developer - conceptos](https://javguerra.github.io/ramp-up-fswd/index.html)
-* [Fizz buzz](https://javguerra.github.io/2022-04-22-fizzbuzz/)
+* [Fizz buzz]({% post_url 2022-04-22-fizzbuzz %})

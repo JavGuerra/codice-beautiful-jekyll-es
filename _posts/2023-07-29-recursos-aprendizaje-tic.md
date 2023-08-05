@@ -82,4 +82,3 @@ Los mejores recursos para aprender diseño y programación web.
 * [Curso gratis de programación básica](https://platzi.com/cursos/programacion-basica/) - Platzi.
 * [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists) - Cursos de la extinta plataforma de formación.
 * [DigComp](https://epale.ec.europa.eu/es/content/marco-europeo-de-competencias-digitales-digcomp) - Marco europeo de competencias digitales.
-*[Materiales sobre competencias digitales](https://javguerra.github.io/2023-04-01-competencias-digitales/) - recurso propio.
