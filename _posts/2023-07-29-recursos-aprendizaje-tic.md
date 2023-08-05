@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Aprendizaje TIC en línea
+title: Aprende Informática en línea
 subtitle: Recursos formativos gratuitos y en español
 thumbnail-img: /assets/img/estudios.png
 tags: [formación]
 ---
 
-Este post es un compendio heterogéneo de recursos formativos gratuitos, en español y en línea para aprender sobre tecnologías de información y las comunicaciones (TIC). Pretende ser una catálogo general para las personas que desean formarse pero no es una guía detallada por materias o áreas o que siga un criterio de idoneidad específico.
+Este post es un compendio heterogéneo de recursos formativos gratuitos, en español y en línea, para aprender sobre tecnologías de información y las comunicaciones (TIC). Pretende ser una catálogo general para las personas que desean formarse pero no es una guía detallada por materias o áreas o que siga un criterio de idoneidad específico.
 
 ![Publicaciones](/assets/img/estudios.png){: .mx-auto.d-block :}
 
@@ -67,14 +67,19 @@ Plataforma de formaciones y clases magistrales para mejorar la empleabilidad ela
 
 Orientada a la programación, cuenta con formaciones y certificaciones.
 
+## [Uniwebsidad](https://uniwebsidad.com/?from=librosweb)
+
+Los mejores recursos para aprender diseño y programación web.
+
 # Otros recursos
+
+* [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
 * [Formación profesional a distancia](https://www.educacionyfp.gob.es/fpadistancia/oferta-formativa/oferta-formativa-ciclos/informatica-comunicaciones.html) - Formación Profesional oficial en España sobre Informática y comunicaciones. Listado por regiones.
 * [Aprender gratis](https://aprendergratis.es/) - Plataforma de búsqueda de cursos.
 * [Cibervoluntarios](https://www.cibervoluntarios.org/es) - Cursos y píldoras TIC impartidas por voluntarios.
 * [Procumún](https://procomun.intef.es/search-full?f%5B0%5D=knowledgearea_keyword%3AInform%C3%A1tica%20y%20Tecnolog%C3%ADas%20de%20la%20Informaci%C3%B3n&f%5B1%5D=knowledgearea_keyword%3ATecnolog%C3%ADas) - Red de recursos educativos en abierto. Tecnología, Informática y tecnologías de la información.
-* [MatesGG](https://intef.es/recursos-educativos/matesgg/) - Recursos educativos sobre Matemáticas.
 * [Observatorio de tecnología educativa](https://intef.es/recursos-educativos/observatorio-de-tecnologia-educativa/) - Biblioteca virtual de artículos sobre tecnología educativa, creados por docentes para docentes, en torno a la innovación digital en el aula.
 * [Curso gratis de programación básica](https://platzi.com/cursos/programacion-basica/) - Platzi.
-* [Profundizxación en el desarrollo web moderno](https://fullstackopen.com/es/) - Universidad de Helsinki y otros.
 * [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists) - Cursos de la extinta plataforma de formación.
 * [DigComp](https://epale.ec.europa.eu/es/content/marco-europeo-de-competencias-digitales-digcomp) - Marco europeo de competencias digitales.
+*[Materiales sobre competencias digitales](https://javguerra.github.io/2023-04-01-competencias-digitales/) - recurso propio.
