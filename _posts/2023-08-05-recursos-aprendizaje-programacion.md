@@ -66,6 +66,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Lenguaje HTML5](https://lenguajehtml.com/html/)
 * [Lenguaje CSS3](https://lenguajecss.com/css/)
 * [PostCSS](https://lenguajecss.com/postcss/)
+* [Desarrollo web para principiantes](https://learn.microsoft.com/es-es/training/paths/web-development-101/)
 * [Curso gratis de programación básica](https://platzi.com/cursos/programacion-basica/)
 * [Profundización en el desarrollo web moderno](https://fullstackopen.com/es/)
 * [NPM (Node Package Manager)](https://lenguajejs.com/npm/)
@@ -87,6 +88,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [97 cosas que todo programador debería saber](https://97cosas.com/programador/)
 * [Retos de programación](https://retosdeprogramacion.com/)
 * [Fundamentos de programación](https://lenguajejs.com/fundamentos/)
+* [Introducción a la programación](https://learn.microsoft.com/es-es/training/modules/web-development-101-introduction-programming/)
 * [Programación 101](https://es.khanacademy.org/computing/ap-computer-science-principles/programming-101)
 * [Algoritmos 101](https://es.khanacademy.org/computing/ap-computer-science-principles/algorithms-101)
 * [Algoritmos](https://es.khanacademy.org/computing/computer-science/algorithms)
@@ -97,6 +99,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Git, la guía sencilla](https://rogerdudler.github.io/git-guide/index.es.html)
 * [Aprende Git - Altasian](http://atlassian.com/es/git)
 * [Aprende Git](https://learngitbranching.js.org/?locale=es_ES)
+* [Introducción a Git](https://learn.microsoft.com/es-es/training/modules/intro-to-git/)
 * [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 * [MatesGG](https://intef.es/recursos-educativos/matesgg/)
 
