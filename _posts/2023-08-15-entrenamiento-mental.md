@@ -84,11 +84,11 @@ Algunas formas de experimentar el entorno para potenciar nuestras habilidades pu
 
 ¿Por dónde empiezo? Es sencillo:
 
-1. Plantear un objetivo, una meta realista, algo que deseamos conseguir. Nuestro reto. Y valora las dificultades que te vas a encontrar.
+1. Plantea un objetivo, una meta realista, algo que deseas conseguir. Tu reto. Y valora las dificultades que te vas a encontrar para conseguirlo.
 
-2. Planificar lo que vamos a hacer con un enfoque escalonado, con hitos progresivos, describir una serie de pasos que nos permitan cumplir nuestro objetivo adecuadamente con la suficiente flexibilidad como para adaptarnos a los cambios, y ponte en marcha.
+2. Planifica lo que vas a hacer mediante un enfoque escalonado, con hitos progresivos, describe una serie de pasos que te permitan cumplir tu objetivo adecuadamente, y con la suficiente flexibilidad como para adaptarte a los cambios. Luego ponte en marcha.
 
-3. Evalúa si conseguiste la meta o cuan cerca estuviste de alcanzarla. Aún cuando el objetivo no se haya cumplido, es importante poner en valor lo que se ha logrado en el proceso. 
+3. Evalúa si conseguiste la meta o cuan cerca estuviste de alcanzarla. Aún cuando el objetivo no se haya cumplido, es importante poner en valor lo que has logrado en el proceso. 
 
 Antes de acometer un reto que conlleve la mejora de nuestras habilidades cognitivas debemos tener claro que estamos preparados para ello, y que el reto no es demasiado ambicioso. Luego hay que ir paso a paso, midiendo nuestras fuerzas para dosificarlas, cambiando de rumbo si es necesario, o retirarnos a tiempo si no vimos venir los impedimentos en contra.
 
