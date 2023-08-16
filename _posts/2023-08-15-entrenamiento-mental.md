@@ -6,7 +6,7 @@ thumbnail-img: https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200
 tags: [formación]
 ---
 
-Aprender y des-aprender son procesos que requieren esfuerzo y preparación que serán de ayuda a la hora de establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender y des-aprender no consisten sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, dándonos así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
+Aprender y des-aprender son procesos que requieren esfuerzo y preparación que serán de ayuda a la hora de establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender y des-aprender (osea, aprender a desechar) no consisten sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, dándonos así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
 
 ![Publicaciones](https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200223125628%21Brain_Exercising.png){: .mx-auto.d-block :}
 
