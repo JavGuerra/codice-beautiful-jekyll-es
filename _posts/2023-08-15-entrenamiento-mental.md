@@ -6,7 +6,7 @@ thumbnail-img: https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200
 tags: [formación]
 ---
 
-Aprender requiere realizar esfuerzo que nos ayudará a establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender no consiste sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, consiguiendo así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
+Aprender requiere esfuerzo y tiempo. Con esfuerzo podremos establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender no consiste sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, consiguiendo así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
 
 ![Publicaciones](https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200223125628%21Brain_Exercising.png){: .mx-auto.d-block :}
 
