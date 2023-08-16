@@ -10,23 +10,23 @@ Aprender y des-aprender son procesos que requieren esfuerzo y preparación que s
 
 ![Publicaciones](https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200223125628%21Brain_Exercising.png){: .mx-auto.d-block :}
 
-> Del salón en el ángulo oscuro,
-> de su dueño tal vez olvidada,
-> silenciosa y cubierta de polvo
-> veíase el arpa.
-> 
-> ¡Cuánta nota dormía en sus cuerdas,
-> como el pájaro duerme en las ramas,
-> esperando la mano de nieve
-> que sabe arrancarlas!
-
-> ¡Ay! -pensé-. ¡Cuántas veces el genio
-> así duerme en el fondo del alma,
-> y una voz, como Lázaro, espera
-> que le diga: «Levántate y anda!»
->
-> «Rima VII, Del salón en el ángulo oscuro.»
-> Gustavo Adolfo Bécquer (1836-1870), poeta y narrador español.
+> Del salón en el ángulo oscuro,  
+> de su dueño tal vez olvidada,  
+> silenciosa y cubierta de polvo  
+> veíase el arpa.  
+>   
+> ¡Cuánta nota dormía en sus cuerdas,  
+> como el pájaro duerme en las ramas,  
+> esperando la mano de nieve  
+> que sabe arrancarlas!  
+>  
+> ¡Ay! -pensé-. ¡Cuántas veces el genio  
+> así duerme en el fondo del alma,  
+> y una voz, como Lázaro, espera  
+> que le diga: «Levántate y anda!»  
+>  
+>   «Rima VII, Del salón en el ángulo oscuro.»  
+>   Gustavo Adolfo Bécquer (1836-1870), poeta y narrador español.  
 
 # Fortaleza mental
 
