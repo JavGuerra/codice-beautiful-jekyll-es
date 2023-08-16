@@ -6,7 +6,7 @@ thumbnail-img: https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200
 tags: [formación]
 ---
 
-Aprender y des-aprender son procesos que requieren esfuerzo y preparación que serán de ayuda a la hora de establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender y des-aprender (osea, aprender a desechar) no consisten sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, dándonos así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
+Aprender requiere realizar esfuerzo que nos ayudará a establecer nuestras prioridades, la ruta de aprendizaje que seguiremos, los criterios para determinar la veracidad de la información con la que trabajemos, y cómo llevaremos a cabo todo este proceso. Aprender no consiste sólo en acumular conocimientos, sino en relacionarlos y construir con ellos la persona que seremos, determinar nuestras metas y objetivos, consiguiendo así las herramientas para lograrlo. A aprender también se entrena, y aquí vamos a ver cómo.
 
 ![Publicaciones](https://upload.wikimedia.org/wikipedia/commons/archive/c/cc/20200223125628%21Brain_Exercising.png){: .mx-auto.d-block :}
 
@@ -32,7 +32,7 @@ Aprender y des-aprender son procesos que requieren esfuerzo y preparación que s
 
 Entrenar las capacidades cognitivas es similar a entrenar nuestros músculos, requiere de ejercicios específicos, de los que hablaremos después, y tiene los mismos beneficios para nuestra salud que visitar un gimnasio, ya que cuerpo y mente están relacionados.
 
-El entrenamiento cognitivo es pues el proceso por el cual ponemos a trabajar nuestras habilidades y capacidades cognitivas para tener una mayor fortaleza mental con el propósito de estar más motivados, desarrollar autoconfianza, tener un mayor control emocional y una mejor concentración para cuando nos enfrentarnos a los retos cotidianos que se nos presenten.
+El entrenamiento cognitivo es pues el proceso por el cual ponemos a trabajar nuestras habilidades y destrezas cognitivas para tener una mayor fortaleza mental con el propósito de estar más motivados, desarrollar autoconfianza, tener un mayor control emocional y una mejor concentración para cuando nos enfrentarnos a los retos cotidianos que se nos presenten.
 
 Contar con mejores capacidades cognitivas, es decir, mayor fortaleza mental, nos ayuda a ser más libres e independientes, a mejorar nuestras habilidades blandas y a sentirnos mejor, ya que, a través de ellas tomamos conciencia de nosotros mismos, de nuestro potencial, de nuestros límites y el tamaño de los retos que enfrentamos, y esto nos permite empatizar mejor con las personas de nuestro entorno, mantener la cabeza fría en momentos de estrés, elaborar planes de acción adecuados y conseguir los objetivos que nos proponemos más rápidamente en cualquier plano de nuestra existencia.
 
@@ -95,3 +95,7 @@ Antes de acometer un reto que conlleve la mejora de nuestras habilidades cogniti
 # Medir el avance
 
 Valorar el avance de nuestras habilidades cognitivas no siempre es sencillo, pero a medida que estas se van ejercitando notaremos como somo capaces de mayores logros, y los problemas ya no serán tan difíciles. Esto nos dará una nueva visión de lo que somos y de lo relativos que son los problemas y/o los retos con los que a veces nos encontramos. Nuestras nuevas capacidades nos harán saber que podemos lograr nuevas y mayores metas con menos esfuerzo, y esta es la verdadera medida del tamaño de la fortaleza mental, el crecimiento personal que alcancemos.
+
+# Enlaces
+
+* Leer el post [Algoritmia]({% post_url 2023-06-24-algoritmia %}) para conocer más sobre capacidades cognitivas.
