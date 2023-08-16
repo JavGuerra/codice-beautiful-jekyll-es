@@ -40,11 +40,11 @@ Una mayor fortaleza mental actúa también de forma determinante sobre los valor
 
 # Experimentar y crecer
 
-Desde el mismo momento de nuestro nacimiento, estamos inmersos en un proceso continuo de crecimiento de nuestras capacidades cognitivas a través de la experimentación del mundo en el que vivimos y de cómo nos afectan nuestras circunstancias personales. Sin este proceso de aprendizaje no podríamos sobrevivir. A través de los sentidos conocemos el mundo que nos rodea, pero es mediante nuestro cerebro que damos forma y significado a los hechos de nuestra existencia. Debemos pues experimentar para crecer, y es a través de los sentidos que podemos ejercitar nuestra capacidades cognitivas.
+Desde el mismo momento de nuestro nacimiento, estamos inmersos en un proceso continuo de crecimiento y mejora de nuestras capacidades cognitivas a través de la experimentación del mundo en el que vivimos y de cómo nos afectan nuestras circunstancias personales. Sin este proceso de aprendizaje no podríamos sobrevivir. A través de los sentidos conocemos el mundo que nos rodea, pero es mediante nuestro cerebro que damos forma y significado a los hechos de nuestra existencia. Debemos pues experimentar para crecer, y es a través de los sentidos que podemos ejercitar las capacidades cognitivas.
 
 Algunas formas de experimentar el entorno para potenciar nuestras habilidades pueden ser:
 
-* Salir de nuestra zona de confort, del ambiente habitual en el que nos encontremos, y de la rutina. Viajar y conocer otras realidades es una forma agradable de hacerlo, pero también podemos apuntarnos a un taller sobre una temática de nuestro interés (cocina, libros, informática...), podemos trabajar para una ONG haciendo voluntariado, iniciar un hobby, aprender idiomas, estudiar una nueva carrera... todo ello nos expondrá a nuevas sensaciones.
+* Salir de nuestra zona de confort, del ambiente habitual en el que nos encontremos, y de la rutina. Viajar y conocer otras realidades es una forma agradable de hacerlo, pero también podemos apuntarnos a un taller sobre una temática de nuestro interés (cocina, libros, informática...), podemos trabajar para una ONG haciendo voluntariado, empezar un hobby, aprender idiomas, estudiar una nueva carrera... todo ello nos expondrá a nuevas sensaciones.
 
 * Vivir en ambientes motivadores, complejos o enriquecidos, donde sea habitual experimentar cambios y que requieran un esfuerzo mental por nuestra parte. Un trabajo retador, un círculo de amigos heterogéneo... Podremos de esta forma potenciar nuestra escucha activa, pensar sobre lo que está pasando y entrenarnos para entender su trascendencia.
 
@@ -52,7 +52,7 @@ Algunas formas de experimentar el entorno para potenciar nuestras habilidades pu
 
 * Hacer discursos y/o enseñar y formar a otros. No hay nada más potente para mantener activas nuestras capacidades cognitivas que el reto de contar a otros lo que sabemos. Es un completo ejercicio en el que debemos ordenar y comunicar con claridad y empatía los conocimientos, adaptando la comunicación a las necesidades de quienes desean aprender de nosotros e ir comprobando los avances obtenidos para adaptar nuestro discurso o continuar profundizando en la enseñanza.
 
-* Leer prensa y revistas, subscribirse a una publicación periódica, leer poesía, literatura..., escuchar música y ver teatro, buen cine y televisión, visitar museos.... La lectura, la audición y el visionado de obras culturales nos traslada a otras épocas y realidades más allá del espacio y el tiempo. Son contextos que a veces requieren madurez intelectual para ser entendidos en toda su dimensión, como ocurre con la poesía, que implica un esfuerzo intelectual no siempre al alcance de cualquiera, pues las figuras literarias empleadas y el vocabulario elegido en su construcción consiguen estrofas enigmáticas que debemos desentrañar para comprender. Un ejemplo de ello lo tienes al principio de esta entrada con los versos de Bécquer. ¿Qué es en realizad el arpa y las notas dormidas que se mencionan? ¿Qué es el genio?
+* Leer prensa y revistas, subscribirse a una publicación periódica, leer poesía, literatura..., escuchar música, asistir a obras de teatro o conciertos, ver buen cine y televisión, visitar museos.... La lectura, la audición y el visionado de obras culturales nos trasladan, más allá del espacio y el tiempo, a épocas y realidades diferentes a las que conocemos. Son contextos nuevos para nosotros que a veces requieren cierta madurez intelectual para ser entendidos en toda su dimensión, como ocurre con la poesía, que implica un esfuerzo intelectual no siempre al alcance de cualquiera, ya que las figuras literarias empleadas y el vocabulario elegido en su construcción consiguen estrofas enigmáticas que debemos desentrañar para comprender. Un ejemplo de ello lo tienes al principio de esta entrada con los versos de Bécquer. ¿Qué es en realizad el arpa y las notas dormidas que se mencionan? ¿Qué es el genio?
 
 * Practicar ejercicios, aprender a resolver problemas, aprender a programar, aprender a gestionar herramientas o recursos. Poder determinar, en una serie de pasos lógicos ordenados, los procesos necesarios para obtener un resultado o para llegar a la resolución de un problema, es un excelente entrenamiento. La programación de ordenadores puede ser retadora, pero también lo puede ser aprender a conducir, a usar una impresora 3D, la afición a los pasatiempos lógicos o numéricos, los juegos de rol, los *escape rooms*, o la búsqueda del culpable en las novelas de misterio.
 
@@ -70,7 +70,7 @@ Algunas formas de experimentar el entorno para potenciar nuestras habilidades pu
 
 * Prestar atención a los detalles. Siempre hay más información y procesos que experimentar de lo que se ve a simple vista.
 
-* Ser organizado y metódico. Ayuda a entender y relacionar mejor lo que experimentamos.
+* Ser organizado y metódico. Ayuda a entender y relacionar mejor lo que experimentamos, pero esta no es una regla que aplique a todos. A veces, del caos, también nacen las ideas.
 
 * Ser perseverante, constante y disciplinado. Es necesario para poder gestionar correctamente nuestra experimentación y no desviarnos del objetivo marcado.
 
@@ -84,11 +84,11 @@ Algunas formas de experimentar el entorno para potenciar nuestras habilidades pu
 
 ¿Por dónde empiezo? Es sencillo:
 
-1. Plantear un objetivo, una meta realista, algo que deseamos conseguir. Nuestro reto.
+1. Plantear un objetivo, una meta realista, algo que deseamos conseguir. Nuestro reto. Y valora las dificultades que te vas a encontrar.
 
-2. Planificar lo que vamos a hacer con un enfoque escalonado, con hitos progresivos, describir una serie de pasos que nos permitan cumplir nuestro objetivo adecuadamente con la suficiente flexibilidad como para adaptarnos a los cambios.
+2. Planificar lo que vamos a hacer con un enfoque escalonado, con hitos progresivos, describir una serie de pasos que nos permitan cumplir nuestro objetivo adecuadamente con la suficiente flexibilidad como para adaptarnos a los cambios, y ponte en marcha.
 
-3. Es importante poner en valor lo que se ha logrado.
+3. Evalúa si conseguiste la meta o cuan cerca estuviste de alcanzarla. Aún cuando el objetivo no se haya cumplido, es importante poner en valor lo que se ha logrado en el proceso. 
 
 Antes de acometer un reto que conlleve la mejora de nuestras habilidades cognitivas debemos tener claro que estamos preparados para ello, y que el reto no es demasiado ambicioso. Luego hay que ir paso a paso, midiendo nuestras fuerzas para dosificarlas, cambiando de rumbo si es necesario, o retirarnos a tiempo si no vimos venir los impedimentos en contra.
 
