@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/tv.png
 tags: [tv, series, películas]
 ---
 
-¿Ya acabó tu serie favorita? ¿No sabes que serie empezar a ver ahora? Te dejo mis recomendaciones.
+¿Ya acabó tu serie favorita? ¿No sabes que serie empezar a ver ahora? Te dejo mis recomendaciones sin un orden o criterio específico.
 
 Haz click en los enlaces para más información:
 
@@ -41,6 +41,7 @@ Haz click en los enlaces para más información:
 - [Black mirror](https://www.filmaffinity.com/es/film800295.html) - Netflix
 - [This is us](https://www.filmaffinity.com/es/film247198.html) - Prime Video
 - [Show me a hero](https://www.filmaffinity.com/es/film803687.html) - HBO Max
+- [La ciudad es nuestra](https://www.filmaffinity.com/es/film791111.html) - HBO Max
 - [El espía](https://www.filmaffinity.com/es/film394025.html) - Netflix
 - [Years and years](https://www.filmaffinity.com/es/film247862.html) - HBO Max
 - [Chernobyl](https://www.filmaffinity.com/es/film624827.html) - HBO Max
@@ -61,10 +62,11 @@ Haz click en los enlaces para más información:
 - [Shameless](https://www.filmaffinity.com/es/film906532.html) - Prime Video  
 - [Ted Lasso](https://www.filmaffinity.com/es/film161198.html) - Apple TV
 
-# Clásicos
+# Siglo XX
 
-- [El ala oeste de la casa blanca](https://www.filmaffinity.com/es/film757900.html) - Prime Video  
-[Los Soprano](https://www.filmaffinity.com/es/film402150.html) - HBO max  
+- [El ala oeste de la casa blanca](https://www.filmaffinity.com/es/film757900.html) - Prime Video
+- [The Wire](https://www.filmaffinity.com/es/film399474.html) - HBO Max   
+- [Los Soprano](https://www.filmaffinity.com/es/film402150.html) - HBO Max  
 - [Sí, ministro](https://www.filmaffinity.com/es/film398662.html) - Filmin  
 - [Sí, primer ministro](https://www.filmaffinity.com/es/film165657.html) - Filmin  
 - [Mad Men](https://www.filmaffinity.com/es/film596790.html) - ¿?  
