@@ -75,6 +75,7 @@ Los mejores recursos para aprender diseño y programación web.
 
 * [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
 * [Formación profesional a distancia](https://www.educacionyfp.gob.es/fpadistancia/oferta-formativa/oferta-formativa-ciclos/informatica-comunicaciones.html) - Formación Profesional oficial en España sobre Informática y comunicaciones. Listado por regiones.
+* [Apuntes Marea verde - Informática](https://www.apuntesmareaverde.org.es/)
 * [Aprender gratis](https://aprendergratis.es/) - Plataforma de búsqueda de cursos.
 * [Cibervoluntarios](https://www.cibervoluntarios.org/es) - Cursos y píldoras TIC impartidas por voluntarios.
 * [Procumún](https://procomun.intef.es/search-full?f%5B0%5D=knowledgearea_keyword%3AInform%C3%A1tica%20y%20Tecnolog%C3%ADas%20de%20la%20Informaci%C3%B3n&f%5B1%5D=knowledgearea_keyword%3ATecnolog%C3%ADas) - Red de recursos educativos en abierto. Tecnología, Informática y tecnologías de la información.

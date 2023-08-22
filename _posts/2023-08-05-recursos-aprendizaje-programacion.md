@@ -87,6 +87,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 
 * [97 cosas que todo programador debería saber](https://97cosas.com/programador/)
 * [Retos de programación](https://retosdeprogramacion.com/)
+* [Pruebas técnicas de programación](https://pruebastecnicas.com/)
 * [Fundamentos de programación](https://lenguajejs.com/fundamentos/)
 * [Introducción a la programación](https://learn.microsoft.com/es-es/training/modules/web-development-101-introduction-programming/)
 * [Programación 101](https://es.khanacademy.org/computing/ap-computer-science-principles/programming-101)
@@ -94,6 +95,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Algoritmos](https://es.khanacademy.org/computing/computer-science/algorithms)
 * [Teoría de la información](https://es.khanacademy.org/computing/computer-science/informationtheory)
 * [Los apuntes de Majo](https://losapuntesdemajo.vercel.app/)
+* [Apuntes Marea verde - Tecnología: Programación y robótica](https://www.apuntesmareaverde.org.es/)
 * [Terminal de Linux](https://terminaldelinux.com/terminal/)
 * [Aprende SQL](http://sql-easy.com/es)
 * [Git, la guía sencilla](https://rogerdudler.github.io/git-guide/index.es.html)
