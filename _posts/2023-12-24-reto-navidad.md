@@ -1,0 +1,29 @@
+---
+layout: post
+title: Reto navideño
+subtitle: Cinco ejercicios de programación muy festivos
+thumbnail-img: https://lh3.googleusercontent.com/-MBLPEfxTUqk/Vlv_Wfz2nXI/AAAAAAAAIjQ/SxqLvJmMDco/s800-Ic42/Cmas.gif
+tags: [código]
+---
+Cinco ejercicios de programación navideños de dificultad progresiva que puedes realizar en el lenguaje de programación que desees y subir a tu repositorio.
+
+![Arbolito](https://lh3.googleusercontent.com/-MBLPEfxTUqk/Vlv_Wfz2nXI/AAAAAAAAIjQ/SxqLvJmMDco/s800-Ic42/Cmas.gif){: .mx-auto.d-block :}
+
+## Ejercicios
+
+1. __¿Cuánto queda para año nuevo?__ Imprime por consola el tiempo que queda hasta el día 1 de enero. Puedes mostrar el tiempo en meses, días, horas y minutos.
+
+2. __Arbolito__. Dibuja por consola un árbol de navidad con caracteres ASCII de colores. El árbol puede ser tan completo como quieras, ser un triángulo o tener ramas de las que cuelguen objetos decorativos o generar el árbol aleatoriamente, pero siempre usando caracteres.
+
+3. __Calendario mensual__. Pide por consola un número del 1 al 12 y genera, con tu propio código, el calendario de ese mes del nuevo año. Incluye el nombre del mes, y en la fila superior del calendario pon las iniciales de los días de la semana. Para complicarlo aún más. Puedes colorear los domingos y festivos si lo deseas.
+
+4. __Amigo invisible__. Crea un programa al que le puedes facilitar una lista de nombres. El programa deberá asignar aleatoriamente el amigo invisible, y guardarlo en disco. La segunda parte del programa será para consultar. Escribiendo tu nombre recibirás por pantalla la persona a la que te ha tocado regalar.
+
+5. __To do__. Crea un programa que guarde una lista de intenciones y deseos para año nuevo y te permita listar, añadir, editar y borrar y tachar cada uno de los items de la lista. Puedes incluso usar una base de datos como respaldo.
+
+__Recuerda compartir el enlace de la solución de cada ejercicio para que otros compañeros vean el resultado y aprendan de tu solución.__
+## Bonus
+
+__Inventa__. ¡Puedes alterar el enunciado de estos ejercicios o crear tus propios ejercicios en torno a esta temática¡
+
+Felices programas
