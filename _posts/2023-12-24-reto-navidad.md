@@ -19,7 +19,7 @@ Cinco ejercicios de programación navideños de dificultad progresiva que puedes
 
 4. __Amigo invisible__. Crea un programa al que le puedes facilitar una lista de nombres. El programa deberá asignar aleatoriamente el amigo invisible, y guardarlo en disco. La segunda parte del programa será para consultar. Escribiendo tu nombre recibirás por pantalla la persona a la que te ha tocado regalar.
 
-5. __To do__. Crea un programa que guarde una lista de intenciones y deseos para año nuevo y te permita listar, añadir, editar y borrar y tachar cada uno de los items de la lista. Puedes incluso usar una base de datos como respaldo.
+5. __To do__. Crea un programa que guarde una lista de intenciones y deseos para año nuevo y te permita listar, añadir, editar, tachar y/o borrar cada uno de los items de la lista. Puedes incluso usar una base de datos como respaldo.
 
 __Recuerda compartir el enlace de la solución de cada ejercicio para que otros compañeros vean el resultado y aprendan de tu solución.__
 ## Bonus
