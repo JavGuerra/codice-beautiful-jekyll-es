@@ -21,7 +21,7 @@ Cinco ejercicios de programación navideños de dificultad progresiva que puedes
 
 5. __To do__. Crea un programa que guarde una lista de intenciones y deseos para año nuevo y te permita listar, añadir, editar, tachar y/o borrar cada uno de los items de la lista. Puedes incluso usar una base de datos como respaldo.
 
-__Recuerda compartir el enlace a la solución de cada ejercicio para que otros vean el resultado y aprendan de tu solución__.
+__Recuerda compartir el enlace al código de cada ejercicio para que otros vean el resultado y aprendan de tu solución__.
 ## Bonus
 
 __Inventa__. ¡Puedes alterar el enunciado de estos ejercicios o crear tus propios ejercicios en torno a esta temática¡
