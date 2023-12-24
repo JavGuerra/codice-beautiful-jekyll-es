@@ -11,7 +11,7 @@ Cinco ejercicios de programación navideños de dificultad progresiva que puedes
 
 ## Ejercicios
 
-1. __¿Cuánto queda para año nuevo?__ Imprime por consola el tiempo que queda hasta el día 1 de enero. Puedes mostrar el tiempo en meses, días, horas y minutos.
+1. __¿Cuánto queda para año nuevo?__ Imprime por consola el tiempo que queda hasta el día 1 de enero. Puedes mostrar el tiempo en meses, días, horas y minutos. ¿Y qué pasará si ya hemos sobrepasado la fecha? Piensa cómo resolverlo.
 
 2. __Arbolito__. Dibuja por consola un árbol de navidad con caracteres ASCII de colores. El árbol puede ser tan completo como quieras, ser un triángulo o tener ramas de las que cuelguen objetos decorativos o generar el árbol aleatoriamente, pero siempre usando caracteres.
 
