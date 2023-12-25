@@ -21,11 +21,19 @@ Pese a su corta vida comercial, salieron al mercado muchas ampliaciones de memor
 
 Aún a día de hoy los propios usuarios de QL siguen fabricando extensiones al sistema y nuevo software que rivaliza con el de otros sistemas de la época que han evolucionado desde entonces.
 
-Una curiosidad del QL es que fue un ordenador que marcó a Linus Torvalds (el creador del núcleo de Linux e impulsor de esta revolución), quien aprendió todo lo que sabía de código máquina con él.
+Una curiosidad del QL es que fue un ordenador que marcó a Linus Torvalds (el creador del núcleo de Linux e impulsor de esta revolución), [quien aprendió todo lo que sabía de código máquina con él](https://www.cyberhades.com/2010/12/02/microhistorias-linus-torvalds-tambien-conocido-como-la-persona-que-mas-partido-saco-a-un-sinclair-ql).
+
+## Mi ordenador, y la web sinclairql.es
+
+Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue mui regalo de reyes de ese año. El QL de Sinclair. Le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€). Ha sido uno de los mejores regalos de mi vida.
+
+Compré algunos libros y robé muchas horas a la madrugada junto a mi ordenador personal haciendo mis pequeños programas. Quizá por esto último aún soy un noctámbulo.
+
+El QL también ha traido consigo nuevos (ya viejos) amigos, y fue la chispa que puso en marcha un proyecto colaborativo que me ha dado muchas alegrías y muchas horas de diversión. Se trata de la web [Sinclair QL Recursos en castellano](http://sinclairql.es), que nació para ofrecer a cualquier interesado, libremente, una ingente cantidad de material, tanto software como documentación y revistas, y, poco a poco, se transformó en un sitio de reunión para que los aficionados pudiesen, a la vez, aportar lo que tenían y crecer como comunidad en torno a ella. Hoy nuestra web es un referente indispensable en la comunidad de aficionados al mundo de los ordenadores retro en general y del QL en particular en España. Su éxito es la libre participación y la colaboración solidaria. Tras la web nación [QBlog](https://sinclairqles.wordpress.com/), el blog de QL en castellano, donde aún colaboramos varias personas para reflejar la actualidad de este sistema.
 
 Poseer un QL resulta algo así como tener un pequeño pedazo de la historia de la informática personal adelantada a su tiempo, ya que 11 años antes de la aparición de Windows 95, nada tenía que envidiar a los sistemas operativos de Microsoft.
 
-Conseguir un QL hoy no es tarea fácil, si bien en ebay aparecen pujas cada dos por tres y puede intentarse obtener uno con mayor o menor 'fortuna'. Por suerte, existen emuladores para todas las plataformas y nuevas máquinas compatibles.
+Conseguir un QL hoy no es tarea fácil, si bien en Ebay aparecen pujas cada dos por tres y puede intentarse obtener uno con mayor o menor 'fortuna'. Por suerte, existen emuladores para todas las plataformas y nuevas máquinas compatibles.
 
 ## Quiero saber más
 
@@ -35,4 +43,8 @@ Conseguir un QL hoy no es tarea fácil, si bien en ebay aparecen pujas cada dos 
 * [QBlog: El blog del QL](https://sinclairqles.wordpress.com/)
 * [Emuladores del QL](https://dilwyn.qlforum.co.uk/emu/index.html)_(en inglés)_
 * [Emulador de QL en línea](https://sqlux.qlforum.co.uk/)
+* [CRASH: Cómo programar un juego sencillo en el QL paso a paso](https://sinclairqles.wordpress.com/2013/04/05/crash/)
+* [Glosario de términos y siglas dle Sinclair QL](https://sinclairqles.wordpress.com/2012/08/16/glosario-de-terminos-y-siglas-del-sinclair-ql/)
 * [Videos en Youtube sobre Sinclair QL](https://www.youtube.com/results?search_query=Sinclair+QL)
+* [QL Trivial](https://sinclairqles.wordpress.com/2009/08/02/ql-trivial/)
+* [Linux Torvals y el QL](https://sinclairqles.wordpress.com/2009/05/23/linus-torvals-y-el-ql/)
