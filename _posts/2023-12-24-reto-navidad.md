@@ -25,6 +25,6 @@ __Recuerda compartir el enlace al código de cada ejercicio en tu repositorio pa
 
 ## Bonus
 
-__Inventa__. ¡Puedes alterar el enunciado de estos a tu gusto o crear tus propios ejercicios en torno a esta temática¡
+__¡Inventa!__. Puedes alterar el enunciado de estos ejercicios a tu gusto o crear tus propios ejercicios en torno a esta temática
 
-Felices programas
+¡Felices programas!
