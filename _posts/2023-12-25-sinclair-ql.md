@@ -30,7 +30,7 @@ Conseguir un QL hoy no es tarea fácil, si bien en ebay aparecen pujas cada dos 
 ## Quiero saber más
 
 * [Sinclair QL en Wikipedia](https://es.wikipedia.org/wiki/Sinclair_QL)
-* *[Ventajas del SuperBASIC](https://sinclairql.speccy.org/articulos/programacion/superbasic.htm)
+* [Ventajas del SuperBASIC](https://sinclairql.speccy.org/articulos/programacion/superbasic.htm)
 * [Web Siclair QL Recursos en Castellano](https://sinclairql.es)
 * [QBlog: El blog del QL](https://sinclairqles.wordpress.com/)
 * [Emuladores del QL](https://dilwyn.qlforum.co.uk/emu/index.html)_(en inglés)_
