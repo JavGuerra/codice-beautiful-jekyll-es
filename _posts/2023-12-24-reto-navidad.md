@@ -15,15 +15,16 @@ Cinco ejercicios de programación navideños de dificultad progresiva que puedes
 
 2. __Arbolito__. Dibuja por consola un árbol de navidad con caracteres ASCII de colores. El árbol puede ser tan completo como quieras, ser un triángulo o tener ramas de las que cuelguen objetos decorativos o generar el árbol aleatoriamente, pero siempre usando caracteres.
 
-3. __Calendario mensual__. Pide por consola un número del 1 al 12 y genera, con tu propio código, el calendario de ese mes del nuevo año. Incluye el nombre del mes, y en la fila superior del calendario pon las iniciales de los días de la semana. Para complicarlo aún más. Puedes colorear los domingos y festivos si lo deseas.
+3. __Calendario mensual__. Pide por consola un número del 1 al 12 y genera, con tu propio código, el calendario de ese mes del nuevo año. Incluye el nombre del mes, y en la fila superior del calendario pon las iniciales de los días de la semana. Para complicarlo aún más, puedes colorear los domingos y festivos si lo deseas.
 
-4. __Amigo invisible__. Crea un programa al que le puedes facilitar una lista de nombres. El programa deberá asignar aleatoriamente el amigo invisible, y guardarlo en disco. La segunda parte del programa será para consultar. Escribiendo tu nombre recibirás por pantalla la persona a la que te ha tocado regalar.
+4. __Amigo invisible__. Crea un programa al que le puedes facilitar una lista de nombres. El programa deberá asignar aleatoriamente el amigo invisible, y guardar el resultado. La segunda parte del programa será para consultar. Escribiendo tu nombre recibirás por pantalla la persona a la que te ha tocado regalar.
 
 5. __To do__. Crea un programa que guarde una lista de intenciones y deseos para año nuevo y te permita listar, añadir, editar, tachar y/o borrar cada uno de los items de la lista. Puedes incluso usar una base de datos como respaldo.
 
-__Recuerda compartir el enlace al código de cada ejercicio para que otros vean el resultado y aprendan de tu solución__.
+__Recuerda compartir el enlace al código de cada ejercicio en tu repositorio para que otros vean el resultado y aprendan de tu solución__.
+
 ## Bonus
 
-__Inventa__. ¡Puedes alterar el enunciado de estos ejercicios o crear tus propios ejercicios en torno a esta temática¡
+__Inventa__. ¡Puedes alterar el enunciado de estos a tu gusto o crear tus propios ejercicios en torno a esta temática¡
 
 Felices programas
