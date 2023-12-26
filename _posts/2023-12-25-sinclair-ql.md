@@ -34,7 +34,7 @@ Una curiosidad del QL es que fue un ordenador que marcó a Linus Torvalds (el cr
 
 ## Mi ordenador, y la web sinclairql.es
 
-Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue mui regalo de reyes de ese año. El QL de Sinclair. Le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€). Ha sido uno de los mejores regalos de mi vida.
+Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue mi regalo de reyes de ese año. El QL de Sinclair. Le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€). Ha sido uno de los mejores regalos de mi vida.
 
 Compré algunos libros y robé muchas horas a la madrugada junto a mi ordenador personal haciendo mis pequeños programas. Quizá por esto último aún soy un noctámbulo.
 
