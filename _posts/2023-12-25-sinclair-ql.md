@@ -13,11 +13,11 @@ El QL era una ordenador repleto de buenas ideas, que contaba, entre otras cosas,
 
 En España fue Investrónica la encargada de la distribución del QL, y así mismo de la traducción de la extensa documentación del usuario, la ROM, y los cuatro programas de gestión (procesador de textos, hoja de cálculo, base de datos y programa de gráficos de empresa) de la casa PSION que se 'regalaban' con la compra.
 
-La aceptación de este ordenador por parte de los usuarios fue razonable, llegando a tener un buen nivel de ventas, pese a sufrir ciertos problemas técnicos en su lanzamiento que impidieron disponer de modelos completamente acabados hasta bien entrado abril de ese año, generando cierto recelo en la adquisición de este producto.
+La aceptación de este ordenador por parte de los usuarios fue razonable, llegando a tener un buen nivel de ventas, pese a sufrir ciertos problemas técnicos en su lanzamiento que impidieron disponer de modelos completamente acabados hasta varios meses después de ser anunciado, generando cierto recelo en la adquisición de este producto.
 
-Dicho asunto, unido a las circunstancias económicas por las que pasaba Sinclair tras las pérdidas de capital invertido en proyectos como el TV80 (un tipo de televisor en miniatura), y el C5 (un modelo de coche eléctrico), pusieron en bandeja a la empresa Amstrad la adquisición de todos los derechos de distribución y venta de las máquinas Sinclair dos años después, en 1986, cerrando definitivamente las puertas al QL, que era, sin duda alguna, un competidor directo de los CPC 6128 y PCW 8256 de la compañía de Alan Sugar.
+Dicho asunto, unido a las circunstancias económicas por las que pasaba Sinclair tras las pérdidas de capital invertido en proyectos como el TV80 (un tipo de televisor en miniatura), y el C5 (un modelo de coche eléctrico), pusieron en bandeja a la empresa rival, Amstrad, la adquisición de todos los derechos de distribución y venta de las máquinas Sinclair dos años después, en 1986, cerrando definitivamente las puertas al QL, que era, sin duda alguna, un competidor directo de los CPC 6128 y PCW 8256 de la competencia.
 
-Pese a su corta vida comercial, salieron al mercado muchas ampliaciones de memoria, controladoras de disco y otros periféricos, e incluso se llegaron a crear algunos clones, como el Thor de CST, o el OPD de ICL. El mercado del software no fue tan fructífero, cosa que el tiempo se ha ocupado de corregir,
+Pese a su corta vida comercial, salieron al mercado muchas ampliaciones de memoria, controladoras de disco y otros periféricos, e incluso se llegaron a crear algunos clones, como el [Thor](https://sinclairqles.wordpress.com/2010/01/17/cst-thor-un-clon-del-sinclair-ql/) de CST, o el [OPD](https://sinclairqles.wordpress.com/2012/09/04/icl-one-per-desk-merlin-tonto-y-computerphone/) de ICL. El mercado del software no fue tan fructífero, cosa que el tiempo se ha ocupado de corregir,
 
 Aún a día de hoy los propios usuarios de QL siguen fabricando extensiones al sistema y nuevo software que rivaliza con el de otros sistemas de la época que han evolucionado desde entonces.
 
@@ -34,15 +34,13 @@ Una curiosidad del QL es que fue un ordenador que marcó a Linus Torvalds (el cr
 
 ## Mi ordenador, y la web sinclairql.es
 
-Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue mi regalo de reyes de ese año. El QL de Sinclair. Le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€). Ha sido uno de los mejores regalos de mi vida.
+Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue el regalo de reyes de ese año que le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€, y ha sido uno de los mejores regalos de mi vida.
 
-Compré algunos libros y robé muchas horas a la madrugada junto a mi ordenador personal haciendo mis pequeños programas. Quizá por esto último aún soy un noctámbulo.
+Compré algunos libros y robé horas al sueño en las madrugadas junto a mi ordenador personal, haciendo mis pequeños programas.
 
-El QL también ha traido consigo nuevos (ya viejos) amigos, y fue la chispa que puso en marcha un proyecto colaborativo que me ha dado muchas alegrías y muchas horas de diversión. Se trata de la web [Sinclair QL Recursos en castellano](http://sinclairql.es), que nació para ofrecer a cualquier interesado, libremente, una ingente cantidad de material, tanto software como documentación y revistas, y, poco a poco, se transformó en un sitio de reunión para que los aficionados pudiesen, a la vez, aportar lo que tenían y crecer como comunidad en torno a ella. Hoy nuestra web es un referente indispensable en la comunidad de aficionados al mundo de los ordenadores retro en general y del QL en particular en España. Su éxito es la libre participación y la colaboración solidaria. Tras la web nación [QBlog](https://sinclairqles.wordpress.com/), el blog de QL en castellano, donde aún colaboramos varias personas para reflejar la actualidad de este sistema.
+El QL también ha traído consigo nuevos (ya viejos) amigos, y fue la chispa que puso en marcha un proyecto colaborativo que me ha dado muchas alegrías y muchas horas de diversión. Se trata de la web [Sinclair QL Recursos en castellano](http://sinclairql.es), que nació para ofrecer a cualquier interesado, libremente, una ingente cantidad de material, tanto software como documentación y revistas, y, poco a poco, se transformó en un sitio de reunión para que los aficionados pudiesen, a la vez, aportar lo que tenían y crecer como comunidad en torno a ella. Hoy nuestra web es un referente indispensable en la comunidad de aficionados al mundo de los ordenadores retro en general y del QL en particular en España. Su éxito es la libre participación y la colaboración solidaria. Tras la web estática nació [QBlog](https://sinclairqles.wordpress.com/), el blog de QL en castellano, donde aún colaboramos varias personas para reflejar la actualidad de este sistema.
 
-Poseer un QL resulta algo así como tener un pequeño pedazo de la historia de la informática personal adelantada a su tiempo, ya que 11 años antes de la aparición de Windows 95, nada tenía que envidiar a los sistemas operativos de Microsoft.
-
-Conseguir un QL hoy no es tarea fácil, si bien en Ebay aparecen pujas cada dos por tres y puede intentarse obtener uno con mayor o menor 'fortuna'. Por suerte, existen emuladores para todas las plataformas y nuevas máquinas compatibles.
+Poseer un QL resulta algo así como tener un pequeño pedazo de la historia de la informática personal adelantada a su tiempo. Conseguir un QL hoy no es tarea fácil, si bien en Ebay aparecen pujas cada dos por tres y puede intentarse obtener uno con mayor o menor 'fortuna'. Por suerte, existen emuladores para todas las plataformas y nuevas máquinas compatibles.
 
 ## Quiero saber más
 
