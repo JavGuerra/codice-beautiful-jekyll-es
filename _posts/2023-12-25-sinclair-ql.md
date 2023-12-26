@@ -23,6 +23,15 @@ Aún a día de hoy los propios usuarios de QL siguen fabricando extensiones al s
 
 Una curiosidad del QL es que fue un ordenador que marcó a Linus Torvalds (el creador del núcleo de Linux e impulsor de esta revolución), [quien aprendió todo lo que sabía de código máquina con él](https://www.cyberhades.com/2010/12/02/microhistorias-linus-torvalds-tambien-conocido-como-la-persona-que-mas-partido-saco-a-un-sinclair-ql).
 
+| Lo bueno | Lo no tan bueno |
+| --- | --- |
+| Precio económico | Microdrives problemáticos. Necesidad de otros sistemas de almacenamiento |
+| Posibilidad de expansión | Necesidad de expansión de memoria para que sea aprovechable |
+| Lenguaje SuperBASIC potente | Mala calidad del sistema de sonido |
+| Sistema Operativo QDOS multitarea | Tacto del teclado poco profesional |
+| Software de PSION | Poco software comercial a la venta |
+
+
 ## Mi ordenador, y la web sinclairql.es
 
 Conseguí mi QL ya en liquidación en el Corte Inglés en 1986. Fue mui regalo de reyes de ese año. El QL de Sinclair. Le costó a mi madre 15.000 [Pesetas](http://es.wikipedia.org/wiki/Peseta) de la época (unos 90€). Ha sido uno de los mejores regalos de mi vida.
