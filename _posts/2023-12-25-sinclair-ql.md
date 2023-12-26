@@ -50,10 +50,10 @@ Conseguir un QL hoy no es tarea fácil, si bien en Ebay aparecen pujas cada dos 
 * [Ventajas del SuperBASIC](https://sinclairql.speccy.org/articulos/programacion/superbasic.htm)
 * [Web Siclair QL Recursos en Castellano](https://sinclairql.es)
 * [QBlog: El blog del QL](https://sinclairqles.wordpress.com/)
-* [Emuladores del QL](https://dilwyn.qlforum.co.uk/emu/index.html)_(en inglés)_
+* [Emuladores del QL](https://dilwyn.qlforum.co.uk/emu/index.html) _(en inglés)_
 * [Emulador de QL en línea](https://sqlux.qlforum.co.uk/)
 * [CRASH: Cómo programar un juego sencillo en el QL paso a paso](https://sinclairqles.wordpress.com/2013/04/05/crash/)
-* [Glosario de términos y siglas dle Sinclair QL](https://sinclairqles.wordpress.com/2012/08/16/glosario-de-terminos-y-siglas-del-sinclair-ql/)
+* [Glosario de términos y siglas del Sinclair QL](https://sinclairqles.wordpress.com/2012/08/16/glosario-de-terminos-y-siglas-del-sinclair-ql/)
 * [Videos en Youtube sobre Sinclair QL](https://www.youtube.com/results?search_query=Sinclair+QL)
 * [QL Trivial](https://sinclairqles.wordpress.com/2009/08/02/ql-trivial/)
 * [Linux Torvals y el QL](https://sinclairqles.wordpress.com/2009/05/23/linus-torvals-y-el-ql/)
