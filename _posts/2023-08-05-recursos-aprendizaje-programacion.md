@@ -3,7 +3,7 @@ layout: post
 title: Aprende Programación en línea
 subtitle: Recursos formativos gratuitos y en español
 thumbnail-img: /assets/img/estudios.png
-tags: [formación, ]
+tags: [formación]
 ---
 
 Este post es un compendio de recursos formativos gratuitos, en español y en línea, para aprender sobre programación. No es una guía detallada por materias o áreas o que siga un criterio de idoneidad específico.
