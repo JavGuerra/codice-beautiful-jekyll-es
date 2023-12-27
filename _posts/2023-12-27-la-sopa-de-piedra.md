@@ -19,15 +19,15 @@ Leí con interés la ayuda (en inglés) del programa, y a duras penas pude enten
 
 [Este era el relato](http://www.nahee.com/spanky/www/fractint/stone_soup.html) (_enlace roto_) que podía leerse, y aquí os dejo uno ya traducido:
 
->En un pequeño pueblo, una mujer se llevó una gran sorpresa al ver que había llamado a su puerta un extraño, correctamente vestido, que le pedía algo de comer.
+> En un pequeño pueblo, una mujer se llevó una gran sorpresa al ver que había llamado a su puerta un extraño, correctamente vestido, que le pedía algo de comer.
 >
->-Lo siento-, dijo ella, -pero ahora mismo no tengo nada en casa-.
+> -Lo siento-, dijo ella, -pero ahora mismo no tengo nada en casa-.
 >
 > -No se preocupe-, dijo amablemente el extraño: -Tengo una piedra de sopa en mi cartera; si usted me permitiera echarla en un puchero de agua hirviendo, yo haría la mas exquisita sopa del mundo. Un puchero muy grande, por favor-.
 >
 > A la mujer le pico la curiosidad, puso el puchero al fuego y fue a contar el secreto a sus vecinas. Cuando el agua rompió a hervir, todo el vecindario se había reunido allí para ver al extraño y su piedra de sopa. El extraño dejó caer la piedra en el agua, luego probó una cucharada con verdadera delectación y exclamó -¡Deliciosa! Lo único que necesita es unas cuantas patatas-.
 >
->-¡Yo tengo algunas en mi cocina!-, grito una mujer. Y en pocos minutos regresó con una gran fuente de patatas que fueron derechas al puchero. El extraño volvió a probar el brebaje, y añadió pensativo: -Si tuviésemos un poco de carne, haríamos un cocido de lo más apetitoso…-
+> -¡Yo tengo algunas en mi cocina!-, grito una mujer. Y en pocos minutos regresó con una gran fuente de patatas que fueron derechas al puchero. El extraño volvió a probar el brebaje, y añadió pensativo: -Si tuviésemos un poco de carne, haríamos un cocido de lo más apetitoso…-
 >
 > Otra ama de casa salió zumbando y regresó con un gran pedazo de carne que el extraño, tras aceptarlo cortésmente, introdujo en el puchero. Cuando volvió a probar el caldo, puso los ojos en blanco y dijo: -¡Ah, que sabroso! Pero si tuviésemos unas pocas verduras sería perfecto…-.
 >
