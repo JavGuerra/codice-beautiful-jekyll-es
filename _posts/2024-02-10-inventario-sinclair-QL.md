@@ -1,7 +1,7 @@
 ---
 layout: post
-title: La sopa de piedra
-subtitle: Una fábula en torno al trabajo colaborativo
+title: Inventario Sinclair QL
+subtitle: Mi colección retro
 thumbnail-img: https://sinclairql.speccy.org/qlinex/fondos/retroql.jpg
 tags: [retro, SinclairQL]
 ---
