@@ -3,7 +3,7 @@ layout: post
 title: Sinclair QL
 subtitle: Un ordenador profesional alternativo de 1984
 thumbnail-img: https://sinclairql.speccy.org/otros/anuncio.jpg
-tags: [retro]
+tags: [retro, SinclairQL]
 ---
 Un 12 de enero de 1984 fue el alumbramiento del [Sinclair QL](https://es.wikipedia.org/wiki/Sinclair_QL) (Quantum Leap), una máquina novedosa y el intento de Sir Clive, fundador de la compañía, de crear un ordenador potente y avanzado, orientado al mercado semi-profesional y a un precio de risa para entonces (399£), anticipándose y siendo capaz de competir de igual a igual con las máquinas de 16 bits que empezarían a aparecer poco después.
 
