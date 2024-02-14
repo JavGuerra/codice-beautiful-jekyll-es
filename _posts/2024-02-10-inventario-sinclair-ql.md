@@ -10,7 +10,9 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
-# Hardware
+# Sinclair QL
+
+## Hardware
 
 - QL teclado inglés, versión ROM AH, serie: D09-014922 - operativo
 - QL teclado español, versión ROM MGE, serie D14-078592 - operativo
@@ -24,14 +26,48 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - QFLP for Micro P Disc v1.15, 85504 bytes libres
 - Disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas
 - Monitor Vision QL
+- 2 x conversor VGA
 - 4 x fuente de alimentación (una con conector inglés)
 - 54 x Microdrives
+- Joystick
+- Cable conversor joystick
 
-# Cables
+## Cables
 
 - Cable DIN a Euroconector
 - 2 x Conversor QL-VGA
 - Cable conversor de Joystick
+
+## Buscado
+
+- 2 chips Hermes
+- Qubide de José Leandro, con ampliación de memoria
+- QLUB
+- QIMSI + ratón + carcasa
+- Ampliación RAM 512 de Álvaro Alea
+- Minerva TK2 de Álvaro Alea
+- 2 carcasas para conversor VGA
+- 2 tornillos pequeños del chasis
+- 2 cables de antena originales o recomendados
+- 2 cables de red originales o recomendados
+- Ratón serie
+- Reparación Starmouse
+- Reparación cable QL a Euroconector
+- Transform box para microdrives
+- Caja original y corchos
+- Romdisq
+- QL Alemán + teclado español
+
+# Inves Spectrum+
+
+## Hardware
+
+- Inves Spectrum+
+- Fuente alimentación
+- Cable antena
+- Joystick
+- Dandanator Mini 1.0 sin conector de joystick, con carcasa
+
 
 
 
