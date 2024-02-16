@@ -14,11 +14,11 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 ## Hardware
 
-- QL teclado inglés, versión ROM AH, serie: D09-014922 - operativo
-- QL teclado español, versión ROM MGE, serie D14-078592 - operativo
-- QL teclado español, versión ROM MGE, con nuevo disipador RECOM R-78B5.0-1.5, reparado por José Leandro, febrero de 2024
-- QL teclado mecánico Schön inglés, versión ROM Minerva, con nuevo disipador RECOM R-78B5.0-1.5, reparado por José Leandro, febrero de 2024
-- 2 chips de ROM sustituidos por Minerva
+- QL teclado inglés, ROM AH, serie D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön - operativo
+- QL teclado español, ROM MGE, serie D14-078592 - operativo
+- QL teclado español, ROM MGE, con nuevo disipador RECOM R-78B5.0-1.5, reparado por José Leandro, febrero de 2024
+- QL teclado mecánico Schön inglés, ROM Minerva, con nuevo disipador RECOM R-78B5.0-1.5, reparado por José Leandro, febrero de 2024
+- 2 chips de ROM que fueron sustituidos por Minerva
 - Cartucho ROM, TK2 and RAMdisk installed
 - Qubide 1,52
 - TrumpCard 1 QubbeSoft P/D v2.00, 896K, Care/QJump 2.26, 857088 bytes libres
