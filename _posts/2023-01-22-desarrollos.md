@@ -13,13 +13,13 @@ A lo largo de los años he colaborado con algunas ONGs o he creado estas y me he
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
-## Tecnología
-
 * __Códice__ (_esta web_) (2022-actualidad)   
 [https://javguerra.github.io/](https://javguerra.github.io/)  
 Página con contenidos sobre mis aprendizajes en desarrollo web y otras cuestiones tecnológicas.  
 Tecnologías: Jekyll, beautiful Jekyll, Markdown
- 
+
+## Tecnología retro
+
 * __Sinclair QL Recursos en Castellano__ (2002-2010)  
 [https://sinclairql.es](https://sinclairql.es)  
 Web con recursos documentales donados por varios colaboradores sobre el ordenador de los 80: Sinclair QL.  
@@ -29,6 +29,21 @@ Tecnologías: HTML + CSS compatible con navegadores antiguos (usa frames)
 [https://sinclairqles.wordpress.com/](https://sinclairqles.wordpress.com/)  
 Blog implantado sobre el Sinclair QL que gestiono junto con Afx y Zerover.  
 Tecnología: Wordpress CMS
+
+* __Paquete QL-ES__ (2024)  
+[https://javguerra.github.io/QL_ES_pack/](https://javguerra.github.io/QL_ES_pack/)  
+Paquete de supervivencia para QL en español. Contiene una recopilación de recursos y utilidades básicas para Sinclair QL para quienes han adquirido un QL y se quieren poner manos a la obra.  
+Tecnologías: HTML + CSS + JavaScript Vanilla  
+
+* __QL SCR Viewer__ (2024)  
+[https://javguerra.github.io/qlscrview/](https://javguerra.github.io/qlscrview/)  
+Esta aplicación carga y muestra pantallas clásicas de la computadora Sinclair QL. 
+Tecnologías: HTML + CSS + JavaScript Vanilla   
+
+* __Sinclair QL Menú__ (2008)  
+[https://github.com/JavGuerra/Sinclair-QL-menu](https://github.com/JavGuerra/Sinclair-QL-menu)  
+Menú de arranque multipropósito y configurable para lanzar aplicaciones en el Sinclair QL facilmente.  
+Tecnologías: SuperBASIC  
 
 ## Antiguas
 
@@ -52,7 +67,7 @@ Tecnologías: HTML + CSS
 Página de una de las actividades desarrolladas en el Taller de Arte por ordenador en el MEIAC. [Más info]({% post_url 2022-05-15-el-cadaver-exquisito %}).  
 Tecnologías: HTML + CSS + JavaScript Vanilla
 
-## Otros
+## EPOF
 
 * __Conectiva__ (2020-actualidad)  
 [https://conectiva.lat](https://conectiva.lat)  
