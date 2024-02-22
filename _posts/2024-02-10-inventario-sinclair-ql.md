@@ -21,26 +21,32 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - 2 chips de ROM que fueron sustituidos por Minerva
 - Cartucho "ROM, TK2 and RAMdisk installed"
 - Qubide 1,52
-- Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL y QUBATA, 582656 bytes libres
+- Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL / QUBATA, 582656 bytes libres
 - TrumpCard 1 QubbeSoft P/D v2.00, 896K, Care/QJump 2.26, 857088 bytes libres
 - GoldCard v2.49, 1879552 bytes libres
 - QFLP for Micro P Disc v1.15, 85504 bytes libres
 - Disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas
 - Monitor Vision QL
-- 2 x conversor VGA
 - 4 x fuente de alimentación (una con conector inglés)
-- 54 x Microdrives
 - Joystick
-- Cable conversor joystick
+- Ratón StarMouse
 
-## Cables
+## Accesorios
 
+- Cable conversor de Joystick
+- 3 x calbes conectores serie
+- 2 x conversores serie-paralelo
+- 2 x adaptadores serie
 - Cable DIN a Euroconector
 - 2 x Conversor QL-VGA
-- Cable conversor de Joystick
+- 54 x Microdrives
+- Ratón serie
 
 ## Buscado
 
+- Ratón serie
+- Necesidad de reparación de ratón Starmouse
+- Necesidad de reparación o sustitución de cable QL a Euroconector
 - 2 chips Hermes
 - QLUB
 - QIMSI + ratón + carcasa
@@ -49,11 +55,8 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - 2 carcasas para conversor VGA
 - 2 cables de antena originales o recomendados
 - 2 cables de red originales o recomendados
-- Ratón serie
-- Reparación Starmouse
-- Reparación cable QL a Euroconector
 - Caja "Transform box" para microdrives
-- Caja original y corchos
+- Caja original de QL y corchos
 - RomDisq
 - QL Alemán + teclado español
 
