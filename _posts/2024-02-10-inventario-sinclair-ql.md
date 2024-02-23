@@ -48,6 +48,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - Ratón serie.
 - Necesidad de reparación de ratón StarMouse.
 - Necesidad de reparación o sustitución de cable QL a Euroconector.
+- Necesidad de reparación cable QL-VGA.
 - 2 chips Hermes.
 - QLUB.
 - QIMSI + ratón + carcasa.
