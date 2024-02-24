@@ -12,6 +12,10 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 # Sinclair QL
 
+## Configuraciones habituales
+
+- QL español con GoldCard y doble unidad lectora de disquetes.
+
 ## Hardware
 
 - QL teclado inglés, ROM AH, ISS 5, D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön.
@@ -26,7 +30,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - TrumpCard v1 "QubbeSoft P/D v2.00, 896K, Care/QJump 2.26", 857088 bytes libres.
 - "GoldCard v2.49", 1879552 bytes libres.
 - "QFLP for Micro P Disc v1.15", 85504 bytes libres.
-- Unidad de dos disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas.
+- Doble unidad de disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas.
 - 2 disqueteras de MicroPeriferals no operativas.
 - Monitor Vision QL.
 - 4 x fuente de alimentación (una con conector inglés).
