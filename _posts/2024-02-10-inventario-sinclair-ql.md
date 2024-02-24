@@ -16,8 +16,8 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 - QL teclado inglés, ROM AH, ISS 5, serie D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön - operativo.
 - QL teclado español, ROM MGE, ISS 6, serie D14-078592 - operativo.
-- QL teclado español, ROM MGE, ISS 6, serie D14-085687 - operativo - con nuevo disipador RECOM R-78B5.0-1.5. Reparado por J.L. en 2024-02.
-- QL teclado mecánico Schön, ISS 6, serie D14-081581 - operativo - ROM Minerva 1.98, serie 3878, con nuevo disipador RECOM R-78B5.0-1.5. Reparado por J.L. en 2024-02.
+- QL teclado español, ROM MGE, ISS 6, serie D14-085687 - operativo - con nuevo disipador RECOM R-78B5.0-1.5. Reparado en 2024-02.
+- QL teclado mecánico Schön, ISS 6, serie D14-081581 - operativo - ROM Minerva 1.98, serie 3878, con nuevo disipador RECOM R-78B5.0-1.5. Reparado en 2024-02.
 - 2 chips de ROM JM, que fueron sustituidos por Minerva.
 - 2 reguladores sustituidos.
 - Cartucho "ROM, TK2 and RAMdisk installed".
