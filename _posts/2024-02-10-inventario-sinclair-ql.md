@@ -14,14 +14,15 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 ## Configuraciones habituales
 
-- QL español con GoldCard y doble unidad lectora de disquetes.
+- QL teclado mecánico con Gold Card, Minerva y doble unidad de disqueteras externas.
+- QL teclado español con Qubide y doble unidad lectora de disquetes.
 
 ## Hardware
 
 - QL teclado inglés, ROM AH, ISS 5, D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön.
 - QL teclado español, ROM MGE, ISS 6, D14-078592.
-- QL teclado español, ROM MGE, ISS 6, D14-085687 - con nuevo disipador RECOM R-78B5.0-1.5. Reparado 2024-02.
-- QL teclado mecánico Schön inglés, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878, con nuevo disipador RECOM R-78B5.0-1.5. Reparado 2024-02.
+- QL teclado español, ROM MGE, ISS 6, D14-085687 - Reparado 2024-02.
+- QL teclado mecánico Schön inglés, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
 - 2 chips de ROM JM, que fueron sustituidos por Minerva.
 - 2 disipadores con 7805 sustituidos.
 - Cartucho "ROM, TK2 and RAMdisk installed".
@@ -40,13 +41,16 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 ## Accesorios
 
 - Cable conversor de Joystick.
-- 3 x calbes conectores serie.
-- 2 x conversores serie-paralelo.
+- 3 x cables conectores serie.
 - 2 x adaptadores serie.
+- 2 x conversores serie-paralelo.
+- 2 x cable de red QL.
+- 2 x cable antena TV.
 - Cable DIN a Euroconector.
 - 2 x Conversor QL-VGA.
 - 54 x Microdrives.
 - Ratón serie.
+- 2 x disipador RECOM R-78B5.0-1.5.
 
 ## Buscado
 
@@ -55,6 +59,10 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - Reparación o sustitución de cable QL a Euroconector.
 - Reparación de ratón StarMouse.
 - Reparación de dos disqueteras MicroPeriferals.
+- 2 Tetroid QL Power
+- Tetroid ROM swicher
+- Tetroid Gold Card battery suply
+- MOD disk
 - 2 chips Hermes.
 - QLUB.
 - QIMSI.
