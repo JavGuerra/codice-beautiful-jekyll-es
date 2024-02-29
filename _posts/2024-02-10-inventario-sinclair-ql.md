@@ -15,17 +15,17 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 ## Configuraciones habituales
 
 - QL teclado mecánico inglés con Gold Card, Minerva y doble unidad de disqueteras externas.
-- QL teclado español con Qubide y doble unidad lectora de disquetes.
+- QL teclado español con Qubide+512Kb.
 
 ## Hardware
+
+ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=coleccion)
 
 - QL teclado inglés, ROM AH, ISS 5, D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön.
 - QL teclado español, ROM MGE, ISS 6, D14-078592.
 - QL teclado español, ROM MGE, ISS 6, D14-085687 - Reparado 2024-02.
-- QL teclado mecánico inglés, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
-- 2 chips de ROM JM, que fueron sustituidos por Minerva.
-- Teclado mecánico Schön inglés sustituto, serie 700929.
-- 2 disipadores con reguladores 7805 sustituidos.
+- QL teclado inglés mecánico, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
+- Teclado mecánico Schön inglés sustituto, instalado el QL, serie 700929.
 - Cartucho "ROM, TK2 and RAMdisk installed".
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL/QUBATA, 582656 bytes libres.
@@ -47,15 +47,16 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - 2 x conversores serie-paralelo.
 - 2 x cable de red QL.
 - 2 x cable antena TV.
-- Cable DIN a Euroconector.
+- Cable video DIN a Euroconector.
 - 2 x Conversor QL-VGA.
 - 54 x Microdrives.
-- Ratón serie.
-- 2 x disipador RECOM R-78B5.0-1.5.
+- Ratón serie Genius tres botones.
+- 2 chips de ROM JM, que fueron sustituidos por Minerva.
+- 2 disipadores con reguladores 7805 sustituidos.
+- 2 x convertidores RECOM R-78B5.0-1.5.
 
 ## Buscado
 
-- Ratón serie.
 - Reparación cable QL-VGA.
 - Reparación o sustitución de cable QL a Euroconector.
 - Reparación de ratón StarMouse.
@@ -75,6 +76,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - Cartucho ROM TK2 de Zerover.
 - 2 cables de antena originales o recomendados.
 - 2 cables de red originales o recomendados.
+- Ratón serie dos botones.
 
 Y tal vez...
 - Caja "Transform box" para microdrives.
