@@ -14,7 +14,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 ## Configuraciones habituales
 
-- QL teclado mecánico con Gold Card, Minerva y doble unidad de disqueteras externas.
+- QL teclado mecánico inglés con Gold Card, Minerva y doble unidad de disqueteras externas.
 - QL teclado español con Qubide y doble unidad lectora de disquetes.
 
 ## Hardware
@@ -22,9 +22,10 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - QL teclado inglés, ROM AH, ISS 5, D09-014922 - IPC2 8749 sustituido por FP1162 para teclados Schön.
 - QL teclado español, ROM MGE, ISS 6, D14-078592.
 - QL teclado español, ROM MGE, ISS 6, D14-085687 - Reparado 2024-02.
-- QL teclado mecánico Schön inglés, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
+- QL teclado mecánico inglés, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
 - 2 chips de ROM JM, que fueron sustituidos por Minerva.
-- 2 disipadores con 7805 sustituidos.
+- Teclado mecánico Schön inglés sustituto, serie 700929.
+- 2 disipadores con reguladores 7805 sustituidos.
 - Cartucho "ROM, TK2 and RAMdisk installed".
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL/QUBATA, 582656 bytes libres.
