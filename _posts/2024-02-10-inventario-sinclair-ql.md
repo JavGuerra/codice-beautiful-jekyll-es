@@ -71,6 +71,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 - 2 carcasas para conversor VGA.
 - Ampliación RAM 512 de Álvaro Alea.
 - Minerva RTC MK2 de Álvaro Alea.
+- Cartucho ROM TK2 de Zerover.
 - 2 cables de antena originales o recomendados.
 - 2 cables de red originales o recomendados.
 
