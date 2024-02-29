@@ -28,7 +28,7 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - Teclado mecánico Schön inglés sustituto, instalado el QL, serie 700929.
 - Cartucho "ROM, TK2 and RAMdisk installed".
 - QIMSI + tarjeta micro-SD, "QIMSI Logic 0.98 Driver 1.10".
-- Ratón para QIMSI con adaptador.
+- Ratón para QIMSI marca CHERRY, 2 botones + rueda (sin uso), con adaptador.
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL/QUBATA, 582656 bytes libres.
 - "GoldCard v2.49", 1879552 bytes libres.
