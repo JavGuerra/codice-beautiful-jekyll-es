@@ -14,7 +14,7 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 ## Configuraciones habituales
 
-- QL teclado mecánico inglés con Gold Card, Minerva y doble unidad de disqueteras externas.
+- QL teclado mecánico inglés con Gold Card, Minerva, QIMSI, ratón, y doble unidad de disqueteras externas.
 - QL teclado español con Qubide+512Kb.
 
 ## Hardware
@@ -27,10 +27,12 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - QL teclado inglés mecánico, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
 - Teclado mecánico Schön inglés sustituto, instalado el QL, serie 700929.
 - Cartucho "ROM, TK2 and RAMdisk installed".
+- QIMSI + tarjeta micro-SD, "QIMSI Logic 0.98 Driver 1.10".
+- Ratón para QIMSI con adaptador.
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL/QUBATA, 582656 bytes libres.
-- TrumpCard v1 "QubbeSoft P/D v2.00, 896K, Care/QJump 2.26", 857088 bytes libres.
 - "GoldCard v2.49", 1879552 bytes libres.
+- TrumpCard v1 "QubbeSoft P/D v2.00, 896K, Care/QJump 2.26", 857088 bytes libres.
 - "QFLP for Micro P Disc v1.15", 85504 bytes libres.
 - Doble unidad de disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas.
 - 2 disqueteras de MicroPeriferals no operativas.
@@ -54,24 +56,19 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - 2 chips de ROM JM, que fueron sustituidos por Minerva.
 - 2 disipadores con reguladores 7805 sustituidos.
 - 2 x convertidores RECOM R-78B5.0-1.5.
+- Adaptador ratón USB-PS2 (venía con ratón USB para QIMSI).
 
 ## Buscado
 
-- Reparación cable QL-VGA.
-- Reparación o sustitución de cable QL a Euroconector.
-- Reparación de ratón StarMouse.
-- Reparación de dos disqueteras MicroPeriferals.
-- 2 Tetroid QL Power
-- Tetroid ROM swicher
-- Tetroid Gold Card battery suply
-- MOD disk
+- 2 Tetroid QL Power.
+- Tetroid ROM swicher.
+- Tetroid Gold Card battery suply.
+- MOD disk + cable alimentación.
 - 2 chips Hermes.
 - QLUB.
-- QIMSI.
-- Ratón QIMSI con adaptador.
 - Carcasa QIMSI.
 - 2 carcasas para conversor VGA.
-- Ampliación RAM 512 de Álvaro Alea.
+- Ampliación RAM 256 de Álvaro Alea.
 - Minerva RTC MK2 de Álvaro Alea.
 - Cartucho ROM TK2 de Zerover.
 - 2 cables de antena originales o recomendados.
@@ -83,6 +80,13 @@ Y tal vez...
 - Caja original de QL y corchos.
 - QL Alemán + teclado español.
 - RomDisq.
+
+## Para reparar
+
+- Ratón StarMouse.
+- Cable QL-VGA.
+- Cable QL a Euroconector.
+- Dos disqueteras MicroPeriferals.
 
 # Inves Spectrum+
 
