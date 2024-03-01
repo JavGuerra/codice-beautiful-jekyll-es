@@ -31,18 +31,20 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - Ratón para QIMSI marca CHERRY, 2 botones + rueda (sin uso), con adaptador.
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb.y swich ROM REBEL/QUBATA, 582656 bytes libres.
-- "GoldCard v2.49", 1879552 bytes libres.
+- GoldCard 3, "GoldCard v2.49", 1879552 bytes libres.
 - TrumpCard v1 "QubbeSoft P/D v2.00, 896K, Care/QJump 2.26", 857088 bytes libres.
-- "QFLP for Micro P Disc v1.15", 85504 bytes libres.
-- Doble unidad de disqueteras externas dobles 1,44 MicroPeriferals con unidades sustituidas.
-- 2 disqueteras de MicroPeriferals no operativas.
+- MicroPeripherals Disk Interface DD50, serie 550959. "QFLP for Micro P Disc v1.15", 85504 bytes libres.
+- Doble unidad de disqueteras externas 1,44 MicroPeripherals con unidades sustituidas.
 - Monitor Vision QL.
 - 4 x fuente de alimentación (una con conector inglés).
 - Joystick.
 - Ratón StarMouse.
+- Ratón serie Genius tres botones.
 
 ## Accesorios
 
+- 2 x Conversor QL-VGA.
+- 54 x Microdrives.
 - Cable conversor de Joystick.
 - 3 x cables conectores serie.
 - 2 x adaptadores serie.
@@ -50,12 +52,10 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - 2 x cable de red QL.
 - 2 x cable antena TV.
 - Cable video DIN a Euroconector.
-- 2 x Conversor QL-VGA.
-- 54 x Microdrives.
-- Ratón serie Genius tres botones.
 - 2 chips de ROM JM, que fueron sustituidos por Minerva.
 - 2 disipadores con reguladores 7805 sustituidos.
 - 2 x convertidores RECOM R-78B5.0-1.5.
+- 2 disqueteras de MicroPeripherals no operativas.
 - Adaptador ratón USB-PS2 (venía con ratón USB para QIMSI).
 
 ## Buscado
