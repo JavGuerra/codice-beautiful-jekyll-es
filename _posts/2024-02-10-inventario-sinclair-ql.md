@@ -27,6 +27,7 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - QL teclado inglés mecánico, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878 - Reparado 2024-02.
 - Teclado mecánico Schön inglés sustituto, instalado el QL, serie 700929.
 - Cartucho "ROM, TK2 and RAMdisk installed".
+- Cartucho ROM clónico del anterior. Diseño de Zerover.
 - QIMSI + tarjeta micro-SD, "QIMSI Logic 0.98 Driver 1.10".
 - Ratón para QIMSI marca CHERRY, 2 botones + rueda (sin uso), con adaptador.
 - Qubide 1,52.
@@ -38,7 +39,7 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - Monitor Vision QL.
 - 4 x fuente de alimentación (una con conector inglés).
 - Joystick.
-- Ratón StarMouse.
+- Ratón StarMouse, serie 200763.
 - Ratón serie Genius tres botones.
 
 ## Accesorios
@@ -65,12 +66,11 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - Tetroid Gold Card battery suply.
 - MOD disk + cable alimentación.
 - 2 chips Hermes.
-- QLUB.
+- QLUB + carcasa.
 - Carcasa QIMSI.
 - 2 carcasas para conversor VGA.
 - Ampliación RAM 256 de Álvaro Alea.
 - Minerva RTC MK2 de Álvaro Alea.
-- Cartucho ROM TK2 de Zerover.
 - 2 cables de antena originales o recomendados.
 - 2 cables de red originales o recomendados.
 - Ratón serie dos botones.
