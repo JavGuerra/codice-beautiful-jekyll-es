@@ -40,7 +40,7 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - Kempston joystick quickshot II + adaptador de Joystick.
 - Ratón StarMouse, serie 200763 *.
 - Ratón serie Genius tres botones.
-- 2 convertidores QL-VGA *.
+- 2 convertidores QL-VGA con carcasa impresa *.
 
 ## Accesorios
 
@@ -86,9 +86,6 @@ Solicitado
 - 2 chips Hermes.
 - Ampliación RAM 256 de Álvaro Alea, para combinar con Qubide de José Leandro.
 - Minerva RTC MK2 + multi ROM de Álvaro Alea.
-
-Encargado
-- 2 carcasas para convertidor VGA.
 
 Otros
 - QLUB + carcasa.
