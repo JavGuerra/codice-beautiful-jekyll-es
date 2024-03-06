@@ -64,6 +64,8 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - 4 tapas de ROM. Una por QL.
 - 3 tornillos exteriores largos de repuesto.
 - 4 tornillos exteriores medianos de repuesto.
+- Adaptador IDE-USB para DOM.
+- Adaptador microSD para QIMSI.
 
 ## (*) Para reparar
 
@@ -82,12 +84,13 @@ En camino
 - DOM disk 512Mb + cable alimentación.
 
 Solicitado
-- Carcasa QIMSI.
+- Carcasa para QIMSI.
 - 2 chips Hermes.
 - Ampliación RAM 256 de Álvaro Alea, para combinar con Qubide de José Leandro.
 - Minerva RTC MK2 + multi ROM de Álvaro Alea.
 
 Otros
+- Carcasa para cartucho ROM.
 - QLUB + carcasa.
 - 2 cables de antena originales o recomendados.
 - 2 cables de red originales o recomendados.
