@@ -25,9 +25,11 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 - QL teclado español, ROM MGE, ISS 6, D14-078592.
 - QL teclado español, ROM MGE, ISS 6, D14-085687. Reparado 2024-02.
 - QL teclado inglés Schön serie 700929, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878. Reparado 2024-02.
-- Cartucho ROM "TK2 and RAMdisk installed".
+- 2 chips Hermes.
+- 2 Cartuchos ROM "TK2 and RAMdisk installed", uno copia deseñada por Zerover.
 - Cartucho ROM diseñado por Zerover, clónico del anterior.
 - QIMSI + tarjeta micro-SD 16Gb, "QIMSI Logic 0.98 Driver 1.10".
+- Carcasa para QIMSI.
 - Ratón para QIMSI marca CHERRY, 2 botones + rueda (sin uso), con adaptador USB / MicroUSB.
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb. y swich ROM REBEL/QUBATA, 582656 bytes libres.
@@ -77,19 +79,13 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 
 ## Buscado
 
-En camino
+Otros
+- Ampliación RAM 256 de Álvaro Alea, para combinar con Qubide de José Leandro.
+- Minerva RTC MK2 + multi ROM de Álvaro Alea.
 - 2 Tetroid QL Power.
 - Tetroid ROM swicher.
 - Tetroid Gold Card battery suply.
 - DOM disk 512Mb + cable alimentación.
-
-Solicitado
-- Carcasa para QIMSI.
-- 2 chips Hermes.
-- Ampliación RAM 256 de Álvaro Alea, para combinar con Qubide de José Leandro.
-- Minerva RTC MK2 + multi ROM de Álvaro Alea.
-
-Otros
 - Carcasa para cartucho ROM.
 - QLUB + carcasa.
 - 2 cables de antena originales o recomendados.
