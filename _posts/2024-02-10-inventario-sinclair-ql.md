@@ -14,8 +14,8 @@ En esta entrada iré actualizando el material de que dispongo relacionado con el
 
 ## Configuraciones habituales
 
-- QL con teclado Schön inglés con: Gold Card, Minerva, QIMSI, ratón, y doble unidad de disqueteras externas.
-- QL con teclado español con: Qubide con ampliación de 512Kb.
+- QL con teclado Schön inglés con: Gold Card, Minerva, Hermes, QIMSI, ratón, y doble unidad de disqueteras externas.
+- QL con teclado español con: Qubide con ampliación de 512Kb, Hermes, ROM TK2 + RAMdisk.
 
 ## Hardware
 
@@ -23,17 +23,16 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 
 - QL teclado inglés, ROM AH, ISS 5, D09-014922. IPC2 8749 sustituido por FP1162 para teclados Schön.
 - QL teclado español, ROM MGE, ISS 6, D14-078592.
-- QL teclado español, ROM MGE, ISS 6, D14-085687. Reparado 2024-02.
-- QL teclado inglés Schön serie 700929, ISS 6, D14-081581 con ROM Minerva 1.98, serie 3878. Reparado 2024-02.
-- 2 chips Hermes.
-- 2 Cartuchos ROM "TK2 and RAMdisk installed", uno copia deseñada por Zerover.
+- QL teclado español, ROM MGE, ISS 6, D14-085687 e IPC Hermes. Reparado 2024-02.
+- QL teclado inglés Schön serie 700929, ISS 6, D14-081581 con ROM Minerva 1.98 e IPC Hermes, serie 3878. Reparado 2024-02.
+- Cartucho ROM "TK2 and RAMdisk installed".
 - Cartucho ROM diseñado por Zerover, clónico del anterior.
 - QIMSI + tarjeta micro-SD 16Gb, "QIMSI Logic 0.98 Driver 1.10".
 - Carcasa para QIMSI.
 - Ratón para QIMSI marca CHERRY, 2 botones + rueda (sin uso), con adaptador USB / MicroUSB.
 - Qubide 1,52.
 - Qubide de José Leandro, con ampliación de memoria de 512 Mb. y swich ROM REBEL/QUBATA, 582656 bytes libres.
-- GoldCard 3, "GoldCard v2.49", 1879552 bytes libres.
+- GoldCard v3, "GoldCard v2.49", 1879552 bytes libres.
 - TrumpCard v1 "QubbeSoft P/D v2.00, 896K, Care/QJump 2.26", 857088 bytes libres.
 - MicroPeripherals Disk Interface DD50, serie 550959. "QFLP for Micro P Disc v1.15", 85504 bytes libres.
 - Doble unidad de disqueteras externas 1,44 MicroPeripherals con unidades sustituidas.
@@ -79,7 +78,6 @@ ver [Fotos de mi colección](https://badaman.badared.com/ql/galeria/?dir=colecci
 
 ## Buscado
 
-Otros
 - Ampliación RAM 256 de Álvaro Alea, para combinar con Qubide de José Leandro.
 - Minerva RTC MK2 + multi ROM de Álvaro Alea.
 - 2 Tetroid QL Power.
