@@ -30,7 +30,7 @@ La calificación final ha sido de 9 de 10, y se ha llevado a cabo en un periodo 
 
 [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver Cartelera DAW en línea</button>](https://cartelera-daw.up.railway.app/)
 
-## La formación
+## La formación previa
 
 Pero el proyecto no partía de cero. Durante los meses de enero y febrero, y hasta el 9 de marzo de 2023, participé en un curso de especialización en Java + Spring de la Fundación Adecco dentro del Proyecto Digital School Erasmus+
 
