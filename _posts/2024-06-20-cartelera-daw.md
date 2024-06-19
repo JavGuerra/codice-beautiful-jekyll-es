@@ -3,6 +3,8 @@ layout: post
 title: Cartelera de cine
 subtitle: Proyecto final de DAW con Java y Spring Boot
 thumbnail-img: https://raw.githubusercontent.com/JavGuerra/cartelera-daw/a79cd41c51299dd3897d989ea8e045ea5f894ac7/src/main/resources/static/img/logo.svg
+gh-repo:  JavGuerra/caertelera-daw  
+gh-badge: [star, fork, follow]
 tags: [java, spring, bootstrap, tymeleaft, security]
 ---
 
