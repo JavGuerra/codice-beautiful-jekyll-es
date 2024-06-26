@@ -59,7 +59,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 
 * [Curso Kotlin para Android](https://cursokotlin.com/curso-programacion-kotlin-android/)
 
-# Desarrollo web
+# Desarrollo web / varios
 
 * [¿Cómo empezar en desarrollo web?](https://manz.dev/como-empezar/)
 * [Roadmap Frontend](https://www.instagram.com/p/Cd3VLisIqAk/?img_index=1)
@@ -77,6 +77,9 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Cheatsheets](https://manz.dev/cheatsheets/)
 * [Uniwebsidad](https://uniwebsidad.com/?from=librosweb)
 * [Page Speed](https://pagespeed.web.dev/)
+* [Curso gratis de programación básica - Platzi](https://platzi.com/cursos/programacion-basica/)
+* [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists)
+* [Certidevs](https://certidevs.com/)
 
 # Juegos de aprendizaje
 

@@ -71,6 +71,38 @@ Orientada a la programación, cuenta con formaciones y certificaciones.
 
 Los mejores recursos para aprender diseño y programación web.
 
+## [Digitalizateplus - Fundae](https://digitalizateplus.fundae.es/)
+
+Fundación estatal para la formación en el empleo.
+
+## [UNED](https://iedra.uned.es/courses/)
+
+Universidad Nacional de Educación a Distancia. Cursos especializados con certificación opcional.
+
+## [IBM SkillsBuild](https://sb-auth.skillsbuild.org/signup)
+
+Algunos cursos en español, gratuitos, y con el sello de IBM.
+
+## [X Talento Digital (XTD)](https://portalentodigital.fundaciononce.es/cursos)
+
+Formaciones con el patrocinio de la Fundación ONCE.
+
+## [Orange Digital Center](https://online.orangedigitalcenter.es/courses)
+
+Plataforma educativa gratuita de la Fundación Orange.
+
+## [Fundación Universia](https://www.fundacionuniversia.net/es/becas-cursos.html)
+
+Becas y cursos de la Fundación Universia.
+
+## [Fundación Addeco](https://fundacionadecco.org/cursos/)
+
+Cursos gratuitos de la Fundación Addeco.
+
+## [Fundaula - Accenture](https://www.fundaula.es/#cursos)
+
+Plataforma Digital Fundación Accenture.
+
 # Otros recursos
 
 * [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
@@ -80,6 +112,4 @@ Los mejores recursos para aprender diseño y programación web.
 * [Cibervoluntarios](https://www.cibervoluntarios.org/es) - Cursos y píldoras TIC impartidas por voluntarios.
 * [Procumún](https://procomun.intef.es/search-full?f%5B0%5D=knowledgearea_keyword%3AInform%C3%A1tica%20y%20Tecnolog%C3%ADas%20de%20la%20Informaci%C3%B3n&f%5B1%5D=knowledgearea_keyword%3ATecnolog%C3%ADas) - Red de recursos educativos en abierto. Tecnología, Informática y tecnologías de la información.
 * [Observatorio de tecnología educativa](https://intef.es/recursos-educativos/observatorio-de-tecnologia-educativa/) - Biblioteca virtual de artículos sobre tecnología educativa, creados por docentes para docentes, en torno a la innovación digital en el aula.
-* [Curso gratis de programación básica](https://platzi.com/cursos/programacion-basica/) - Platzi.
-* [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists) - Cursos de la extinta plataforma de formación.
 * [DigComp](https://epale.ec.europa.eu/es/content/marco-europeo-de-competencias-digitales-digcomp) - Marco europeo de competencias digitales.
