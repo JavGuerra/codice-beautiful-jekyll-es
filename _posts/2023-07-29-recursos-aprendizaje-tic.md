@@ -113,3 +113,4 @@ Plataforma Digital Fundación Accenture.
 * [Procumún](https://procomun.intef.es/search-full?f%5B0%5D=knowledgearea_keyword%3AInform%C3%A1tica%20y%20Tecnolog%C3%ADas%20de%20la%20Informaci%C3%B3n&f%5B1%5D=knowledgearea_keyword%3ATecnolog%C3%ADas) - Red de recursos educativos en abierto. Tecnología, Informática y tecnologías de la información.
 * [Observatorio de tecnología educativa](https://intef.es/recursos-educativos/observatorio-de-tecnologia-educativa/) - Biblioteca virtual de artículos sobre tecnología educativa, creados por docentes para docentes, en torno a la innovación digital en el aula.
 * [DigComp](https://epale.ec.europa.eu/es/content/marco-europeo-de-competencias-digitales-digcomp) - Marco europeo de competencias digitales.
+* [Generación D](https://generaciond.gob.es/iniciativas) - El Pacto por la Generación D es una iniciativa del Gobierno de España. 
