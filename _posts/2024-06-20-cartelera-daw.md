@@ -60,7 +60,8 @@ Cuenta con:
 - Portada dinámica 
 - Diseño responsive  
 - Diseño accesible   
-- Aviso legal y privacidad  
+- Aviso legal y privacidad 
+- Aviso de cookies 
 - Ayuda en línea
 - Despliegue  
 
