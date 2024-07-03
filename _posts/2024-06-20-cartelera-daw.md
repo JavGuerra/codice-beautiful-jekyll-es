@@ -5,7 +5,7 @@ subtitle: Proyecto final de FPGS DAW con Java y Spring Boot
 thumbnail-img: https://raw.githubusercontent.com/JavGuerra/cartelera-daw/a79cd41c51299dd3897d989ea8e045ea5f894ac7/src/main/resources/static/img/logo.svg
 gh-repo:  JavGuerra/caertelera-daw  
 gh-badge: [star, fork, follow]
-tags: [java, spring, bootstrap, tymeleaft, security]
+tags: [java, spring, bootstrap, thymeleaft, security]
 ---
 
 Recientemente he presentado mi proyecto fin de estudios de Formación Profesional de Grado Superior DAW. Era algo que tenía aparcado durante demasiado tiempo y finalmente esta etapa se ha cerrado.
