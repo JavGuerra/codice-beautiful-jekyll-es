@@ -57,7 +57,19 @@ Mediante `<input type="hidden" th:name="returnUrl" th:value="${returnUrl}">` ind
 ``` java
 model.addAttribute("returnUrl", "cinemas");
 ```
-donde cinemas es la ruta a la que se debe llegar una vez el formulario de la ruta a la que vamos se procese.
+donde cinemas es la ruta a la que se debe llegar una vez el formulario de la ruta a la que vamos se procese. Un ejemplo:
+
+```java
+    @GetMapping("/create")
+    public String createForm(Model model) {
+
+        model.addAttribute("cinema", new Cinema());
+        
+        model.addAttribute("returnUrl", "cinemas");
+
+        return "cinema/cinema-form";
+    }
+```
 
 Sigamos. Con `th:classappend="${session.messageType} == 'danger'? 'alert-danger' : 'alert-info'" role="alert` determino qué tipo de alerta de Boostrap mostrar, si una destinada a informar (recuadro con fondo azul) o una destinada a alertar de un fallo (recuadro con fondo rojo). Esto lo consigo mediante la variable de sesión `messageType`.
 
@@ -249,6 +261,22 @@ Es importante que la ruta `/message` esté definida en nuestra configuración de
 ```
 
 Con `.requestMatchers(HttpMethod.POST, "/message").permitAll()` la ruta `/message` es ahora visible.
+
+Si las notificaciones las llevamos a cabo al realizar procesos que sólo están disponibles una vez el usuario está autenticado, es buena idea que, al hacer *logout* se borre también la notificación con algo parecido a:
+
+```java
+    @RequestMapping("/logout")
+    public String logout(HttpSession session, Model model) {
+
+        SecurityContextHolder.getContext().setAuthentication(null);
+
+        model.addAttribute("returnUrl", "/");
+
+        session.setAttribute("message", "");
+
+        return "logout";
+    }
+```
 
 # Resumiendo
 
