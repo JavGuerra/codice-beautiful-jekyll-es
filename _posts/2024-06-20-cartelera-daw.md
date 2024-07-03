@@ -48,13 +48,14 @@ En el curso, así como en la práctica, obtuve una calificación de 10/10.
 
 Además de los requisitos solicitados para el MVP, en la app se ha implementado:
 
-- Segurización de rutas  
+- Seguridad de rutas  
 - Registros de usuario  
 - Validaciones de formularios  
 - Automatizaciones  
 - Documentación con JavaDoc  
 - Implementación de Logs  
-- Mensajes informativos
+- Notificaciones
+- Despliegue dockerizado
 
 Cuenta con:
 
@@ -64,7 +65,8 @@ Cuenta con:
 - Aviso legal y privacidad 
 - Aviso de cookies 
 - Ayuda en línea
-- Despliegue  
+- Spinner loader
+ 
 
 ## Desarrollo y despliegue
 
