@@ -22,7 +22,7 @@ Por último, mediante un controlador de mensajes, gestionaré el borrado del men
 
 ## El fragmento
 
-He creado un fragmento de código llamado `messageAlert.html` que he incluido en mi carpeta `fragments` dentro de templates en resources.
+He creado un fragmento de código llamado `messageAlert.html` que he incluido en mi carpeta `fragments` dentro de templates en resources. Este es un ejemplo que puede modiicarse a voluntad para adaptar su diseño a la aplicación donde se usará.
 
 ```html
 <div th:fragment="messageAlert" th:if="${session.message != ''}" class="container">
@@ -52,7 +52,7 @@ Para incluir este fragmento en la vista donde deseo que se muestre la notificaci
 
 Con `th:if="${session.message != ''}"`determino si este fragmento se mostrará o no. Si el valor de la variable de sesión llamada `message` está vacío, es que no hay nada que mostrar, de otra forma, el fragmento se mostrará.
 
-Mediante `<input type="hidden" th:name="returnUrl" th:value="${returnUrl}">`indico a través de la respuesta de formulario al controlador, a qué página debo dirigirme después de realizar la operación. Esto me permitirá volver a la página donde estaba una vez se procese el borrado del mensaje. Uso de forma genérica `returnUrl` para indicar la ruta porque es útil para, por ejemplo, cuando llamo a un formulario y quiero saber dónde debo ir una vez enviado el contenido del formulario, como en este caso. Por ejemplo, si nuestra aplicación maneja cines, y añadimos, editamos o borramos un nuevo cine, mediante returnUrl puedo indicar al método @PostMapping qué vista mostrar tras realizar estas operaciones. Para poder hacerlo, cuando usé las vistas de crear, editar o borrar, añadí esta variable al modelo con:
+Mediante `<input type="hidden" th:name="returnUrl" th:value="${returnUrl}">` indico a través de la respuesta de formulario al controlador, a qué página debo dirigirme después de realizar la operación. Esto me permitirá volver a la página donde estaba una vez se procese el borrado del mensaje. Uso de forma genérica `returnUrl` para indicar la ruta porque es útil para, por ejemplo, cuando llamo a un formulario y quiero saber dónde debo ir una vez enviado el contenido del formulario, como en este caso. Por ejemplo, si nuestra aplicación maneja cines, y añadimos, editamos o borramos un cine, mediante `returnUrl` puedo indicar al método `@PostMapping` qué vista mostrar tras realizar estas operaciones. Para poder hacerlo, cuando usé las vistas de crear, editar o borrar, añadí esta variable al modelo con:
 
 ``` java
 model.addAttribute("returnUrl", "cinemas");
@@ -61,7 +61,7 @@ donde cinemas es la ruta a la que se debe llegar una vez el formulario de la rut
 
 Sigamos. Con `th:classappend="${session.messageType} == 'danger'? 'alert-danger' : 'alert-info'" role="alert` determino qué tipo de alerta de Boostrap mostrar, si una destinada a informar (recuadro con fondo azul) o una destinada a alertar de un fallo (recuadro con fondo rojo). Esto lo consigo mediante la variable de sesión `messageType`.
 
-Tras el icono SVG que se mostrará en el aviso, se incluye el mensaje que se mostrará con `th:text="${session.message}"` dentro de la etiqueta `span`.
+Tras el icono SVG que se mostrará en el aviso, se incluye el mensaje de la notificación con `th:text="${session.message}"` dentro de la etiqueta `span`.
 
 Con el botón `button type="submit"` envío el formulario del mensaje al controlador que va a borrar el mensaje en la ruta indicada en el formulario: `<form th:action="@{/message}" method="POST">`.
 
@@ -106,9 +106,9 @@ public class SessionFilter implements Filter {
 
 Con `HttpSession session = httpRequest.getSession(true);` Obtengo la sesión, y si no existe, la crea, porque he incluido el valor `true` en `.getSession(true)`.
 
-Si existe la sesión (que, salvo error, ya debería existir), compruebo que las variables `message` y `messageType` estén inicializadas, y si no lo están las inicializo a "".
+Si existe la sesión (que, salvo error, ya debería existir), compruebo que las variables `message` y `messageType` estén inicializadas, y si no lo están las inicializo a `""`.
 
-Tras esto, ya podremos usar `session.getAttribute()` y `session.setAttribute()` para leer y para actualizar el valor de las variables desde nuestros servicios o controladores, como veremos.
+Tras esto, ya podremos usar `session.getAttribute()` y `session.setAttribute()` para leer y para actualizar el valor de las variables de sesión desde nuestros servicios o controladores, como veremos.
 
 ## Usando mensajes
 
@@ -138,11 +138,10 @@ public class CinemaServiceImpl implements ICinemaService {
             return null;
         }
     }
-
 }
 ```
 
-Como se ve, la clase `CinemaServiceImpl` implementa la interfaz `ICinemaService`, inyecta el repositorio `CinemaRepository`y tiene un método que guarda un cine. `cinema` es enviado al método `save`desde el controlador, y el método devuelve el cine guardado o null si se produjo un error.  
+Como se ve, la clase `CinemaServiceImpl` implementa la interfaz `ICinemaService`, inyecta el repositorio `CinemaRepository` y tiene un método que guarda un cine. `cinema` es enviado al método `save` desde el controlador, y el método devuelve el cine guardado o null si se produjo un error.  
 
 A continuación se vé como cambia el método para incluir los mensajes de éxito o error:
 
@@ -181,11 +180,12 @@ public class CinemaServiceImpl implements ICinemaService {
             return null;
         }
     }
+}
 ```
 
 Con `session.setAttribute("message", message);` se cambia el valor de la variable `message`, y con `session.setAttribute("messageType", "info");` se hace lo propio con la variable `messageType`. Mismo ocurre en caso de error.
 
-A tener en cuenta: en `String message = "Cine " + newCinema + " guardado correctamente.";` hay que estar seguro de que la entidad `Cinema`sobreescribe (@Override) el método `toString()`.
+A tener en cuenta: en `String message = "Cine " + newCinema + " guardado correctamente.";` hay que estar seguro de que la entidad `Cinema` sobreescribe (@Override) el método `toString()` para poder usarlo para crear el String.
 
 El resultado es algo como lo que puede verse a continuación.
 
@@ -195,7 +195,7 @@ lo que se ve es lo que hemos definido en el fragmento `messageAlert.html` que he
 
 # Cerrando la notificación
 
-La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el mensaje deje de existir, es decir, el mensaje sea "". Recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de "".
+La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el mensaje deje de existir, es decir, el mensaje sea `""`. Recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de `""`.
 
 Como la sesión se maneja desde el *backend*, es necesario gestionarla mediante una ruta que nos permita cambiar el valor de la variable `message`.
 
@@ -204,7 +204,6 @@ En la carpeta `controllers` creo el controlador `MessageController` siguiente:
 ```java
 @Controller
 public class MessageController {
-
 
     @PostMapping("/message")
     public String messageAlert(@RequestParam(value = "returnUrl", required = false) String returnUrl,
@@ -248,6 +247,8 @@ Es importante que la ruta `/message` esté definida en nuestra configuración de
             return http.build();
     }
 ```
+
+Con `.requestMatchers(HttpMethod.POST, "/message").permitAll()` la ruta `/message` es ahora visible.
 
 # Resumiendo
 
