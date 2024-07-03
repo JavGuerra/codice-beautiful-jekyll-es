@@ -54,6 +54,7 @@ Además de los requisitos solicitados para el MVP, en la app se ha implementado:
 - Automatizaciones  
 - Documentación con JavaDoc  
 - Implementación de Logs  
+- Mensajes informativos
 
 Cuenta con:
 
