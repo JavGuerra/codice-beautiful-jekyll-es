@@ -74,6 +74,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Framework Vue.js](https://lenguajejs.com/vuejs/)
 * [Aprendiendo React](https://github.com/midudev/aprendiendo-react)
 * [Automatizadores JavaScript](https://lenguajejs.com/automatizadores/)
+* [EsJS, Lenguaje de programación en Español](https://es.js.org/)
 * [Cheatsheets](https://manz.dev/cheatsheets/)
 * [Uniwebsidad](https://uniwebsidad.com/?from=librosweb)
 * [Page Speed](https://pagespeed.web.dev/)
