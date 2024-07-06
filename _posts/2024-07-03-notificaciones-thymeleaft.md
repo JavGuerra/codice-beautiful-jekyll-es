@@ -207,7 +207,7 @@ lo que se ve es lo que hemos definido en el fragmento `messageAlert.html` que he
 
 # Cerrando la notificación
 
-La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el mensaje deje de existir, es decir, el mensaje sea `""`. Recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de `""`.
+La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el texto de la notificación deje de existir. Hay que recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de `""`.
 
 Como la sesión se maneja desde el *backend*, es necesario gestionarla mediante una ruta que nos permita cambiar el valor de la variable `message`.
 
@@ -282,10 +282,93 @@ Si las notificaciones las llevamos a cabo al realizar procesos que sólo están 
 
 Para crear las notificaciones he detallado:
 
-1. Crear un fragmento donde incluir el texto de los mensajes en nuestras vistas.
-2. Inicializar las variables de sesión que contendrán el mensaje y el tipo de mensaje.
-3. Actualizar el valor de las variables de mensaje para que estos se muestren.
-4. Eliminar el mensaje desde el backend una vez mostrado.
+1. Crear un fragmento donde incluir el texto de la notificación en nuestras vistas.
+2. Inicializar las variables de sesión que contendrán la notificación y el tipo de notificación.
+3. Actualizar el valor de las variables de notificación para que estos se muestren.
+4. Eliminar la notificación desde el backend una vez mostrado.
+
+# Otros usos
+
+Aplicando el método aquí descrito, es fácil realizar los cambios para gestionar, por ejemplo, un aviso de cookies con un botón de aceptar.
+
+También es posible generar notificaciones que permitan consultar al usuario si quiere llevar a cabo una tarea o no: `"¿Desea borrar el cine? [Sí] [No]"`.
+
+# Bonus: Cierre de mensajes
+
+Mediante el método descrito, la notificación nos acompañará por toda la aplicación hasta que la cerremos. Lo ideal sería que, al cambiar de página, la notificación desaparezca. Te muestro cómo hacerlo añadiendo una nueva variable `messageActivated` a la configuración en `SessionFilter` que indique el estado del mensaje.
+
+```java
+@Component
+public class SessionFilter implements Filter {
+
+    @Override
+    public void init(FilterConfig filterConfig) throws ServletException {}
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+            throws IOException, ServletException {
+
+        HttpServletRequest httpRequest = (HttpServletRequest) request;
+        HttpServletResponse httpResponse = (HttpServletResponse) response;
+
+        HttpSession session = httpRequest.getSession(true);
+
+        if (session!= null) {
+            if (session.getAttribute("message") == null)
+                session.setAttribute("message", "");
+
+            if (session.getAttribute("messageType") == null)
+                session.setAttribute("messageType", ""); 
+                // Valores: "danger" u otro cualquiera = "info".
+
+            // Cierre de notificaciones al cambiar de página
+
+            if (session.getAttribute("messageActivated") == null)
+                session.setAttribute("messageActivated", false);
+
+            if ((boolean) session.getAttribute("messageActivated")) {
+                session.setAttribute("message", "");
+                session.setAttribute("messageActivated", false);
+            }
+
+            if (!Objects.equals((String) session.getAttribute("message"), ""))
+                session.setAttribute("messageActivated", true);
+            
+        }
+
+        chain.doFilter(request, response);
+    }
+
+    @Override
+    public void destroy() {}
+}
+```
+
+En estos tres primeros bloques de sentencias, primero compruebo que la variable de sesión `messageActivated` está inicializada, como hacía con las otras variables de sesión, y si no lo está, la inicializo a false.
+
+Como cada vez que se muestra una página en la aplicación se lanza `SessionFilter`, en el siguiente bloque de sentencias compruebo si `messageActivated`, y si lo está, la desactivo, y vacío `message` para que no vuelva a mostrarse. Recordemos que el fragment `messageAlert.html` sólo muestra la notificación si su contenido no es `""`.
+
+En el último bloque, si `message` contiene texto y es la primera vez que se va a mostrar la notificación, el bloque anterior no la habrá borrado. Entonces activo `messageActivated` para que pueda la notificación pueda ser eliminada la siguiente vez que se muestre una página.
+
+Como se aprecia, `messageActivated` actúa como indicador de borrado, y en este proceso es determinante el orden en el que se hacen las comprobaciones.
+
+Y esto tiene una serie de ventajas más. No necesitas cerrar la notificación en el backend, por lo que no es necesario crear `MessageController` ni dar de alta la ruta en `SecurityConfig.class`. Cuando le das a la `X` de cerrar, la notificación deja de mostrarse, y como ya se mostró, no volverá a aparecer en otras páginas gracias a `SessionFilter`. Tampoco necesitas poner el fragmento en todas las páginas, sino sólo en aquellas en las que es posible que se muestren notificaciones.
+
+Este es el fragmento `messageAlert.html` actualizado sin el formulario:
+
+```html
+<div th:fragment="messageAlert" th:if="${session.message != ''}" class="container">
+    <div class="alert alert-dismissible fade show" th:classappend="${session.messageType} == 'danger'? 'alert-danger' : 'alert-info'" role="alert">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+            </svg>&nbsp;&nbsp;
+            <span class="align-middle" th:text="${session.message}"></span>
+        </div>
+        <button class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+    </div>
+</div>
+```
 
 # Mensajes encadenados
 
@@ -296,17 +379,8 @@ String message = (String) session.getAttribute("message");
 session.setAttribute("message", message + " Salas desactivadas correctamente.");
 ```
 
-# Otros usos
-
-Aplicando el método aquí descrito, es fácil realizar los cambios para gestionar, por ejemplo, un aviso de cookies con un botón de aceptar.
-
-También es posible generar notificaciones que permitan consultar al usuario si quiere llevar a cabo una tarea o no: `"¿Desea borrar el cine? [Sí] [No]"`.
-
 # Un ejemplo
 
 Puedes ver una aplicación que implementa esté método en el repositorio de la aplicación [Cartelera DAW]({% post_url 2024-06-20-cartelera-daw %}).
 
 - [Repositorio de Cartelera DAW](https://github.com/JavGuerra/cartelera-daw) 
-
-
-

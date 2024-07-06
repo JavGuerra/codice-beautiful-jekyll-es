@@ -107,6 +107,7 @@ Plataforma Digital Fundación Accenture.
 
 * [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
 * [Formación profesional a distancia](https://www.educacionyfp.gob.es/fpadistancia/oferta-formativa/oferta-formativa-ciclos/informatica-comunicaciones.html) - Formación Profesional oficial en España sobre Informática y comunicaciones. Listado por regiones.
+* [Educaweb](https://www.educaweb.com/) - Buscador
 * [Apuntes Marea verde - Informática](https://www.apuntesmareaverde.org.es/)
 * [Aprender gratis](https://aprendergratis.es/) - Plataforma de búsqueda de cursos.
 * [Cibervoluntarios](https://www.cibervoluntarios.org/es) - Cursos y píldoras TIC impartidas por voluntarios.
