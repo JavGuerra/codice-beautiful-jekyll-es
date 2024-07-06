@@ -20,7 +20,7 @@ Será necesaria una variable que sirva de «llave» para mostrar estas notificac
 
 Por último, mediante un controlador de mensajes, gestionaré el borrado del mensaje para que deje de mostrarse. 
 
-**Nota**: Como se verá más adelante, en el apartado `Bonus`, incluso podemos obviar este controlador si no deseamos que permanezca el mensaje al cambiar de página, pero se explica no obstante para que, este método, pueda ser aprovechado para otro tipo de mensajes, como se verá en el apartado `Otros usos`.
+**Nota**: Como se verá más adelante, en el apartado `Bonus`, incluso podemos obviar este controlador si no deseamos que permanezca el mensaje al cambiar de página, pero se explica no obstante para que este método pueda ser aprovechado para otro tipo de mensajes, como se verá en el apartado `Otros usos`.
 
 ## El fragmento
 
