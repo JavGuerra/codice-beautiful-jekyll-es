@@ -18,7 +18,7 @@ La idea es destinar una área de la visualización en la aplicación a las notif
 
 Será necesaria una variable que sirva de «llave» para mostrar estas notificaciones o no. Como enviar el mensaje desde cada gestor de ruta de nuestros controladores es algo trabajoso, voy a usar un filtro de sesión http donde guardaré el valor del mensaje y el tipo de mensaje a mostrar.
 
-Por último, mediante un controlador de mensajes, gestionaré el borrado del mensaje para que deje de mostrarse.
+Por último, mediante un controlador de mensajes, gestionaré el borrado del mensaje para que deje de mostrarse. Como se verá más adelante, en el apartado `Bonus`, incluso podemos obviar este controlador si no deseamos que permanezca el mensaje al cambiar de página, pero se explica no obstante para que, este método, pueda ser aprovechado para otro tipo de mensajes, como se verá en el apartado `Otros usos`.
 
 ## El fragmento
 
@@ -144,7 +144,7 @@ public class CinemaServiceImpl implements ICinemaService {
         try {
             return cinemaRepo.save(cinema);
 
-        } catch (DataIntegrityViolationException e) {
+        } catch (Exception e) {
             log.error("Error al guardar el cine: ", e);
 
             return null;
@@ -176,14 +176,14 @@ public class CinemaServiceImpl implements ICinemaService {
         try {
             Cinema newCinema = cinemaRepo.save(cinema);
 
-            String message = "Cine " + newCinema + " guardado correctamente.";
+            String message = "Cine " + newCinema + " guardado.";
 
             session.setAttribute("message", message);
             session.setAttribute("messageType", "info");
 
             return newCinema;
 
-        } catch (DataIntegrityViolationException e) {
+        } catch (Exception e) {
             log.error("Error al guardar el cine: ", e);
 
             session.setAttribute("message", "El cine no ha podido guardarse.");
@@ -381,6 +381,6 @@ session.setAttribute("message", message + " Salas desactivadas correctamente.");
 
 # Un ejemplo
 
-Puedes ver una aplicación que implementa esté método en el repositorio de la aplicación [Cartelera DAW]({% post_url 2024-06-20-cartelera-daw %}).
+Puedes ver el código que implementa esté método en el repositorio de la aplicación [Cartelera DAW]({% post_url 2024-06-20-cartelera-daw %}).
 
 - [Repositorio de Cartelera DAW](https://github.com/JavGuerra/cartelera-daw) 
