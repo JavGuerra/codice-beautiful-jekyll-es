@@ -18,7 +18,9 @@ La idea es destinar una área de la visualización en la aplicación a las notif
 
 Será necesaria una variable que sirva de «llave» para mostrar estas notificaciones o no. Como enviar el mensaje desde cada gestor de ruta de nuestros controladores es algo trabajoso, voy a usar un filtro de sesión http donde guardaré el valor del mensaje y el tipo de mensaje a mostrar.
 
-Por último, mediante un controlador de mensajes, gestionaré el borrado del mensaje para que deje de mostrarse. Como se verá más adelante, en el apartado `Bonus`, incluso podemos obviar este controlador si no deseamos que permanezca el mensaje al cambiar de página, pero se explica no obstante para que, este método, pueda ser aprovechado para otro tipo de mensajes, como se verá en el apartado `Otros usos`.
+Por último, mediante un controlador de mensajes, gestionaré el borrado del mensaje para que deje de mostrarse. 
+
+**Nota**: Como se verá más adelante, en el apartado `Bonus`, incluso podemos obviar este controlador si no deseamos que permanezca el mensaje al cambiar de página, pero se explica no obstante para que, este método, pueda ser aprovechado para otro tipo de mensajes, como se verá en el apartado `Otros usos`.
 
 ## El fragmento
 
