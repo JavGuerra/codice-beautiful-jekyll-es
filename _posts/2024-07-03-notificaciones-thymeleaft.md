@@ -280,6 +280,15 @@ Si las notificaciones las llevamos a cabo al realizar procesos que sólo están 
     }
 ```
 
+# Mensajes encadenados
+
+Si desde el controlador realizamos más de una gestión crítica, como por ejemplo actualizar un cine, y si este no está activo, desactivar todas las salas de ese cine para que no se muestren en la aplicación, podemos encadenar los mensajes de ambos servicios. Para ello deberíamos leer el valor de la variable `message` en el segundo servicio, el que se ocupe de desactivar las salas, y añadir el aviso al nuevo mensaje, ya que sólo disponemos de un mensaje que puede ser mostrado a la vez:
+
+``` java
+String message = (String) session.getAttribute("message");
+session.setAttribute("message", message + " Salas desactivadas correctamente.");
+```
+
 # Resumiendo
 
 Para crear las notificaciones he detallado:
@@ -295,7 +304,7 @@ Aplicando el método aquí descrito, es fácil realizar los cambios para gestion
 
 También es posible generar notificaciones que permitan consultar al usuario si quiere llevar a cabo una tarea o no: `"¿Desea borrar el cine? [Sí] [No]"`.
 
-# BONUS: Cierre de mensajes
+# BONUS: Cerrar notificaciones al cambiar de página
 
 Mediante el método descrito, la notificación nos acompañará por toda la aplicación hasta que la cerremos. Lo ideal sería que, al cambiar de página, la notificación desapareciese. Te muestro cómo hacerlo añadiendo una nueva variable `messageActivated` a la configuración en el filtro `SessionFilter` que indique el estado del mensaje.
 
@@ -370,15 +379,6 @@ Y este es el fragmento `messageAlert.html` actualizado que ya no necesita usar e
         <button class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
     </div>
 </div>
-```
-
-# Mensajes encadenados
-
-Si desde el controlador realizamos más de una gestión crítica, como por ejemplo actualizar un cine, y si este no está activo, desactivar todas las salas de ese cine para que no se muestren en la aplicación, podemos encadenar los mensajes de ambos servicios. Para ello deberíamos leer el valor de la variable `message` en el segundo servicio, el que se ocupe de desactivar las salas, y añadir el aviso al nuevo mensaje, ya que sólo disponemos de un mensaje que puede ser mostrado a la vez:
-
-``` java
-String message = (String) session.getAttribute("message");
-session.setAttribute("message", message + " Salas desactivadas correctamente.");
 ```
 
 # Un ejemplo
