@@ -118,7 +118,7 @@ public class SessionFilter implements Filter {
 }
 ```
 
-Con `HttpSession session = httpRequest.getSession(true);` Obtengo la sesión, y si no existe, la crea, porque he incluido el valor `true` en `.getSession(true)`.
+Con `HttpSession session = httpRequest.getSession(true);` Obtengo la sesión, y si no existe, se creará una nueva. Esto ocurre porque he incluido el valor `true` en `.getSession(true)`.
 
 Si existe la sesión (que, salvo error, ya debería existir), compruebo que las variables `message` y `messageType` estén inicializadas, y si no lo están las inicializo a `""`.
 
@@ -126,7 +126,7 @@ Tras esto, ya podremos usar `session.getAttribute()` y `session.setAttribute()` 
 
 ## Usando mensajes
 
-Pensemos en un servicio que guarda el contenido de un formulario para crear un cine. Sería algo similar a esto:
+Pensemos en un servicio que guarde el contenido de un formulario para crear un cine. Sería algo similar a esto:
 
 ``` java
 @Slf4j
@@ -155,7 +155,7 @@ public class CinemaServiceImpl implements ICinemaService {
 }
 ```
 
-Como se ve, la clase `CinemaServiceImpl` implementa la interfaz `ICinemaService`, inyecta el repositorio `CinemaRepository` y tiene un método que guarda un cine. `cinema` es enviado al método `save` desde el controlador, y el método devuelve el cine guardado o null si se produjo un error.  
+Como se ve, la clase `CinemaServiceImpl` implementa la interfaz `ICinemaService`, inyecta el repositorio `CinemaRepository` y tiene un método que guarda un cine. `cinema` es enviado al método `save` desde el controlador que lo usa, y el método devuelve el cine guardado o null si se produjo un error.  
 
 A continuación se vé como cambia el método para incluir los mensajes de éxito o error:
 
@@ -199,21 +199,21 @@ public class CinemaServiceImpl implements ICinemaService {
 
 Con `session.setAttribute("message", message);` se cambia el valor de la variable `message`, y con `session.setAttribute("messageType", "info");` se hace lo propio con la variable `messageType`. Mismo ocurre en caso de error.
 
-A tener en cuenta: en `String message = "Cine " + newCinema + " guardado correctamente.";` hay que estar seguro de que la entidad `Cinema` sobreescribe (@Override) el método `toString()` para poder usarlo para crear el String.
+A tener en cuenta: en `String message = "Cine " + newCinema + " guardado correctamente.";` hay que estar seguro de que la entidad `Cinema` sobrescribe (@Override) el método `toString()` para poder usarlo como String.
 
-El resultado es algo como lo que puede verse a continuación.
+El resultado es algo como lo que se muestra a continuación.
 
 ![Notificación activa](/assets/img/notificaciones.png){: .mx-auto.d-block :}
 
-lo que se ve es lo que hemos definido en el fragmento `messageAlert.html` que hemos incluido en la plantilla de la vista.
+Lo que se ve es lo que hemos definido en el fragmento `messageAlert.html` que hemos incluido en la plantilla de la vista.
 
 # Cerrando la notificación
 
-La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el texto de la notificación deje de existir. Hay que recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de `""`.
+La notificación anterior estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que el texto de la notificación deje de existir. Hay que recordar que, para que el fragmento se muestre, el contenido de `session.message` debe ser distinto de `""`, y que para que deje de mostrarse es suficiente con limpiar la variable `message` con `""`.
 
 Como la sesión se maneja desde el *backend*, es necesario gestionarla mediante una ruta que nos permita cambiar el valor de la variable `message`.
 
-En la carpeta `controllers` creo el controlador `MessageController` siguiente:
+En la carpeta `controllers`, creo el controlador `MessageController` siguiente:
 
 ```java
 @Controller
@@ -237,13 +237,13 @@ public class MessageController {
 
 A través de la ruta `/message` puedo cambiar el valor de `message` con: `session.setAttribute("message", "");` y luego volver a la ruta deseada si hemos pasado el parámetro `returnUrl`.
 
-Recordemos que, cuando creamos el fragmento, definimos la ruta a la que apuntaría el formulario de la notificación `<form th:action="@{/message}" method="POST">`, y el formulario se envía al hacer clic sobre la `X` de cerrar la notificación.
+Recordemos que, cuando se creó el fragmento, se definió la ruta a la que apunta el formulario de la notificación `<form th:action="@{/message}" method="POST">`, y que el formulario se envía al hacer clic sobre la `X` de cerrar la notificación.
 
 Es importante que la ruta `/message` esté definida en nuestra configuración de seguridad. Si estamos usando Spring Security, en `SecurityConfig.class` debe haber algo como esto:
 
 ```java
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http)  throws Exception {
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(authRequest -> authRequest
 
@@ -295,9 +295,9 @@ Aplicando el método aquí descrito, es fácil realizar los cambios para gestion
 
 También es posible generar notificaciones que permitan consultar al usuario si quiere llevar a cabo una tarea o no: `"¿Desea borrar el cine? [Sí] [No]"`.
 
-# Bonus: Cierre de mensajes
+# BONUS: Cierre de mensajes
 
-Mediante el método descrito, la notificación nos acompañará por toda la aplicación hasta que la cerremos. Lo ideal sería que, al cambiar de página, la notificación desaparezca. Te muestro cómo hacerlo añadiendo una nueva variable `messageActivated` a la configuración en `SessionFilter` que indique el estado del mensaje.
+Mediante el método descrito, la notificación nos acompañará por toda la aplicación hasta que la cerremos. Lo ideal sería que, al cambiar de página, la notificación desapareciese. Te muestro cómo hacerlo añadiendo una nueva variable `messageActivated` a la configuración en el filtro `SessionFilter` que indique el estado del mensaje.
 
 ```java
 @Component
@@ -346,17 +346,17 @@ public class SessionFilter implements Filter {
 }
 ```
 
-En estos tres primeros bloques de sentencias, primero compruebo que la variable de sesión `messageActivated` está inicializada, como hacía con las otras variables de sesión, y si no lo está, la inicializo a false.
+En estos tres nuevos bloques de sentencias, primero compruebo que la variable de sesión `messageActivated` está inicializada, como hacía con las otras variables de sesión, y si no lo está, la inicializo a false.
 
-Como cada vez que se muestra una página en la aplicación se lanza `SessionFilter`, en el siguiente bloque de sentencias compruebo si `messageActivated`, y si lo está, la desactivo, y vacío `message` para que no vuelva a mostrarse. Recordemos que el fragment `messageAlert.html` sólo muestra la notificación si su contenido no es `""`.
+Como cada vez que se muestra una página en la aplicación se lanza `SessionFilter`, en el siguiente bloque de sentencias compruebo si `messageActivated` está activado (`true`), y si lo está, la desactivo, y vacío `message` para que no vuelva a mostrarse la notificación. Recordemos que el fragment `messageAlert.html` sólo muestra la notificación si su contenido no es `""`.
 
-En el último bloque, si `message` contiene texto y es la primera vez que se va a mostrar la notificación, el bloque anterior no la habrá borrado. Entonces activo `messageActivated` para que pueda la notificación pueda ser eliminada la siguiente vez que se muestre una página.
+En el último bloque, si `message` contiene texto y es la primera vez que se va a mostrar la notificación, el bloque anterior no la habrá borrado. Entonces activo `messageActivated` para que la notificación pueda ser eliminada la siguiente vez que se muestre una página.
 
 Como se aprecia, `messageActivated` actúa como indicador de borrado, y en este proceso es determinante el orden en el que se hacen las comprobaciones.
 
-Y esto tiene una serie de ventajas más. No necesitas cerrar la notificación en el backend, por lo que no es necesario crear `MessageController` ni dar de alta la ruta en `SecurityConfig.class`. Cuando le das a la `X` de cerrar, la notificación deja de mostrarse, y como ya se mostró, no volverá a aparecer en otras páginas gracias a `SessionFilter`. Tampoco necesitas poner el fragmento en todas las páginas, sino sólo en aquellas en las que es posible que se muestren notificaciones.
+Y esto tiene una serie de ventajas añadidas: No necesitas cerrar la notificación en el backend, por lo que no es necesario crear `MessageController` ni dar de alta la ruta `/message` en `SecurityConfig.class`. Cuando le das a la `X` de cerrar, la notificación deja de mostrarse por arte de Bootstrap, y como dije, ya no volverá a aparecer en otras páginas gracias a los cambios añadidos en `SessionFilter`. Así las cosas, tampoco necesitas incluir el fragmento `messageAlert.html` en todas las páginas, sino sólo en aquellas en las que es posible que se muestren notificaciones.
 
-Este es el fragmento `messageAlert.html` actualizado sin el formulario:
+Y este es el fragmento `messageAlert.html` actualizado que ya no necesita usar el formulario:
 
 ```html
 <div th:fragment="messageAlert" th:if="${session.message != ''}" class="container">
@@ -374,7 +374,7 @@ Este es el fragmento `messageAlert.html` actualizado sin el formulario:
 
 # Mensajes encadenados
 
-Si desde el controlador realizamos más de una gestión crítica, como por ejemplo actualizar un cine, y si este no está activo desactivar las salas de ese cine, podemos encadenar los mensajes. Para ello deberíamos leer el valor de la variable `message` en el segundo servicio, el que se ocupe de desactivar las salas, y añadir el aviso al nuevo mensaje, ya que sólo disponemos de un mensaje que puede ser mostrado a la vez:
+Si desde el controlador realizamos más de una gestión crítica, como por ejemplo actualizar un cine, y si este no está activo, desactivar todas las salas de ese cine para que no se muestren en la aplicación, podemos encadenar los mensajes de ambos servicios. Para ello deberíamos leer el valor de la variable `message` en el segundo servicio, el que se ocupe de desactivar las salas, y añadir el aviso al nuevo mensaje, ya que sólo disponemos de un mensaje que puede ser mostrado a la vez:
 
 ``` java
 String message = (String) session.getAttribute("message");
