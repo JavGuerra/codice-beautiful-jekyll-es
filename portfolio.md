@@ -37,16 +37,6 @@ subtitle: Mira lo que hago
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
-    <a href="{% post_url 2022-04-28-buscaminas %}">
-        <img class="shadow-sm mb-2" alt="Buscaminas" width="250"
-            src="{% link assets/img/buscaminas.png %}" />
-        <h2 class="post-title">Buscaminas JS</h2>
-    </a>
-    <h3 class="post-subtitle">Juego con eventos interactivos</h3>
-    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
-</article>
-
-<article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">
         <img class="shadow-sm mb-2" alt="Conceptos FSWD" width="250"
             src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
@@ -54,6 +44,16 @@ subtitle: Mira lo que hago
     </a>
     <h3 class="post-subtitle">Maquetación de ejemplo</h3>
     <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
+</article>
+
+<article class="col-sm-12 col-xl-6 post-preview">
+    <a href="{% post_url 2022-04-28-buscaminas %}">
+        <img class="shadow-sm mb-2" alt="Buscaminas" width="250"
+            src="{% link assets/img/buscaminas.png %}" />
+        <h2 class="post-title">Buscaminas JS</h2>
+    </a>
+    <h3 class="post-subtitle">Juego con eventos interactivos</h3>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JQuery&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small> 
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
