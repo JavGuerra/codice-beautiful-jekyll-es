@@ -38,20 +38,21 @@ const aboutMe = {
     methodologies: ["Kanban", "ITIL", "OOP", "Jamstack", "PWA"],
     technologies: {
         frontend: {
-            javaScript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
+            javascript: ["React", "AlpineJS", "AJAX", "JQuery", "ES6", "TS"],
             html: ["xHTML", "SVG", "JSX", "Blade", "Accessibility"],
             css: ["Sass", "Bootstrap", "Tailwind", "Bulma", "Responsive"]
         },
         backend: {
-            javaScript: ["NodeJS", "Express"],
+            javascript: ["NodeJS", "Express"],
+            java: ["Spring Boot", "Thymeleaf"],
             php: ["Laravel", "LiveWire"]
         },
         software: {
-            codeTools: ["Git/GitHub", "VS Codium", "Brackets"],
+            tools: ["Git/GitHub", "VS Codium", "IntelliJ Idea", "Brackets"],
             design: ["InkScape", "Illustrator", "Draw", "Gimp", "Photoshop", "Scribus"]
         },
         systems: ["Linux", "OS X", "Windows", "DOS"],
-        dataBases: ["MySQL/MariaDB", "SQLite", "MongoDB", "Oracle DB"],
+        databases: ["MySQL/MariaDB", "SQLite", "MongoDB", "Oracle DB"],
         infrastructures: ["nextCloud", "Apache", "Docker", "AWS", "Firebase", "Netlify", "Heroku", "CI/CD", "Networks"]
     }
 };
