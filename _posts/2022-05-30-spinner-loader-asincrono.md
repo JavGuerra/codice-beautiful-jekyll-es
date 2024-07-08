@@ -7,7 +7,7 @@ tags: [código, css, html, javascript, usabilidad]
 ---
 Durante los procesos asíncronos que se llevan a cabo, por ejemplo al usar ```fetch()``` para consumir una **API** remota, se producen retrasos al mostrar los resultados en el navegador. El uso de _spinner loader_ ayuda a informar al usuario de que uno o varios procesos están en marcha y se está procesando la información que solicitó tal vez mediante un campo de búsqueda.
 
-![Paginación](/assets/img/spinner-loader.png){: .mx-auto.d-block :}
+![Spin](/assets/img/spinner-loader.png){: .mx-auto.d-block :}
 
 ## Girando...
 
@@ -30,6 +30,10 @@ Para dibujar el _spinner loader_, seguí las indicaciones de la entrada «[Cómo
 #zona {
   border: none;
   background: none;
+}
+
+#zona:focus {
+  outline: none;
 }
 
 .spinner {
