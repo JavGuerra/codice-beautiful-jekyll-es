@@ -7,7 +7,7 @@ subtitle: Por qué querrías conocerme
 👋🏻 Soy Javier Guerra, **Técnico Superior de Desarrollo de Aplicaciones Web**.
 
 {: .box-note}
-<center style="font-family:Arial, Helvetica, sans-serif;"><strong>Teaching · IT Manager · Sysadmin · Jr. Fullstack Web Developer: JavaScript MERN stack · Java + Spring · PHP + Laravel (TALL stack) · Python · Graphic designer · Sinclair QL</strong></center>
+<center style="font-family:Arial, Helvetica, sans-serif;"><strong>Teaching · IT Manager · Sysadmin · AI prompter · Accesibilidad digital · Jr. Fullstack Web Developer: JavaScript MERN stack · Java + Spring · PHP + Laravel (TALL stack) · Python · Graphic designer · Sinclair QL</strong></center>
 
 Además de programar, me apasiona aprender y compartir mis conocimientos, la Informática, la [retroinformática]({% post_url 2022-04-24-museohc-en-g-seis %}), la tecnología en general, el diseño gráfico y las [series de TV]({% post_url 2022-04-23-series-recomendadas %}).
 
