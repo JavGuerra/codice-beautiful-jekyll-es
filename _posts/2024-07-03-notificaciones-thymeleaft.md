@@ -88,12 +88,16 @@ public class SessionFilter implements Filter {
         HttpSession session = httpRequest.getSession(true);
 
         if (session!= null) {
+
+            // Variables para las notificaciones
+
             if (session.getAttribute("message") == null)
                 session.setAttribute("message", "");
 
             if (session.getAttribute("messageType") == null)
                 session.setAttribute("messageType", ""); 
                 // Valores: "danger" u otro cualquiera = "info".
+
         }
 
         chain.doFilter(request, response);
@@ -183,7 +187,7 @@ public class CinemaServiceImpl implements ICinemaService {
 }
 ```
 
-Con `session.setAttribute("message", message);` se cambia el valor de la variable `message`, y con `session.setAttribute("messageType", "info");` se hace lo propio con la variable `messageType`. Mismo ocurre en caso de error.
+Con `session.setAttribute("message", message);` se cambia el valor de la variable `message`, y con `session.setAttribute("messageType", "info");` se hace lo propio con la variable `messageType`. Lo mismo ocurre en caso de error.
 
 A tener en cuenta: en `String message = "Cine " + newCinema + " guardado correctamente.";` hay que estar seguro de que la entidad `Cinema` sobrescribe (@Override) el método `toString()` para poder usarlo como String.
 
@@ -223,6 +227,9 @@ public class SessionFilter implements Filter {
         HttpSession session = httpRequest.getSession(true);
 
         if (session!= null) {
+
+            // Variables para las notificaciones
+
             if (session.getAttribute("message") == null)
                 session.setAttribute("message", "");
 
@@ -267,13 +274,11 @@ Adaptando este método sería posible, por ejemplo, generar notificaciones que p
 
 # BONUS: Aviso de cookies
 
-Es fácil realizar los cambios para notificar un aviso de cookies con un botón de aceptar que permanezca abierto hasta que el usuario lo cierre.
+Es fácil realizar los cambios para, por ejemplo, notificar un aviso de cookies con un botón de aceptar que permanezca abierto hasta que el usuario lo cierre, o incluso poner un banner, o cualquier aviso temporal que requiera nuestra aplicación. Hagamos el proceso de ejemplo de un aviso de cookies.
 
-El planteamiento cambia un poco. Para empezar, como las notificaciones nos van a acompañar por toda la aplicación, no deberemos incluir la variable `messageActivated` en `SessionFilter`, ni tampoco sus comprobaciones `if` asociadas. Si lo hacemos, la notificación se eliminará al cambiar de página.
+El planteamiento cambia un poco. Si vamos a emplear ambos métodos, el de notificar lo que ocurre en la aplicación y el aviso de cookies, debemos usar una variable propia que actúe de «llave» para la cookie.
 
-Si vamos a emplear ambos métodos, el de notificar lo que ocurre en la aplicación y el aviso de cookies, podemos usar una variable propia para la cookie.
-
-La notificación estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento `messageAlert.html` incluido en la plantilla hasta que se lo indiquemos. Como no podemos eliminar el contenido de la notificación desde Thymeleaft, y no sabemos el momento en el que el usuario eliminará la ventana de notificación, la variable de sesión que guarda la notificación se manejará desde el *backend*, mediante una ruta que nos permita cambiar su valor.
+La notificación estará disponible en la vista actual y en todas aquellas vistas que tengan el fragmento de código de la cookie incluido en la plantilla hasta que se lo indiquemos. Como no podemos eliminar el contenido de la notificación desde Thymeleaft, y no sabemos el momento en el que el usuario eliminará la ventana de notificación, la variable de sesión que guarda la notificación se manejará desde el *backend*, mediante un controlador y una ruta que nos permita cambiar su valor.
 
 ## El filtro
 
@@ -296,6 +301,9 @@ public class SessionFilter implements Filter {
         HttpSession session = httpRequest.getSession(true);
 
         if (session!= null) {
+
+            // Variables para las notificaciones
+
             if (session.getAttribute("message") == null)
                 session.setAttribute("message", "");
 
@@ -303,9 +311,24 @@ public class SessionFilter implements Filter {
                 session.setAttribute("messageType", ""); 
                 // Valores: "danger" u otro cualquiera = "info".
 
-            // Gestión de cookie
+            // Cierre de notificaciones al cambiar de página
+
+            if (session.getAttribute("messageActivated") == null)
+                session.setAttribute("messageActivated", false);
+
+            if ((boolean) session.getAttribute("messageActivated")) {
+                session.setAttribute("message", "");
+                session.setAttribute("messageActivated", false);
+            }
+
+            if (!Objects.equals((String) session.getAttribute("message"), ""))
+                session.setAttribute("messageActivated", true);
+
+            // Gestión de la cookie
+
             if (session.getAttribute("cookieWarning") == null)
                 session.setAttribute("cookieWarning", true);
+
         }
 
         chain.doFilter(request, response);
@@ -316,7 +339,7 @@ public class SessionFilter implements Filter {
 }
 ```
 
-En este caso, la varialbe tendrá valor `true`por defecto, lo que indica que el fragmento de aviso de cookies debe mostrarse. Cunado la cerremos, este valor cambiará a `false`.
+En este caso, la variable tendrá valor `true` por defecto, lo que indica que el fragmento de aviso de cookies debe mostrarse. Cuando la cerremos, este valor cambiará a `false`.
 
 ## El fragmento
 
@@ -354,11 +377,11 @@ Nuestra notificación de cookie se verá así:
 
 ![Notificación de cookie](/assets/img/notificaciones-cookie.png){: .mx-auto.d-block :}
 
-La comprobación `th:if="${session.cookieWarning}"` hará que se muestre o no este fragmento, y consecuentemente, que se muestre o no la notificación de cookies.
+La comprobación `th:if="${session.cookieWarning}"` hará que se muestre o no este fragmento, osea, que se muestre o no la notificación de cookies.
 
-Como se aprecia, se incluye un formulario que actuará cuando el usuario cierre la notificación. Con el botón `button type="submit"` envío el formulario del mensaje al controlador que va a borrar el mensaje en la ruta indicada en el formulario: `<form th:action="@{/cookie}" method="POST">`.
+Como se aprecia, se incluye un formulario que actuará cuando el usuario cierre la notificación. Con el botón `button type="submit"`, mediante el formulario, llamo al controlador que va a desactivar la notificación de cookie a través la ruta indicada en el formulario: `<form th:action="@{/cookie}" method="POST">`.
 
-Mediante `<input type="hidden" th:name="returnUrl" th:value="${returnUrl}">` indico a través de la respuesta de formulario al controlador, a qué página debo dirigirme después de realizar la operación, pues, como dije, no sabemos en qué momento el usuario cerrará la notificación. Esto me permitirá volver a la página donde estaba una vez se procese el cambio del valor de la variable de sesión. 
+Con `<input type="hidden" th:name="returnUrl" th:value="${returnUrl}">` indico, a través de la respuesta de formulario al controlador, a qué página debo dirigirme después de realizar la operación, pues, como dije, no sabemos en qué momento el usuario cerrará la notificación. Esto me permitirá volver a la página donde estaba una vez se procese el cambio del valor de la variable de sesión de la cookie. 
 
 Suelo usar de forma genérica `returnUrl` para indicar la ruta porque es útil para, por ejemplo, cuando llamo a un formulario y quiero saber dónde debo ir una vez enviado el contenido del formulario, como en este caso. Por ejemplo, si nuestra aplicación maneja cines, y añadimos, editamos o borramos un cine, mediante `returnUrl` puedo indicar al método `@PostMapping` qué vista mostrar tras realizar estas operaciones. Para poder hacerlo, cuando usé las vistas de crear, editar o borrar mencionadas, añado esta variable al modelo con:
 
