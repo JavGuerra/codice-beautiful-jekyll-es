@@ -7,6 +7,16 @@ subtitle: Mira lo que hago
 <div class="row">
 
 <article class="col-sm-12 col-xl-6 post-preview">
+    <a href="{% post_url 2022-05-08-accesibilidad %}">
+        <img class="shadow-sm mb-2" alt="Accesibilidad" width="250"
+            src="https://raw.githubusercontent.com/JavGuerra/cartelera-daw/main/src/main/resources/static/img/banner.png" />
+        <h2 class="post-title">Cartelera DAW</h2>
+    </a>
+    <h3 class="post-subtitle">Proyecto final de FPGS DAW con Java y Spring Boot</h3>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Java&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Spring Boot&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Thymeleaft&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Security&nbsp;</span></small>
+</article>
+
+<article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-11-18-proyecto-final-bootcamp %}">
         <img class="shadow-sm mb-2" alt="Tienda 8 bits" width="250" 
             src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" />
@@ -36,7 +46,6 @@ subtitle: Mira lo que hago
     <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
-
 <article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-04-28-buscaminas %}">
         <img class="shadow-sm mb-2" alt="Buscaminas" width="250"
@@ -65,16 +74,6 @@ subtitle: Mira lo que hago
     </a>
     <h3 class="post-subtitle">Con Google&nbsp;Web&nbsp;Designer</h3>
     <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Animación&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Herramientas&nbsp;</span></small>
-</article>
-
-<article class="col-sm-12 col-xl-6 post-preview">
-    <a href="{% post_url 2022-05-08-accesibilidad %}">
-        <img class="shadow-sm mb-2" alt="Accesibilidad" width="250"
-            src="{% link assets/img/accessibility.png %}" />
-        <h2 class="post-title">Accesibilidad web</h2>
-    </a>
-    <h3 class="post-subtitle">Buenas prácticas explicadas con un ejemplo</h3>
-    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Usabilidad&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
