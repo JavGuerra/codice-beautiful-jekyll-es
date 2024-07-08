@@ -30,7 +30,7 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">
         <img class="shadow-sm mb-2" alt="Conceptos FSWD" width="250"
             src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
-        <h2 class="post-title">Conceptos Full&nbsp;Stack</h2>
+        <h2 class="post-title">Full&nbsp;Stack</h2>
     </a>
     <h3 class="post-subtitle">Maquetación de ejemplo</h3>
     <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
