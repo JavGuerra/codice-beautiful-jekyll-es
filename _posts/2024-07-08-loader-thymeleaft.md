@@ -2,13 +2,13 @@
 layout: post
 title: Spinner loader en Thymeleaft
 subtitle: Esperando la respuesta del backend
-thumbnail-img: /assets/img/notificaciones.jpg
+thumbnail-img: /assets/img/spinner-loader.png
 tags: [código, java, spring, thymeleaft]
 ---
 
 A veces, el tiempo de respuesta del servidor puede ser largo, y el usuario puede sentir que la aplicación web no está funcionando bien. En esta entrada explico cómo usar un spinner loader propio generado con CSS que se active al cargar la página hasta que esta se muestra completamente.
 
-Esta entrada hace uso y adapta los contenidos ya explicados anteriormente en este blog en [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %}), pero en este caso se simplifica el proceso al plantear una solución que no se basa en eventos asíncronos.
+La entrada hace uso y adapta los contenidos ya explicados anteriormente en este blog en [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %}), pero en este caso se simplifica el proceso al plantear una solución que no se basa en eventos asíncronos.
 
 ![Spin](/assets/img/spinner-loader.png){: .mx-auto.d-block :}
 
@@ -61,13 +61,13 @@ Realmente no importa en qué parte de la plantilla incluyamos el fragmento, pues
 <dialog id="zone"><div class="spinner" aria-label="Cargando..."></div></dialog>
 ```
 
-Este simple código define una ventana modal identificado como `zone` y un div que servirá para mostrar el cargador definido a través de la clase `spinner`.
+Este simple código define una ventana modal identificada como `zone` y un div que servirá para mostrar el cargador definido a través de la clase `spinner`.
 
 Mediante el código JavaScript posterior, selecciono la ventana modal `zone` sobre la que voy a actuar, y luego defino dos eventos, el primero hará que se muestre el cargador y el segundo que se desactive.
 
 El primer evento se dispara cuando el HTML se ha cargado completamente (`DOMContentLoaded`), y el segundo cuando todos los contenidos referenciados en la página son cargados (`load`). Entre el primer y el segundo evento, el cargador es visible. 
 
-Con `zone.showModal();` se activa la ventana modal, y con `zone.close();` se cierra. En realidad, el cargador está ahí en todo momento, pero no está visible en todo momento.
+Con `zone.showModal();` se activa la ventana modal, y con `zone.close();` se desactiva. En realidad, el cargador está ahí en todo momento, pero no está visible en todo momento.
 
 Dentro de cada función que gestiona el evento he incluido también el código para quitar el evento una vez usado.
 
@@ -102,13 +102,21 @@ Con el siguiente código:
 }
 ```
 
-El modal identificado como `#zone` se verá sin fondo y sin borde, osea, totalmente transparente. En él muestro el cargador. `#zone` tendrá el tamaño del cargador, y aparecerá centrado tanto vertical como horizontalmente en la pantalla, manteniéndose centrado aún haciendo _scroll_.
+No debemos olvidar incluir algo como:
+
+ ``` html
+ <link rel="stylesheet" href="/css/estilo.css">
+ ```
+ 
+en el `head` de las plantillas donde vayamos a usar el cargador, cambiando `estilo.css` y su ruta según corresponda.
+
+El modal identificado como `#zone` se verá sin fondo y sin borde, osea, totalmente transparente. En él es donde se muestra el cargador. `#zone` tendrá el tamaño del cargador, y aparecerá centrado tanto vertical como horizontalmente en la pantalla, manteniéndose centrado aún haciendo _scroll_.
 
 Con `.spinner` describo el aspecto del _spinner loader_, e indico que debe animarse infinitamente girando 360 grados cada segundo.
 
-Realmente se trata de poner bordes coloreados a un div, poner u color distinto a uno de sus lados, redondear sus esquinas para que el div parezca un círculo y luego girarlo constantemente. Simple y efectivo.
+Realmente se trata de colorear el borde a un div, poner un color distinto al borde de uno de sus lados, redondear sus esquinas para que el div parezca un círculo y luego hacerlo girar constantemente. Simple y efectivo.
 
-Y no necesitamos nada más. Ahora, cada vez que se cargue una página, veremos el cargador durante el tiempo que tarda en cargarse la página.
+Y no necesitamos nada más. Ahora, cada vez que se cargue una página, veremos el cargador durante el tiempo que tarda en cargarse completamente.
 
 No se recomienda abusar del cargador, ya que este puede centrar la atención del usuario, por lo que usado con moderación, en las páginas que son susceptibles de retrasar su carga, añadimos un efecto interesante y útil a nuestra aplicación y damos información al usuario de lo que ocurre.
 
