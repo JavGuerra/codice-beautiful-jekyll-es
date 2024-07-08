@@ -6,9 +6,9 @@ thumbnail-img: /assets/img/spinner-loader.png
 tags: [código, java, spring, thymeleaft]
 ---
 
-A veces, el tiempo de respuesta del servidor puede ser largo, y el usuario puede sentir que la aplicación web no está funcionando bien. En esta entrada explico cómo usar un spinner loader propio generado con CSS que se active al cargar la página hasta que esta se muestra completamente.
+A veces, el tiempo de respuesta del servidor es alto, y el usuario puede sentir que la aplicación web no está funcionando bien. Aquí explico cómo usar un spinner loader o animación de carga propia, generada con CSS, que se active al cargar la página y permanezca activa hasta que se muestre completamente.
 
-La entrada hace uso y adapta los contenidos ya explicados anteriormente en este blog en [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %}), pero en este caso se simplifica el proceso al plantear una solución que no se basa en eventos asíncronos.
+Esta entrada hace uso y adapta los contenidos ya explicados anteriormente en este blog en [Spinner loader asíncrono]({% post_url 2022-05-30-spinner-loader-asincrono %}), pero en este caso se simplifica el proceso al plantear una solución que no se basa en eventos asíncronos.
 
 ![Spin](/assets/img/spinner-loader.png){: .mx-auto.d-block :}
 
