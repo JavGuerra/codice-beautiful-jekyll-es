@@ -100,7 +100,7 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-04-22-fizzbuzz %}">
         <img class="shadow-sm mb-2" alt="Code" width="250"
             src="{% link assets/img/code.png %}" />
-        <h2 class="post-title">Fizz buzz</h2>
+        <h2 class="post-title">Algoritmo Fizz buzz</h2>
     </a>
     <h3 class="post-subtitle">Reto de programación</h3>
     <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Lógica&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span></small>
