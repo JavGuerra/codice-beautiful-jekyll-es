@@ -13,7 +13,7 @@ subtitle: Mira lo que hago
         <h2 class="post-title">Cartelera DAW</h2>
     </a>
     <h3 class="post-subtitle">Proyecto final de FPGS DAW con Java y Spring Boot</h3>
-    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Java&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Spring Boot&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Thymeleaft&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Security&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;Java&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Spring Boot&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Thymeleaft&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Security&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Accesibilidad&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
