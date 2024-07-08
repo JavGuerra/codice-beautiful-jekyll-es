@@ -50,10 +50,10 @@ subtitle: Mira lo que hago
     <a href="{% post_url 2022-04-29-galeria-carousel %}">
         <img class="shadow-sm mb-2" alt="Carousel" width="250"
             src="https://badared.com/javguerra/daw/galeria/foto.jpg" />
-        <h2 class="post-title">Galería de fotos</h2>
+        <h2 class="post-title">Edición fotográfica</h2>
     </a>
     <h3 class="post-subtitle">Carousel con Bootstrap</h3>
-    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Edición&nbsp;fotográfica&nbsp;</span></small>
+    <small style="font-family:Arial, Helvetica, sans-serif;"><span class="badge rounded-pill bg-info text-white">&nbsp;HTML&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;CSS&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Bootstrap&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;JavaScript&nbsp;</span> <span class="badge rounded-pill bg-info text-white">&nbsp;Responsive&nbsp;</span></small>
 </article>
 
 <article class="col-sm-12 col-xl-6 post-preview">
