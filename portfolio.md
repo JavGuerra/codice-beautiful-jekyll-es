@@ -7,7 +7,7 @@ subtitle: Mira lo que hago
 <div class="row">
 
 <article class="col-sm-12 col-xl-6 post-preview">
-    <a href="{% post_url 2022-05-08-accesibilidad %}">
+    <a href="{% post_url 2024-06-20-cartelera-daw %}">
         <img class="shadow-sm mb-2" alt="Accesibilidad" width="250"
             src="https://raw.githubusercontent.com/JavGuerra/cartelera-daw/main/src/main/resources/static/img/banner.png" />
         <h2 class="post-title">Cartelera DAW</h2>
