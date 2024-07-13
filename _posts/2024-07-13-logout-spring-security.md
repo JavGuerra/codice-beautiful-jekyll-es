@@ -12,7 +12,7 @@ Se asume que el lector tiene conocimientos generales de Spring Boot y Spring Sec
 
 ![Cookies](/assets/img/cookies.png){: .mx-auto.d-block :}
 
-# El contexto de de seguridad
+# El contexto de seguridad
 
 El primer paso en el proceso de logout que lleva a cabo Spring Security es invalidar la sesión del usuario. Esto significa que Spring Security elimina cualquier información asociada con la sesión del usuario, como datos de estado de sesión almacenados en el servidor o en cookies. Al invalidar la sesión, se asegura de que el usuario ya no pueda acceder a la aplicación como si estuviera autenticado.
 
