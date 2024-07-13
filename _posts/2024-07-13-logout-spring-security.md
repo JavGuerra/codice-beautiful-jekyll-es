@@ -137,7 +137,11 @@ public class LogoutController {
 
 Ahora sí, el usuario será anónimo, y cualquier comprobación en la plantilla Thymeleaft que incluya `sec:authorize="isAnonymous()"` permitirá que la etiqueta HTML que lo use sea mostrada.
 
-Tal vez podría crearse un manejador personalizado que realice esta función de cierre de sesión sin la necesidad de crear un controlador. Seguiré investigando para conocer su implementación.
+# Consideraciones
+
+Tal vez podría crearse un servicio al que llamar desde el controlador para gestionar el logout, o un manejador propio `CustomLogoutHandler` que realice esta función de cierre de sesión sin la necesidad de crear un controlador, y que se use directamente desde `SecurityConfig.class`.
+
+Se han de tener en cuenta las consideraciones de seguridad relacionadas con este método. Mantener información de la sesión de usuario una vez se lleva a cabo el logout no siempre es seguro, y se deben controlar las posibles fugas de información para evitar problemas.
 
 # Un ejemplo
 
