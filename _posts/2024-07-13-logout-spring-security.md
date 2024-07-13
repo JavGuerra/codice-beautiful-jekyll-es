@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/cookies.png
 tags: [código, java, spring, security, seguridad]
 ---
 
-En un ([artículo anterior]({% post_url 2024-07-03-notificaciones-thymeleaft %})) he usado variables de sesión para guardar información de la aplicación: mensajes para el usuario, aviso de cookies... Puede que, cuando el usuario salga de su sesión, queramos conservar estos datos que seguirán siendo útiles aunque no esté autenticado. En esta entrada muestro mi solución usando Spring Security.
+En un [artículo anterior]({% post_url 2024-07-03-notificaciones-thymeleaft %}) he usado variables de sesión para guardar información de la aplicación: mensajes para el usuario, aviso de cookies... Puede que, cuando el usuario salga de su sesión, queramos conservar estos datos que seguirán siendo útiles aunque no esté autenticado. En esta entrada muestro mi solución usando Spring Security.
 
 Se asume que el lector tiene conocimientos generales de Spring Boot y Spring Security para aplicar el contenido.
 
