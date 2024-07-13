@@ -41,6 +41,12 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Python: aprender a programar](https://www.edx.org/es/course/python-aprender-a-programar)
 * [Ejercicios de programación con Python](https://aprendeconalf.es/docencia/python/ejercicios/)
 
+## Java
+
+* [Mega Curso Java desde 0](https://www.youtube.com/playlist?list=PLG1qdjD__qH6ULjW5iN8E45m5nkaCNbUu)
+* [CodeGym](https://codegym.cc/es/)
+* [Tutorial Spring Boot](https://www.freecodecamp.org/espanol/news/tutorial-spring-boot-crear-apps-java-modernas-y-rapidas/)
+
 ## PHP
 
 * [PHP, la manera correcta](https://phpdevenezuela.github.io/php-the-right-way/)

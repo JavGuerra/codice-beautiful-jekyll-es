@@ -103,6 +103,10 @@ Cursos gratuitos de la Fundación Addeco.
 
 Plataforma Digital Fundación Accenture.
 
+## [Santander Open Academy](https://www.santanderopenacademy.com)
+
+Plataforma de formación del Banco Santander.
+
 # Otros recursos
 
 * [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
