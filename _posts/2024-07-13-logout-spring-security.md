@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Logout personalizado con Spring Security
-subtitle: Limpiar el contexto de seguridad sin borrar la cookie
+subtitle: Limpiando el contexto de seguridad sin borrar la cookie
 thumbnail-img: /assets/img/cookies.png
 tags: [código, java, spring, security, seguridad]
 ---
 
-En un artículo anterior ([1]({% post_url 2024-07-03-notificaciones-thymeleaft %})) he usado variables de sesión para guardar información de la aplicación: mensajes para el usuario, aviso de cookies... Es posible que, cuando el usuario sale de su sesión, queramos conservar estos datos que seguirán siendo útiles aunque el usuario no esté autenticado. En esta entrada muestro mi solución usando Spring Security.
+En un ([artículo anterior]({% post_url 2024-07-03-notificaciones-thymeleaft %})) he usado variables de sesión para guardar información de la aplicación: mensajes para el usuario, aviso de cookies... Puede que, cuando el usuario salga de su sesión, queramos conservar estos datos que seguirán siendo útiles aunque no esté autenticado. En esta entrada muestro mi solución usando Spring Security.
 
 Se asume que el lector tiene conocimientos generales de Spring Boot y Spring Security para aplicar el contenido.
 
@@ -14,7 +14,7 @@ Se asume que el lector tiene conocimientos generales de Spring Boot y Spring Sec
 
 # El contexto de seguridad
 
-El primer paso en el proceso de logout que lleva a cabo Spring Security es invalidar la sesión del usuario. Esto significa que Spring Security elimina cualquier información asociada con la sesión del usuario, como datos de estado de sesión almacenados en el servidor o en cookies. Al invalidar la sesión, se asegura de que el usuario ya no pueda acceder a la aplicación como si estuviera autenticado.
+El primer paso en el proceso de logout que lleva a cabo Spring Security es invalidar la sesión del usuario. Esto significa que Spring Security elimina cualquier información asociada con la sesión del usuario, como datos de estado de sesión almacenados en el servidor o en cookies (borra la información, pero no la cookie). Al invalidar la sesión, se asegura de que el usuario ya no pueda acceder a la aplicación como si estuviera autenticado.
 
 Después de invalidar la sesión, Spring Security también limpia el contexto de seguridad actual. Esto incluye eliminar cualquier token de Authentication que represente al usuario autenticado, asegurando que el usuario ya no sea reconocido como autenticado en la aplicación.
 
@@ -56,9 +56,9 @@ public class  SecurityConfig {
 
 Con `...` indico que el código puede ser más amplio y contener otras configuraciones.
 
-En la línea `.requestMatchers(HttpMethod.POST, "/logout").permitAll()` estoy permitiendo el acceso a la ruta personalizada para llevar a cabo el logout. Realmente no sería necesario esto al incluir `.permitAll()`. Tampoco es necesario porque la ruta `/logout` está disponible por defecto. Esto puede ser útil si decidimos usar otra ruta distinta a `/logout`.
+En la línea `.requestMatchers(HttpMethod.POST, "/logout").permitAll()` estoy permitiendo el acceso a la ruta personalizada para llevar a cabo el logout. Realmente, esto no sería necesario al incluir `.permitAll()` después de `logoutUrl("/logout")`. Tampoco sería necesario porque la ruta `/logout` está disponible por defecto. No obstante, esto puede ser útil si decidimos usar otra ruta distinta a `/logout` en la aplicación.
 
-Será necesario definir un controlador propio para la ruta.
+Para la gestión del token del usuario, será necesario definir un controlador propio para la ruta `logout`. Algo similar a esto:
 
 ```java
 @Slf4j
@@ -81,13 +81,17 @@ public class LogoutController {
 
 La información de sesión se guarda en una cookie llamada `JSESSIONID`, que contendrá las variables de sesión, incluido el token de autenticación.
 
-Con `SecurityContextHolder.getContext().setAuthentication(null);` elimino el token de autenticación, pero sin borrar toda la información de la cookie, como las variables de sesión. Después de esto, puedo realizar algunas acciones asociadas al cierre y mostrar un mensaje de despedida, o redirigir al login...
+Con `SecurityContextHolder.getContext().setAuthentication(null);` elimino el token de autenticación, pero sin borrar toda la información de la cookie, como las variables de sesión. 
+
+Después de esto, puedo realizar algunas acciones asociadas al cierre y redirigir al login, o como en este caso, mostrar la vista `logout` para mostrar un mensaje de despedida.
 
 # Refinando el logout
 
-Al usar `null` elimino el token de autenticación del usuario, pero puede que, en la plantilla que devuelvo con return (`logout` en el caso anterior), sea necesario usar el contexto de seguridad, por ejemplo mostrando una información u otra en un fragmento de la plantilla si estamos autenticados o no. Con este método, ni `sec:authorize="isAnonymous()"` ni `sec:authorize="isAuthenticated()"` funcionarán en Thymeleaft, ya que no existe el token que indique si el usuario es anónimo o está autenticado.
+Al usar `null` elimino el token de autenticación del usuario, pero puede que, en la plantilla que devuelvo con return (`logout` en el caso anterior), sea necesario usar el contexto de seguridad, por ejemplo mostrando una información u otra en un fragmento de la plantilla si estamos autenticados o no. Con este método, ni `sec:authorize="isAnonymous()"` ni `sec:authorize="isAuthenticated()"` funcionarán en Thymeleaft, ya que ahora no existe el token que indique si el usuario es anónimo o está autenticado.
 
-Debo entonces cambiar el token en vez de eliminarlo, pero Spring Boot no tiene un token por defecto que pueda usar, así que debo construir uno.
+Esto ocurre sólo para la vista asociada al controlador que es llamada tras borrar el token, pero no ocurre así para las siguientes vistas, en las que parece que el token es regenerado como anónimo.
+
+Entonces, si en la siguiente vista no vamos a usar la autenticación, será suficiente con usar `null`, pero si no es así, entonces hay que cambiar el token en vez de eliminarlo, pero Spring Boot no tiene un token por defecto que pueda usar, así que debo construir uno.
 
 Primeramente añado el siguiente código en
 
@@ -107,7 +111,7 @@ El método realiza las siguientes acciones:
 
 * **Creación del Token**: Luego, utilizo esta lista de autoridades para construir un nuevo `AnonymousAuthenticationToken`, pasando también dos cadenas de texto (`"ANONYMOUS_USER"`) como nombre y detalles del usuario. Estos valores pueden ser personalizados según sea necesario.
 
-Ya puedo usar el token en el controlador:
+Ya puedo usar el token en el controlador, como se muestra:
 
 ```java
 @Slf4j
@@ -131,12 +135,16 @@ public class LogoutController {
 }
 ```
 
-Ahora sí, el usuario será anónimo, y cualquier comprobación en la vista mediante `sec:authorize="isAnonymous()"` permitirá que la etiqueta HTML que lo use sea mostrada.
+Ahora sí, el usuario será anónimo, y cualquier comprobación en la plantilla Thymeleaft que incluya `sec:authorize="isAnonymous()"` permitirá que la etiqueta HTML que lo use sea mostrada.
 
-Tal vez podría crearse un manejador personalizado que realice esta función de cierre de sesión sin necesidad de crear un controlador. Seguiré investigando para conocer su implementación.
+Tal vez podría crearse un manejador personalizado que realice esta función de cierre de sesión sin la necesidad de crear un controlador. Seguiré investigando para conocer su implementación.
 
 # Un ejemplo
 
 Puedes ver el código que implementan esta funcionalidad en el repositorio de la aplicación [Cartelera DAW]({% post_url 2024-06-20-cartelera-daw %}).
 
-- [Repositorio de Cartelera DAW](https://github.com/JavGuerra/cartelera-daw) 
+- [Repositorio de Cartelera DAW](https://github.com/JavGuerra/cartelera-daw)
+
+Mira también el artículo donde se usan las variables de sesión que quiero preservar:
+
+- [Notificaciones con Thymeleaft]({% post_url 2024-07-03-notificaciones-thymeleaft %})
