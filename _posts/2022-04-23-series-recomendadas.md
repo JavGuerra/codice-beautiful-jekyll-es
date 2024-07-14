@@ -60,7 +60,12 @@ Haz click en los enlaces para más información:
 - [The Bridge - remake Bron USA](https://www.filmaffinity.com/es/film239005.html) - Orange TV / Acorn TV  
 - [Por toda la humanidad](https://www.filmaffinity.com/es/film748109.html) - Apple TV  
 - [Shameless](https://www.filmaffinity.com/es/film906532.html) - Prime Video  
+- [The last of us](https://www.filmaffinity.com/es/film205905.html) - HBO Max
 - [Ted Lasso](https://www.filmaffinity.com/es/film161198.html) - Apple TV
+- [Slow Horses](https://www.filmaffinity.com/es/film223695.html) - Apple TV
+- [Este mundo no me hará mala persona](https://www.filmaffinity.com/es/film845472.html) - Netflix
+- [Ripley](https://www.filmaffinity.com/es/film952850.html) - Netflix  
+- [The Bear](https://www.filmaffinity.com/es/film948192.html) - Disney+  
 
 # Siglo XX
 
