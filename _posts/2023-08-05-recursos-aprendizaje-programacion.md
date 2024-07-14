@@ -44,6 +44,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 ## Java
 
 * [Mega Curso Java desde 0](https://www.youtube.com/playlist?list=PLG1qdjD__qH6ULjW5iN8E45m5nkaCNbUu)
+* [Arquitectura Java](https://cursos.arquitecturajava.com/p/cursos-gratuitos)
 * [CodeGym](https://codegym.cc/es/)
 * [Tutorial Spring Boot](https://www.freecodecamp.org/espanol/news/tutorial-spring-boot-crear-apps-java-modernas-y-rapidas/)
 
