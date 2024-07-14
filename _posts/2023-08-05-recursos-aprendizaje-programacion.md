@@ -89,6 +89,7 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Curso gratis de programación básica - Platzi](https://platzi.com/cursos/programacion-basica/)
 * [OpenBootCamp](https://www.youtube.com/@OpenBootcamp/playlists)
 * [Certidevs](https://certidevs.com/)
+* [Programar Ya](https://www.programarya.com/)
 
 # Juegos de aprendizaje
 
