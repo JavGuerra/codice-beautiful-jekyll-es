@@ -107,6 +107,10 @@ Plataforma Digital Fundación Accenture.
 
 Plataforma de formación del Banco Santander.
 
+## [Cursos de la Confederación Española de Comercio](https://www.cursosfemxa.es/cec)
+
+Cursos online vinculados a unidades de competencia del Catálogo Nacional de Cualificaciones Profesionales.
+
 # Otros recursos
 
 * [Aprende Programación en línea]({% post_url 2023-08-05-recursos-aprendizaje-programacion %})
