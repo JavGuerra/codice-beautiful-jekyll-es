@@ -17,7 +17,7 @@ Las becas suelen tener plazos de presentación. Dependiendo de cuándo veas esta
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
-[Becas educación Ministerio de educación y transformación digital](https://www.becaseducacion.gob.es/) - Formación reglada
+* [Becas educación Ministerio de educación y transformación digital](https://www.becaseducacion.gob.es/) - Formación reglada
 
 # Género
 
