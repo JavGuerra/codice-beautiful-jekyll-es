@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Becas para estudios TIC
-subtitle: Recursos formativos gratuitos y en español
+subtitle: Recursos económicos para formarte
 thumbnail-img: /assets/img/estudios.png
 tags: [formación]
 ---
