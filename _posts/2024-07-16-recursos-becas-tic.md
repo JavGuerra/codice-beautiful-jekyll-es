@@ -17,9 +17,11 @@ Las becas suelen tener plazos de presentación. Dependiendo de cuándo veas esta
 {: .box-note}
 **Nota**: Esta entrada se actualiza periódicamente.
 
+# Genéricas
+
 * [Becas educación Ministerio de educación y transformación digital](https://www.becaseducacion.gob.es/) - Formación reglada
 
-# Género
+# Mujeres
 
 * [Becas y premios para que más mujeres estudien carreras TIC](https://www.educaweb.com/noticia/2022/04/28/premios-becas-haya-mas-mujeres-tic-20905/#Becas%20de%20centros%20formativos) - Artículo
 
