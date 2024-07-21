@@ -2,13 +2,13 @@
 layout: post
 title: Tienda 8 bits
 subtitle: Proyecto de graduación del Bootcamp Full Stack Web Developer
-thumbnail-img: https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png
+thumbnail-img: https://raw.githubusercontent.com/JavGuerra/tienda-8-bits/main/frontend/public/assets/img/banner.png
 tags: [formación, beca, node.js, express, react, mongodb, javascript]
 ---
 
 Durante el año 2022 cursé el [Bootcamp de Desarrollo Web Full Stack]({% post_url 2022-04-23-beca-santander-fswd %}) que [Becas Santander](https://www.becas-santander.com/es/index.html) llevó a cabo en colaboración con [Fundación Universia](https://jobs.universia.net/), [Indra](https://www.indracompany.com/) y [The Bridge](https://www.thebridge.tech/).
 
-![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
+![Tienda 8 bits](https://raw.githubusercontent.com/JavGuerra/tienda-8-bits/main/frontend/public/assets/img/banner.png){: .mx-auto.d-block :}
 
 [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)
 
@@ -61,7 +61,7 @@ __Características destacadas de la App__:
 
 ## Licencias
 
-Sobre el código fuente: [GNU GENERAL PUBLIC LICENSE Version 3](https://github.com/JavGuerra/final-fswd/blob/main/LICENSE)  
+Sobre el código fuente: [GNU GENERAL PUBLIC LICENSE Version 3](https://github.com/JavGuerra/tienda-8-bits/blob/main/LICENSE)  
 Sobre el contenido de la web: [(CC) BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/es/)  
 Sobre las fotos: Son propiedad de sus respectivos autores.  
 Sobre las fuentes de letra: [Google Fonts](https://fonts.google.com/)  
@@ -70,17 +70,17 @@ Material usado sin ánimo de lucro bajo criterios didácticos y formativos.
 
 ## Acceder a la aplicación
 
-![Código QR](https://raw.githubusercontent.com/JavGuerra/final-fswd/f4d0d188a687f1b7c8b7b77f036176347f838c1b/qrcode.svg)  
+![Código QR](https://raw.githubusercontent.com/JavGuerra/tienda-8-bits/0d3d3a968787a438379d003fe31aaede91011e40/qrcode.svg)  
 
 [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la aplicación on-line</button>](https://javguerra.badared.com/proyecto/tienda8bits/)  
 
 ## Enlaces
 - [Aplicación on-line](https://javguerra.badared.com/proyecto/tienda8bits/)  
 - [Documentación de la API](https://api-tienda8bits.up.railway.app/)  
-- [Enunciado de la práctica en PDF](https://github.com/JavGuerra/final-fswd/blob/main/enunciado.pdf)  
-- [Repositorio en GitHub](https://github.com/JavGuerra/final-fswd)  
+- [Enunciado de la práctica en PDF](https://github.com/JavGuerra/tienda-8-bits/blob/main/enunciado.pdf)  
+- [Repositorio en GitHub](https://github.com/JavGuerra/tienda-8-bits)  
 - [Video de la presentación en YouTube](https://youtu.be/XlswjqhxJZ8)  
-- [Presentación en PDF](https://github.com/JavGuerra/final-fswd/blob/main/presentacion.pdf)  
+- [Presentación en PDF](https://github.com/JavGuerra/tienda-8-bits/blob/main/presentacion.pdf)  
 
 __Artículos informativos elaborados por el autor relacionados con esta práctica:__:  
 

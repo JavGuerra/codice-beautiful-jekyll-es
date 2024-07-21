@@ -19,7 +19,7 @@ subtitle: Mira lo que hago
 <article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-11-18-proyecto-final-bootcamp %}">
         <img class="shadow-sm mb-2" alt="Tienda 8 bits" width="250" 
-            src="https://raw.githubusercontent.com/JavGuerra/final-fswd/main/frontend/public/assets/img/banner.png" />
+            src="https://raw.githubusercontent.com/JavGuerra/tienda-8-bits/main/frontend/public/assets/img/banner.png" />
         <h2 class="post-title">Tienda 8 bits</h2>
     </a>
     <h3 class="post-subtitle">Proyecto de graduación Full&nbsp;Stack&nbsp;Web&nbsp;Developer</h3>
