@@ -2,9 +2,9 @@
 layout: post
 title: Una página de ejemplo
 subtitle: Conceptos Full Stack Web Developer
-cover-img: https://javguerra.github.io/ramp-up-fswd/img/fondo.jpg
-thumbnail-img: https://javguerra.github.io/ramp-up-fswd/img/banner.jpg
-gh-repo:  JavGuerra/ramp-up-fswd 
+cover-img: https://javguerra.github.io/conceptos/img/fondo.jpg
+thumbnail-img: https://javguerra.github.io/conceptos/img/banner.jpg
+gh-repo:  JavGuerra/conceptos-fswd 
 gh-badge: [star, fork, follow]
 tags: [web, código, html, css, javascript]
 comments: true
@@ -12,14 +12,14 @@ comments: true
 # Conceptos FSWD
 
 __Práctica final del Ramp-up del Bootcamp de FSWD__  
-Repositorio en GitHub: [ JavGuerra / ramp-up-fswd](https://github.com/JavGuerra/ramp-up-fswd)  
+Repositorio en GitHub: [ JavGuerra / conceptos-fswd](https://github.com/JavGuerra/conceptos-fswd)  
 Por: __Javier Guerra__ 
 
 ## La página
 
-![Conceptos FWSW](https://javguerra.github.io/ramp-up-fswd/img/banner.jpg)
+![Conceptos FWSW](https://javguerra.github.io/conceptos-fswd/img/banner.jpg)
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/conceptos-fswd/index.html)
 
 Esta página corresponde a la práctica final del ramp-up del [bootcamp sobre Full Stack Web Developer]({% post_url 2022-04-23-beca-santander-fswd %}) que estoy realizando en este momento.
 
@@ -44,10 +44,10 @@ En ella se muestran algunos conceptos aprendidos en esta primera fase, e incluye
 - El fichero README.md tiene sintáxis de marcado ligero [Markdown](https://es.wikipedia.org/wiki/Markdown).
 - Dispone de un código QR para acceso rápido a la web a través de dispositivos móviles.
 - Ha sido probado en los navegadores web __Firefox__ y __Chrome__.
-- Web alojada en [Github](https://github.com/JavGuerra/ramp-up-fswd) pages.
+- Web alojada en [Github](https://github.com/JavGuerra/conceptos-fswd) pages.
 
 ## Acceder a la página web
 
-![icono](https://javguerra.github.io/ramp-up-fswd/img/qrcode.svg)  
+![icono](https://javguerra.github.io/conceptos-fswd/img/qrcode.svg)  
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir a la página web</button>](https://javguerra.github.io/conceptos-fswd/index.html)  

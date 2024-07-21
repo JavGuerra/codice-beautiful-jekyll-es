@@ -128,5 +128,5 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 * [Materiales sobre competencias digitales]({% post_url 2023-04-01-competencias-digitales %})
 * [JavaScript en 14 minutos](https://javguerra.github.io/javascript-en-14-minutos/)
 * [Diseño web en 4 minutos](https://javguerra.github.io/diseno-web-en-4-minutos/)
-* [Full Stack web developer - conceptos](https://javguerra.github.io/ramp-up-fswd/index.html)
+* [Full Stack web developer - conceptos](https://javguerra.github.io/conceptos-fswd/index.html)
 * [Fizz buzz]({% post_url 2022-04-22-fizzbuzz %})

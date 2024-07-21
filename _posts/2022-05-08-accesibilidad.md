@@ -16,7 +16,7 @@ Todos presentaremos en algún momento de nuestra vida alguna discapacidad en men
 
 Con ayuda de la página de ejemplo que preparé y reseñe en [esta entrada]({% post_url 2022-04-23-pagina-de-ejemplo %}), iré describiendo algunas buenas prácticas que suelo emplear en las webs que desarrollo.
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/conceptos-fswd/index.html)
 
 Comprensión del contexto
 ------------------------
@@ -94,7 +94,7 @@ Las páginas pensadas para su uso por terminales móviles primero (_responsive_)
 
 Las etiquetas semánticas nuevamente son de ayuda aquí (```<thead>```, ```<tbody>```, ```<tfoot>```, y ```<tr>``` para los encabezados) y algunos atributos de HTML ayudan a paliar esto en cierta medida, como ```scope="colgroup"``` (columnas) y ```scope="rowgroup"``` (filas) que indican que las siguientes filas o columnas forman parte de un grupo con un mismo contexto.
 
-Como se puede ver en la [tabla](https://javguerra.github.io/ramp-up-fswd/index.html#perfiles) de la web de ejemplo, todas las celdas debajo de la celda del encabezado «_Front end_» o del encabezado «_Back end_» estarían dentro de un _colgroup_ y las celdas al lado de las celdas de encabezado «Desarrollo», «Diseño», «Sistemas», etc. estarían dentro de un ```rowgroup```. No es una solución perfecta, pero definiendo estos bloques, ayudamos a la navegación. Estas etiquetas se suelen aplicar a los elementos ```<th>```.
+Como se puede ver en la [tabla](https://javguerra.github.io/conceptos-fswd/index.html#perfiles) de la web de ejemplo, todas las celdas debajo de la celda del encabezado «_Front end_» o del encabezado «_Back end_» estarían dentro de un _colgroup_ y las celdas al lado de las celdas de encabezado «Desarrollo», «Diseño», «Sistemas», etc. estarían dentro de un ```rowgroup```. No es una solución perfecta, pero definiendo estos bloques, ayudamos a la navegación. Estas etiquetas se suelen aplicar a los elementos ```<th>```.
 
 Conclusiones
 ------------
@@ -106,7 +106,7 @@ Para que tus diseños sean exitosos, contempla lo siguiente:
 - Vigilar los eventos interactivos, y señala adecuadamente sus estados.
 - Revisar el código con herramientas que nos permitan conocer si hemos pasado algo por alto, y así corregirlo, como el [complemento WAVE](https://wave.webaim.org/) para el navegador.
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/ramp-up-fswd/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Acceder a la página web</button>](https://javguerra.github.io/conceptos-fswd/index.html)
 
 **Enlaces de interés**:
 - [Introducción a la accesibilidad web](https://www.w3.org/WAI/fundamentals/accessibility-intro/es) - W3C

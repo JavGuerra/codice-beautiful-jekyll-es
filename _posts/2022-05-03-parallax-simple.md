@@ -6,7 +6,7 @@ thumbnail-img: /assets/img/css.png
 tags: [código, HTML, CSS]
 ---
 
-Parallax es un efecto que se aplica generalmente a las imágenes de fondo de una página web, y que consiste en mantener estático, o mover a una velocidad distinta, el resto de los elementos de la página al hacer _scroll_. Pareceŕa de esa forma que la página tiene profundidad. En mi [página de ejemplo](https://javguerra.github.io/ramp-up-fswd/index.html) a la que hacía referencia en este [_post_]({% post_url 2022-04-23-pagina-de-ejemplo %}), puede verse aplicado en la portada o zona «_Hero_».
+Parallax es un efecto que se aplica generalmente a las imágenes de fondo de una página web, y que consiste en mantener estático, o mover a una velocidad distinta, el resto de los elementos de la página al hacer _scroll_. Parecerá de esa forma que la página tiene profundidad. En mi [página de ejemplo](https://javguerra.github.io/conceptos-fswd/index.html) a la que hacía referencia en este [_post_]({% post_url 2022-04-23-pagina-de-ejemplo %}), puede verse aplicado en la portada o zona «_Hero_».
 
 esto se consigue de una forma muy sencilla. Sólo tienes que crear un div en el HTML y ponerle una clase, p. ej. «`.parallax`», y luego, en el CSS, en esa clase, incluir la altura que le darás al `div` y la imagen de fondo que le vas a poner. Por supuesto, dentro de ese `div` puedes incluir texto, imágenes... En el caso del ejemplo mencionado puse el título de la página.
 
@@ -27,7 +27,7 @@ Este efecto tiene un inconveniente, y es que no funciona bien en el navegador Sa
 
 Mis páginas de ejemplo con este efecto Parallax:
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">página de ejemplo</button>](https://javguerra.github.io/ramp-up-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">página de ejemplo</button>](https://javguerra.github.io/conceptos-fswd/index.html) - [post]({% post_url 2022-04-23-pagina-de-ejemplo %})
 
 [<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">página _landing_</button>](https://badared.com/conectiva/evento/THTC2021/)
 

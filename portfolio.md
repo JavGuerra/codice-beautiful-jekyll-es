@@ -39,7 +39,7 @@ subtitle: Mira lo que hago
 <article class="col-sm-12 col-xl-6 post-preview">
     <a href="{% post_url 2022-04-23-pagina-de-ejemplo %}">
         <img class="shadow-sm mb-2" alt="Conceptos FSWD" width="250"
-            src="https://javguerra.github.io/ramp-up-fswd/img/banner.jpg" />
+            src="https://javguerra.github.io/conceptos-fswd/img/banner.jpg" />
         <h2 class="post-title">Full&nbsp;Stack</h2>
     </a>
     <h3 class="post-subtitle">Maquetación de ejemplo</h3>
