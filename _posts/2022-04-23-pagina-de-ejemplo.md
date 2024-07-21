@@ -2,8 +2,8 @@
 layout: post
 title: Una página de ejemplo
 subtitle: Conceptos Full Stack Web Developer
-cover-img: https://javguerra.github.io/conceptos/img/fondo.jpg
-thumbnail-img: https://javguerra.github.io/conceptos/img/banner.jpg
+cover-img: https://javguerra.github.io/conceptos-fswd/img/fondo.jpg
+thumbnail-img: https://javguerra.github.io/conceptos-fswd/img/banner.jpg
 gh-repo:  JavGuerra/conceptos-fswd 
 gh-badge: [star, fork, follow]
 tags: [web, código, html, css, javascript]
