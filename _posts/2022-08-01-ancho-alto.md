@@ -160,7 +160,7 @@ En Twitter, **Manz** proponía también estas tres opciones para evitar el _refl
 
 # Enlaces
 
-* Ejemplo de uso de la solución propuesta: [Galería de perritos](https://javguerra.github.io/02-bootcamp-fs-javascript/17-fetch.html).
+* Ejemplo de uso de la solución propuesta: [Galería de perritos](https://javguerra.github.io/ejercicios-web-javascript/17-fetch.html).
 * Módulo [image-size](https://www.npmjs.com/package/image-size).
 * [Page Speed de Google](https://pagespeed.web.dev/).
 * [¿Qué es el Cumulative Layout Shift (CLS)?](https://www.itdo.com/blog/que-es-el-cumulative-layout-shift-cls/).

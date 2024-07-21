@@ -9,7 +9,7 @@ Programar es una diversión difícil. En ocasiones las interacciones entre los d
 
 ![Decisiones](/assets/img/decisiones.jpg){: .mx-auto.d-block :}
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Página web de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Página web de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/12-nodos.html)
 
 En la página que he preparado para ilustrar esta entrada, tenemos cinco botones de un menú de opciones. Cada opción interactúa con los estados de los otros botones mientras se van añadiendo, quitando o cambiando elementos del DOM (en este caso artículos de una sección), y activando o desactivando los botones según sea necesario en cada momento. Es fácil entender la mecánica del ejemplo probándolo.
 
@@ -31,8 +31,8 @@ Esta tabla resumida incluye sólo la interacción de estados de los botones, -ob
 
 De paso, este ejercicio sirve para mostrar el uso de JavaScript en el manejo de nodos del DOM.
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver el ejercicio interactivo on-line</button>](https://javguerra.github.io/ejercicios-web-javascript/12-nodos.html)
 
-Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/02-bootcamp-fs-javascript/12-nodos-tabla.xls).
+Descargar la tabla de decisiones completa del ejercicio en formato [.ods (Open Document)](https://javguerra.github.io/ejercicios-web-javascript/12-nodos-tabla.ods) o [.xls (Excel)](https://javguerra.github.io/ejercicios-web-javascript/12-nodos-tabla.xls).
 
 **Actualización**. Ver este ejemplo de uso de botonera aún más complicado: [Cronómetro en JavaScript]({% post_url 2022-05-22-cronometro-js %})

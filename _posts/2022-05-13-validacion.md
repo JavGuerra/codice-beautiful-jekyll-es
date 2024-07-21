@@ -9,7 +9,7 @@ tags: [código, HTML, javascript, formularios, usabilidad]
 
 Que ambos tipos de validaciones se den al mismo tiempo es importante, ya que si esto se hiciera consecutivamente, es decir, una a continuación de la otra, llevando a cabo primero nuestra validación y luego la de HTML5, correríamos el riesgo de que los campos propios ya validados pudieran ser alterados por el usuario una vez pasada la primera validación, si en la segunda validación hay campos erróneos que obligan al usuario a editarlos, y por tanto el formulario se enviaría con errores. Veamos cómo se haría.
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Formulario de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/validacion.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Formulario de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/validacion.html)
 
 Tenemos un formulario con tres campos requeridos (obligatorios): «nombre», «edad» y «correo», y al campo «edad» le añado una restricción propia, que su valor debe ser mayor o igual a 16, y si esto no se cumple, deberé mostrar un mensaje de error personalizado en el mismo campo (al estilo de los mensajes de error de HTML5). El formulario cuenta con dos botones: «Borrar» y «Enviar».
 
@@ -78,7 +78,7 @@ La alerta de la línea **8** del ejemplo puede sustituirse por cualquier cosa qu
 
 Eso es todo. Puedes ver el ejemplo empleado en esta entrada y más información relacionada en los siguientes enlaces:
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Formulario de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/validacion.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Formulario de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/validacion.html)
 
 ## Enlaces
 

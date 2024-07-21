@@ -2,14 +2,14 @@
 layout: post
 title: Contador de resultados
 subtitle: Gráfica SVG dinámica en JavaScript con aguja indicadora de resultados.
-thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png
+thumbnail-img: https://javguerra.github.io/ejercicios-web-javascript/img/contador.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
 La información visual es percibida con más claridad que la escrita. A la hora de mostrar resultados, por ejemplo los aciertos o fallos de un examen on-line, podemos complementar la información escrita con una gráfica dinámica que muestre los resultados de un vistazo, aportando además valor al resultado.
 
-![Contador](https://javguerra.github.io/02-bootcamp-fs-javascript/img/contador.png){: .mx-auto.d-block :}
+![Contador](https://javguerra.github.io/ejercicios-web-javascript/img/contador.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver contador de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/contador.html)
 
 ## El contador
 
@@ -27,7 +27,7 @@ El atributo «transform» dentro del SVG indica la posición de la aguja, su tam
 
 Calcular los valores de la posición de la aguja en cada uno de esos intervalos no es tarea fácil. Para acortar camino, guardé la misma gráfica con la aguja en las distintas 11 posiciones y obtuve el valor de transform en cada una de ellas. Este será el valor que luego pasaremos a la gráfica para indicar qué posición debe tener la aguja en función de la puntuación obtenida. Esta es la tabla obtenida:
 
-![Contadores](https://javguerra.github.io/02-bootcamp-fs-javascript/img/contadores.png){: .mx-auto.d-block :}
+![Contadores](https://javguerra.github.io/ejercicios-web-javascript/img/contadores.png){: .mx-auto.d-block :}
 
 | Puntos | Valores de la aguja |
 | :------ |:--- |
@@ -231,7 +231,7 @@ Con cada recarga de la página, la gráfica y el cuadro de texto mostrarán un v
 
 ## Enlace
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver contador de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/contador.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver contador de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/contador.html)  
 
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/summer-quiz/) Es necesario terminar una partida para obtener resultados.
 * Ver también: [Creación de gráfica de lineas dinámica con SVG]({% post_url 2022-06-12-grafica-lineas %})

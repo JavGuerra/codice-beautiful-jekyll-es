@@ -2,20 +2,20 @@
 layout: post
 title: Gráfica de lineas dinámica con SVG
 subtitle: Mostrar resultados gráficos con JavaScript.
-thumbnail-img: https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png
+thumbnail-img: https://javguerra.github.io/ejercicios-web-javascript/img/graficalineas.png
 tags: [código, css, html, javascript, svg, usabilidad]
 ---
 Como comentaba en el anterior artículo sobre [la creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %}), la representación visual ayuda a asumir mejor la información. En este artículo mostraré cómo elaborar una gráfica de líneas dinámica que represente, por ejemplo, las puntuaciones de las últimas cinco jugadas con valores en un rango entre cero y diez.
 
-![Gráfica de líneas](https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.png){: .mx-auto.d-block :}
+![Gráfica de líneas](https://javguerra.github.io/ejercicios-web-javascript/img/graficalineas.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/graficalineas.html)
 
 ## La gráfica de líneas
 
 Primeramente toca diseñar una gráfica en .SVG que sirva de base para mostrar la línea de resultados que pretendo. Esto lo hago con [InkScape](https://inkscape.org/es/). La gráfica que muestra la imagen es muy sencilla, y de ella destaca la línea roja, que, inicialmente, dibujo en la posición de la línea de puntuación cero. como se puede ver aquí:
 
-![Gráfica de líneas](https://javguerra.github.io/02-bootcamp-fs-javascript/img/graficalineas.svg){: .mx-auto.d-block :}
+![Gráfica de líneas](https://javguerra.github.io/ejercicios-web-javascript/img/graficalineas.svg){: .mx-auto.d-block :}
 
 He rehecho a mano la línea roja para poder acceder a los nodos con más facilidad, empleando el elemento ```polyline``` con los siguientes valores:
 
@@ -83,7 +83,7 @@ Los estilos CSS para mostrar correctamente estos elementos son los siguientes:
     100% {transform: translateY(0)    scaleY(1)}
 }
 ```
-Como se ve, he definido también una animación para mostrar el resultado. Al cargar los nuevos valores de la gráfica, los puntos de la línea estarán en la posición del eje de la puntuación cero, (en la posición 73px) con una escala de 0, es decir la línea estará totalmente aplastada. Durante un segundo, irá tomando su forma original ocupando toda la gráfica con las medidas correctas. Esto hace el efecto de que los nodos de la línea se elevan hasta la posición que debe ocupar en la gráfica. Se entiende mejor [viendo el ejemplo](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html).
+Como se ve, he definido también una animación para mostrar el resultado. Al cargar los nuevos valores de la gráfica, los puntos de la línea estarán en la posición del eje de la puntuación cero, (en la posición 73px) con una escala de 0, es decir la línea estará totalmente aplastada. Durante un segundo, irá tomando su forma original ocupando toda la gráfica con las medidas correctas. Esto hace el efecto de que los nodos de la línea se elevan hasta la posición que debe ocupar en la gráfica. Se entiende mejor [viendo el ejemplo](https://javguerra.github.io/ejercicios-web-javascript/graficalineas.html).
 
 ## Dinamismo
 
@@ -201,7 +201,7 @@ Para conocer más sobre SVG y cómo editarlo, te recomiendo el libro [SCALABLE](
 
 ## Enlaces
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/02-bootcamp-fs-javascript/graficalineas.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ver gráfica de ejemplo</button>](https://javguerra.github.io/ejercicios-web-javascript/graficalineas.html)  
 
 * Ver ejemplo de aplicación práctica. [Summer Quiz](https://javguerra.github.io/summer-quiz/) (Es necesario terminar una partida para obtener resultados.)
 * Ver también: [Creación de un contador de resultados]({% post_url 2022-06-04-contador-resultados %})

@@ -24,10 +24,10 @@ La beca, denominada **Programa DIGITAL RESKILLING Desarrolo Web Full Stack para 
 ## Trabajos realizados en el Bootcamp
 
 * [Práctica final del Ramp up]({% post_url 2022-04-23-pagina-de-ejemplo %})
-* [Ejercicios de JavaScript avanzado](https://javguerra.github.io/02-bootcamp-fs-javascript/)
+* [Ejercicios de JavaScript avanzado](https://javguerra.github.io/ejercicios-web-javascript)
 * [Práctica final JavaScript: «Summer Quiz»]({% post_url 2022-06-21-summer-quiz %})
-* [Ejercicios de backend con node.js](https://github.com/JavGuerra/03-bootcamp-fs-backend)
-* [Ejercicios de frontend con React](https://github.com/JavGuerra/04-bootcamp-fs-frontend)
+* [Ejercicios de backend con node.js](https://github.com/JavGuerra/ejercicios-backend-nodejs)
+* [Ejercicios de frontend con React](https://github.com/JavGuerra/ejercicios-frontend-react)
 * [Proyecto final](% post_url 2022-11-18-proyecto-final-bootcamp %)
 
 Para saber más: [Página de la beca en The Bridge](https://www.thebridge.tech/curso/bootcamp-indra-fundacion-universia#solicitud-beca)
