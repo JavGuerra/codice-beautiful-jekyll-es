@@ -3,7 +3,7 @@ layout: post
 title: Materiales sobre competencias digitales
 subtitle: Módulo sobre Linux e Internet impartido para la Fundación GoodJob
 thumbnail-img: /assets/img/internet.jpg
-gh-repo:  JavGuerra/curso-bloque-2 
+gh-repo:  JavGuerra/curso-competencias-digitales
 gh-badge: [star, fork, follow]
 tags: [formación, internet, alumnos]
 ---
@@ -34,7 +34,7 @@ Para mi también ha sido un placer reencontrarme con la experiencia formativa de
 
 ## Repositorio
 
-[Ir al repositorio: Materiales para el alumnado](https://github.com/JavGuerra/curso-bloque-2)
+[Curso sobre competencias digitales: materiales para el alumnado](https://github.com/JavGuerra/curso-competencias-digitales)
 
 
 
