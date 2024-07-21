@@ -2,7 +2,7 @@
 layout: post
 title: Sinclair QL SCR Viewer
 subtitle: Muestra pantallas del ordenador Sinclair QL
-thumbnail-img: https://raw.githubusercontent.com/JavGuerra/qlscrview/main/qlscrview.png
+thumbnail-img: https://raw.githubusercontent.com/JavGuerra/Sinclair-QL-SCR-viewer/main/qlscrview.png
 gh-repo:  JavGuerra/qlscrview 
 gh-badge: [star, fork, follow]
 tags: [html, javascript, herramienta, código, retro, SinclairQL]
@@ -14,7 +14,7 @@ La aplicación Sinclair QL SCR Viewer es un HTML que permite cargar en el navega
 
 La imagen resultante puede descargarse en formato PNG con un tamaño de 1024×768 pixels.
 
-![QL SCR Viewer](https://raw.githubusercontent.com/JavGuerra/qlscrview/main/qlscrview.png){: .mx-auto.d-block :}
+![QL SCR Viewer](https://raw.githubusercontent.com/JavGuerra/Sinclair-QL-SCR-viewer/main/qlscrview.png){: .mx-auto.d-block :}
 
 Se escribió un [artículo para QBlog](https://sinclairqles.wordpress.com/2024/02/10/ql-scr-viewer-en-linea/) con más información de cuál es la estructura de codificación de las pantallas en estos dos modos que puedes consultar.
 
@@ -22,7 +22,7 @@ El desarrollo se ha llevado a cabo a ratos, durante una semana, y se ha hecho us
 
 Hice uso de GitHub pages para alojar el desarrollo y también la aplicación que está disponible en:
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">QL SCR Viewer</button>](https://javguerra.github.io/qlscrview/)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">QL SCR Viewer</button>](https://javguerra.github.io/Sinclair-QL-SCR-viewer/)
 
 ## Objetivo de la aplicación
 
@@ -69,8 +69,8 @@ Para el desarrollo se ha tenido en cuenta el uso accesible de la aplicación, me
 
 ## Saber más
 
-* [QL SCR Viewer en línea](https://javguerra.github.io/qlscrview/)
+* [QL SCR Viewer en línea](https://javguerra.github.io/Sinclair-QL-SCR-viewer/)
 * [Artículo sobre QL SCR Viewer para QBLog](https://sinclairqles.wordpress.com/2024/02/10/ql-scr-viewer-en-linea/)
-* [Repositorio de QL SCR Viewer en GitHub](https://github.com/JavGuerra/qlscrview/)
+* [Repositorio de QL SCR Viewer en GitHub](https://github.com/JavGuerra/Sinclair-QL-SCR-viewer)
 * [Info sobre Sinclair QL]({% post_url 2023-12-25-sinclair-ql %})
 
