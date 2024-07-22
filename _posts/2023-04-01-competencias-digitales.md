@@ -8,7 +8,7 @@ gh-badge: [star, fork, follow]
 tags: [formación, internet, alumnos]
 ---
 
-Durante el mes de marzo he iniciado una colaboración profesional con la [Fundación GoodJob](https://www.fundaciongoodjob.org/) impartiendo, on-line, el módulo II del proyecto europeo de formación en «competencias digitales y ciberseguridad» para personas desempleadas de larga duración. Estos son los materiales para el alumno, que he preparado, y puesto a disposición bajo licencia [(CC) BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/es/).
+Durante el mes de marzo he iniciado una colaboración profesional con la [Fundación GoodJob](https://www.fundaciongoodjob.org/) impartiendo, on-line, el módulo II del proyecto europeo de formación en «competencias digitales» para personas desempleadas de larga duración. Estos son los materiales para el alumno, que he preparado, y puesto a disposición bajo licencia [(CC) BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/es/).
 
 ![Internet](/assets/img/internet.jpg){: .mx-auto.d-block :}
 
@@ -20,11 +20,11 @@ Se compone de una serie de apuntes repartidos en 15 sesiones, dividas a su vez e
 
 Cada sesión trata un tema específico y prepara al alumno para que tenga una visión de conjunto de lo que es Internet y como funcionan las tecnologías implicadas en la red, de tal forma que, al finalizar el módulo, se obtiene la base formativa necesaria para seguir ampliado conocimientos en los ámbitos de, por ejemplo, la ciberseguridad, la administración de servidores, la administración de bases de datos o el desarrollo de aplicaciones.
 
+Se han añadido posteriormente los contenidos práctivos que son continuación de esta formación.
+
 Ciertamente, los apuntes, sin la sesiones formativas impartidas, no son más que una colección de enlaces que siguen el hilo de una temática concreta, pero pueden ser de ayuda a quien quiera iniciarse por su cuenta en estos conceptos.
 
-## Más formaciones
-
-Estamos trabajando ya para impartir la misma formación a otro grupo en el mes de abril y preparando el módulo III del curso.
+## El alumnado
 
 La formación está orientada a grupos de 60 (sesenta) alumnos desempleados de larga duración de la comunidad de Madrid, y tutorizada por profesionales que acompañan al alumnado incluso en las sesiones formativas on-line.
 
