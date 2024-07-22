@@ -122,10 +122,12 @@ Este post es un compendio de recursos formativos gratuitos, en español y en lí
 # Recursos propios
 
 * [Aprende Informática en línea]({% post_url 2023-07-29-recursos-aprendizaje-tic %})
+* [Recursos becas TIC]({% post_url 2024-07-16-recursos-becas-tic %})
 * [Algoritmia]({% post_url 2023-06-24-algoritmia %})
 * [Lógica interactiva]({% post_url 2022-04-30-logica-interactiva %})
 * [Accesibilidad]({% post_url 2022-05-08-accesibilidad %})
 * [Materiales sobre competencias digitales]({% post_url 2023-04-01-competencias-digitales %})
+* [Curso de Pyton y algoritmia]({% post_url 2024-07-22-curso-python %})
 * [JavaScript en 14 minutos](https://javguerra.github.io/javascript-en-14-minutos/)
 * [Diseño web en 4 minutos](https://javguerra.github.io/diseno-web-en-4-minutos/)
 * [Full Stack web developer - conceptos](https://javguerra.github.io/conceptos-fswd/index.html)

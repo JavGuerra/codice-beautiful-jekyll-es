@@ -15,6 +15,7 @@ Estar actualizado es importante, tanto para aprender conocimientos nuevos como p
 
 # Certificaciones
 
+* [Título FPGS DAW](assets/img/certificados/titulo_fpgs_daw.jpg)
 * [IFCD0210 Desarrollo de Aplicaciones con Tecnologías web](/assets/img/certificados/IFCD0210.jpg) - Certificado de profesionalidad de nivel 3 - SEXPE  
 * [Introducción a la programación](https://community.open-bootcamp.com/user/javguerra/certificaciones/9a7984cb-1446-4388-a27f-f408cc855551) - Open Bootcamp
 * [Conceptos de la programación](https://community.open-bootcamp.com/user/javguerra/certificaciones/6a224184-06e1-4d35-bb82-a7130d3ee0d4) - Open Bootcamp  
