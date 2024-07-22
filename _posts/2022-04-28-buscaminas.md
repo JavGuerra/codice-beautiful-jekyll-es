@@ -5,11 +5,11 @@ subtitle: Pequeño juego online para manejo de eventos
 thumbnail-img: /assets/img/buscaminas.png
 tags: [web, código, css, html, javascript, bootstrap, jquery, juego]
 ---
-Programé [Buscaminas en JavaScript](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html) como un juego atípico que no consiste en evitar las minas, como estamos acostumbrados en los juegos de escritorio del mismo nombre, sino en hacerlas estallar.
+Programé [Buscaminas en JavaScript](https://javguerra.github.io/BuscaminasJS/index.html) como un juego atípico que no consiste en evitar las minas, como estamos acostumbrados en los juegos de escritorio del mismo nombre, sino en hacerlas estallar.
 
 ![Buscaminas](/assets/img/buscaminas.png){: .mx-auto.d-block :}
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Jugar a Buscaminas</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Jugar a Buscaminas</button>](https://javguerra.github.io/BuscaminasJS/index.html)
 
 Una vez se genera el tablero con las dimensiones que deseemos, tendremos una serie de intentos para acertar la posición de las minas. Cada fallo cuenta, así como cada acierto. Termina la partida cuando se han superado el número de fallos posibles o cuando se encuentran todas las minas.
 
@@ -21,9 +21,9 @@ Como ejercicio de programación, es un buen ejemplo de manejo de eventos en Java
 
 ## ¿Te apetece una partidita?
 
-[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Jugar a Buscaminas en JavaScript on-line</button>](https://javguerra.github.io/Buscaminas-en-JavaScript/index.html)  
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Jugar a Buscaminas en JavaScript on-line</button>](https://javguerra.github.io/BuscaminasJS/index.html)  
 
-[Ver el codigo fuente en Github](https://github.com/JavGuerra/Buscaminas-en-JavaScript)  
+[Ver el codigo fuente en Github](https://github.com/JavGuerra/BuscaminasJS)  
 
 PS.: La ayuda depara alguna sorpresa... pero intenta jugar sin hacer trampa.
 
