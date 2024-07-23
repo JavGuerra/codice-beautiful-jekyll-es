@@ -12,6 +12,8 @@ Durante el mes de julio del pasado año llevé a cabo una formación sobre intro
 
 ![Internet](/assets/img/algoritmo.jpg){: .mx-auto.d-block :}
 
+[<button class="btn btn-info" style="font-family:Arial, Helvetica, sans-serif;">Ir al curso de Python</button>](https://github.com/JavGuerra/curso-python-algoritmia)
+
 Su duración fue de dos semanas, y el objetivo era «cambiar el chip» para orientar los conocimientos del alumnado hacia la resolución de problemas lógicos, lo que implicó también algunos otros conceptos como los de gestión de procesos, cercanos a la automatización, que era el área de especialización en la que iban a trabajar en Telefónica.
 
 Primaba pues, en esta formación, no tanto la adquisición de conocimientos de programación en un lenguaje concreto como Python, -que si bien es fácil de aprender no puede ser entendido en toda su extensión en dos semanas,- sino la adquisición de habilidades de pensamiento propicias para el desempeño lógico.
@@ -37,7 +39,7 @@ Primaba pues, en esta formación, no tanto la adquisición de conocimientos de p
     02. Recursos Python (.odt)
     02. Retos Python (.odt)
     03. Variables, operadores, funciones y métodos (.odt)
-    04 Condicionales (.odt)
+    04. Condicionales (.odt)
     04. Operaciones lógicas: apuntes (.odt)
     05. Condicionales II, bucles (.odt)
     06. Colecciones, funciones II (.odt)
