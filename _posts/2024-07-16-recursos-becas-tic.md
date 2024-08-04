@@ -20,6 +20,7 @@ Las becas suelen tener plazos de presentación. Dependiendo de cuándo veas esta
 # Genéricas
 
 * [Becas educación Ministerio de educación y transformación digital](https://www.becaseducacion.gob.es/) - Formación reglada
+* [Microcréditos Fundae](https://www.fundae.es/convocatorias/plazo-de-solicitud-abierto/microcreditos)
 
 # Mujeres
 
@@ -33,6 +34,10 @@ Las becas suelen tener plazos de presentación. Dependiendo de cuándo veas esta
 * [Programa de Ayudas Reina Letizia para la inclusión](https://www.rpdiscapacidad.gob.es/ayudas/programa-reina-letizia.htm) - Incluye formación reglada e idiomas
 * [Becas para personas con discapacidad Fundación Addeco](https://fundacionadecco.org/becas-y-ayudas/personas-discapacidad/)
 * [Becas Fundación Universia](https://app.santanderopenacademy.com/es/program/becas-fundacion-universia-2024-2025-personas-con-discapacidad)
+
+# Altas capacidades
+
+* [Proyecto Dorotea, Adecco](https://fundacionadecco.org/becas-y-ayudas/altas-capacidades/)
 
 # Comunidades
 
